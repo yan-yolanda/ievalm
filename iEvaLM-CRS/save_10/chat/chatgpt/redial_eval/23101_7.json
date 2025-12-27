@@ -1,0 +1,160 @@
+{
+  "dialog_id": "23101",
+  "turn_id": 7,
+  "context": [
+    "how are you tonight? I'm looking for some movies to watch. can you recommend anything?",
+    "I'm good. A good war movie is Platoon (1986)",
+    "I'm not picky ok. I haven't seen that",
+    "South Pacific (1958) was a war movie musical and I loved it",
+    "I haven't heard of that I'll look at the reviews for it I like war movies",
+    "It's an oldie! I also liked American Sniper (2014) and The Longest Day (1962)",
+    "seen the first but not the second Those sound like good recommendations Those sound like good recommendations"
+  ],
+  "entity": [
+    "war",
+    "war",
+    "Platoon (1986)",
+    "war",
+    "musical",
+    "music",
+    "South Pacific (1958)",
+    "war",
+    "American Sniper (2014)",
+    "The Longest Day (1962)"
+  ],
+  "rec": [
+    "The Longest Day (1962)"
+  ],
+  "resp": "Oh, The Longest Day (1962) day was terrific! Hey, you enjoy them. Bye",
+  "template": [
+    "how <mask> you tonight? I'm looking for some movies to watch. can you recommend anything?",
+    "I'm good. A good <mask> movie is <mask>",
+    "I'm not picky ok. I haven't seen that",
+    "<mask> was a <mask>e> mo<mask>e>ical and I loved it",
+    "I haven't heard of that I'll look at the reviews for it I like <mask> movies",
+    "It's an oldie! I also liked <mask> and <mask>",
+    "seen the first but not the second Those sound like good recommendations Those sound like good recommendations",
+    "Oh, <mask> day was terrific! Hey, you enjoy them. Bye"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23101",
+    "turn_id": 7,
+    "context": [
+      {
+        "role": "user",
+        "content": "how are you tonight? I'm looking for some movies to watch. can you recommend anything?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm good. A good war movie is Platoon (1986)"
+      },
+      {
+        "role": "user",
+        "content": "I'm not picky ok. I haven't seen that"
+      },
+      {
+        "role": "assistant",
+        "content": "South Pacific (1958) was a war movie musical and I loved it"
+      },
+      {
+        "role": "user",
+        "content": "I haven't heard of that I'll look at the reviews for it I like war movies"
+      },
+      {
+        "role": "assistant",
+        "content": "It's an oldie! I also liked American Sniper (2014) and The Longest Day (1962)"
+      },
+      {
+        "role": "user",
+        "content": "seen the first but not the second Those sound like good recommendations Those sound like good recommendations"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Longest Day (1962)\n2: American Sniper (2014)\n3: Sniper (1993)\n4: Tinker Tailor Soldier Spy (2011)\n5: Lone Survivor (2013)\n6: The Longest Ride (2015)\n7: A Good Day to Die Hard (2013)\n8: 13 Hours: The Secret Soldiers of Benghazi (2016)\n9: The Shootist (1976)\n10: Longshot (2001)\n11: Seems Like Old Times (1980)\n12: Red Dawn (1984)\n13: American Ninja 2: The Confrontation (1987)\n14: The Sniper (2009)\n15: The 15-17 to Paris\n16: We Were Soldiers (2002)\n17: The Best Years of Our Lives (1946)\n18: 2 Guns (2013)\n19: Enemy Mine (1985)\n20: The Long Good Friday (1980)\n21: The Long Voyage Home (1940)\n22: 1941 (1979)\n23: The Long Kiss Goodnight (1996)\n24: Sir! No Sir! (2005)\n25: Jack Ryan: Shadow Recruit (2014)\n26: Patriot Games (1992)\n27: American Assassin\n28: Warrior (2011)\n29: Jarhead 2: Field of Fire\n30: Hatari! (1962)\n31: K-19: The Widowmaker (2002)\n32: Knight and Day (2010)\n33: Rambo: First Blood Part II (1985)\n34: Days of Glory (2006)\n35: Hot Shots! Part Deux (1993)\n36: Allied (2016)\n37: Gunslinger (1956)\n38: The Thin Red Line (1998)\n39: Winter Soldier (1972)\n40: Assassins (1995)\n41: Jarhead 3: The Siege\n42: Platoon (1986)\n43: Memorial Day (2012)\n44: The Patriot (1998)\n45: The Recruit (2003)\n46: Flags of Our Fathers (2006)\n47: The Last Samurai (2003)\n48: SEAL Team 8: Behind Enemy Lines (2014)\n49: The Longest Yard (2005)\n50: Enemy at the Gates (2001)\n:Great! Since you enjoy war movies, here are some more recommendations for you:\n\n1. Saving Private Ryan\n2. Full Metal Jacket\n3. 1917\n4. Hacksaw Ridge\n5. Black Hawk Down\n6. Band of Brothers (miniseries)\n7. The Thin Red Line\n8. Fury\n9. We Were Soldiers\n10. Dunkirk",
+        "entity": [],
+        "rec_items": [
+          10611,
+          12425,
+          3939,
+          15095,
+          6408,
+          13211,
+          19269,
+          3478,
+          12001,
+          16330,
+          10551,
+          19804,
+          6242,
+          13479,
+          20671,
+          5351,
+          7761,
+          328,
+          14689,
+          5924,
+          22329,
+          23399,
+          13693,
+          7558,
+          13726,
+          11931,
+          10173,
+          6573,
+          16058,
+          12114,
+          13866,
+          5620,
+          13763,
+          15243,
+          10854,
+          15263,
+          3433,
+          3884,
+          5848,
+          15257,
+          10571,
+          23096,
+          15408,
+          14963,
+          1283,
+          12832,
+          1400,
+          19927,
+          18718,
+          24449
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I think you might really enjoy a classic that depicts the events of D-Day during World War II. It features an ensemble cast and provides a detailed look at the planning and execution of the invasion. It's a powerful film that captures the bravery and sacrifice of those involved. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Platoon (1986)",
+      "musical",
+      "The Longest Day (1962)",
+      "South Pacific (1958)",
+      "American Sniper (2014)",
+      "music",
+      "war"
+    ],
+    "rec": [
+      "The Longest Day (1962)"
+    ],
+    "resp": "Oh, The Longest Day (1962) day was terrific! Hey, you enjoy them. Bye",
+    "template": [
+      "how <mask> you tonight? I'm looking for some movies to watch. can you recommend anything?",
+      "I'm good. A good <mask> movie is <mask>",
+      "I'm not picky ok. I haven't seen that",
+      "<mask> was a <mask>e> mo<mask>e>ical and I loved it",
+      "I haven't heard of that I'll look at the reviews for it I like <mask> movies",
+      "It's an oldie! I also liked <mask> and <mask>",
+      "seen the first but not the second Those sound like good recommendations Those sound like good recommendations",
+      "Oh, <mask> day was terrific! Hey, you enjoy them. Bye"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

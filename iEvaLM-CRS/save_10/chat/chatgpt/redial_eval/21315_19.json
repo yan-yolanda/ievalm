@@ -1,0 +1,256 @@
+{
+  "dialog_id": "21315",
+  "turn_id": 19,
+  "context": [
+    "Hi, I am looking for Jim Carrey movies. Can you recommend any good ones?",
+    "Ace Ventura: Pet Detective (1994) is a good one i remember from my childhood.",
+    "Same here! I loved it! What's your second favorite? I also really enjoyed Liar Liar (1997)!",
+    "Liar Liar (1997) was my next pick",
+    "Oh wow okay cool! I see we have similar tastes! Did you like The Truman Show (1998)?",
+    "I did but it did really feel like a Jim Carrey role.",
+    "Hmm. I totally get out! I think the only movie of his I really didn 't enjoy was The Number 23 (2007). Very weird!",
+    "Did you enjoy Yes Man (2008) ? Yeah The Number 23 (2007) was a very weird one",
+    "OH WOW! I have not seen that one! Was it good?",
+    "He basically takes a vow to say Yes to everything no matter what for a year",
+    "Oh yes I did!! It was very unmemorable... obviously haha",
+    "I prefer his early films",
+    "Did you ever see Dumb and Dumber (1994)?",
+    "Yes i did. I cant believe they made a sequel Dumb and Dumber To (2014)",
+    "Me either! What did you think?",
+    "First 1 was better. 2 Had its moments.",
+    "I feel the same but I would have rather they left it at one!",
+    "How about Bruce Almighty (2003)? Did you see that one?",
+    "I did! It was okay. Also not one that stands out a lot for me! His earlier stuff was way more unique. Really loved The Mask (1994)"
+  ],
+  "entity": [
+    "Jim Carrey",
+    "Ace Ventura: Pet Detective (1994)",
+    "Liar Liar (1997)",
+    "Liar Liar (1997)",
+    "Ste",
+    "The Truman Show (1998)",
+    "Jim Carrey",
+    "The Number 23 (2007)",
+    "Yes Man (2008)",
+    "The Number 23 (2007)",
+    "Eve",
+    "Eve",
+    "Dumb and Dumber (1994)",
+    "Eve",
+    "Dumb and Dumber To (2014)",
+    "Bruce Almighty (2003)",
+    "The Mask (1994)"
+  ],
+  "rec": [
+    "The Mask (1994)"
+  ],
+  "resp": "I totally agree. I love The Mask (1994).",
+  "template": [
+    "Hi, I am looking for <mask>ovies. Can you recommend any good ones?",
+    "<mask> is a good one i remember from my childhood.",
+    "Same here! I loved it! What's your second favorite? I also really enjoyed <mask>!",
+    "<mask> was my next pick",
+    "Oh wow okay cool! I see we have similar ta<mask>s! Did you like <mask>?",
+    "I did but it did really feel like a <mask>ole.",
+    "Hmm. I totally get out! I think the only movie of his I really didn 't enjoy was <mask>. Very weird!",
+    "Did you enjoy <mask> ? Yeah <mask> was a very weird one",
+    "OH WOW! I have not seen that one! Was it good?",
+    "He basically takes a vow to say Yes to <mask>rything no matter what for a year",
+    "Oh yes I did!! It was very unmemorable... obviously haha",
+    "I prefer his early films",
+    "Did you <mask>r see <mask>?",
+    "Yes i did. I cant beli<mask> they made a sequel <mask>",
+    "Me either! What did you think?",
+    "First 1 was better. 2 Had its moments.",
+    "I feel the same but I would have rather they left it at one!",
+    "How about <mask>? Did you see that one?",
+    "I did! It was okay. Also not one that stands out a lot for me! His earlier stuff was way more unique. Really loved <mask>",
+    "I totally agree. I love <mask>."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21315",
+    "turn_id": 19,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi, I am looking for Jim Carrey movies. Can you recommend any good ones?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ace Ventura: Pet Detective (1994) is a good one i remember from my childhood."
+      },
+      {
+        "role": "user",
+        "content": "Same here! I loved it! What's your second favorite? I also really enjoyed Liar Liar (1997)!"
+      },
+      {
+        "role": "assistant",
+        "content": "Liar Liar (1997) was my next pick"
+      },
+      {
+        "role": "user",
+        "content": "Oh wow okay cool! I see we have similar tastes! Did you like The Truman Show (1998)?"
+      },
+      {
+        "role": "assistant",
+        "content": "I did but it did really feel like a Jim Carrey role."
+      },
+      {
+        "role": "user",
+        "content": "Hmm. I totally get out! I think the only movie of his I really didn 't enjoy was The Number 23 (2007). Very weird!"
+      },
+      {
+        "role": "assistant",
+        "content": "Did you enjoy Yes Man (2008) ? Yeah The Number 23 (2007) was a very weird one"
+      },
+      {
+        "role": "user",
+        "content": "OH WOW! I have not seen that one! Was it good?"
+      },
+      {
+        "role": "assistant",
+        "content": "He basically takes a vow to say Yes to everything no matter what for a year"
+      },
+      {
+        "role": "user",
+        "content": "Oh yes I did!! It was very unmemorable... obviously haha"
+      },
+      {
+        "role": "assistant",
+        "content": "I prefer his early films"
+      },
+      {
+        "role": "user",
+        "content": "Did you ever see Dumb and Dumber (1994)?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes i did. I cant believe they made a sequel Dumb and Dumber To (2014)"
+      },
+      {
+        "role": "user",
+        "content": "Me either! What did you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "First 1 was better. 2 Had its moments."
+      },
+      {
+        "role": "user",
+        "content": "I feel the same but I would have rather they left it at one!"
+      },
+      {
+        "role": "assistant",
+        "content": "How about Bruce Almighty (2003)? Did you see that one?"
+      },
+      {
+        "role": "user",
+        "content": "I did! It was okay. Also not one that stands out a lot for me! His earlier stuff was way more unique. Really loved The Mask (1994)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Bruce Almighty (2003)\n2: The Mask (1994)\n3: The Mask (1988)\n4: Son of the Mask (2005)\n5: Evan Almighty (2007)\n6: Mask (1985)\n7: The Bruce (1996)\n8: MirrorMask (2005)\n9: The Man in the Iron Mask (1998)\n10: The Majestic (2001)\n11: The Man in the Iron Mask (1985)\n12: My Life (1993)\n13: The Master of Disguise (2002)\n14: Black Mask 2: City of Masks (2002)\n15: Batman: Revenge (2003)\n16: Black Mask (1996)\n17: Like Mike (2002)\n18: The Paper (1994)\n19: Jack (1996)\n20: Army of Darkness (1992)\n21: Unbreakable (2000)\n22: The Sixth Sense (1999)\n23: Batman Returns (1992)\n24: 12 Monkeys (1995)\n25: Batman (1989)\n26: Me Myself I (2000)\n27: The Dark Knight Trilogy\n28: Yes Man (2008)\n29: Mystery Science Theater 3000: The Movie (1996)\n30: Batman Forever (1995)\n31: Scary Movie 3 (2003)\n32: Kazaam (1996)\n33: The Crow (1994)\n34: Scary Movie 4 (2006)\n35: Hudson Hawk (1991)\n36: Masked Avengers (1981)\n37: The Mask of Zorro (1998)\n38: The Sorcerer's Apprentice (2010)\n39: Oz the Great and Powerful (2013)\n40: The Illusionist (2006)\n41: Batman & Robin (1997)\n42: Evil Dead II (1987)\n43: Mysterious Skin (2004)\n44: Batman Revealed (2012)\n45: The Man Without a Face (1993)\n46: Masks (1929)\n47: The Birdcage (1996)\n48: A Beautiful Mind (2001)\n49: Daredevil (2003)\n50: Cop Out (2010)\n:Great choice! The Mask (1994) is definitely a classic! Based on your preferences, here are some Jim Carrey movies you might enjoy:\n\n1. Ace Ventura: Pet Detective\n2. Liar Liar\n3. The Mask\n4. Dumb and Dumber\n5. Yes Man\n6. Bruce Almighty\n7. The Truman Show\n8. Me, Myself & Irene\n9. Fun with Dick and Jane\n10. The Cable Guy",
+        "entity": [],
+        "rec_items": [
+          11770,
+          14170,
+          21623,
+          19010,
+          17999,
+          7301,
+          12242,
+          1211,
+          22862,
+          23459,
+          16972,
+          1931,
+          7551,
+          22765,
+          21092,
+          7174,
+          13378,
+          18259,
+          15769,
+          8618,
+          14668,
+          14870,
+          21926,
+          12652,
+          16684,
+          15553,
+          14481,
+          10035,
+          7362,
+          22639,
+          6392,
+          23987,
+          17594,
+          7387,
+          13859,
+          15165,
+          2877,
+          17685,
+          21525,
+          6615,
+          16816,
+          18971,
+          16050,
+          16010,
+          23930,
+          17617,
+          4137,
+          11191,
+          20225,
+          5424
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think there's something special about that one movie from 1994. It's a fantastic blend of comedy and fantasy, showcasing Jim Carrey's unique style. The character he plays transforms dramatically, and the visuals are quite memorable. Plus, the humor is just top-notch! Have you seen it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "Dumb and Dumber (1994)",
+      "The Number 23 (2007)",
+      "Dumb and Dumber To (2014)",
+      "Yes Man (2008)",
+      "Ace Ventura: Pet Detective (1994)",
+      "Liar Liar (1997)",
+      "Ste",
+      "The Mask (1994)",
+      "Jim Carrey",
+      "The Truman Show (1998)",
+      "Bruce Almighty (2003)"
+    ],
+    "rec": [
+      "The Mask (1994)"
+    ],
+    "resp": "I totally agree. I love The Mask (1994).",
+    "template": [
+      "Hi, I am looking for <mask>ovies. Can you recommend any good ones?",
+      "<mask> is a good one i remember from my childhood.",
+      "Same here! I loved it! What's your second favorite? I also really enjoyed <mask>!",
+      "<mask> was my next pick",
+      "Oh wow okay cool! I see we have similar ta<mask>s! Did you like <mask>?",
+      "I did but it did really feel like a <mask>ole.",
+      "Hmm. I totally get out! I think the only movie of his I really didn 't enjoy was <mask>. Very weird!",
+      "Did you enjoy <mask> ? Yeah <mask> was a very weird one",
+      "OH WOW! I have not seen that one! Was it good?",
+      "He basically takes a vow to say Yes to <mask>rything no matter what for a year",
+      "Oh yes I did!! It was very unmemorable... obviously haha",
+      "I prefer his early films",
+      "Did you <mask>r see <mask>?",
+      "Yes i did. I cant beli<mask> they made a sequel <mask>",
+      "Me either! What did you think?",
+      "First 1 was better. 2 Had its moments.",
+      "I feel the same but I would have rather they left it at one!",
+      "How about <mask>? Did you see that one?",
+      "I did! It was okay. Also not one that stands out a lot for me! His earlier stuff was way more unique. Really loved <mask>",
+      "I totally agree. I love <mask>."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

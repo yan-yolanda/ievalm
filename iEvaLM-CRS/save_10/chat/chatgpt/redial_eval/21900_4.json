@@ -1,0 +1,200 @@
+{
+  "dialog_id": "21900",
+  "turn_id": 4,
+  "context": [
+    "",
+    "hello! what are your favorite films?",
+    "hello i enjoyed Superbad (2007) and Ace Ventura: Pet Detective (1994)",
+    "Have you seen Ace Ventura: When Nature Calls (1995) ? Or even The Truman Show (1998) ? Both great Jim Carrey films",
+    "I have seen both and loved them"
+  ],
+  "entity": [
+    "Superbad (2007)",
+    "Ace Ventura: Pet Detective (1994)",
+    "Eve",
+    "Jim Carrey",
+    "Ace Ventura: When Nature Calls (1995)",
+    "The Truman Show (1998)"
+  ],
+  "rec": [
+    "Knocked Up (2007)",
+    "Superbad (2007)"
+  ],
+  "resp": "Knocked Up (2007) was written by the same people as Superbad (2007) and is very good too!",
+  "template": [
+    "hello! what are your favorite films?",
+    "hello i enjoyed <mask> and <mask>",
+    "Have you seen <mask> ? Or <mask>n <mask> ? Both great <mask>ilms",
+    "I have seen both and loved them",
+    "<mask> was written by the same people as <mask> and is very good too!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21900",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello! what are your favorite films?"
+      },
+      {
+        "role": "user",
+        "content": "hello i enjoyed Superbad (2007) and Ace Ventura: Pet Detective (1994)"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen Ace Ventura: When Nature Calls (1995) ? Or even The Truman Show (1998) ? Both great Jim Carrey films"
+      },
+      {
+        "role": "user",
+        "content": "I have seen both and loved them"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you prefer comedies with a similar style, or are you open to exploring other genres as well?",
+        "entity": [],
+        "rec_items": [
+          17733,
+          24487,
+          18193,
+          11358,
+          10035,
+          23459,
+          14170,
+          11770,
+          15553,
+          23786,
+          7754,
+          5752,
+          3709,
+          13846,
+          18485,
+          15524,
+          15471,
+          24425,
+          19445,
+          17755,
+          11641,
+          15780,
+          5213,
+          7362,
+          11429,
+          16423,
+          19882,
+          8734,
+          19360,
+          22522,
+          8086,
+          17857,
+          14568,
+          23266,
+          7551,
+          2271,
+          10779,
+          3756,
+          1679,
+          15769,
+          24033,
+          24339,
+          11539,
+          23141,
+          18259,
+          13003,
+          18663,
+          6602,
+          9923,
+          24325
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really into comedies that have a mix of humor and relatable situations. For example, there's a film that explores unexpected life changes and the chaos that comes with them, featuring a couple who find themselves in a surprising situation. Another one I enjoy is about high school friends navigating their last days before graduation, filled with hilarious antics and memorable moments. Both films have a great blend of humor and heart!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Comedy (2012)\n2: The Comedian (2016)\n3: The Change-Up (2011)\n4: 50 (2011)\n5: It's Kind of a Funny Story (2010)\n6: And So It Goes (2014)\n7: Just Go with It (2011)\n8: The Graduate (1967)\n9: 50/50 (2011)\n10: Silver Linings Playbook (2012)\n11: (2007)\n12: Life as We Know It (2010)\n13: Funny People (2009)\n14: It Could Happen to You (1994)\n15: Frances Ha (2012)\n16: Easy A (2010)\n17: The Sure Thing (1985)\n18: The Odd Life of Timothy Green (2012)\n19: My Best Friend's Girl (2008)\n20: I, the Other (2006)\n21: Extract\n22: As Good as It Gets (1997)\n23: Superbad (2007)\n24: Just Friends? (2009)\n25: Madame (2017)\n26: High Fidelity (2000)\n27: Seeking a Friend for the End of the World (2012)\n28: That's Life! (1986)\n29: Happy Accidents (2000)\n30: Definitely, Maybe (2008)\n31: The Artist (2011)\n32: The To Do List (2013)\n33: I Heart Huckabees (2004)\n34: Whatever Works (2009)\n35: They Came Together (2014)\n36: Anything Else (2003)\n37: The Secret Life of Walter Mitty (2013)\n38: Bridget Jones\n39: Adventureland (2009)\n40: Serendipity (2001)\n41: Going in Style (2017)\n42: Now and Then (1995)\n43: Lady Bird (2017)\n44: Absolutely Anything (2015)\n45: Annie Hall (1977)\n46: Charlie Bartlett (2007)\n47: The Intern (2015)\n48: Chasing Amy (1997)\n49: Seems Like Old Times (1980)\n50: Focus (2015)\n:Thanks for sharing your preferences! Based on your taste in comedies that mix humor with relatable situations, here are some recommendations:\n\n1. The 40-Year-Old Virgin\n2. Step Brothers\n3. Pineapple Express\n4. Booksmart\n5. Knocked Up\n6. This Is the End\n7. Crazy, Stupid, Love\n8. Super Troopers\n9. The Hangover\n10. Ferris Bueller's Day Off",
+        "entity": [],
+        "rec_items": [
+          2993,
+          17647,
+          7944,
+          10215,
+          22938,
+          4745,
+          12402,
+          6514,
+          20654,
+          5420,
+          16809,
+          5488,
+          13238,
+          22145,
+          17555,
+          9211,
+          11892,
+          23291,
+          7793,
+          15430,
+          18240,
+          5528,
+          19617,
+          3295,
+          18959,
+          23050,
+          24006,
+          15956,
+          7238,
+          7614,
+          19316,
+          22395,
+          1893,
+          20238,
+          16713,
+          7293,
+          10264,
+          6566,
+          13548,
+          23584,
+          12147,
+          6627,
+          82,
+          21534,
+          3738,
+          15632,
+          12552,
+          17143,
+          10551,
+          12818
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really focused on a couple of films that explore unexpected life changes and the chaos that comes with them. One of them features a couple dealing with a surprising situation, while the other follows high school friends navigating their last days before graduation, filled with hilarious antics and memorable moments. Both have a great blend of humor and heart!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Superbad (2007)",
+      "Ace Ventura: When Nature Calls (1995)",
+      "Eve",
+      "Ace Ventura: Pet Detective (1994)",
+      "Jim Carrey",
+      "The Truman Show (1998)"
+    ],
+    "rec": [
+      "Knocked Up (2007)",
+      "Superbad (2007)"
+    ],
+    "resp": "Knocked Up (2007) was written by the same people as Superbad (2007) and is very good too!",
+    "template": [
+      "hello! what are your favorite films?",
+      "hello i enjoyed <mask> and <mask>",
+      "Have you seen <mask> ? Or <mask>n <mask> ? Both great <mask>ilms",
+      "I have seen both and loved them",
+      "<mask> was written by the same people as <mask> and is very good too!"
+    ]
+  },
+  "persuasiveness_score": "0"
+}

@@ -1,0 +1,125 @@
+{
+  "dialog_id": "20877",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi How are you?",
+    "Hello there! Hello there! I'm fine and you? I'm open to any sugestion, what would you recommend?",
+    "Ok have you seen Rush Hour (1998)",
+    "No! but i have heard it is interesting Is it a funny movie?"
+  ],
+  "entity": [
+    "Rush Hour (1998)"
+  ],
+  "rec": [
+    "Rush Hour 2 (2001)"
+  ],
+  "resp": "It is, it's pretty funny Rush Hour 2 (2001) is good but not as funny as the first",
+  "template": [
+    "Hi How are you?",
+    "Hello there! Hello there! I'm fine and you? I'm open to any sugestion, what would you recommend?",
+    "Ok have you seen <mask>",
+    "No! but i have heard it is interesting Is it a funny movie?",
+    "It is, it's pretty funny <mask> is good but not as funny as the first"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20877",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi How are you?"
+      },
+      {
+        "role": "user",
+        "content": "Hello there! Hello there! I'm fine and you? I'm open to any sugestion, what would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ok have you seen Rush Hour (1998)"
+      },
+      {
+        "role": "user",
+        "content": "No! but i have heard it is interesting Is it a funny movie?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Rush Hour (1998)\n2: Rush Hour 2 (2001)\n3: Rush Hour\n4: Rush Hour 3 (2007)\n5: Chungking Express (1994)\n6: Rushmore (1998)\n7: 48 Hrs. (1982)\n8: Yes, Madam (1985)\n9: Shanghai Noon (2000)\n10: Another 48 Hrs. (1990)\n11: Police Story 2 (1988)\n12: Mosquito (1995)\n13: Snatch (2000)\n14: Rumble in the Bronx (1995)\n15: Kung Fu Hustle (2004)\n16: Friday (1995)\n17: Ruz (2009)\n18: Super Troopers (2001)\n19: Police Story (1985)\n20: Red (2010)\n21: Funny People (2009)\n22: Yes Man (2008)\n23: As Good as It Gets (1997)\n24: The Mask (1994)\n25: Clerks (1994)\n26: It (2004)\n27: See No Evil, Hear No Evil (1989)\n28: Big Trouble in Little China (1986)\n29: The Quick and the Dead (1995)\n30: The Green Hornet (2011)\n31: Are We There Yet? (2005)\n32: Friday\n33: Harlem Nights (1989)\n34: Grosse Pointe Blank (1997)\n35: Police Story 3: Super Cop (1992)\n36: Ride Along (2014)\n37: The Rundown (2003)\n38: Fast and Furious (1939)\n39: No Reservations (2007)\n40: A Scanner Darkly (2006)\n41: Kiss Kiss Bang Bang (2005)\n42: Spy Hard (1996)\n43: Torque (2004)\n44: Pootie Tang (2001)\n45: Analyze This (1999)\n46: The Hitcher (1986)\n47: Norbit (2007)\n48: Scary Movie 2 (2001)\n49: Jurrat (1989)\n50: Did You Hear About the Morgans? (2009)\n:Yes, \"Rush Hour\" is a comedy-action film featuring a lot of humor, especially with the chemistry between the two main characters. Do you enjoy action-comedy movies, or do you prefer a different genre?",
+        "entity": [],
+        "rec_items": [
+          18608,
+          24005,
+          13035,
+          19905,
+          11494,
+          12192,
+          6304,
+          15867,
+          23995,
+          14501,
+          19310,
+          18756,
+          9672,
+          16837,
+          3454,
+          21848,
+          22703,
+          3269,
+          9068,
+          12704,
+          13238,
+          10035,
+          5528,
+          14170,
+          21279,
+          4258,
+          15924,
+          18256,
+          15399,
+          7165,
+          18990,
+          11173,
+          14731,
+          2346,
+          24108,
+          23152,
+          11076,
+          11541,
+          9166,
+          11557,
+          17406,
+          2518,
+          21088,
+          5985,
+          19058,
+          396,
+          21502,
+          10130,
+          19935,
+          5105
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy action-comedy movies! One that stands out is a sequel released in 2001, which continues the hilarious adventures of two characters as they navigate through a mix of action and comedy. It features a lot of witty banter and thrilling sequences, making it a fun watch. Have you seen it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Rush Hour (1998)"
+    ],
+    "rec": [
+      "Rush Hour 2 (2001)"
+    ],
+    "resp": "It is, it's pretty funny Rush Hour 2 (2001) is good but not as funny as the first",
+    "template": [
+      "Hi How are you?",
+      "Hello there! Hello there! I'm fine and you? I'm open to any sugestion, what would you recommend?",
+      "Ok have you seen <mask>",
+      "No! but i have heard it is interesting Is it a funny movie?",
+      "It is, it's pretty funny <mask> is good but not as funny as the first"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

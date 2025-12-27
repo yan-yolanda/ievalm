@@ -1,0 +1,184 @@
+{
+  "dialog_id": "20195",
+  "turn_id": 3,
+  "context": [
+    "Hello what kind of movies would you recommend me to watched with my friends?",
+    "Hello, there is a movie that I have always enjoyed and I'm not sure what you would call the genre but the movie is Donnie Darko (2001) have you ever seen this one?",
+    "i think funny movies would be great Yes i watched it! it was really great!"
+  ],
+  "entity": [
+    "Eve",
+    "Donnie Darko (2001)"
+  ],
+  "rec": [
+    "Black Sheep (1996)",
+    "Uncle Buck"
+  ],
+  "resp": "Well that one definitely isn't funny. How about Black Sheep (1996) or another classic Uncle Buck",
+  "template": [
+    "Hello what kind of movies would you recommend me to watched with my friends?",
+    "Hello, there is a movie that I have always enjoyed and I'm not sure what you would call the genre but the movie is <mask> have you <mask>r seen this one?",
+    "i think funny movies would be great Yes i watched it! it was really great!",
+    "Well that one definitely isn't funny. How about <mask> or another classic <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20195",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello what kind of movies would you recommend me to watched with my friends?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, there is a movie that I have always enjoyed and I'm not sure what you would call the genre but the movie is Donnie Darko (2001) have you ever seen this one?"
+      },
+      {
+        "role": "user",
+        "content": "i think funny movies would be great Yes i watched it! it was really great!"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Since you enjoy funny movies, can you tell me if you prefer comedies that are more light-hearted, or do you enjoy dark humor as well?",
+        "entity": [],
+        "rec_items": [
+          22241,
+          13643,
+          11557,
+          5386,
+          14481,
+          16137,
+          3907,
+          13645,
+          23602,
+          11641,
+          15769,
+          3070,
+          18583,
+          7362,
+          2993,
+          24550,
+          6281,
+          1245,
+          10035,
+          14897,
+          8086,
+          24339,
+          18756,
+          7192,
+          17149,
+          18355,
+          13750,
+          15497,
+          13238,
+          14399,
+          6627,
+          22835,
+          14170,
+          8365,
+          2507,
+          18491,
+          4407,
+          8764,
+          18159,
+          5682,
+          24325,
+          22063,
+          11892,
+          17511,
+          8088,
+          24040,
+          17406,
+          18754,
+          23683,
+          16315
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy light-hearted comedies! They always bring a good laugh and are perfect for watching with friends. One that comes to mind features a character who is quite the misfit and gets into all sorts of hilarious situations while trying to help his family. Another one has a lovable uncle who takes care of his niece and nephew in a very unconventional way, leading to some memorable and funny moments. Both are great for a fun movie night!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Uncle Buck\n2: The Comedy (2012)\n3: The Comedian (2016)\n4: A Night in Casablanca (1946)\n5: Funny People (2009)\n6: You Laugh (1998)\n7: Elf (2003)\n8: Auntie Mame (1958)\n9: The Tooth Fairy (2006)\n10: Lucy (2003)\n11: Twitches\n12: The Perfect Holiday (2007)\n13: The Honeymooners (2005)\n14: Get Smart (2008)\n15: My Cousin Vinny (1992)\n16: Annie (1982)\n17: Annie (2014)\n18: The Intern (2015)\n19: Little Nicky (2000)\n20: Annie Hall (1977)\n21: Like Mike (2002)\n22: Uncle Brian (2010)\n23: A Goofy Movie (1995)\n24: The Night Before (2015)\n25: It's Kind of a Funny Story (2010)\n26: Lemony Snicket's A Series of Unfortunate Events (2004)\n27: Bedtime Stories (2008)\n28: Fred Claus (2007)\n29: Jack (1996)\n30: The 'Burbs (1989)\n31: Tinker Bell\n32: Tinker Bell\n33: I Heart Huckabees (2004)\n34: Grandma's Boy (2006)\n35: Superbad (2007)\n36: Easy A (2010)\n37: The Dark Knight Trilogy\n38: Heavyweights (1995)\n39: The Odd Couple (1968)\n40: Night at the Museum\n41: Mosquito (1995)\n42: Ella Enchanted (2004)\n43: A Scanner Darkly (2006)\n44: An Extremely Goofy Movie (2000)\n45: My Girl 2 (1994)\n46: The Odd Life of Timothy Green (2012)\n47: The Holiday (2006)\n48: The Sunshine Boys (1975)\n49: The To Do List (2013)\n50: The Change-Up (2011)\n:Thanks for sharing your preferences! Based on your love for light-hearted comedies, here are some recommendations for you and your friends:\n\n1. The Grand Budapest Hotel\n2. Superbad\n3. The 40-Year-Old Virgin\n4. Crazy, Stupid, Love\n5. Ferris Bueller's Day Off\n6. Pitch Perfect\n7. Step Brothers\n8. The Intern\n9. Jumanji: Welcome to the Jungle\n10. Zombieland",
+        "entity": [],
+        "rec_items": [
+          16089,
+          2993,
+          17647,
+          7154,
+          13238,
+          14905,
+          6144,
+          13502,
+          18545,
+          3845,
+          8520,
+          6378,
+          20214,
+          19895,
+          12513,
+          21709,
+          21732,
+          12552,
+          22443,
+          3738,
+          13378,
+          8396,
+          15524,
+          15551,
+          22938,
+          17677,
+          13274,
+          18642,
+          15769,
+          8086,
+          1572,
+          1572,
+          1893,
+          12029,
+          19617,
+          9211,
+          14481,
+          4363,
+          1996,
+          895,
+          18756,
+          22209,
+          11557,
+          6602,
+          20071,
+          23291,
+          14440,
+          1074,
+          22395,
+          7944
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I really enjoy light-hearted comedies that feature a character who is quite the misfit and gets into all sorts of hilarious situations while trying to help his family. Another one that stands out has a lovable uncle who takes care of his niece and nephew in a very unconventional way, leading to some memorable and funny moments. Those types of movies are perfect for a fun movie night!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Donnie Darko (2001)",
+      "Eve"
+    ],
+    "rec": [
+      "Black Sheep (1996)",
+      "Uncle Buck"
+    ],
+    "resp": "Well that one definitely isn't funny. How about Black Sheep (1996) or another classic Uncle Buck",
+    "template": [
+      "Hello what kind of movies would you recommend me to watched with my friends?",
+      "Hello, there is a movie that I have always enjoyed and I'm not sure what you would call the genre but the movie is <mask> have you <mask>r seen this one?",
+      "i think funny movies would be great Yes i watched it! it was really great!",
+      "Well that one definitely isn't funny. How about <mask> or another classic <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

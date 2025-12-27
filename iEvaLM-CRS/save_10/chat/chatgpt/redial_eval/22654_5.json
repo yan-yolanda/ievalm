@@ -1,0 +1,201 @@
+{
+  "dialog_id": "22654",
+  "turn_id": 5,
+  "context": [
+    "Hello",
+    "Hi. What kind of movies do you like?",
+    "Can you recommend comedy movies? something like Airplane! (1980)",
+    "Romantic comedies like 27 Dresses (2008) or something like Horrible Bosses (2011)",
+    "I didn't like horrible bosses"
+  ],
+  "entity": [
+    "comedy",
+    "Airplane! (1980)",
+    "comedy",
+    "27 Dresses (2008)",
+    "Horrible Bosses (2011)"
+  ],
+  "rec": [
+    "Police Academy (1984)"
+  ],
+  "resp": "Oh, Classic comedies. Well how about Police Academy (1984) ?",
+  "template": [
+    "Hello",
+    "Hi. What kind of movies do you like?",
+    "Can you recommend <mask> movies? something like <mask>",
+    "Romantic <mask> like <mask> or something like <mask>",
+    "I didn't like horrible bosses",
+    "Oh, Classic <mask>. Well how about <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22654",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi. What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Can you recommend comedy movies? something like Airplane! (1980)"
+      },
+      {
+        "role": "assistant",
+        "content": "Romantic comedies like 27 Dresses (2008) or something like Horrible Bosses (2011)"
+      },
+      {
+        "role": "user",
+        "content": "I didn't like horrible bosses"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Do you prefer classic comedies, or are you open to more recent ones as well?",
+        "entity": [],
+        "rec_items": [
+          24344,
+          14040,
+          20026,
+          17703,
+          11903,
+          12474,
+          6132,
+          9468,
+          23006,
+          12552,
+          20197,
+          3049,
+          23015,
+          12972,
+          5662,
+          11742,
+          14440,
+          17925,
+          12402,
+          10215,
+          3100,
+          16065,
+          18240,
+          21685,
+          23123,
+          17202,
+          4321,
+          16809,
+          18916,
+          16582,
+          7793,
+          15963,
+          18343,
+          10778,
+          10035,
+          21292,
+          23806,
+          18082,
+          14092,
+          21076,
+          2850,
+          22357,
+          17647,
+          18959,
+          13213,
+          14722,
+          21279,
+          9724,
+          2993,
+          7628
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy classic comedies. There's something about the humor and style from that era that resonates with me. One film that stands out is about a group of misfit recruits at a police academy who go through hilarious training mishaps. It's filled with memorable characters and iconic comedic moments.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Police Academy 2: Their First Assignment (1985)\n2: Police Academy (1984)\n3: The Comedian (2016)\n4: Police Academy\n5: The Comedy (2012)\n6: Detective School Dropouts (1986)\n7: The Graduate (1967)\n8: Going in Style (2017)\n9: Seems Like Old Times (1980)\n10: Old School (2003)\n11: Beverly Hills Cop (1984)\n12: Super Troopers (2001)\n13: Nostalgia (1971)\n14: Grumpy Old Men (1993)\n15: 1941 (1979)\n16: The Freshman (1990)\n17: An Officer and a Gentleman\n18: Funny People (2009)\n19: Get Smart (2008)\n20: Extract\n21: Dead Poets Society (1989)\n22: Clerks (1994)\n23: Beverly Hills Cop III (1994)\n24: The Scout (1994)\n25: Grosse Pointe Blank (1997)\n26: The Honeymooners (2005)\n27: The Aristocrats (2005)\n28: Grumpier Old Men (1995)\n29: Mystery Science Theater 3000: The Movie (1996)\n30: Chicago (1927)\n31: Planes, Trains and Automobiles (1986)\n32: Modern Times (1936)\n33: The Great Outdoors (1988)\n34: As Good as It Gets (1997)\n35: Going in Style (1979)\n36: Let's Be Cops (2014)\n37: In Bruges (2008)\n38: Annie Hall (1977)\n39: The Odd Couple (1968)\n40: Police Story (1985)\n41: Sgt. Bilko (1996)\n42: American Graffiti (1973)\n43: Kindergarten Cop (1990)\n44: Cop (1988)\n45: Wise Guys (1986)\n46: A Night in Casablanca (1946)\n47: Spies Like Us (1985)\n48: Fast Times at Ridgemont High\n49: Snatch (2000)\n50: Focus (2015)\n:Thanks for sharing! Based on your preference for classic comedies like \"Airplane!\" and the police academy theme, here are some recommendations:\n\n1. Airplane II: The Sequel\n2. Police Academy\n3. The Naked Gun: From the Files of Police Squad!\n4. Blazing Saddles\n5. Monty Python and the Holy Grail\n6. Caddyshack\n7. Ghostbusters\n8. Ferris Bueller's Day Off\n9. The Jerk\n10. Young Frankenstein",
+        "entity": [],
+        "rec_items": [
+          23822,
+          11629,
+          17647,
+          21819,
+          2993,
+          13816,
+          6514,
+          12147,
+          10551,
+          10899,
+          23405,
+          3269,
+          12472,
+          4376,
+          23399,
+          16507,
+          19331,
+          13238,
+          19895,
+          18240,
+          11993,
+          21279,
+          18698,
+          16810,
+          2346,
+          20214,
+          1413,
+          14046,
+          7362,
+          19866,
+          19445,
+          14432,
+          18485,
+          5528,
+          15793,
+          6887,
+          7013,
+          3738,
+          1996,
+          9068,
+          6825,
+          18931,
+          20040,
+          23865,
+          12776,
+          7154,
+          12515,
+          2358,
+          9672,
+          12818
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out a film that features a group of misfit recruits at a police academy. It's a classic comedy filled with memorable characters and hilarious training mishaps. The humor and style from that era really shine through in this film.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "27 Dresses (2008)",
+      "comedy",
+      "Horrible Bosses (2011)",
+      "Airplane! (1980)"
+    ],
+    "rec": [
+      "Police Academy (1984)"
+    ],
+    "resp": "Oh, Classic comedies. Well how about Police Academy (1984) ?",
+    "template": [
+      "Hello",
+      "Hi. What kind of movies do you like?",
+      "Can you recommend <mask> movies? something like <mask>",
+      "Romantic <mask> like <mask> or something like <mask>",
+      "I didn't like horrible bosses",
+      "Oh, Classic <mask>. Well how about <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

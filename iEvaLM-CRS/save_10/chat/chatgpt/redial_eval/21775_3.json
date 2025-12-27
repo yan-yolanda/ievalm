@@ -1,0 +1,180 @@
+{
+  "dialog_id": "21775",
+  "turn_id": 3,
+  "context": [
+    "Hello How are you",
+    "Hi, how are you? I'm fine thanks What kind of movies do you like ?",
+    "Im good thanks I like movies like Gone Girl (2014) Need something similar to watch"
+  ],
+  "entity": [
+    "Gone Girl (2014)"
+  ],
+  "rec": [
+    "The Girl with the Dragon Tattoo (2009)"
+  ],
+  "resp": "No problem. Have you seen The Girl with the Dragon Tattoo (2009)?",
+  "template": [
+    "Hello How are you",
+    "Hi, how are you? I'm fine thanks What kind of movies do you like ?",
+    "Im good thanks I like movies like <mask> Need something similar to watch",
+    "No problem. Have you seen <mask>?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21775",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello How are you"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, how are you? I'm fine thanks What kind of movies do you like ?"
+      },
+      {
+        "role": "user",
+        "content": "Im good thanks I like movies like Gone Girl (2014) Need something similar to watch"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! Here are some recommendations for movies similar to \"Gone Girl\":\n\n1. Prisoners\n2. The Girl on the Train\n3. Zodiac\n4. Side Effects\n5. The Invisible Man\n6. Se7en\n7. Nightcrawler\n8. The Gift\n9. Mystic River\n10. The Others",
+        "entity": [],
+        "rec_items": [
+          3489,
+          18491,
+          5528,
+          18159,
+          7939,
+          8679,
+          7091,
+          10590,
+          23270,
+          3428,
+          6501,
+          20071,
+          20515,
+          7793,
+          10987,
+          4272,
+          9211,
+          11690,
+          1475,
+          12474,
+          14417,
+          17406,
+          12402,
+          5420,
+          6514,
+          10536,
+          1021,
+          22449,
+          189,
+          22899,
+          14722,
+          21979,
+          15399,
+          8113,
+          19618,
+          82,
+          21292,
+          5488,
+          7819,
+          23521,
+          16582,
+          10035,
+          19269,
+          1919,
+          9690,
+          18942,
+          24554,
+          21076,
+          17143,
+          10936
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. There's a gripping film that delves into a complex mystery involving a journalist and a missing woman, featuring a strong female lead with a unique background. It has a dark and intense atmosphere, perfect for fans of psychological thrillers. Would you like to know more about it?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Gone Girl (2014)\n2: The Prisoner (2013)\n3: Prisoners (2013)\n4: All Good Things (2010)\n5: Gia\n6: Zodiac (2007)\n7: Following (1998)\n8: The Girl with the Dragon Tattoo (2011)\n9: A Girl Like Her (2012)\n10: The Girl on the Train (2013)\n11: The Missing Person (2008)\n12: Gone (2012)\n13: The Woman in the Window\n14: 8mm (1999)\n15: The Girl on the Train (2016)\n16: Memento (2000)\n17: Before I Go to Sleep (2014)\n18: Zero Dark Thirty (2012)\n19: The Others (2001)\n20: The Illusionist (2006)\n21: 88 Minutes (2007)\n22: Seven (1995)\n23: The Killer Inside Me (2010)\n24: Girl, Interrupted (1999)\n25: Gothika (2003)\n26: The Girl with the Dragon Tattoo (2009)\n27: Dark Places (2015)\n28: It Follows (2014)\n29: Ghosts of Girlfriends Past (2009)\n30: Prisoners (1981)\n31: Strangers on a Train (1951)\n32: Donnie Darko (2001)\n33: Gone Baby Gone (2007)\n34: Dark Water (2005)\n35: Shutter Island (2010)\n36: Gone in 60 Seconds (2000)\n37: The Girl on the Train (2009)\n38: Night Train (2009)\n39: The Girl with All the Gifts (2016)\n40: Strange Days (1995)\n41: Under the Skin (2013)\n42: Lady in the Water (2006)\n43: A Kind of Murder (2016)\n44: The Juror (1996)\n45: Inside Man (2006)\n46: Enemy (2013)\n47: The Spanish Prisoner (1997)\n48: Final Girl (2015)\n49: The Usual Suspects (1995)\n50: Klute\n:It sounds like you're describing a specific film that fits your interests! Could you please provide the title of that film? Additionally, are there any other elements or themes you enjoy in psychological thrillers that I should consider for recommendations?",
+        "entity": [],
+        "rec_items": [
+          3489,
+          22436,
+          10627,
+          18491,
+          14417,
+          12298,
+          11649,
+          12930,
+          6501,
+          11992,
+          19564,
+          10590,
+          17736,
+          24325,
+          9256,
+          10668,
+          1475,
+          19267,
+          7680,
+          6615,
+          7432,
+          16959,
+          21985,
+          18942,
+          11740,
+          2024,
+          16980,
+          7930,
+          10936,
+          6547,
+          19621,
+          22241,
+          8679,
+          9049,
+          18785,
+          1639,
+          24361,
+          19653,
+          18069,
+          4694,
+          18269,
+          19914,
+          11690,
+          8120,
+          17599,
+          599,
+          15367,
+          6789,
+          9780,
+          17832
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm really drawn to films that have a strong narrative involving investigative journalism, complex characters, and a dark, suspenseful atmosphere. The one I'm thinking of features a brilliant hacker and a journalist who team up to uncover deep-seated corruption and secrets. It's a gripping tale that keeps you on the edge of your seat. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Gone Girl (2014)"
+    ],
+    "rec": [
+      "The Girl with the Dragon Tattoo (2009)"
+    ],
+    "resp": "No problem. Have you seen The Girl with the Dragon Tattoo (2009)?",
+    "template": [
+      "Hello How are you",
+      "Hi, how are you? I'm fine thanks What kind of movies do you like ?",
+      "Im good thanks I like movies like <mask> Need something similar to watch",
+      "No problem. Have you seen <mask>?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

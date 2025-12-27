@@ -1,0 +1,212 @@
+{
+  "dialog_id": "22722",
+  "turn_id": 7,
+  "context": [
+    "Hi, how's it going?",
+    "Well! Want to see a funny movie watch The Other Woman (2014)",
+    "Sounds good. Can you tell me about other funny movies?",
+    "I liked Lars and the Real Girl (2007)",
+    "Yeah, I liked that one too. I also liked The Grand Budapest Hotel (2014).",
+    "I also enjoyed What About Bob%3F (1991)",
+    "I saw that a long time ago. Pretty good!"
+  ],
+  "entity": [
+    "The Other Woman (2014)",
+    "Lars and the Real Girl (2007)",
+    "The Grand Budapest Hotel (2014)"
+  ],
+  "rec": [
+    "The Grand Budapest Hotel (2014)"
+  ],
+  "resp": "I haven't seen The Grand Budapest Hotel (2014)",
+  "template": [
+    "Hi, how's it going?",
+    "Well! Want to see a funny movie watch <mask>",
+    "Sounds good. Can you tell me about other funny movies?",
+    "I liked <mask>",
+    "Yeah, I liked that one too. I also liked <mask>.",
+    "I also enjoyed <mask>",
+    "I saw that a long time ago. Pretty good!",
+    "I haven't seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22722",
+    "turn_id": 7,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi, how's it going?"
+      },
+      {
+        "role": "assistant",
+        "content": "Well! Want to see a funny movie watch The Other Woman (2014)"
+      },
+      {
+        "role": "user",
+        "content": "Sounds good. Can you tell me about other funny movies?"
+      },
+      {
+        "role": "assistant",
+        "content": "I liked Lars and the Real Girl (2007)"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I liked that one too. I also liked The Grand Budapest Hotel (2014)."
+      },
+      {
+        "role": "assistant",
+        "content": "I also enjoyed What About Bob%3F (1991)"
+      },
+      {
+        "role": "user",
+        "content": "I saw that a long time ago. Pretty good!"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you have any specific preferences for the type of humor you enjoy, or any particular themes you like in comedies?",
+        "entity": [],
+        "rec_items": [
+          5078,
+          12137,
+          21884,
+          24139,
+          10551,
+          5528,
+          14799,
+          9343,
+          22263,
+          7532,
+          6652,
+          18675,
+          23399,
+          3632,
+          12776,
+          17451,
+          6627,
+          23808,
+          8086,
+          12472,
+          3090,
+          23015,
+          21860,
+          23459,
+          15769,
+          17358,
+          11517,
+          12029,
+          15553,
+          10961,
+          10229,
+          23037,
+          12723,
+          22437,
+          22946,
+          8681,
+          16136,
+          11892,
+          21380,
+          23437,
+          14863,
+          18485,
+          21279,
+          17865,
+          2239,
+          19468,
+          21221,
+          18756,
+          20539,
+          19058
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy films with a unique visual style and a whimsical narrative. I appreciate stories that blend humor with a touch of adventure and a bit of drama. One film that stands out to me features a quirky hotel and a memorable cast of characters, all set against a beautifully crafted backdrop. It's a delightful mix of comedy and artistry.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Comedy (2012)\n2: The Grand Budapest Hotel (2014)\n3: It's Kind of a Funny Story (2010)\n4: Fantasia (2004)\n5: The Secret Life of Walter Mitty (2013)\n6: The Artist (2011)\n7: Inherent Vice (2014)\n8: Frances Ha (2012)\n9: The Comedian (2016)\n10: (2007)\n11: The Imaginarium of Doctor Parnassus (2009)\n12: Barton Fink (1991)\n13: The Hangover\n14: Twitches\n15: The Best Exotic Marigold Hotel\n16: The To Do List (2013)\n17: The Bucket List (2007)\n18: To Have and Have Not\n19: Adventureland (2009)\n20: Jack (1996)\n21: What Women Want (2011)\n22: No Reservations (2007)\n23: I, the Other (2006)\n24: The Wizard (1989)\n25: Tinker Bell\n26: Tinker Bell\n27: The Change-Up (2011)\n28: Arrietty\n29: Monty Python and the Holy Grail (1975)\n30: Strange Wilderness (2008)\n31: The Graduate (1967)\n32: The Honeymooners (2005)\n33: Up in the Air (2009)\n34: Water (1985)\n35: The Big Lebowski\n36: Enchanted (2007)\n37: Fantastic Mr. Fox (2009)\n38: Funny People (2009)\n39: Anomalisa (2015)\n40: Extract\n41: Annie (2014)\n42: Just Visiting (2001)\n43: The Life Aquatic with Steve Zissou (2004)\n44: Midnight in Paris (2011)\n45: Mystery Science Theater 3000: The Movie (1996)\n46: Southland Tales (2006)\n47: 50 (2011)\n48: Silver Linings Playbook (2012)\n49: Masterminds (2016)\n50: Grimm (2003)\n:Based on your preferences, here are some recommendations for you:\n\n1. Moonrise Kingdom\n2. Amélie\n3. The Royal Tenenbaums\n4. The Life Aquatic with Steve Zissou\n5. Fantastic Mr. Fox\n6. The Shape of Water\n7. The Lobster\n8. The Secret Life of Walter Mitty\n9. Little Miss Sunshine\n10. The Darjeeling Limited",
+        "entity": [],
+        "rec_items": [
+          2993,
+          16184,
+          22938,
+          19106,
+          10264,
+          19316,
+          7253,
+          17555,
+          17647,
+          16809,
+          23856,
+          18366,
+          18558,
+          8520,
+          24070,
+          22395,
+          11209,
+          14117,
+          13548,
+          15769,
+          14722,
+          9166,
+          15430,
+          22281,
+          1572,
+          1572,
+          7944,
+          6139,
+          15343,
+          21301,
+          6514,
+          20214,
+          2850,
+          4276,
+          17013,
+          23506,
+          11641,
+          13238,
+          21009,
+          18240,
+          21732,
+          24475,
+          16167,
+          12746,
+          7362,
+          18482,
+          10215,
+          5420,
+          4454,
+          6062
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really enjoy films that feature a quirky hotel, a memorable cast of characters, and a beautifully crafted backdrop. One film that stands out to me blends humor with adventure and a touch of drama, creating a delightful mix of comedy and artistry. It's truly a unique experience!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Other Woman (2014)",
+      "Lars and the Real Girl (2007)",
+      "The Grand Budapest Hotel (2014)"
+    ],
+    "rec": [
+      "The Grand Budapest Hotel (2014)"
+    ],
+    "resp": "I haven't seen The Grand Budapest Hotel (2014)",
+    "template": [
+      "Hi, how's it going?",
+      "Well! Want to see a funny movie watch <mask>",
+      "Sounds good. Can you tell me about other funny movies?",
+      "I liked <mask>",
+      "Yeah, I liked that one too. I also liked <mask>.",
+      "I also enjoyed <mask>",
+      "I saw that a long time ago. Pretty good!",
+      "I haven't seen <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

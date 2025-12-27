@@ -1,0 +1,134 @@
+{
+  "dialog_id": "20719",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi, what movies do you like?",
+    "Hi how are you? I like anything action, comedy, click flicks",
+    "Good. Have you seen The Revenant (2015) or Baby Driver (2017)",
+    "Yes I have seen Baby Driver (2017) It was different"
+  ],
+  "entity": [
+    "action",
+    "comedy",
+    "The Revenant (2015)",
+    "Baby Driver (2017)",
+    "Baby Driver (2017)"
+  ],
+  "rec": [
+    "Hot Fuzz (2007)",
+    "Blade Runner 2049 (2017)"
+  ],
+  "resp": "Have you seen Hot Fuzz (2007) or Blade Runner 2049 (2017) ?",
+  "template": [
+    "Hi, what movies do you like?",
+    "Hi how are you? I like anything <mask>,<mask>y, click flicks",
+    "Good. Have you seen <mask> or <mask>",
+    "Yes I have seen <mask> It was different",
+    "Have you seen <mask> or <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20719",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi, what movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Hi how are you? I like anything action, comedy, click flicks"
+      },
+      {
+        "role": "assistant",
+        "content": "Good. Have you seen The Revenant (2015) or Baby Driver (2017)"
+      },
+      {
+        "role": "user",
+        "content": "Yes I have seen Baby Driver (2017) It was different"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Baby Driver (2017)\n2: The Revenant (2015)\n3: The Revenant (2009)\n4: Blade Runner 2049 (2017)\n5: The Boss Baby (2017)\n6: Gone Baby Gone (2007)\n7: Drive (2011)\n8: Blade Runner (1982)\n9: Furious 7 (2015)\n10: Star Wars: The Force Awakens (2015)\n11: Hot Pursuit (2015)\n12: The Departed (2006)\n13: Passenger 57 (1992)\n14: Hitman: Agent 47 (2015)\n15: The Hateful Eight (2015)\n16: Beasts of No Nation (2015)\n17: The Benefactor (2015)\n18: The Devil's Own (1997)\n19: Heist (2015)\n20: Split (2017)\n21: Seven (1995)\n22: Dead Man (1995)\n23: The Magnificent Seven (2016)\n24: Brick (2005)\n25: Lady Bird (2017)\n26: The Pacifier (2005)\n27: Looper (2012)\n28: It (2017)\n29: 50 (2011)\n30: Burnt (2015)\n31: Aliens vs. Predator: Requiem (2007)\n32: RoboCop (2014)\n33: The Fate of the Furious (2017)\n34: The Driver (1978)\n35: The Assassination of Jesse James by the Coward Robert Ford (2007)\n36: Steve Jobs (2015)\n37: True Grit (2010)\n38: Fury (2014)\n39: Star Wars: Episode VIII – The Last Jedi (2017)\n40: Killa (2015)\n41: Sicario (2015)\n42: Badlands (1973)\n43: (2007)\n44: Hugo (2011)\n45: The Babadook (2014)\n46: Chappie (2015)\n47: The Intern (2015)\n48: Django Unchained (2012)\n49: Baby's Day Out (1994)\n50: Venom (2018)\n:Great choice! Since you enjoy action and comedy, do you prefer more recent films, or are you open to classics as well?",
+        "entity": [],
+        "rec_items": [
+          19057,
+          9950,
+          8909,
+          14901,
+          14092,
+          8679,
+          17841,
+          10862,
+          14351,
+          18902,
+          23897,
+          22641,
+          8750,
+          17630,
+          3804,
+          1533,
+          19584,
+          17545,
+          22102,
+          21654,
+          16959,
+          8316,
+          23633,
+          17751,
+          82,
+          6680,
+          18754,
+          17634,
+          10215,
+          8557,
+          16674,
+          572,
+          20364,
+          5880,
+          16943,
+          14234,
+          22215,
+          16251,
+          24079,
+          10596,
+          16459,
+          6553,
+          16809,
+          10937,
+          8523,
+          9208,
+          12552,
+          23902,
+          15344,
+          20789
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm definitely open to classics! I appreciate films that blend action and comedy, especially those with clever storytelling and memorable characters. For instance, there's a fantastic film that combines humor with a thrilling plot set in a seemingly quiet village, where things are not as they appear. Another one is a visually stunning sequel that explores themes of identity and humanity in a dystopian future. Both of these films have received critical acclaim and are beloved by many.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Revenant (2015)",
+      "comedy",
+      "action",
+      "Baby Driver (2017)"
+    ],
+    "rec": [
+      "Hot Fuzz (2007)",
+      "Blade Runner 2049 (2017)"
+    ],
+    "resp": "Have you seen Hot Fuzz (2007) or Blade Runner 2049 (2017) ?",
+    "template": [
+      "Hi, what movies do you like?",
+      "Hi how are you? I like anything <mask>,<mask>y, click flicks",
+      "Good. Have you seen <mask> or <mask>",
+      "Yes I have seen <mask> It was different",
+      "Have you seen <mask> or <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

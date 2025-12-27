@@ -1,0 +1,129 @@
+{
+  "dialog_id": "21123",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hi, what are you looking for?",
+    "Hi How are you?",
+    "I'm quite well",
+    "How about action like Black Panther (2018)"
+  ],
+  "entity": [
+    "action",
+    "Black Panther (2018)"
+  ],
+  "rec": [
+    "Justice League (2017)",
+    "Thor: Ragnarok (2017)"
+  ],
+  "resp": "Oh that was great Have you seen Justice League (2017) ? That was way better than I expected. Or Thor: Ragnarok (2017) ?",
+  "template": [
+    "Hi, what are you looking for?",
+    "Hi How are you?",
+    "I'm quite well",
+    "How about <mask> like <mask>",
+    "Oh that was great Have you seen <mask> ? That was way better than I expected. Or <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21123",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi, what are you looking for?"
+      },
+      {
+        "role": "user",
+        "content": "Hi How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm quite well"
+      },
+      {
+        "role": "user",
+        "content": "How about action like Black Panther (2018)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Black Panther (2018)\n2: The Black Panther (1977)\n3: The Black Panther (1921)\n4: Avengers: Infinity War (2018)\n5: Avenger (2006)\n6: The Avengers (1998)\n7: The Avengers (2012)\n8: Black (2015)\n9: Avengers: Age of Ultron (2015)\n10: Blackhat (2015)\n11: Dr. Strange\n12: Captain America: The Winter Soldier\n13: 3 Avengers\n14: Wonder Woman (2017)\n15: Captain America: Civil War (2016)\n16: Captain America\n17: Ant-Man (2015)\n18: Thor\n19: The Black Panthers: Vanguard of the Revolution (2015)\n20: Iron Man (2008)\n21: Thor: Ragnarok (2017)\n22: Avengers Grimm (2015)\n23: Fury (2012)\n24: Doctor Strange (2016)\n25: Black Mask (1996)\n26: Blade\n27: Deadpool (2016)\n28: Iron Man 2 (2010)\n29: Venom (2018)\n30: Ant-Man and the Wasp (2018)\n31: Spider-Man: Homecoming (2017)\n32: Big Hero 6 (2014)\n33: Troy Black\n34: Captain America: The First Avenger\n35: Iron Man 3\n36: Superhero Movie (2008)\n37: Jungle Book (2018)\n38: Tropic Thunder (2008)\n39: Bright (2017)\n40: Masked Avengers (1981)\n41: Deadpool 2 (2018)\n42: Guardians of the Galaxy (2014)\n43: Guardians of the Galaxy Vol. 2 (2017)\n44: Warrior (2011)\n45: Aquaman (2018)\n46: Atomic Blonde (2017)\n47: Wonder Woman (2009)\n48: The Magnificent Seven (2016)\n49: Thor: The Dark World\n50: 42 (2013)\n:Great choice! Do you have any specific preferences regarding the type of action movies you enjoy, such as superhero themes, martial arts, or something else?",
+        "entity": [],
+        "rec_items": [
+          20437,
+          16894,
+          22498,
+          20468,
+          2693,
+          11786,
+          21396,
+          22999,
+          14005,
+          21041,
+          10025,
+          16202,
+          19851,
+          4920,
+          12807,
+          9271,
+          11794,
+          2623,
+          13660,
+          24565,
+          14739,
+          14186,
+          15058,
+          23197,
+          7174,
+          1559,
+          21378,
+          3960,
+          20789,
+          20729,
+          8721,
+          5053,
+          1956,
+          4932,
+          9850,
+          19896,
+          13016,
+          18555,
+          20354,
+          15165,
+          20405,
+          17184,
+          3191,
+          6573,
+          20859,
+          20314,
+          16183,
+          23633,
+          15873,
+          15274
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy action movies that feature a strong ensemble cast and epic battles. For example, there are films that bring together iconic superheroes to face formidable threats, showcasing teamwork and individual heroics. Additionally, I appreciate movies that blend humor with action, creating a fun and engaging experience. One such film features a character who embarks on a journey of self-discovery while also dealing with cosmic threats. Another film brings together a group of heroes to combat a powerful villain, highlighting their unique abilities and camaraderie.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Black Panther (2018)",
+      "action"
+    ],
+    "rec": [
+      "Justice League (2017)",
+      "Thor: Ragnarok (2017)"
+    ],
+    "resp": "Oh that was great Have you seen Justice League (2017) ? That was way better than I expected. Or Thor: Ragnarok (2017) ?",
+    "template": [
+      "Hi, what are you looking for?",
+      "Hi How are you?",
+      "I'm quite well",
+      "How about <mask> like <mask>",
+      "Oh that was great Have you seen <mask> ? That was way better than I expected. Or <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

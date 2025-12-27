@@ -1,0 +1,137 @@
+{
+  "dialog_id": "22592",
+  "turn_id": 5,
+  "context": [
+    "Hi--I'm looking for a good ghost story",
+    "Ah! Okay.. let's see....",
+    "Maybe something set in the past",
+    "There are the classics, like The Shining (1980) and The Sixth Sense (1999)",
+    "I liked both of those! I also liked The Others (2001)"
+  ],
+  "entity": [
+    "The Shining (1980)",
+    "The Sixth Sense (1999)",
+    "The Others (2001)"
+  ],
+  "rec": [
+    "The Shining (1980)",
+    "The Others (2001)"
+  ],
+  "resp": "The Shining (1980) is the early 80s... which I guess is the past now... Jeez, I feel old lol I have not seen The Others (2001)",
+  "template": [
+    "Hi--I'm looking for a good ghost story",
+    "Ah! Okay.. let's see....",
+    "Maybe something set in the past",
+    "There are the classics, like <mask> and <mask>",
+    "I liked both of those! I also liked <mask>",
+    "<mask> is the early 80s... which I guess is the past now... Jeez, I feel old lol I have not seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22592",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi--I'm looking for a good ghost story"
+      },
+      {
+        "role": "assistant",
+        "content": "Ah! Okay.. let's see...."
+      },
+      {
+        "role": "user",
+        "content": "Maybe something set in the past"
+      },
+      {
+        "role": "assistant",
+        "content": "There are the classics, like The Shining (1980) and The Sixth Sense (1999)"
+      },
+      {
+        "role": "user",
+        "content": "I liked both of those! I also liked The Others (2001)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Shining (1980)\n2: The Sixth Sense (1999)\n3: The Others (2001)\n4: The Other (1972)\n5: The Haunting (1963)\n6: The Dark Half (1993)\n7: Psycho\n8: Psycho (1960)\n9: The Haunting (1999)\n10: An American Haunting (2005)\n11: Eyes Wide Shut (1999)\n12: The Thing (1982)\n13: Book of Shadows: Blair Witch 2 (2000)\n14: The Ghost and the Darkness (1996)\n15: They (2002)\n16: Scary Movie 2 (2001)\n17: Mirrors (2008)\n18: The Visit (2015)\n19: Signs (2002)\n20: The Blair Witch Project (1999)\n21: Tales from the Darkside: The Movie (1990)\n22: The Mist (2007)\n23: The Hidden (1987)\n24: The Fog (1980)\n25: The Thing from Another World (1951)\n26: The Thing (2011)\n27: The Omen (1976)\n28: Psycho (1998)\n29: Don't Be Afraid of the Dark (2010)\n30: 1408 (2007)\n31: The Hills Have Eyes (1977)\n32: The Evil Dead (1981)\n33: Mimic (1997)\n34: Christine (1983)\n35: The Haunting of Hell House (1999)\n36: The Omen (2006)\n37: Flatliners (1990)\n38: Saw VI (2009)\n39: Them! (1954)\n40: Lord of Illusions (1995)\n41: The Usual Suspects (1995)\n42: Saw (2004)\n43: Sister, Sister (1982)\n44: Psycho III (1986)\n45: The Seventh Sign (1988)\n46: The Woman in Black (2012)\n47: 13 Ghosts (1960)\n48: Ghost Story (1981)\n49: Blair Witch (2016)\n50: The Fog (2005)\n:Great choices! Do you prefer stories that are more psychological, or do you enjoy supernatural elements as well?",
+        "entity": [],
+        "rec_items": [
+          20010,
+          14870,
+          7680,
+          12035,
+          14837,
+          7192,
+          24311,
+          23755,
+          21504,
+          4535,
+          19400,
+          9681,
+          197,
+          21379,
+          12796,
+          10130,
+          926,
+          8213,
+          12220,
+          17776,
+          16137,
+          18857,
+          22028,
+          174,
+          2546,
+          22170,
+          15921,
+          22061,
+          23602,
+          18752,
+          3519,
+          16223,
+          1919,
+          3728,
+          16567,
+          10227,
+          14904,
+          21479,
+          21867,
+          20021,
+          9780,
+          4130,
+          14337,
+          8820,
+          6969,
+          8038,
+          24228,
+          16978,
+          13584,
+          5881
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy stories that delve into the psychological aspects of fear, but I also appreciate supernatural elements. For instance, there's a film that masterfully combines both psychological tension and supernatural occurrences, set in a hauntingly atmospheric location. It explores themes of isolation and madness, featuring a family in a remote hotel. Another film I like has a similar eerie vibe, focusing on a mother and her children in a mysterious house, where the line between reality and the supernatural blurs. Both films are excellent examples of how fear can be portrayed in different ways.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Shining (1980)",
+      "The Sixth Sense (1999)",
+      "The Others (2001)"
+    ],
+    "rec": [
+      "The Shining (1980)",
+      "The Others (2001)"
+    ],
+    "resp": "The Shining (1980) is the early 80s... which I guess is the past now... Jeez, I feel old lol I have not seen The Others (2001)",
+    "template": [
+      "Hi--I'm looking for a good ghost story",
+      "Ah! Okay.. let's see....",
+      "Maybe something set in the past",
+      "There are the classics, like <mask> and <mask>",
+      "I liked both of those! I also liked <mask>",
+      "<mask> is the early 80s... which I guess is the past now... Jeez, I feel old lol I have not seen <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,210 @@
+{
+  "dialog_id": "21378",
+  "turn_id": 14,
+  "context": [
+    "",
+    "Hello! How's it going?",
+    "Oh going well thanks! And yourself?",
+    "Quite well, thanks.",
+    "Can you tell me any black and white romance classics I can watch this weekend?",
+    "Hmm....",
+    "I recently saw You Can't Take It with You (1938) and LOVED IT!",
+    "I don'tknow many romance movies, but I do know a lot of goo blck and white films. i have heard of that one, but not seen it. I am more into film noir. Have you seen The Third Man (1949) ?",
+    "No I haven't! What kind of movie is it? Is it like suspence?",
+    "It's a mystery thriller.. a man gets framed for murde rin post WWII Vienna.",
+    "suspense*",
+    "yes! Suspenesful indeed!",
+    "Oooh that sounds really good!! Thank you!",
+    "If you like blakc and white suspenes I would also reccomend Key Largo (1948) ... classic Bogart!",
+    "Know any others? I really liked Dial M for Murder (1954) Very cool! Will definitely check it out! You're awesome!!"
+  ],
+  "entity": [
+    "romance",
+    "You Can't Take It with You (1938)",
+    "romance",
+    "The Third Man (1949)",
+    "mystery",
+    "Ste",
+    "thriller",
+    "Key Largo (1948)",
+    "Dial M for Murder (1954)"
+  ],
+  "rec": [
+    "The Man Who Knew Too Much (1956)"
+  ],
+  "resp": "Ah yes! Great early Hitchcock film! My favorite Hitchcock is The Man Who Knew Too Much (1956) with Jimmy Stewart Thanks! So are you!",
+  "template": [
+    "Hello! How's it going?",
+    "Oh going well thanks! And yourself?",
+    "Quite well, thanks.",
+    "Can you tell me any black and white <mask> classics I can watch this weekend?",
+    "Hmm....",
+    "I recently saw <mask> and LOVED IT!",
+    "I don'tknow many <mask> movies, but I do know a lot of goo blck and white films. i have heard of that one, but not seen it. I am more into film noir. Have you seen <mask> ?",
+    "No I haven't! What kind of movie is it? Is it like suspence?",
+    "It's a <mask>o<mask>iller.. a man gets framed for murde rin post WWII Vienna.",
+    "suspense*",
+    "yes! Suspenesful indeed!",
+    "Oooh that sounds really good!! Thank you!",
+    "If you like blakc and white suspenes I would also reccomend <mask> ... classic Bogart!",
+    "Know any others? I really liked <mask> Very cool! Will definitely check it out! You're awesome!!",
+    "Ah yes! Great early Hitchcock film! My favorite Hitchcock is <mask> with Jimmy <pe<mask>n>wart Thanks! So are you!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21378",
+    "turn_id": 14,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! How's it going?"
+      },
+      {
+        "role": "user",
+        "content": "Oh going well thanks! And yourself?"
+      },
+      {
+        "role": "assistant",
+        "content": "Quite well, thanks."
+      },
+      {
+        "role": "user",
+        "content": "Can you tell me any black and white romance classics I can watch this weekend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hmm...."
+      },
+      {
+        "role": "user",
+        "content": "I recently saw You Can't Take It with You (1938) and LOVED IT!"
+      },
+      {
+        "role": "assistant",
+        "content": "I don'tknow many romance movies, but I do know a lot of goo blck and white films. i have heard of that one, but not seen it. I am more into film noir. Have you seen The Third Man (1949) ?"
+      },
+      {
+        "role": "user",
+        "content": "No I haven't! What kind of movie is it? Is it like suspence?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a mystery thriller.. a man gets framed for murde rin post WWII Vienna."
+      },
+      {
+        "role": "user",
+        "content": "suspense*"
+      },
+      {
+        "role": "assistant",
+        "content": "yes! Suspenesful indeed!"
+      },
+      {
+        "role": "user",
+        "content": "Oooh that sounds really good!! Thank you!"
+      },
+      {
+        "role": "assistant",
+        "content": "If you like blakc and white suspenes I would also reccomend Key Largo (1948) ... classic Bogart!"
+      },
+      {
+        "role": "user",
+        "content": "Know any others? I really liked Dial M for Murder (1954) Very cool! Will definitely check it out! You're awesome!!"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Key Largo (1948)\n2: The Maltese Falcon (1941)\n3: Dial M for Murder (1954)\n4: Murder, My Sweet\n5: The Killing (1956)\n6: To Have and Have Not\n7: High Sierra (1941)\n8: A Shot in the Dark (1964)\n9: The Maltese Falcon (1931)\n10: The Treasure of the Sierra Madre (1948)\n11: The African Queen (1951)\n12: Sabrina (1954)\n13: Marnie (1964)\n14: Kiss Kiss Bang Bang (2005)\n15: Colors (1988)\n16: Casablanca (1942)\n17: The Black Mask (1935)\n18: The Legend of Boggy Creek (1972)\n19: Bonnie and Clyde (1967)\n20: Murder at 1600 (1997)\n21: Rear Window (1954)\n22: A Time to Kill (1996)\n23: The Man Who Knew Too Much (1956)\n24: Rope (1948)\n25: The Black Panther (1921)\n26: The Lady in Black (1928)\n27: Men in Black (1934)\n28: Murder by Death (1976)\n29: On the Waterfront (1954)\n30: Laura (1944)\n31: 88 Minutes (2007)\n32: The Wild One (1953)\n33: Anatomy of a Murder (1959)\n34: I Love You to Death (1990)\n35: The Black Panther (1977)\n36: Scarface (1932)\n37: Bob Fleming... Mission Casablanca (1966)\n38: Gentlemen Prefer Blondes (1953)\n39: A Night in Casablanca (1946)\n40: Klute\n41: 8mm (1999)\n42: Double Indemnity\n43: Hatari! (1962)\n44: Jackie Brown (1997)\n45: Toni (1928)\n46: Gunslinger (1956)\n47: Grosse Pointe Blank (1997)\n48: No Escape (1953)\n49: Snuff 102 (2007)\n50: Some Like It Hot (1959)\n:Great choice! Since you enjoyed \"You Can't Take It with You,\" \"The Third Man,\" and \"Dial M for Murder,\" I can recommend more films in that vein. Here’s a list for you:\n\n1. Casablanca\n2. Roman Holiday\n3. The Philadelphia Story\n4. Notorious\n5. Double Indemnity\n6. Laura\n7. The Apartment\n8. It Happened One Night\n9. The Shop Around the Corner\n10. Brief Encounter\n\nEnjoy your weekend movie marathon!",
+        "entity": [],
+        "rec_items": [
+          12463,
+          22018,
+          10957,
+          19740,
+          2554,
+          14117,
+          11066,
+          18525,
+          18307,
+          21964,
+          11581,
+          14865,
+          3751,
+          17406,
+          14490,
+          13157,
+          13673,
+          14698,
+          11310,
+          1724,
+          19506,
+          21423,
+          22250,
+          13104,
+          22498,
+          6074,
+          5206,
+          11884,
+          382,
+          16937,
+          7432,
+          13555,
+          21557,
+          10810,
+          16894,
+          7506,
+          11161,
+          15269,
+          7154,
+          17832,
+          24325,
+          9125,
+          12114,
+          10593,
+          17786,
+          3433,
+          2346,
+          13440,
+          4114,
+          19651
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the recommendations! However, I think I would prefer to watch something that has a thrilling and suspenseful storyline, particularly one that involves a gripping plot and a sense of mystery. There's a classic film that features a couple caught in a dangerous situation while traveling abroad, which I found to be quite captivating. It has a mix of suspense and drama, and the performances are outstanding. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "mystery",
+      "Key Largo (1948)",
+      "Dial M for Murder (1954)",
+      "You Can't Take It with You (1938)",
+      "romance",
+      "Ste",
+      "thriller",
+      "The Third Man (1949)"
+    ],
+    "rec": [
+      "The Man Who Knew Too Much (1956)"
+    ],
+    "resp": "Ah yes! Great early Hitchcock film! My favorite Hitchcock is The Man Who Knew Too Much (1956) with Jimmy Stewart Thanks! So are you!",
+    "template": [
+      "Hello! How's it going?",
+      "Oh going well thanks! And yourself?",
+      "Quite well, thanks.",
+      "Can you tell me any black and white <mask> classics I can watch this weekend?",
+      "Hmm....",
+      "I recently saw <mask> and LOVED IT!",
+      "I don'tknow many <mask> movies, but I do know a lot of goo blck and white films. i have heard of that one, but not seen it. I am more into film noir. Have you seen <mask> ?",
+      "No I haven't! What kind of movie is it? Is it like suspence?",
+      "It's a <mask>o<mask>iller.. a man gets framed for murde rin post WWII Vienna.",
+      "suspense*",
+      "yes! Suspenesful indeed!",
+      "Oooh that sounds really good!! Thank you!",
+      "If you like blakc and white suspenes I would also reccomend <mask> ... classic Bogart!",
+      "Know any others? I really liked <mask> Very cool! Will definitely check it out! You're awesome!!",
+      "Ah yes! Great early Hitchcock film! My favorite Hitchcock is <mask> with Jimmy <pe<mask>n>wart Thanks! So are you!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

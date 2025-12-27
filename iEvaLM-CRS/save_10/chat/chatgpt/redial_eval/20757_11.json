@@ -1,0 +1,178 @@
+{
+  "dialog_id": "20757",
+  "turn_id": 11,
+  "context": [
+    "Hi",
+    "Hi",
+    "How are you? Im open to any movie",
+    "I’m good how are you ?!",
+    "Im good! What kind of movies do you like?",
+    "Have you seen Black Panther (2018) ??",
+    "Yes I have It was good!",
+    "Yess I loved it I seen it 3 times I think I’m done lol What about Avengers: Infinity War (2018)",
+    "Lol its that good though! Ive seen Avengers: Infinity War (2018) twice now!",
+    "Really! I want to see it . I heard from so many people that they were disappointment :(",
+    "So good! Yea just in the ending but it was overall really good! There will be another one next summer so we can see what happens! Deadpool 2 (2018) should be good also!"
+  ],
+  "entity": [
+    "Black Panther (2018)",
+    "Avengers: Infinity War (2018)",
+    "Avengers: Infinity War (2018)",
+    "Deadpool 2 (2018)"
+  ],
+  "rec": [
+    "Deadpool 2 (2018)"
+  ],
+  "resp": "I’m excited for Deadpool 2 (2018) !!!",
+  "template": [
+    "Hi",
+    "Hi",
+    "How are you? Im open to any movie",
+    "I’m good how are you ?!",
+    "Im good! What kind of movies do you like?",
+    "Have you seen <mask> ??",
+    "Yes I have It was good!",
+    "Yess I loved it I seen it 3 times I think I’m done lol What about <mask>",
+    "Lol its that good though! Ive seen <mask> twice now!",
+    "Really! I want to see it . I heard from so many people that they were disappointment :(",
+    "So good! Yea just in the ending but it was overall really good! There will be another one next summer so we can see what happens! <mask> should be good also!",
+    "I’m excited for <mask> !!!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20757",
+    "turn_id": 11,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi"
+      },
+      {
+        "role": "user",
+        "content": "How are you? Im open to any movie"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m good how are you ?!"
+      },
+      {
+        "role": "user",
+        "content": "Im good! What kind of movies do you like?"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen Black Panther (2018) ??"
+      },
+      {
+        "role": "user",
+        "content": "Yes I have It was good!"
+      },
+      {
+        "role": "assistant",
+        "content": "Yess I loved it I seen it 3 times I think I’m done lol What about Avengers: Infinity War (2018)"
+      },
+      {
+        "role": "user",
+        "content": "Lol its that good though! Ive seen Avengers: Infinity War (2018) twice now!"
+      },
+      {
+        "role": "assistant",
+        "content": "Really! I want to see it . I heard from so many people that they were disappointment :("
+      },
+      {
+        "role": "user",
+        "content": "So good! Yea just in the ending but it was overall really good! There will be another one next summer so we can see what happens! Deadpool 2 (2018) should be good also!"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Deadpool 2 (2018)\n2: Deadpool (2016)\n3: Guardians of the Galaxy Vol. 2 (2017)\n4: The Amazing Spider-Man 2 (2014)\n5: Avengers: Infinity War (2018)\n6: The Avengers (2012)\n7: Black Panther (2018)\n8: Blade Runner 2049 (2017)\n9: Iron Man 2 (2010)\n10: Guardians of the Galaxy (2014)\n11: Spider-Man: Homecoming (2017)\n12: Avengers: Age of Ultron (2015)\n13: X-Men: Apocalypse (2016)\n14: Incredibles 2 (2018)\n15: Captain America: The Winter Soldier\n16: 3 Avengers\n17: Spider-Man 2 (2004)\n18: The Amazing Spider-Man (2012)\n19: Wonder Woman (2017)\n20: Ant-Man (2015)\n21: Now You See Me 2 (2016)\n22: Captain America: Civil War (2016)\n23: Ant-Man and the Wasp (2018)\n24: Venom (2018)\n25: End of Watch (2012)\n26: A Good Day to Die Hard (2013)\n27: Aquaman (2018)\n28: Superhero Movie (2008)\n29: Harry Potter and the Deathly Hallows – Part 2 (2011)\n30: How to Train Your Dragon 2 (2014)\n31: Suicide Squad (2016)\n32: Kick-Ass 2 (2013)\n33: Star Wars: Episode VIII – The Last Jedi (2017)\n34: Dope (2015)\n35: XXX: Return of Xander Cage (2017)\n36: X-Men: Days of Future Past (2014)\n37: Fantastic Four (2015)\n38: X-Men: First Class (2011)\n39: Avenger (2006)\n40: Rio 2 (2014)\n41: Looper (2012)\n42: Back to the Future Part II (1989)\n43: Spider-Man (2002)\n44: Super (2010)\n45: The End (2012)\n46: All Good Things (2010)\n47: Avengers Grimm (2015)\n48: Pirates of the Caribbean: Dead Men Tell No Tales (2017)\n49: The Avengers (1998)\n50: Wonder Woman 2 (2019)\n:Great choices! Since you enjoy superhero movies, would you like recommendations for more films in that genre?",
+        "entity": [],
+        "rec_items": [
+          20405,
+          21378,
+          3191,
+          21666,
+          20468,
+          21396,
+          20437,
+          14901,
+          3960,
+          17184,
+          8721,
+          14005,
+          8079,
+          20645,
+          16202,
+          19851,
+          8862,
+          19064,
+          4920,
+          11794,
+          10127,
+          12807,
+          20729,
+          20789,
+          18100,
+          19269,
+          20859,
+          19896,
+          13396,
+          21832,
+          9530,
+          6334,
+          24079,
+          11789,
+          12926,
+          16039,
+          8667,
+          12107,
+          2693,
+          10559,
+          18754,
+          14069,
+          24614,
+          15579,
+          20255,
+          18491,
+          14186,
+          6105,
+          11786,
+          20359
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the offer, but I think you might find a certain film from 2018 particularly enjoyable. It features a unique blend of action and humor, with a character who often breaks the fourth wall. The storyline revolves around a mercenary who seeks to protect a young mutant while dealing with his own personal challenges. It's known for its witty dialogue and over-the-top action sequences. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Deadpool 2 (2018)",
+      "Avengers: Infinity War (2018)",
+      "Black Panther (2018)"
+    ],
+    "rec": [
+      "Deadpool 2 (2018)"
+    ],
+    "resp": "I’m excited for Deadpool 2 (2018) !!!",
+    "template": [
+      "Hi",
+      "Hi",
+      "How are you? Im open to any movie",
+      "I’m good how are you ?!",
+      "Im good! What kind of movies do you like?",
+      "Have you seen <mask> ??",
+      "Yes I have It was good!",
+      "Yess I loved it I seen it 3 times I think I’m done lol What about <mask>",
+      "Lol its that good though! Ive seen <mask> twice now!",
+      "Really! I want to see it . I heard from so many people that they were disappointment :(",
+      "So good! Yea just in the ending but it was overall really good! There will be another one next summer so we can see what happens! <mask> should be good also!",
+      "I’m excited for <mask> !!!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

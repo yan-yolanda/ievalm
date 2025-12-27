@@ -1,0 +1,197 @@
+{
+  "dialog_id": "21718",
+  "turn_id": 4,
+  "context": [
+    "",
+    "hello do you like movies to watch that are funny? or that are scary? I can be flexible in recommending",
+    "Scary for sure. I loved I Know What You Did Last Summer (1997)",
+    "I would recommend fun movies. ok let me think you can watch The Conjuring ing the Descent (2005) is another one",
+    "Yes The Conjuring (2013) was great I liked that too"
+  ],
+  "entity": [
+    "scary",
+    "scary",
+    "I Know What You Did Last Summer (1997)",
+    "The Conjuring",
+    "Descent (2005)",
+    "The Conjuring (2013)"
+  ],
+  "rec": [
+    "The Babadook (2014)"
+  ],
+  "resp": "how about something like The Babadook (2014) those are freaky!! you like to watch them?",
+  "template": [
+    "hello do you like movies to watch that are funny? or that are <mask>? I can be flexible in recommending",
+    "<mask> for sure. I loved <mask>",
+    "I would recommend fun movies. ok let me think you can watch <mask> ing the <mask> is another one",
+    "Yes <mask> was great I liked that too",
+    "how about something like <mask> those are freaky!! you like to watch them?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21718",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello do you like movies to watch that are funny? or that are scary? I can be flexible in recommending"
+      },
+      {
+        "role": "user",
+        "content": "Scary for sure. I loved I Know What You Did Last Summer (1997)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend fun movies. ok let me think you can watch The Conjuring ing the Descent (2005) is another one"
+      },
+      {
+        "role": "user",
+        "content": "Yes The Conjuring (2013) was great I liked that too"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choices! Here are some more scary movies you might enjoy:\n\n1. The Babadook\n2. Hereditary\n3. A Quiet Place\n4. It Follows\n5. The Witch\n6. Sinister\n7. Get Out\n8. Insidious\n9. Scream\n10. Halloween (1978)",
+        "entity": [],
+        "rec_items": [
+          17374,
+          1305,
+          11749,
+          16522,
+          14292,
+          7009,
+          3035,
+          4130,
+          8213,
+          10130,
+          22931,
+          10046,
+          21106,
+          19675,
+          19104,
+          10250,
+          23602,
+          8471,
+          14323,
+          22170,
+          21020,
+          4535,
+          12195,
+          14837,
+          11886,
+          22041,
+          15731,
+          5813,
+          21158,
+          8723,
+          20620,
+          1591,
+          21806,
+          24522,
+          4128,
+          18857,
+          9884,
+          19148,
+          9814,
+          17081,
+          22116,
+          16223,
+          20488,
+          18752,
+          21363,
+          7116,
+          22643,
+          16986,
+          12655,
+          5881
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I think I would prefer to talk about a particular film that explores themes of grief and motherhood in a very unique way. It features a haunting presence that manifests through a mysterious storybook, leading to a chilling atmosphere. The film delves deep into psychological horror and has received critical acclaim for its storytelling and performances. Would you like to know more about it?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Babadook (2014)\n2: Hereditary (2018)\n3: Mother! (2017)\n4: It Follows (2014)\n5: Goodnight Mommy (2014)\n6: Mama (2013)\n7: A Quiet Place (2018)\n8: Ghost (1998)\n9: Suspiria (1977)\n10: The Haunting (1963)\n11: The Witch (2015)\n12: Orphan (2009)\n13: The Others (2001)\n14: Annabelle: Creation (2017)\n15: Don't Be Afraid of the Dark (2010)\n16: The Woman in Black (2012)\n17: Don't Tell Mom the Babysitter's Dead (1991)\n18: The Haunting in Connecticut (2009)\n19: Paranormal Activity 4 (2012)\n20: The Visit (2015)\n21: Psycho\n22: Ouija: Origin of Evil (2016)\n23: Insidious (2010)\n24: It Comes at Night (2017)\n25: Psycho (1960)\n26: Annabelle 2 (2017)\n27: Creep (2014)\n28: An American Haunting (2005)\n29: Sinister (2012)\n30: The Thing (2011)\n31: Final Girl (2015)\n32: A Quiet Place to Kill (1970)\n33: Let's Scare Jessica to Death (1971)\n34: Psycho (1998)\n35: Carrie (1976)\n36: It (2017)\n37: Carrie (2013)\n38: Thirteen Ghosts (2001)\n39: Ju-On: The Grudge (2002)\n40: Paranormal Activity 2 (2010)\n41: A Ghost Story (2017)\n42: Scream (1996)\n43: The Grudge (2004)\n44: Insidious: Chapter 4 (2018)\n45: Mimic (1997)\n46: The Haunting (1999)\n47: Evil Dead\n48: The Evil Dead (1981)\n49: Boo 2! A Madea Halloween (2017)\n50: A Serbian Film (2010)\n:It sounds like you're describing \"The Babadook.\" Would you like recommendations similar to that film, or do you want to discuss it further?",
+        "entity": [],
+        "rec_items": [
+          8523,
+          20920,
+          20355,
+          7930,
+          16577,
+          17043,
+          20534,
+          24142,
+          10163,
+          14837,
+          16986,
+          22974,
+          7680,
+          20488,
+          23602,
+          8038,
+          19449,
+          22041,
+          1591,
+          8213,
+          24311,
+          2425,
+          19104,
+          21845,
+          23755,
+          10250,
+          6649,
+          4535,
+          19096,
+          22170,
+          6789,
+          21966,
+          19148,
+          22061,
+          18770,
+          17634,
+          10478,
+          5485,
+          7116,
+          22286,
+          20489,
+          17319,
+          18117,
+          4128,
+          1919,
+          21504,
+          9814,
+          16223,
+          20385,
+          21899
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your interest in discussing that film! It’s a remarkable piece that intricately weaves themes of grief and motherhood, showcasing a haunting presence that emerges from a mysterious storybook. The psychological horror elements are truly compelling, and the storytelling, along with the performances, has garnered significant critical acclaim. If you’d like, I can share more insights or details about its impact and themes!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Conjuring (2013)",
+      "scary",
+      "The Conjuring",
+      "Descent (2005)",
+      "I Know What You Did Last Summer (1997)"
+    ],
+    "rec": [
+      "The Babadook (2014)"
+    ],
+    "resp": "how about something like The Babadook (2014) those are freaky!! you like to watch them?",
+    "template": [
+      "hello do you like movies to watch that are funny? or that are <mask>? I can be flexible in recommending",
+      "<mask> for sure. I loved <mask>",
+      "I would recommend fun movies. ok let me think you can watch <mask> ing the <mask> is another one",
+      "Yes <mask> was great I liked that too",
+      "how about something like <mask> those are freaky!! you like to watch them?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,212 @@
+{
+  "dialog_id": "21838",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hi there!",
+    "Hello hi",
+    "What kind of movies do you like?",
+    "I like movies like Dumb and Dumber (1994) er and Kingpin (1996)",
+    "Nice! Have you seen Ace Ventura or Dumb and Dumber To (2014)",
+    "I also like Super Troopers (2001) and Deadpool (2016) I have seen both and enjoyed them very much"
+  ],
+  "entity": [
+    "Dumb and Dumber (1994)",
+    "Kingpin (1996)",
+    "Ace Ventura",
+    "Dumb and Dumber To (2014)",
+    "Super Troopers (2001)",
+    "Deadpool (2016)"
+  ],
+  "rec": [
+    "The Mask (1994)"
+  ],
+  "resp": "The Mask (1994) is a great one too!",
+  "template": [
+    "Hi there!",
+    "Hello hi",
+    "What kind of movies do you like?",
+    "I like movies like <mask> er and <mask>",
+    "Nice! Have you seen <mask> or <mask>",
+    "I also like <mask> and <mask> I have seen both and enjoyed them very much",
+    "<mask> is a great one too!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21838",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi there!"
+      },
+      {
+        "role": "user",
+        "content": "Hello hi"
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I like movies like Dumb and Dumber (1994) er and Kingpin (1996)"
+      },
+      {
+        "role": "assistant",
+        "content": "Nice! Have you seen Ace Ventura or Dumb and Dumber To (2014)"
+      },
+      {
+        "role": "user",
+        "content": "I also like Super Troopers (2001) and Deadpool (2016) I have seen both and enjoyed them very much"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choices! Do you prefer comedies that are more absurd and silly, or do you enjoy a mix of action and humor like in Deadpool?",
+        "entity": [],
+        "rec_items": [
+          3269,
+          13249,
+          2271,
+          24487,
+          18193,
+          2993,
+          18710,
+          5752,
+          15579,
+          21378,
+          19617,
+          18555,
+          24425,
+          20405,
+          3787,
+          11789,
+          16713,
+          2984,
+          17733,
+          17703,
+          13043,
+          12776,
+          13782,
+          8890,
+          15524,
+          13238,
+          17310,
+          23822,
+          19347,
+          19896,
+          4321,
+          21603,
+          10035,
+          22796,
+          13708,
+          15983,
+          7253,
+          12623,
+          6602,
+          19785,
+          19445,
+          15383,
+          17647,
+          17237,
+          21279,
+          20359,
+          8734,
+          10854,
+          14040,
+          11160
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy a mix of absurd humor and some action elements. There's something about a character who transforms and gets into wild situations that really captures my interest. For example, there's this film where a mild-mannered bank clerk discovers a magical mask that turns him into a zany, confident alter ego, leading to all sorts of hilarious chaos. It's a classic!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Deadpool (2016)\n2: Deadpool 2 (2018)\n3: Superhero Movie (2008)\n4: Super (2010)\n5: Ant-Man (2015)\n6: The Change-Up (2011)\n7: The Comedy (2012)\n8: Kick-Ass\n9: Guardians of the Galaxy (2014)\n10: The Mask (1994)\n11: The Ridiculous 6 (2015)\n12: The Adventures of Pluto Nash (2002)\n13: Suicide Squad (2016)\n14: The Mask of Zorro (1998)\n15: Turbo (2013)\n16: Pixels (2015)\n17: A Goofy Movie (1995)\n18: The Sorcerer's Apprentice (2010)\n19: Kick-Ass (2010)\n20: Mortdecai (2015)\n21: Zoolander 2 (2016)\n22: Zombieland (2009)\n23: You Don't Mess with the Zohan (2008)\n24: Avengers Grimm (2015)\n25: Megamind (2010)\n26: Batman (1966)\n27: Definitely, Maybe (2008)\n28: Black Mask (1996)\n29: Avenger (2006)\n30: The Lego Batman Movie (2017)\n31: Captain Underpants: The First Epic Movie\n32: Guardians of the Galaxy Vol. 2 (2017)\n33: An Extremely Goofy Movie (2000)\n34: Kick-Ass 2 (2013)\n35: Justice League Dark\n36: Howard the Duck (1986)\n37: Thor: Ragnarok (2017)\n38: Teenage Mutant Ninja Turtles (2014)\n39: Jack (1996)\n40: Extract\n41: Austin Powers\n42: Dr. Strange\n43: Rio (2011)\n44: Masterminds (2016)\n45: Ant-Man and the Wasp (2018)\n46: G.I. Joe\n47: Aladin (2009)\n48: Attack the Block\n49: Marvel Super Heroes 4D\n50: The Comedian (2016)\n:Got it! Based on your preferences for absurd humor mixed with action, here are some recommendations for you:\n\n1. The Mask\n2. Tropic Thunder\n3. Hot Fuzz\n4. Zombieland\n5. Step Brothers\n6. 21 Jump Street\n7. We're the Millers\n8. The Other Guys\n9. Shaun of the Dead\n10. Horrible Bosses",
+        "entity": [],
+        "rec_items": [
+          21378,
+          20405,
+          19896,
+          15579,
+          11794,
+          7944,
+          2993,
+          22547,
+          17184,
+          14170,
+          12623,
+          8734,
+          9530,
+          2877,
+          2984,
+          9939,
+          15524,
+          17685,
+          19455,
+          14181,
+          13708,
+          24590,
+          2507,
+          14186,
+          16425,
+          18059,
+          7614,
+          7174,
+          2693,
+          11220,
+          20392,
+          3191,
+          6602,
+          6334,
+          8196,
+          18668,
+          14739,
+          19538,
+          15769,
+          18240,
+          18466,
+          10025,
+          19313,
+          4454,
+          20729,
+          18672,
+          24080,
+          12404,
+          19136,
+          17647
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really drawn to that film where a mild-mannered bank clerk discovers a magical mask that transforms him into a zany alter ego, leading to all sorts of hilarious chaos. It's a classic that perfectly blends absurd humor with action elements!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Dumb and Dumber (1994)",
+      "Kingpin (1996)",
+      "Ace Ventura",
+      "Dumb and Dumber To (2014)",
+      "Deadpool (2016)",
+      "Super Troopers (2001)"
+    ],
+    "rec": [
+      "The Mask (1994)"
+    ],
+    "resp": "The Mask (1994) is a great one too!",
+    "template": [
+      "Hi there!",
+      "Hello hi",
+      "What kind of movies do you like?",
+      "I like movies like <mask> er and <mask>",
+      "Nice! Have you seen <mask> or <mask>",
+      "I also like <mask> and <mask> I have seen both and enjoyed them very much",
+      "<mask> is a great one too!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

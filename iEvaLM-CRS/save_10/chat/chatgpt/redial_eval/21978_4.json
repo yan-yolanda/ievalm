@@ -1,0 +1,125 @@
+{
+  "dialog_id": "21978",
+  "turn_id": 4,
+  "context": [
+    "",
+    "heyheyhey",
+    "Hellooo How are ya?",
+    "im good you?",
+    "Fine thanks No any good Tom Cruise movies? Know*"
+  ],
+  "entity": [
+    "Tom Cruise"
+  ],
+  "rec": [
+    "Vanilla Sky (2001)"
+  ],
+  "resp": "Vanilla Sky (2001) comes to mind",
+  "template": [
+    "heyheyhey",
+    "Hellooo How are ya?",
+    "im good you?",
+    "Fine thanks No any good <mask>ovies? Know*",
+    "<mask> comes to mind"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21978",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "heyheyhey"
+      },
+      {
+        "role": "user",
+        "content": "Hellooo How are ya?"
+      },
+      {
+        "role": "assistant",
+        "content": "im good you?"
+      },
+      {
+        "role": "user",
+        "content": "Fine thanks No any good Tom Cruise movies? Know*"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: A Few Good Men (1992)\n2: Cocktail (1988)\n3: Jerry Maguire (1996)\n4: As Good as It Gets (1997)\n5: Everybody's Fine (2009)\n6: Mission: Impossible II (2000)\n7: Top Gun (1986)\n8: Mission: Impossible (1996)\n9: American Made (2017)\n10: Collateral (2004)\n11: Mission: Impossible\n12: My Scientology Movie (2015)\n13: All Good Things (2010)\n14: Almost Famous (2000)\n15: Far and Away (1992)\n16: Yes Man (2008)\n17: Mission: Impossible III (2006)\n18: All the Right Moves (1983)\n19: Yes (2004)\n20: In Good Company (2004)\n21: Good Boy! (2003)\n22: Knowing (2009)\n23: The Good Life (1997)\n24: Tommy Boy (1995)\n25: Mission: Impossible – Rogue Nation (2015)\n26: Good for Nothing (2014)\n27: Knight and Day (2010)\n28: Vanilla Sky (2001)\n29: The Firm (1993)\n30: Eyes Wide Shut (1999)\n31: The Good Guys\n32: The Firm\n33: Mission: Impossible – Ghost Protocol (2011)\n34: Risky Business (1983)\n35: Good Morning, Vietnam (1987)\n36: The Last Samurai (2003)\n37: Days of Thunder (1990)\n38: Good Will Hunting (1997)\n39: Better Off Dead (1985)\n40: Jack Reacher (2012)\n41: He Knows You're Alone (1980)\n42: The Good Son (1993)\n43: The Yes Man (1991)\n44: Interview with the Vampire (1994)\n45: Interview with the Vampire\n46: A Good Year (2006)\n47: Johnny Be Good (1988)\n48: Minority Report (2002)\n49: Basic (2003)\n50: Me Myself I (2000)\n:What type of movies do you enjoy? Action, drama, or something else?",
+        "entity": [],
+        "rec_items": [
+          24478,
+          18204,
+          13846,
+          5528,
+          7939,
+          18936,
+          13598,
+          17812,
+          10553,
+          16887,
+          21731,
+          21038,
+          18491,
+          10961,
+          13717,
+          10035,
+          10253,
+          12508,
+          21221,
+          21292,
+          24004,
+          6879,
+          11517,
+          14863,
+          16720,
+          2683,
+          5620,
+          18583,
+          16048,
+          19400,
+          17571,
+          16717,
+          19124,
+          9535,
+          21803,
+          1400,
+          9090,
+          18159,
+          7532,
+          21156,
+          9226,
+          24308,
+          5386,
+          8691,
+          16744,
+          17435,
+          21884,
+          16285,
+          13589,
+          15553
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy films that blend thought-provoking themes with a touch of romance and a bit of a psychological twist. For instance, there's a film that explores the complexities of love and reality, featuring a character who navigates a surreal journey after a life-altering event. It delves into deep emotional and philosophical questions, making it quite captivating.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Tom Cruise"
+    ],
+    "rec": [
+      "Vanilla Sky (2001)"
+    ],
+    "resp": "Vanilla Sky (2001) comes to mind",
+    "template": [
+      "heyheyhey",
+      "Hellooo How are ya?",
+      "im good you?",
+      "Fine thanks No any good <mask>ovies? Know*",
+      "<mask> comes to mind"
+    ]
+  },
+  "persuasiveness_score": "0"
+}

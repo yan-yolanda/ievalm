@@ -1,0 +1,127 @@
+{
+  "dialog_id": "21032",
+  "turn_id": 3,
+  "context": [
+    "hello",
+    "Hi, what kind of movies do you like? maybe action movies like Hot Fuzz (2007) ?",
+    "I really like westerns Blazing Saddles (1974) is my favorite Annie Get Your Gun (1950)"
+  ],
+  "entity": [
+    "action",
+    "Hot Fuzz (2007)",
+    "western",
+    "Ste",
+    "Blazing Saddles (1974)",
+    "Annie Get Your Gun (1950)"
+  ],
+  "rec": [
+    "The Good, the Bad and the Ugly (1966)"
+  ],
+  "resp": "I have seen The Good, the Bad and the Ugly (1966)",
+  "template": [
+    "hello",
+    "Hi, what kind of movies do you like? maybe <mask> movies like <mask> ?",
+    "I really like <mask>on>rns <mask> is my favorite <mask>",
+    "I have seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21032",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi, what kind of movies do you like? maybe action movies like Hot Fuzz (2007) ?"
+      },
+      {
+        "role": "user",
+        "content": "I really like westerns Blazing Saddles (1974) is my favorite Annie Get Your Gun (1950)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Blazing Saddles (1974)\n2: Annie Get Your Gun (1950)\n3: Gunslinger (1956)\n4: Young Guns (1988)\n5: Jane Got a Gun (2016)\n6: Hot Fuzz (2007)\n7: The Shootist (1976)\n8: Gunfight at the O.K. Corral (1957)\n9: Hatari! (1962)\n10: The Wild Bunch (1969)\n11: Cowboy (1958)\n12: Bonnie and Clyde (1967)\n13: Gunsmoke (1953)\n14: Space Cowboys (2000)\n15: Sukiyaki Western Django (2007)\n16: A Fistful of Dollars (1964)\n17: Wild Wild West (1999)\n18: Dirty Harry (1971)\n19: Red Heat (1988)\n20: Once Upon a Time in the West (1968)\n21: American Outlaws (2001)\n22: Smokey and the Bandit (1977)\n23: The Good, the Bad and the Ugly (1966)\n24: The Young Guns (1956)\n25: Butch Cassidy and the Sundance Kid (1969)\n26: Hot Shots! (1991)\n27: Assassins (1995)\n28: Badlands (1973)\n29: Appaloosa (2008)\n30: The Magnificent Seven (2016)\n31: The Outlaw (1943)\n32: The Magnificent Seven (1960)\n33: ¡Three Amigos! (1986)\n34: Annie (1982)\n35: Bullitt (1968)\n36: The Enforcer (1976)\n37: Support Your Local Sheriff! (1969)\n38: Seven (1979)\n39: The Professionals (1966)\n40: Maverick (1994)\n41: Grosse Pointe Blank (1997)\n42: The Way of the Gun (2000)\n43: Pale Rider (1985)\n44: Last Action Hero (1993)\n45: Silver Streak (1976)\n46: Annie Hall (1977)\n47: Django (1966)\n48: True Grit (1969)\n49: Magnum Force (1973)\n50: 1941 (1979)\n:Great choices! Do you prefer classic westerns, or are you open to more modern takes on the genre?",
+        "entity": [],
+        "rec_items": [
+          24615,
+          1090,
+          3433,
+          12121,
+          7792,
+          6852,
+          12001,
+          1278,
+          12114,
+          22059,
+          17910,
+          11310,
+          16417,
+          4748,
+          7966,
+          7195,
+          5989,
+          17878,
+          6309,
+          21490,
+          16686,
+          8249,
+          6201,
+          8711,
+          2833,
+          16932,
+          15257,
+          6553,
+          6082,
+          23633,
+          5187,
+          22239,
+          19183,
+          21709,
+          5787,
+          3063,
+          9120,
+          5990,
+          9143,
+          21667,
+          2346,
+          16174,
+          19166,
+          19952,
+          17553,
+          3738,
+          7339,
+          13680,
+          13634,
+          23399
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy classic westerns, especially those that have a strong narrative and memorable characters. For instance, there's a film that features a trio of characters on a quest during the Civil War, blending action, drama, and a touch of humor. The cinematography is stunning, and the score is iconic. It's a must-see for any western fan!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Blazing Saddles (1974)",
+      "Annie Get Your Gun (1950)",
+      "Hot Fuzz (2007)",
+      "Ste",
+      "action",
+      "western"
+    ],
+    "rec": [
+      "The Good, the Bad and the Ugly (1966)"
+    ],
+    "resp": "I have seen The Good, the Bad and the Ugly (1966)",
+    "template": [
+      "hello",
+      "Hi, what kind of movies do you like? maybe <mask> movies like <mask> ?",
+      "I really like <mask>on>rns <mask> is my favorite <mask>",
+      "I have seen <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,138 @@
+{
+  "dialog_id": "21348",
+  "turn_id": 4,
+  "context": [
+    "",
+    "hello how are you what kinds of movies do you enjoy",
+    "I really enjoy scary movies but haven't seen a good one in a while. Know of any?",
+    "last good scary movie i saw was Jigsaw (2017), I really enjoyed Jeepers Creepers (2001), Saw (2004) Scream (1996) as well",
+    "I loved Saw (2004) is Jigsaw (2017) related? I loved the other two as well! I Know What You Did Last Summer (1997) was also really good! :)"
+  ],
+  "entity": [
+    "scary",
+    "scary",
+    "Jigsaw (2017)",
+    "Jeepers Creepers (2001)",
+    "Saw (2004)",
+    "Scream (1996)",
+    "Saw (2004)",
+    "Jigsaw (2017)",
+    "I Know What You Did Last Summer (1997)"
+  ],
+  "rec": [
+    "Jigsaw (2017)"
+  ],
+  "resp": "Yea Jigsaw (2017) is a spin off I loved that movie",
+  "template": [
+    "hello how are you what kinds of movies do you enjoy",
+    "I really enjoy <mask> movies but haven't seen a good one in a while. Know of any?",
+    "last good <mask> movie i saw was <mask>, I really enjoyed <mask>, <mask> <mask> as well",
+    "I loved <mask> is <mask> related? I loved the other two as well! <mask> was also really good! :)",
+    "Yea <mask> is a spin off I loved that movie"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21348",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello how are you what kinds of movies do you enjoy"
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy scary movies but haven't seen a good one in a while. Know of any?"
+      },
+      {
+        "role": "assistant",
+        "content": "last good scary movie i saw was Jigsaw (2017), I really enjoyed Jeepers Creepers (2001), Saw (2004) Scream (1996) as well"
+      },
+      {
+        "role": "user",
+        "content": "I loved Saw (2004) is Jigsaw (2017) related? I loved the other two as well! I Know What You Did Last Summer (1997) was also really good! :)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Jeepers Creepers 2 (2003)\n2: Saw (2004)\n3: Jigsaw (2017)\n4: I Know What You Did Last Summer (1997)\n5: Jeepers Creepers (2001)\n6: Saw IV (2007)\n7: Jeepers Creepers 3 (2017)\n8: Saw III (2006)\n9: Scream 2 (1997)\n10: Saw VI (2009)\n11: Scream 4 (2011)\n12: Shriek If You Know What I Did Last Friday the Thirteenth (2000)\n13: Saw V (2008)\n14: Screamers (1995)\n15: Scream 3 (2000)\n16: Saw 3D (2010)\n17: Scream (1996)\n18: Saw II (2005)\n19: Scary Movie 2 (2001)\n20: The Last Horror Movie (2003)\n21: The Texas Chainsaw Massacre (2003)\n22: The Creeper (1948)\n23: Saw (2003)\n24: Halloween (2007)\n25: Evil Dead II (1987)\n26: Halloween II (2009)\n27: Texas Chainsaw 3D (2013)\n28: The Human Centipede 2 (2011)\n29: I, Zombie (1998)\n30: Scream\n31: Hellraiser (1987)\n32: Scary Movie 4 (2006)\n33: Scream (1981)\n34: Scary Movie (2000)\n35: Jaws 2 (1978)\n36: The Last House on the Left (1972)\n37: The Texas Chainsaw Massacre 2 (1986)\n38: The Human Centipede 3 (2015)\n39: The Scream (1993)\n40: Zombiez (2005)\n41: Mimic (1997)\n42: See No Evil 2 (2014)\n43: Urban Legends: Final Cut (2000)\n44: Hellraiser: Inferno (2000)\n45: Psycho III (1986)\n46: Evil Dead Trap 3: Broken Love Killer (1993)\n47: Halloween: Resurrection (2002)\n48: Urban Legend (1998)\n49: Dead Snow (2009)\n50: Ju-On: The Grudge (2002)\n:Great to hear you enjoyed those! Yes, Jigsaw (2017) is related to the Saw franchise and continues the story. Based on your preferences, here are some recommendations for you:\n\n1. Jigsaw (2017)\n2. Saw II (2005)\n3. Saw III (2006)\n4. Saw IV (2007)\n5. Scream 2 (1997)\n6. Scream 3 (2000)\n7. I Know What You Did Last Summer (1997)\n8. I Still Know What You Did Last Summer (1998)\n9. The Conjuring (2013)\n10. The Texas Chainsaw Massacre (2003)",
+        "entity": [],
+        "rec_items": [
+          23016,
+          4130,
+          20302,
+          2258,
+          2164,
+          17246,
+          20475,
+          15711,
+          7442,
+          21479,
+          22116,
+          18873,
+          14974,
+          4370,
+          9884,
+          11455,
+          17319,
+          12655,
+          10130,
+          4153,
+          19998,
+          21724,
+          11975,
+          13775,
+          18971,
+          10665,
+          21364,
+          15221,
+          8917,
+          14775,
+          7729,
+          7387,
+          213,
+          21363,
+          13078,
+          7935,
+          9919,
+          22344,
+          18020,
+          12440,
+          1919,
+          23089,
+          348,
+          15569,
+          8820,
+          19543,
+          6920,
+          18396,
+          12482,
+          7116
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the recommendations, but I'm really looking for something specific. I recently enjoyed a film that is part of a well-known horror franchise, featuring intricate traps and a psychological twist. It has a unique storyline that continues the legacy of its predecessors. If you have any insights or details about that, I'd love to hear them!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Jeepers Creepers (2001)",
+      "scary",
+      "Jigsaw (2017)",
+      "Saw (2004)",
+      "Scream (1996)",
+      "I Know What You Did Last Summer (1997)"
+    ],
+    "rec": [
+      "Jigsaw (2017)"
+    ],
+    "resp": "Yea Jigsaw (2017) is a spin off I loved that movie",
+    "template": [
+      "hello how are you what kinds of movies do you enjoy",
+      "I really enjoy <mask> movies but haven't seen a good one in a while. Know of any?",
+      "last good <mask> movie i saw was <mask>, I really enjoyed <mask>, <mask> <mask> as well",
+      "I loved <mask> is <mask> related? I loved the other two as well! <mask> was also really good! :)",
+      "Yea <mask> is a spin off I loved that movie"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

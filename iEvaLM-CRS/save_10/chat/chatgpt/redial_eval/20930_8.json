@@ -1,0 +1,225 @@
+{
+  "dialog_id": "20930",
+  "turn_id": 8,
+  "context": [
+    "",
+    "HI",
+    "hi",
+    "How are you?",
+    "I like all sorts of movies I am fine Can you mention some? I like comedu",
+    "Okay what about Rush Hour (1998)",
+    "comedy and action Yes good suggestion!",
+    "Good!",
+    "I also like scary ones too What else?"
+  ],
+  "entity": [
+    "war",
+    "comedy",
+    "Rush Hour (1998)",
+    "comedy",
+    "action",
+    "scary"
+  ],
+  "rec": [
+    "21 Jump Street (2012)"
+  ],
+  "resp": "What about 21 Jump Street (2012)",
+  "template": [
+    "HI",
+    "hi",
+    "How <mask> you?",
+    "I like all sorts of movies I am fine Can you mention some? I like <mask>",
+    "Okay what about <mask>",
+    "<mask> and <mask> Yes good suggestion!",
+    "Good!",
+    "I also like <mask> ones too What else?",
+    "What about <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20930",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "HI"
+      },
+      {
+        "role": "user",
+        "content": "hi"
+      },
+      {
+        "role": "assistant",
+        "content": "How are you?"
+      },
+      {
+        "role": "user",
+        "content": "I like all sorts of movies I am fine Can you mention some? I like comedu"
+      },
+      {
+        "role": "assistant",
+        "content": "Okay what about Rush Hour (1998)"
+      },
+      {
+        "role": "user",
+        "content": "comedy and action Yes good suggestion!"
+      },
+      {
+        "role": "assistant",
+        "content": "Good!"
+      },
+      {
+        "role": "user",
+        "content": "I also like scary ones too What else?"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you have a preference for any specific type of scary movies, like supernatural, psychological, or slasher?",
+        "entity": [],
+        "rec_items": [
+          10130,
+          10046,
+          22957,
+          19148,
+          7387,
+          21363,
+          10665,
+          24311,
+          5813,
+          17034,
+          24510,
+          8702,
+          16577,
+          17081,
+          8243,
+          23602,
+          6392,
+          23755,
+          4370,
+          13775,
+          1919,
+          21806,
+          14850,
+          21724,
+          14240,
+          213,
+          11001,
+          2546,
+          7590,
+          18124,
+          16689,
+          1200,
+          24291,
+          18971,
+          14392,
+          6131,
+          16353,
+          14548,
+          9993,
+          8917,
+          12035,
+          1503,
+          1786,
+          7442,
+          5962,
+          9814,
+          21867,
+          12390,
+          7729,
+          22649
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I enjoy a mix of genres, but I really appreciate a good blend of comedy and action. There's a film that combines humor with a unique take on high school life and undercover work, which I find really entertaining. It features two cops who go back to high school to blend in and solve a case. The comedic elements and the action sequences make it a fun watch!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Detective School Dropouts (1986)\n2: Horrorween (2010)\n3: Paranormal Activity 4 (2012)\n4: Psycho (1998)\n5: What We Do in the Shadows (2014)\n6: Extract\n7: Heathers (1988)\n8: Buffy the Vampire Slayer (1992)\n9: The Comedy (2012)\n10: Police Story 2 (1988)\n11: Super 8 (2011)\n12: Super (2010)\n13: Suburban Mayhem (2006)\n14: Ghostbusters (2016)\n15: Killers (2010)\n16: Police Story (1985)\n17: The Usual Suspects (1995)\n18: Police Story 3: Super Cop (1992)\n19: Underworld (2003)\n20: Hollywood Homicide (2003)\n21: Zombieland (2009)\n22: Hot Pursuit (2015)\n23: Weird Science (1985)\n24: 21 Jump Street (2012)\n25: Paranormal Activity\n26: Urban Legend (1998)\n27: Psycho\n28: The Monster Squad (1987)\n29: Beverly Hills Cop (1984)\n30: Spy (2015)\n31: Paranormal Activity (2007)\n32: Superbad (2007)\n33: American Psycho 2 (2002)\n34: Super Troopers (2001)\n35: Tokyo Gore Police (2008)\n36: Vampire Academy (2014)\n37: Police Academy 2: Their First Assignment (1985)\n38: 22 Jump Street (2014)\n39: Cop Out (2010)\n40: Paranormal Activity 3 (2011)\n41: Ghostbusters (1984)\n42: Friend Request\n43: The Mask (1994)\n44: Identity Thief (2013)\n45: Night of the Dead (2006)\n46: 020\n47: Seven Psychopaths (2012)\n48: Psycho (1960)\n49: The Freshman (1990)\n50: Scary Movie 4 (2006)\n:Thanks for sharing! Based on your preferences for comedy, action, and a bit of horror, here are some recommendations:\n\n1. 21 Jump Street\n2. Rush Hour\n3. Hot Fuzz\n4. The Heat\n5. Zombieland\n6. Shaun of the Dead\n7. Tropic Thunder\n8. Superbad\n9. The Other Guys\n10. Scary Movie",
+        "entity": [],
+        "rec_items": [
+          13816,
+          8243,
+          1591,
+          22061,
+          14665,
+          18240,
+          11769,
+          22168,
+          2993,
+          19310,
+          8138,
+          15579,
+          15139,
+          282,
+          21076,
+          9068,
+          9780,
+          24108,
+          23820,
+          22758,
+          24590,
+          23897,
+          18505,
+          4847,
+          23014,
+          18396,
+          24311,
+          2365,
+          23405,
+          10960,
+          6966,
+          19617,
+          22649,
+          3269,
+          24602,
+          10473,
+          23822,
+          8059,
+          5424,
+          24522,
+          8793,
+          10046,
+          14170,
+          17637,
+          2561,
+          6440,
+          2749,
+          23755,
+          16507,
+          7387
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out that film where two cops go undercover in high school. It has a fantastic mix of comedy and action, and the way they navigate their old and new lives is hilarious. It's definitely a fun watch!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "scary",
+      "Rush Hour (1998)",
+      "comedy",
+      "action",
+      "war"
+    ],
+    "rec": [
+      "21 Jump Street (2012)"
+    ],
+    "resp": "What about 21 Jump Street (2012)",
+    "template": [
+      "HI",
+      "hi",
+      "How <mask> you?",
+      "I like all sorts of movies I am fine Can you mention some? I like <mask>",
+      "Okay what about <mask>",
+      "<mask> and <mask> Yes good suggestion!",
+      "Good!",
+      "I also like <mask> ones too What else?",
+      "What about <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,121 @@
+{
+  "dialog_id": "22192",
+  "turn_id": 3,
+  "context": [
+    "hello",
+    "Hello Do you like Johnny Depp",
+    "I do sometimes i liked Fear and Loathing in Las Vegas (1998)"
+  ],
+  "entity": [
+    "Johnny Depp",
+    "Fear and Loathing in Las Vegas (1998)"
+  ],
+  "rec": [
+    "The Rum Diary (2011)",
+    "The Hangover (2009)"
+  ],
+  "resp": "Then The Rum Diary (2011) or The Hangover (2009) you whould probably liek Like",
+  "template": [
+    "hello",
+    "Hello Do you like <mask>",
+    "I do sometimes i liked <mask>",
+    "Then <mask> or <mask> you whould probably liek Like"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22192",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Do you like Johnny Depp"
+      },
+      {
+        "role": "user",
+        "content": "I do sometimes i liked Fear and Loathing in Las Vegas (1998)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Fear and Loathing in Las Vegas (1998)\n2: Dead Man (1995)\n3: Interview with the Vampire (1994)\n4: From Hell (2001)\n5: Ed Wood (1994)\n6: Interview with the Vampire\n7: The Rum Diary (2011)\n8: The Mexican (2001)\n9: Once Upon a Time in Mexico (2003)\n10: Edward Scissorhands (1990)\n11: Fight Club (1999)\n12: Rango (2011)\n13: Johnny Be Good (1988)\n14: Dazed and Confused (1993)\n15: Tales from the Darkside: The Movie (1990)\n16: Charlie and the Chocolate Factory (2005)\n17: The Tourist (2010)\n18: A Scanner Darkly (2006)\n19: Nick of Time (1995)\n20: Pirates of the Caribbean: The Curse of the Black Pearl (2003)\n21: Pirates of the Caribbean\n22: Donnie Brasco (1997)\n23: Dark Shadows (2012)\n24: What's Eating Gilbert Grape (1993)\n25: To Wong Foo, Thanks for Everything! Julie Newmar (1995)\n26: A Nightmare on Elm Street (1984)\n27: The Lone Ranger (2013)\n28: Halloween (1978)\n29: From Dusk till Dawn (1996)\n30: Sleepy Hollow (1999)\n31: FeardotCom (2002)\n32: Psycho (1998)\n33: Once Upon a Time in America (1984)\n34: I Love You to Death (1990)\n35: Videodrome (1983)\n36: Horrorween (2010)\n37: Benny & Joon (1993)\n38: A Nightmare on Elm Street (2010)\n39: Secret Window (2004)\n40: Corpse Bride (2005)\n41: Mortdecai (2015)\n42: Pirates of the Caribbean: Dead Man's Chest (2006)\n43: Halloween: The Curse of Michael Myers (1995)\n44: Pirates of the Caribbean: At World's End (2007)\n45: I Heart Huckabees (2004)\n46: Sweeney Todd: The Demon Barber of Fleet Street (2007)\n47: American Psycho (2000)\n48: Texas Chainsaw 3D (2013)\n49: Face/Off (1997)\n50: The Imaginarium of Doctor Parnassus (2009)\n:Great choice! Do you have a preference for a specific genre, or are you open to different types of movies?",
+        "entity": [],
+        "rec_items": [
+          16063,
+          8316,
+          8691,
+          15864,
+          21340,
+          16744,
+          13160,
+          15383,
+          15473,
+          10927,
+          5176,
+          16742,
+          21884,
+          6281,
+          16137,
+          5872,
+          15942,
+          11557,
+          4143,
+          17580,
+          5089,
+          3907,
+          23272,
+          22044,
+          5333,
+          21165,
+          13583,
+          24510,
+          7225,
+          6185,
+          17179,
+          22061,
+          24110,
+          10810,
+          15212,
+          8243,
+          11331,
+          4978,
+          5260,
+          4175,
+          14181,
+          4824,
+          5813,
+          14626,
+          1893,
+          2219,
+          23804,
+          21364,
+          20431,
+          23856
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm really drawn to stories that blend humor and adventure, especially those that capture a unique perspective on life. For instance, there's a film that features a journalist navigating the vibrant and chaotic atmosphere of Puerto Rico in the 1960s, filled with quirky characters and a touch of surrealism. Another one is a hilarious tale about a group of friends who experience a wild night in Las Vegas, leading to unexpected and outrageous situations. Both films offer a mix of comedy and a glimpse into the characters' lives.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Johnny Depp",
+      "Fear and Loathing in Las Vegas (1998)"
+    ],
+    "rec": [
+      "The Rum Diary (2011)",
+      "The Hangover (2009)"
+    ],
+    "resp": "Then The Rum Diary (2011) or The Hangover (2009) you whould probably liek Like",
+    "template": [
+      "hello",
+      "Hello Do you like <mask>",
+      "I do sometimes i liked <mask>",
+      "Then <mask> or <mask> you whould probably liek Like"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

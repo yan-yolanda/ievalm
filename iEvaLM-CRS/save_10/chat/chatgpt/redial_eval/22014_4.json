@@ -1,0 +1,127 @@
+{
+  "dialog_id": "22014",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hello! How are you today?",
+    "Hi there. I am well and yourself?",
+    "I'm doing good. What kind of movies are you into?",
+    "I'm looking to watch a movie like The Goonies (1985). Know of any good ones?"
+  ],
+  "entity": [
+    "The Goonies (1985)"
+  ],
+  "rec": [
+    "The Lost Boys (1987)",
+    "The Goonies (1985)"
+  ],
+  "resp": "Sure. You have great taste. That is a classic. If you like the Corey's, one of my favorites is The Lost Boys (1987) . It's not exactly like The Goonies (1985) but it has funny moments.",
+  "template": [
+    "Hello! How are you today?",
+    "Hi there. I am well and yourself?",
+    "I'm doing good. What kind of movies are you into?",
+    "I'm looking to watch a movie like <mask>. Know of any good ones?",
+    "Sure. You have great ta<mask>. That is a classic. If you like the Corey's, one of my favorites is <mask> . It's not exactly like <mask> but it has funny moments."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22014",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! How are you today?"
+      },
+      {
+        "role": "user",
+        "content": "Hi there. I am well and yourself?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm doing good. What kind of movies are you into?"
+      },
+      {
+        "role": "user",
+        "content": "I'm looking to watch a movie like The Goonies (1985). Know of any good ones?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Goonies (1985)\n2: Goon (2011)\n3: Going Back (1983)\n4: The Sandlot (1993)\n5: Explorers (1985)\n6: The Garbage Pail Kids Movie (1987)\n7: My Little Pony: The Movie (1986)\n8: As Good as It Gets (1997)\n9: A Goofy Movie (1995)\n10: My Girl (1991)\n11: Johnny Be Good (1988)\n12: Back to the Future (1985)\n13: Cocoon (1985)\n14: Toys (1992)\n15: Wise Guys (1986)\n16: Toy Story (1995)\n17: The Monster Squad (1987)\n18: The Wizard (1989)\n19: American Graffiti (1973)\n20: Seems Like Old Times (1980)\n21: Spies Like Us (1985)\n22: Little Monsters (1989)\n23: The Borrowers (1997)\n24: Stand by Me (1986)\n25: Water (1985)\n26: Back to the Future Part II (1989)\n27: Child's Play (1988)\n28: Enemy Mine (1985)\n29: Like Mike (2002)\n30: Galaxy Quest (1999)\n31: Goal! (2005)\n32: The Sandlot 2 (2005)\n33: Teenage Mutant Ninja Turtles II: The Secret of the Ooze (1991)\n34: Tales from the Darkside: The Movie (1990)\n35: The Cave (2005)\n36: Jaws (1975)\n37: The Wonderful Wizard of Oz (1975)\n38: My Girl 2 (1994)\n39: Spaceballs (1987)\n40: The Good Life (1997)\n41: Mr. Magoo (1997)\n42: The Wind in the Willows (1987)\n43: Great Balls of Fire! (1989)\n44: Little Giants (1994)\n45: Legend (1985)\n46: Jack (1996)\n47: Troll (1986)\n48: Gremlins (1984)\n49: Lucas (1986)\n50: Grandma's Boy (2006)\n:Great choice! Do you prefer adventure movies, comedies, or a mix of both?",
+        "entity": [],
+        "rec_items": [
+          22063,
+          14897,
+          12792,
+          4052,
+          14821,
+          20143,
+          11965,
+          5528,
+          15524,
+          10987,
+          21884,
+          8522,
+          13645,
+          3632,
+          12776,
+          21678,
+          2365,
+          22281,
+          18931,
+          10551,
+          12515,
+          9533,
+          17317,
+          2503,
+          4276,
+          14069,
+          9993,
+          14689,
+          13378,
+          18373,
+          13747,
+          15456,
+          8411,
+          16137,
+          21806,
+          16566,
+          7851,
+          20071,
+          6238,
+          11517,
+          19911,
+          5070,
+          12429,
+          8090,
+          15627,
+          15769,
+          6135,
+          15829,
+          22875,
+          12029
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm really into movies that capture a sense of adventure and camaraderie among friends, especially those that have a nostalgic feel. For instance, there's a classic film that features a group of kids embarking on a thrilling quest filled with excitement and a bit of danger. It's all about friendship and the adventures they share. Another film I enjoy has a unique take on vampires, blending horror with a coming-of-age story, and it has a great soundtrack. Both of these films are beloved by many and have a special place in the hearts of those who grew up watching them.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Goonies (1985)"
+    ],
+    "rec": [
+      "The Lost Boys (1987)",
+      "The Goonies (1985)"
+    ],
+    "resp": "Sure. You have great taste. That is a classic. If you like the Corey's, one of my favorites is The Lost Boys (1987) . It's not exactly like The Goonies (1985) but it has funny moments.",
+    "template": [
+      "Hello! How are you today?",
+      "Hi there. I am well and yourself?",
+      "I'm doing good. What kind of movies are you into?",
+      "I'm looking to watch a movie like <mask>. Know of any good ones?",
+      "Sure. You have great ta<mask>. That is a classic. If you like the Corey's, one of my favorites is <mask> . It's not exactly like <mask> but it has funny moments."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

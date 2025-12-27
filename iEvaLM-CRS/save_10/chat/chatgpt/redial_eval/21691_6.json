@@ -1,0 +1,208 @@
+{
+  "dialog_id": "21691",
+  "turn_id": 6,
+  "context": [
+    "",
+    "hello what are your favorite movies? May I recommend Deadpool 2 (2018) It is hilarious",
+    "Hello. I have just finished watching Django Unchained (2012)",
+    "and is currently out in theaters Good Flick",
+    "Can you recommend any others? I saw Deadpool 2 and it was epic",
+    "Have you seen Kill Bill",
+    "Definitely saw Kill Bill when I was younger, I might check it out again to refresh my memory"
+  ],
+  "entity": [
+    "war",
+    "Deadpool 2 (2018)",
+    "Django Unchained (2012)",
+    "Kill Bill"
+  ],
+  "rec": [
+    "The Hateful Eight (2015)"
+  ],
+  "resp": "have you seen The Hateful Eight (2015)",
+  "template": [
+    "hello what <mask> your favorite movies? May I recommend <mask> It is hilarious",
+    "Hello. I have just finished watching <mask>",
+    "and is currently out in theaters Good Flick",
+    "Can you recommend any others? I saw Deadpool 2 and it was epic",
+    "Have you seen <mask>",
+    "Definitely saw Kill Bill when I was younger, I might check it out again to refresh my memory",
+    "have you seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21691",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello what are your favorite movies? May I recommend Deadpool 2 (2018) It is hilarious"
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have just finished watching Django Unchained (2012)"
+      },
+      {
+        "role": "assistant",
+        "content": "and is currently out in theaters Good Flick"
+      },
+      {
+        "role": "user",
+        "content": "Can you recommend any others? I saw Deadpool 2 and it was epic"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen Kill Bill"
+      },
+      {
+        "role": "user",
+        "content": "Definitely saw Kill Bill when I was younger, I might check it out again to refresh my memory"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! Do you have any specific genres or themes you prefer in movies?",
+        "entity": [],
+        "rec_items": [
+          13836,
+          14179,
+          15626,
+          7904,
+          9668,
+          15399,
+          10596,
+          21076,
+          22023,
+          2525,
+          16905,
+          2321,
+          17406,
+          7249,
+          15257,
+          21423,
+          2147,
+          10790,
+          12655,
+          12165,
+          15867,
+          21985,
+          24312,
+          19304,
+          17634,
+          22701,
+          21279,
+          10369,
+          18873,
+          16287,
+          12096,
+          21084,
+          18971,
+          12062,
+          8456,
+          18962,
+          21559,
+          13294,
+          11059,
+          19977,
+          10194,
+          21479,
+          5635,
+          21024,
+          16358,
+          20026,
+          23519,
+          926,
+          6370,
+          4321
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy intense, character-driven stories with a mix of suspense and drama. I recently watched a film that masterfully combines tension and a unique narrative style, set in a snowy landscape with a group of strangers. The dialogue is sharp, and the performances are outstanding. It’s a gripping tale of betrayal and survival.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Master (2012)\n2: Winter's Bone (2010)\n3: Cold Mountain (2003)\n4: The Snowman (2017)\n5: Snowglobe\n6: Winter's Tale (2014)\n7: Arrival (2016)\n8: The Hateful Eight (2015)\n9: Snow White and the Huntsman (2012)\n10: The Mountain Between Us (2017)\n11: Submergence\n12: Frozen (2010)\n13: Frozen (2010)\n14: Fierce People (2005)\n15: Her (2013)\n16: The Martian (2015)\n17: L.A. Confidential (1997)\n18: Gia\n19: The Force\n20: Enemy (2013)\n21: Source Code (2011)\n22: The Departed (2006)\n23: The Girl with the Dragon Tattoo (2011)\n24: Escape (2012)\n25: White Bird in a Blizzard (2014)\n26: Ida (2013)\n27: The Best Offer (2013)\n28: Hugo (2011)\n29: The Girl with the Dragon Tattoo (2009)\n30: The Spectacular Now (2013)\n31: Meek's Cutoff (2010)\n32: Solace (2015)\n33: The Woman in the Window\n34: Personal Shopper (2016)\n35: The Reader (2008)\n36: Tinker Tailor Soldier Spy (2011)\n37: Into the Wild (2007)\n38: The Handmaiden (2016)\n39: 127 Hours (2010)\n40: Dark Places (2015)\n41: Dark Water (2005)\n42: Drive (2011)\n43: The Grey (2011)\n44: The Frozen Ground (2013)\n45: Into the Storm (2014)\n46: Into the Storm (2009)\n47: The Choice (2016)\n48: True Grit (2010)\n49: Klute\n50: A Fantastic Woman (2017)\n:Based on your preferences, here are some recommendations:\n\n1. The Hateful Eight\n2. No Country for Old Men\n3. Prisoners\n4. The Revenant\n5. Se7en\n6. Nightcrawler\n7. Zodiac\n8. The Girl with the Dragon Tattoo\n9. Wind River\n10. Memories of Murder",
+        "entity": [],
+        "rec_items": [
+          13171,
+          20980,
+          12920,
+          9872,
+          17034,
+          15689,
+          12621,
+          3804,
+          18865,
+          20312,
+          13092,
+          5928,
+          5928,
+          13522,
+          18000,
+          12399,
+          3215,
+          14417,
+          19668,
+          599,
+          17839,
+          22641,
+          12930,
+          22527,
+          7109,
+          10093,
+          9522,
+          10937,
+          2024,
+          15759,
+          4804,
+          9372,
+          17736,
+          19170,
+          19662,
+          15095,
+          5689,
+          21765,
+          22242,
+          16980,
+          9049,
+          17841,
+          15708,
+          16591,
+          23760,
+          14627,
+          4837,
+          22215,
+          17832,
+          20657
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really drawn to a film that features a unique narrative style, set in a snowy landscape with a group of strangers. It has intense character-driven storytelling, sharp dialogue, and outstanding performances. It's a gripping tale of betrayal and survival that keeps you on the edge of your seat.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Deadpool 2 (2018)",
+      "Django Unchained (2012)",
+      "war",
+      "Kill Bill"
+    ],
+    "rec": [
+      "The Hateful Eight (2015)"
+    ],
+    "resp": "have you seen The Hateful Eight (2015)",
+    "template": [
+      "hello what <mask> your favorite movies? May I recommend <mask> It is hilarious",
+      "Hello. I have just finished watching <mask>",
+      "and is currently out in theaters Good Flick",
+      "Can you recommend any others? I saw Deadpool 2 and it was epic",
+      "Have you seen <mask>",
+      "Definitely saw Kill Bill when I was younger, I might check it out again to refresh my memory",
+      "have you seen <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

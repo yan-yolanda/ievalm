@@ -1,0 +1,188 @@
+{
+  "dialog_id": "23024",
+  "turn_id": 3,
+  "context": [
+    "Hi i like romantic comedies do you know some good ones?",
+    "When Harry Met Sally... (1989) and Love Actually (2003) are classics.",
+    "Yes i know them both great ones"
+  ],
+  "entity": [
+    "romance",
+    "comedy",
+    "When Harry Met Sally... (1989)",
+    "Love Actually (2003)"
+  ],
+  "rec": [
+    "Clueless (1995)",
+    "While You Were Sleeping (1995)"
+  ],
+  "resp": "What about Clueless (1995) and While You Were Sleeping (1995)",
+  "template": [
+    "Hi i like <mask> <mask> do you know some good ones?",
+    "<mask> and <mask> are classics.",
+    "Yes i know them both great ones",
+    "What about <mask> and <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23024",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi i like romantic comedies do you know some good ones?"
+      },
+      {
+        "role": "assistant",
+        "content": "When Harry Met Sally... (1989) and Love Actually (2003) are classics."
+      },
+      {
+        "role": "user",
+        "content": "Yes i know them both great ones"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome! Do you have any specific themes or settings you prefer in romantic comedies, or are you open to any suggestions?",
+        "entity": [],
+        "rec_items": [
+          7951,
+          21221,
+          9908,
+          11892,
+          5528,
+          21195,
+          5404,
+          5213,
+          6627,
+          4785,
+          1679,
+          19020,
+          22454,
+          19882,
+          14399,
+          22186,
+          14440,
+          10035,
+          3787,
+          12474,
+          16136,
+          10551,
+          3738,
+          13472,
+          14363,
+          9297,
+          23768,
+          1469,
+          1984,
+          1984,
+          17199,
+          7180,
+          16713,
+          6514,
+          23015,
+          16667,
+          12965,
+          12402,
+          23095,
+          2791,
+          23357,
+          12913,
+          15943,
+          3295,
+          19109,
+          16243,
+          17925,
+          12685,
+          20942,
+          9724
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy light-hearted stories with a mix of romance and humor. I appreciate films that have a fun take on relationships and maybe some quirky characters. For example, there are some great films from the mid-90s that capture that vibe perfectly! They feature charming leads and delightful plots that revolve around love and friendship.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: 50 (2011)\n2: Silver Linings Playbook (2012)\n3: It's Kind of a Funny Story (2010)\n4: (2007)\n5: Midnight in Paris (2011)\n6: The Sure Thing (1985)\n7: What Women Want (2011)\n8: Easy A (2010)\n9: Just Friends? (2009)\n10: Bridesmaids (2011)\n11: The Comedian (2016)\n12: What Women Want (2000)\n13: Bridesmaids (1989)\n14: Annie Hall (1977)\n15: Picture Perfect (1997)\n16: Clueless (1995)\n17: His Girl Friday (1940)\n18: As Good as It Gets (1997)\n19: Chasing Amy (1997)\n20: Someone like You (2001)\n21: Madame (2017)\n22: Just Go with It (2011)\n23: Definitely, Maybe (2008)\n24: Now and Then (1995)\n25: Whatever Works (2009)\n26: The Comedy (2012)\n27: Date Movie (2006)\n28: Happy Accidents (2000)\n29: Mystic Pizza (1988)\n30: Say Anything... (1989)\n31: The Object of My Affection (1998)\n32: Just Friends (2005)\n33: Mr. Wonderful (1993)\n34: A Midsummer Night's Dream (1999)\n35: The Graduate (1967)\n36: Manhattan (1979)\n37: A Lot like Love (2005)\n38: 50/50 (2011)\n39: Yes Man (2008)\n40: The Holiday (2006)\n41: Adventureland (2009)\n42: Magic in the Moonlight (2014)\n43: Bridget Jones\n44: Up in the Air (2009)\n45: I Heart Huckabees (2004)\n46: 500 Days of Summer\n47: Anything Else (2003)\n48: 50 First Dates (2004)\n49: Something to Talk About (1995)\n50: Serendipity (2001)\n:Great! Based on your preferences for light-hearted romantic comedies with quirky characters and charming leads, here are some recommendations:\n\n1. 10 Things I Hate About You\n2. Notting Hill\n3. The Wedding Singer\n4. Four Weddings and a Funeral\n5. Clueless\n6. While You Were Sleeping\n7. My Best Friend's Wedding\n8. The Truth About Cats & Dogs\n9. She's All That\n10. The Proposal",
+        "entity": [],
+        "rec_items": [
+          10215,
+          5420,
+          22938,
+          16809,
+          12746,
+          11892,
+          14722,
+          9211,
+          3295,
+          9468,
+          17647,
+          6699,
+          12972,
+          3738,
+          18663,
+          10091,
+          23270,
+          5528,
+          17143,
+          10536,
+          18959,
+          12402,
+          7614,
+          6627,
+          20238,
+          2993,
+          3100,
+          7238,
+          4085,
+          17511,
+          4334,
+          20003,
+          23357,
+          10625,
+          6514,
+          11907,
+          6832,
+          20654,
+          10035,
+          14440,
+          13548,
+          19759,
+          6566,
+          2850,
+          1893,
+          17433,
+          7293,
+          4237,
+          7434,
+          23584
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Those sound like fantastic options! I really enjoy light-hearted stories with a mix of romance and humor. For instance, there are some delightful films from the mid-90s that perfectly capture that vibe. They feature charming leads and fun plots revolving around love and friendship. One of them is about a high school girl navigating her social life and relationships, while another tells the story of a woman who finds love in an unexpected situation while working at a train station. Both are truly enjoyable!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Love Actually (2003)",
+      "comedy",
+      "romance",
+      "When Harry Met Sally... (1989)"
+    ],
+    "rec": [
+      "Clueless (1995)",
+      "While You Were Sleeping (1995)"
+    ],
+    "resp": "What about Clueless (1995) and While You Were Sleeping (1995)",
+    "template": [
+      "Hi i like <mask> <mask> do you know some good ones?",
+      "<mask> and <mask> are classics.",
+      "Yes i know them both great ones",
+      "What about <mask> and <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

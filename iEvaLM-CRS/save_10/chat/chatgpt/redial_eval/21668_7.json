@@ -1,0 +1,151 @@
+{
+  "dialog_id": "21668",
+  "turn_id": 7,
+  "context": [
+    "Hello!",
+    "Hi ya!",
+    "I loved Ant-Man (2015) , can you recommend more?",
+    "Sure, I can...have you ever seen Honey, I Shrunk the Kids (1989)",
+    "Haha yeah, classic Moranis",
+    "Hahahaha that one is so funny, I just thought small people! Do you like films with miniatures?",
+    "Possibly I'll take anything else. I'm pretty open."
+  ],
+  "entity": [
+    "Ant-Man (2015)",
+    "Eve",
+    "Honey, I Shrunk the Kids (1989)"
+  ],
+  "rec": [
+    "The Borrowers (1997)",
+    "Honey, I Shrunk the Kids (1989)"
+  ],
+  "resp": "The Borrowers (1997) is pretty funny, it is sort of kids, but if you liked Honey, I Shrunk the Kids (1989) , you will like it!",
+  "template": [
+    "Hello!",
+    "Hi ya!",
+    "I loved <mask> , can you recommend more?",
+    "Sure, I can...have you <mask>r seen <mask>",
+    "Haha yeah, classic Moranis",
+    "Hahahaha that one is so funny, I just thought small people! Do you like films with miniatures?",
+    "Possibly I'll take anything else. I'm pretty open.",
+    "<mask> is pretty funny, it is sort of kids, but if you liked <mask> , you will like it!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21668",
+    "turn_id": 7,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello!"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi ya!"
+      },
+      {
+        "role": "user",
+        "content": "I loved Ant-Man (2015) , can you recommend more?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, I can...have you ever seen Honey, I Shrunk the Kids (1989)"
+      },
+      {
+        "role": "user",
+        "content": "Haha yeah, classic Moranis"
+      },
+      {
+        "role": "assistant",
+        "content": "Hahahaha that one is so funny, I just thought small people! Do you like films with miniatures?"
+      },
+      {
+        "role": "user",
+        "content": "Possibly I'll take anything else. I'm pretty open."
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Little Woman\n2: Small Soldiers (1998)\n3: Little Men (2016)\n4: Absolutely Anything (2015)\n5: The Incredible Shrinking Woman (1981)\n6: Honey, I Shrunk the Kids\n7: Little Monsters (1989)\n8: Little Shop of Horrors (1986)\n9: The Little Shop of Horrors (1960)\n10: Stuart Little (1999)\n11: Honey, I Shrunk the Kids (1989)\n12: Big (1988)\n13: Little Nicky (2000)\n14: Anything Else (2003)\n15: Honey, We Shrunk Ourselves\n16: Arrietty\n17: Little Giants (1994)\n18: Gnomes\n19: The Little Hours\n20: Toy Story That Time Forgot\n21: The Little Prince (2015)\n22: Mannequin (1987)\n23: Minions (2015)\n24: A Little Princess (1995)\n25: Child's Play (1988)\n26: Giant Creepy Crawlies (2000)\n27: Tinker Bell\n28: Tinker Bell\n29: Toys (1992)\n30: Troll (1986)\n31: Little Man (2006)\n32: Downsized (2017)\n33: Thumbsucker (2005)\n34: Dolls (1987)\n35: Barbie Thumbelina\n36: A Kid for Two Farthings (1955)\n37: ParaNorman (2012)\n38: The Toy (1982)\n39: Early Man\n40: Mary and Max (2009)\n41: Pinocchio (1972)\n42: Toy Story (1995)\n43: Little Nemo: Adventures in Slumberland (1989)\n44: Snowglobe\n45: The Hobbit\n46: Leprechaun (1993)\n47: Babes in Toyland (1934)\n48: Checking Out (2005)\n49: It's Kind of a Funny Story (2010)\n50: Funny Things Happen Down Under (1965)\n:Great! Here are some recommendations for you:\n\n1. Guardians of the Galaxy (2014)\n2. Spider-Man: Homecoming (2017)\n3. Thor: Ragnarok (2017)\n4. Doctor Strange (2016)\n5. The Incredibles (2004)\n6. Big Hero 6 (2014)\n7. Shazam! (2019)\n8. Jumanji: Welcome to the Jungle (2017)\n9. The Lego Movie (2014)\n10. Zombieland (2009)",
+        "entity": [],
+        "rec_items": [
+          13418,
+          16467,
+          18175,
+          21534,
+          8635,
+          8219,
+          9533,
+          3973,
+          13270,
+          22074,
+          3770,
+          6652,
+          22443,
+          7293,
+          15502,
+          6139,
+          8090,
+          23487,
+          23335,
+          18513,
+          7489,
+          8606,
+          22101,
+          3812,
+          9993,
+          14386,
+          1572,
+          1572,
+          3632,
+          6135,
+          8604,
+          20356,
+          5360,
+          137,
+          5429,
+          11359,
+          13284,
+          13769,
+          21800,
+          5650,
+          3090,
+          21678,
+          20204,
+          17034,
+          12631,
+          21247,
+          6934,
+          23037,
+          22938,
+          18924
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. Have you heard about a film where tiny people live in a house and borrow things from humans? It's quite a charming story! Also, there's another classic where a scientist accidentally shrinks his kids and their adventures in the backyard are hilarious. Both are really enjoyable!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Ant-Man (2015)",
+      "Eve",
+      "Honey, I Shrunk the Kids (1989)"
+    ],
+    "rec": [
+      "The Borrowers (1997)",
+      "Honey, I Shrunk the Kids (1989)"
+    ],
+    "resp": "The Borrowers (1997) is pretty funny, it is sort of kids, but if you liked Honey, I Shrunk the Kids (1989) , you will like it!",
+    "template": [
+      "Hello!",
+      "Hi ya!",
+      "I loved <mask> , can you recommend more?",
+      "Sure, I can...have you <mask>r seen <mask>",
+      "Haha yeah, classic Moranis",
+      "Hahahaha that one is so funny, I just thought small people! Do you like films with miniatures?",
+      "Possibly I'll take anything else. I'm pretty open.",
+      "<mask> is pretty funny, it is sort of kids, but if you liked <mask> , you will like it!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

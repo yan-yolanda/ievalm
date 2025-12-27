@@ -1,0 +1,170 @@
+{
+  "dialog_id": "23024",
+  "turn_id": 1,
+  "context": [
+    "Hi i like romantic comedies do you know some good ones?"
+  ],
+  "entity": [
+    "romance",
+    "comedy"
+  ],
+  "rec": [
+    "When Harry Met Sally... (1989)",
+    "Love Actually (2003)"
+  ],
+  "resp": "When Harry Met Sally... (1989) and Love Actually (2003) are classics.",
+  "template": [
+    "Hi i like <mask> <mask> do you know some good ones?",
+    "<mask> and <mask> are classics."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23024",
+    "turn_id": 1,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi i like romantic comedies do you know some good ones?"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you have any favorite romantic comedies that you've enjoyed in the past? Or are there specific themes or actors you prefer?",
+        "entity": [],
+        "rec_items": [
+          10536,
+          4785,
+          9628,
+          24468,
+          10123,
+          15269,
+          17647,
+          5528,
+          22947,
+          16809,
+          3622,
+          21221,
+          10035,
+          4334,
+          10215,
+          11903,
+          18159,
+          23270,
+          10810,
+          12915,
+          7793,
+          7180,
+          8936,
+          3339,
+          17178,
+          18959,
+          16957,
+          22077,
+          17364,
+          14722,
+          15430,
+          4237,
+          22145,
+          19331,
+          22522,
+          5404,
+          6566,
+          5488,
+          11907,
+          6699,
+          1021,
+          19882,
+          11892,
+          21451,
+          16243,
+          7091,
+          9056,
+          24107,
+          17952,
+          21928
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy romantic comedies that explore the complexities of relationships and have a mix of humor and heartfelt moments. For instance, there's a classic film that beautifully captures the evolution of a friendship into love, featuring witty dialogue and memorable scenes. Another one I like is a charming story that intertwines multiple love stories during the holiday season, filled with warmth and humor. Both films have become iconic in the genre!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Comedian (2016)\n2: (2007)\n3: The Holiday (2006)\n4: As Good as It Gets (1997)\n5: Love Actually (2003)\n6: Annie Hall (1977)\n7: The Object of My Affection (1998)\n8: The Sure Thing (1985)\n9: What Women Want (2011)\n10: Someone like You (2001)\n11: When a Man Loves a Woman (1994)\n12: You've Got Mail (1998)\n13: His Girl Friday (1940)\n14: 50 (2011)\n15: Easy A (2010)\n16: My Best Friend's Girl (2008)\n17: Now and Then (1995)\n18: It Happened One Night (1934)\n19: Something to Talk About (1995)\n20: Silver Linings Playbook (2012)\n21: Just Friends? (2009)\n22: The Pursuit of Happiness (1934)\n23: Romance (1920)\n24: P.S. I Love You (2007)\n25: The Graduate (1967)\n26: What Women Want (2000)\n27: Romance (1986)\n28: Roman Holiday (1953)\n29: And So It Goes (2014)\n30: 50 First Dates (2004)\n31: Shakespeare in Love (1998)\n32: French Kiss (1995)\n33: Frances Ha (2012)\n34: 27 Dresses (2008)\n35: Good Will Hunting (1997)\n36: Anything Else (2003)\n37: Only You (1994)\n38: Gentlemen Prefer Blondes (1953)\n39: Madame (2017)\n40: When in Rome (2010)\n41: I Love You, Man (2009)\n42: True Romance (1993)\n43: Romancing the Stone (1984)\n44: The Purple Rose of Cairo (1985)\n45: Date Movie (2006)\n46: Picture Perfect (1997)\n47: The Comedy (2012)\n48: Bridesmaids (2011)\n49: My Best Friend's Wedding (1997)\n50: The Artist (2011)\n:Great! Based on your preferences for romantic comedies that explore relationship complexities with humor and heartfelt moments, here are some recommendations:\n\n1. When Harry Met Sally...\n2. Love Actually\n3. 10 Things I Hate About You\n4. Crazy, Stupid, Love\n5. The Proposal\n6. Notting Hill\n7. The Holiday\n8. Silver Linings Playbook\n9. About Time\n10. The 40-Year-Old Virgin",
+        "entity": [],
+        "rec_items": [
+          17647,
+          16809,
+          14440,
+          5528,
+          9908,
+          3738,
+          4334,
+          11892,
+          14722,
+          10536,
+          5404,
+          19882,
+          23270,
+          10215,
+          9211,
+          7793,
+          6627,
+          18729,
+          7434,
+          5420,
+          3295,
+          19098,
+          8936,
+          4785,
+          6514,
+          6699,
+          9628,
+          17673,
+          4745,
+          4237,
+          23768,
+          3339,
+          17555,
+          11903,
+          18159,
+          7293,
+          24468,
+          15269,
+          18959,
+          10170,
+          3622,
+          22947,
+          16957,
+          21928,
+          3100,
+          18663,
+          2993,
+          9468,
+          12965,
+          19316
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions! I really enjoy films that beautifully capture the evolution of friendships into love, especially those with witty dialogue and memorable scenes. There's a classic that does just that, and it also explores the complexities of relationships in a heartfelt way. Additionally, I love a charming story that intertwines multiple love stories during the holiday season, filled with warmth and humor. Both of these films have become iconic in the romantic comedy genre!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "comedy",
+      "romance"
+    ],
+    "rec": [
+      "When Harry Met Sally... (1989)",
+      "Love Actually (2003)"
+    ],
+    "resp": "When Harry Met Sally... (1989) and Love Actually (2003) are classics.",
+    "template": [
+      "Hi i like <mask> <mask> do you know some good ones?",
+      "<mask> and <mask> are classics."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

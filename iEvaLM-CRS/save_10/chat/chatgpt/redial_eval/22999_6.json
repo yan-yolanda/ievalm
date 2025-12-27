@@ -1,0 +1,208 @@
+{
+  "dialog_id": "22999",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hi!",
+    "hey how are you?",
+    "I’m good thanks for asking",
+    "I'm looking for movies to watch any genre",
+    "Okay I love romantic ! So I would suggest watching The Vow (2012) with Channing Tatum so good ! Also August Rush (2007)",
+    "sounds good haven't seen them what else?"
+  ],
+  "entity": [
+    "romance",
+    "Channing Tatum",
+    "The Vow (2012)",
+    "August Rush (2007)"
+  ],
+  "rec": [
+    "50 First Dates (2004)"
+  ],
+  "resp": "50 First Dates (2004) with Adam Sandler is pretty good too! If you have not seen it",
+  "template": [
+    "Hi!",
+    "hey how are you?",
+    "I’m good thanks for asking",
+    "I'm looking for movies to watch any genre",
+    "Okay I love <mask> ! So I would suggest watching <mask> with <mask> so good ! Also <mask>",
+    "sounds good haven't seen them what else?",
+    "<mask> with <mask>pretty good too! If you have not seen it"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22999",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi!"
+      },
+      {
+        "role": "user",
+        "content": "hey how are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m good thanks for asking"
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for movies to watch any genre"
+      },
+      {
+        "role": "assistant",
+        "content": "Okay I love romantic ! So I would suggest watching The Vow (2012) with Channing Tatum so good ! Also August Rush (2007)"
+      },
+      {
+        "role": "user",
+        "content": "sounds good haven't seen them what else?"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you have any other specific preferences, like a particular genre or mood you're in?",
+        "entity": [],
+        "rec_items": [
+          20978,
+          19071,
+          11686,
+          4334,
+          18694,
+          5355,
+          10215,
+          12915,
+          8376,
+          4837,
+          14470,
+          3949,
+          21065,
+          3622,
+          17506,
+          4873,
+          15016,
+          4785,
+          18491,
+          6832,
+          15759,
+          9522,
+          7985,
+          19662,
+          16809,
+          23768,
+          13851,
+          18159,
+          22947,
+          13382,
+          17364,
+          6867,
+          300,
+          14441,
+          18842,
+          12735,
+          14173,
+          1818,
+          18114,
+          1021,
+          5059,
+          20654,
+          3382,
+          14875,
+          17749,
+          4014,
+          11892,
+          6906,
+          13171,
+          21451
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy romantic comedies, especially ones that have a unique twist to the story. There's this film where a man falls in love with a woman who has short-term memory loss, and he has to win her heart every day. It's quite heartwarming and funny!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Someone like You (2001)\n2: What Women Want (2011)\n3: I, the Other (2006)\n4: The Comedian (2016)\n5: When a Man Loves a Woman (1994)\n6: Maid in Manhattan\n7: When We First Met\n8: Madame (2017)\n9: It's Kind of a Funny Story (2010)\n10: (2007)\n11: Yes Man (2008)\n12: What Women Want (2000)\n13: The Sure Thing (1985)\n14: 50 (2011)\n15: The Artist (2011)\n16: Mr. Wonderful (1993)\n17: Only You (1994)\n18: Manhattan (1979)\n19: The Object of My Affection (1998)\n20: Romance (1986)\n21: The Time Traveler's Wife (2009)\n22: Anything Else (2003)\n23: I Love You, Man (2009)\n24: Silver Linings Playbook (2012)\n25: Date Movie (2006)\n26: Love & Other Drugs (2010)\n27: Chasing Amy (1997)\n28: 50 First Dates (2004)\n29: P.S. I Love You (2007)\n30: Amélie (2001)\n31: Beginners\n32: His Girl Friday (1940)\n33: Where the Heart Is (2000)\n34: It Could Happen to You (1994)\n35: 500 Days of Summer\n36: 27 Dresses (2008)\n37: Me Before You\n38: Annie Hall (1977)\n39: Bridget Jones\n40: Happy Accidents (2000)\n41: Her (2013)\n42: (2015)\n43: The Other Woman (2014)\n44: Frances Ha (2012)\n45: Love Story (2011)\n46: He's Just Not That Into You\n47: Now and Then (1995)\n48: As Good as It Gets (1997)\n49: Love Actually (2003)\n50: Easy A (2010)\n:That sounds like \"50 First Dates\"! Based on your love for romantic comedies with unique twists, here are some recommendations for you:\n\n1. 50 First Dates\n2. The Proposal\n3. Crazy, Stupid, Love\n4. About Time\n5. The Wedding Singer\n6. 10 Things I Hate About You\n7. Love, Simon\n8. Notting Hill\n9. The 40-Year-Old Virgin\n10. When Harry Met Sally...",
+        "entity": [],
+        "rec_items": [
+          10536,
+          14722,
+          15430,
+          17647,
+          5404,
+          17178,
+          22077,
+          18959,
+          22938,
+          16809,
+          10035,
+          6699,
+          11892,
+          10215,
+          19316,
+          23357,
+          24468,
+          11907,
+          4334,
+          9628,
+          22860,
+          7293,
+          3622,
+          5420,
+          3100,
+          17952,
+          17143,
+          4237,
+          4785,
+          17581,
+          24107,
+          23270,
+          13916,
+          22145,
+          17433,
+          11903,
+          17746,
+          3738,
+          6566,
+          7238,
+          18000,
+          1021,
+          9979,
+          17555,
+          2606,
+          16582,
+          6627,
+          5528,
+          9908,
+          9211
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really enjoy that film where a man has to win over a woman with short-term memory loss every day. It's such a heartwarming and funny story!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "August Rush (2007)",
+      "The Vow (2012)",
+      "romance",
+      "Channing Tatum"
+    ],
+    "rec": [
+      "50 First Dates (2004)"
+    ],
+    "resp": "50 First Dates (2004) with Adam Sandler is pretty good too! If you have not seen it",
+    "template": [
+      "Hi!",
+      "hey how are you?",
+      "I’m good thanks for asking",
+      "I'm looking for movies to watch any genre",
+      "Okay I love <mask> ! So I would suggest watching <mask> with <mask> so good ! Also <mask>",
+      "sounds good haven't seen them what else?",
+      "<mask> with <mask>pretty good too! If you have not seen it"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

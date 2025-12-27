@@ -1,0 +1,113 @@
+{
+  "dialog_id": "21704",
+  "turn_id": 2,
+  "context": [
+    "",
+    "hi have you seen Deadpool 2 (2018) ?",
+    "Hi! I have. I liked Deadpool (2016) more though"
+  ],
+  "entity": [
+    "Deadpool 2 (2018)",
+    "Deadpool (2016)"
+  ],
+  "rec": [
+    "Deadpool (2016)"
+  ],
+  "resp": "What are your favorite movies? I also enjoyed Deadpool (2016) a little more",
+  "template": [
+    "hi have you seen <mask> ?",
+    "Hi! I have. I liked <mask> more though",
+    "What are your favorite movies? I also enjoyed <mask> a little more"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21704",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hi have you seen Deadpool 2 (2018) ?"
+      },
+      {
+        "role": "user",
+        "content": "Hi! I have. I liked Deadpool (2016) more though"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Deadpool 2 (2018)\n2: Deadpool (2016)\n3: Guardians of the Galaxy Vol. 2 (2017)\n4: Avengers: Infinity War (2018)\n5: Suicide Squad (2016)\n6: Guardians of the Galaxy (2014)\n7: Ant-Man (2015)\n8: Captain America: Civil War (2016)\n9: Rio 2 (2014)\n10: The Avengers (2012)\n11: Venom (2018)\n12: Ant-Man and the Wasp (2018)\n13: Iron Man 2 (2010)\n14: Now You See Me 2 (2016)\n15: The Amazing Spider-Man 2 (2014)\n16: Avenger (2006)\n17: Spider-Man: Homecoming (2017)\n18: Kick-Ass 2 (2013)\n19: Blade Runner 2049 (2017)\n20: Avengers: Age of Ultron (2015)\n21: Black Panther (2018)\n22: Defendor (2009)\n23: Evil Dead II (1987)\n24: Thor: Ragnarok (2017)\n25: The Boss (2016)\n26: Boo 2! A Madea Halloween (2017)\n27: Batman v Superman: Dawn of Justice (2016)\n28: Big Hero 6 (2014)\n29: Zoolander 2 (2016)\n30: X-Men: Apocalypse (2016)\n31: Wonder Woman (2017)\n32: Red 2 (2013)\n33: Superhero Movie (2008)\n34: Wonder Woman 2 (2019)\n35: The Hangover Part II (2011)\n36: 2 Guns (2013)\n37: Spider-Man 2 (2004)\n38: 3 Avengers\n39: Rio (2011)\n40: Toy Story 4 (2018)\n41: How to Train Your Dragon 2 (2014)\n42: A Good Day to Die Hard (2013)\n43: Pitch Perfect 2 (2015)\n44: The Departed (2006)\n45: The Intern (2015)\n46: The Emoji Movie (2017)\n47: Spider-Man (2002)\n48: Incredibles 2 (2018)\n49: Red Dragon (2002)\n50: Yes Man (2008)\n:That's great to hear! What did you like most about Deadpool? Are there specific genres or themes you enjoy in movies?",
+        "entity": [],
+        "rec_items": [
+          20405,
+          21378,
+          3191,
+          20468,
+          9530,
+          17184,
+          11794,
+          12807,
+          10559,
+          21396,
+          20789,
+          20729,
+          3960,
+          10127,
+          21666,
+          2693,
+          8721,
+          6334,
+          14901,
+          14005,
+          20437,
+          8365,
+          18971,
+          14739,
+          17703,
+          20385,
+          2804,
+          5053,
+          13708,
+          8079,
+          4920,
+          14600,
+          19896,
+          20359,
+          8078,
+          328,
+          8862,
+          19851,
+          19313,
+          9179,
+          21832,
+          19269,
+          23140,
+          22641,
+          12552,
+          9406,
+          24614,
+          20645,
+          2438,
+          10035
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoyed the humor and the unique take on the superhero genre. The blend of action and comedy, along with the character's fourth-wall-breaking moments, made it stand out. I appreciate films that have a mix of irreverence and heart, along with strong character development. The way it approached themes of identity and acceptance was also compelling.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Deadpool 2 (2018)",
+      "Deadpool (2016)"
+    ],
+    "rec": [
+      "Deadpool (2016)"
+    ],
+    "resp": "What are your favorite movies? I also enjoyed Deadpool (2016) a little more",
+    "template": [
+      "hi have you seen <mask> ?",
+      "Hi! I have. I liked <mask> more though",
+      "What are your favorite movies? I also enjoyed <mask> a little more"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

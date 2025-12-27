@@ -1,0 +1,238 @@
+{
+  "dialog_id": "21415",
+  "turn_id": 10,
+  "context": [
+    "",
+    "Hi, how are you today?",
+    "Fine, I looking for movie to watch",
+    "What kinds of movies do you like?",
+    "Mystery, know any?",
+    "Do you prefer older movies or new ones?",
+    "My number one is The Prestige (2006) It is not that old.",
+    "I hear Red Sparrow (2018) is pretty good.",
+    "I have seen it it is not that bad",
+    "Did you like it?",
+    "Have you seen Seven (1995) ?"
+  ],
+  "entity": [
+    "mystery",
+    "Ste",
+    "The Prestige (2006)",
+    "Red Sparrow (2018)",
+    "Seven (1995)"
+  ],
+  "rec": [
+    "Super Troopers 2 (2018)"
+  ],
+  "resp": "I remember the title, but I don't recall if I saw the film. Have you seen Super Troopers 2 (2018)?",
+  "template": [
+    "Hi, how are you today?",
+    "Fine, I looking for movie to watch",
+    "What kinds of movies do you like?",
+    "<mask>on>ry, know any?",
+    "Do you prefer older movies or new ones?",
+    "My number one is <mask> It is not that old.",
+    "I hear <mask> is pretty good.",
+    "I have seen it it is not that bad",
+    "Did you like it?",
+    "Have you seen <mask> ?",
+    "I remember the title, but I don't recall if I saw the film. Have you seen <mask>?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21415",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi, how are you today?"
+      },
+      {
+        "role": "user",
+        "content": "Fine, I looking for movie to watch"
+      },
+      {
+        "role": "assistant",
+        "content": "What kinds of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Mystery, know any?"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you prefer older movies or new ones?"
+      },
+      {
+        "role": "user",
+        "content": "My number one is The Prestige (2006) It is not that old."
+      },
+      {
+        "role": "assistant",
+        "content": "I hear Red Sparrow (2018) is pretty good."
+      },
+      {
+        "role": "user",
+        "content": "I have seen it it is not that bad"
+      },
+      {
+        "role": "assistant",
+        "content": "Did you like it?"
+      },
+      {
+        "role": "user",
+        "content": "Have you seen Seven (1995) ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, \"Seven\" is a classic! Do you enjoy psychological thrillers as well?",
+        "entity": [],
+        "rec_items": [
+          16959,
+          5990,
+          17054,
+          23266,
+          14870,
+          20431,
+          21221,
+          18159,
+          6969,
+          13747,
+          16614,
+          5528,
+          18615,
+          13300,
+          24325,
+          22958,
+          7821,
+          24367,
+          18490,
+          17545,
+          3519,
+          21678,
+          4694,
+          22735,
+          12652,
+          2194,
+          5386,
+          19360,
+          1919,
+          15257,
+          13458,
+          7875,
+          10035,
+          16392,
+          16566,
+          23633,
+          15961,
+          3950,
+          8750,
+          10581,
+          16535,
+          7851,
+          24473,
+          11799,
+          22016,
+          10351,
+          18756,
+          24128,
+          2693,
+          11649
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I do enjoy psychological thrillers! Speaking of which, there's a great film that combines humor and a bit of absurdity with a unique storyline. It features a group of quirky law enforcement officers who find themselves in a hilarious situation. It's a sequel that brings back the original cast and has some memorable comedic moments. Would you be interested in something like that?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Seven (1995)\n2: Seven Psychopaths (2012)\n3: The Seven-Ups (1973)\n4: Seven (1979)\n5: Funny Games (1997)\n6: Seventh Son (2015)\n7: Psycho (1998)\n8: Police Story 2 (2007)\n9: The Usual Suspects (1995)\n10: Psycho\n11: The Number 23 (2007)\n12: Chicago (1927)\n13: Psycho (1960)\n14: 8mm (1999)\n15: Funny Games (2007)\n16: High Anxiety (1977)\n17: Following (1998)\n18: The Seven Five\n19: Police Story (1996)\n20: Going in Style (2017)\n21: Mastermind (1976)\n22: 21 (2008)\n23: Quints\n24: Super Troopers (2001)\n25: Police Story 2 (1988)\n26: Police Academy 2: Their First Assignment (1985)\n27: Masterminds (1997)\n28: Detective School Dropouts (1986)\n29: The Seventh Sign (1988)\n30: Extract\n31: The 'Burbs (1989)\n32: Inherent Vice (2014)\n33: 88 Minutes (2007)\n34: L.A. Confidential (1997)\n35: Hot Fuzz (2007)\n36: Super Troopers 2 (2018)\n37: Seventeen (1916)\n38: Spies Like Us (1985)\n39: Psycho III (1986)\n40: Hard Eight (1996)\n41: Hot Pursuit (2015)\n42: Ho! (1968)\n43: Analyze This (1999)\n44: Yes Man (2008)\n45: Klute\n46: Yes, Madam (1985)\n47: Manhunter (1986)\n48: Police Story 3: Super Cop (1992)\n49: I.T.\n50: Grosse Pointe Blank (1997)\n:It sounds like you enjoy a mix of genres! Would you like recommendations that include both mystery and psychological thrillers, or are you leaning more towards the comedic aspect?",
+        "entity": [],
+        "rec_items": [
+          16959,
+          2749,
+          13300,
+          5990,
+          11799,
+          23266,
+          22061,
+          21125,
+          9780,
+          24311,
+          23141,
+          19866,
+          23755,
+          24325,
+          24554,
+          23147,
+          11649,
+          16614,
+          13223,
+          12147,
+          18920,
+          6906,
+          16798,
+          3269,
+          19310,
+          23822,
+          10281,
+          13816,
+          6969,
+          18240,
+          8086,
+          7253,
+          7432,
+          3215,
+          6852,
+          13249,
+          17483,
+          12515,
+          8820,
+          24473,
+          23897,
+          17946,
+          19058,
+          10035,
+          17832,
+          15867,
+          4623,
+          24108,
+          14311,
+          2346
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the mix of genres! There's a fantastic film that blends comedy with a unique storyline about a group of quirky law enforcement officers. It's a sequel that brings back the original cast and is filled with memorable comedic moments. It's definitely worth checking out if you're in the mood for something light-hearted yet entertaining!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "mystery",
+      "The Prestige (2006)",
+      "Ste",
+      "Seven (1995)",
+      "Red Sparrow (2018)"
+    ],
+    "rec": [
+      "Super Troopers 2 (2018)"
+    ],
+    "resp": "I remember the title, but I don't recall if I saw the film. Have you seen Super Troopers 2 (2018)?",
+    "template": [
+      "Hi, how are you today?",
+      "Fine, I looking for movie to watch",
+      "What kinds of movies do you like?",
+      "<mask>on>ry, know any?",
+      "Do you prefer older movies or new ones?",
+      "My number one is <mask> It is not that old.",
+      "I hear <mask> is pretty good.",
+      "I have seen it it is not that bad",
+      "Did you like it?",
+      "Have you seen <mask> ?",
+      "I remember the title, but I don't recall if I saw the film. Have you seen <mask>?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,194 @@
+{
+  "dialog_id": "23144",
+  "turn_id": 5,
+  "context": [
+    "hey how are you?",
+    "I'm good. What are you in the mood for?",
+    "I'm looking for some movies to watch any genre it doesn't amtter matter",
+    "Toy Story (1995) is good.",
+    "ok. I haven't seen that"
+  ],
+  "entity": [
+    "Toy Story (1995)"
+  ],
+  "rec": [
+    "The Princess Bride (1987)"
+  ],
+  "resp": "The Princess Bride (1987) is good",
+  "template": [
+    "hey how are you?",
+    "I'm good. What are you in the mood for?",
+    "I'm looking for some movies to watch any genre it doesn't amtter matter",
+    "<mask> is good.",
+    "ok. I haven't seen that",
+    "<mask> is good"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23144",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "hey how are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm good. What are you in the mood for?"
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for some movies to watch any genre it doesn't amtter matter"
+      },
+      {
+        "role": "assistant",
+        "content": "Toy Story (1995) is good."
+      },
+      {
+        "role": "user",
+        "content": "ok. I haven't seen that"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you have any specific genres you enjoy, or are you open to any type of movie?",
+        "entity": [],
+        "rec_items": [
+          21678,
+          20937,
+          13381,
+          18513,
+          9179,
+          3632,
+          13769,
+          13253,
+          13541,
+          1572,
+          1572,
+          15524,
+          23504,
+          149,
+          8081,
+          22074,
+          15145,
+          24004,
+          23758,
+          18615,
+          12327,
+          15961,
+          24621,
+          6942,
+          18373,
+          2295,
+          24150,
+          24308,
+          5786,
+          18159,
+          3548,
+          12504,
+          22762,
+          21491,
+          9039,
+          17435,
+          22484,
+          7053,
+          18585,
+          6934,
+          17858,
+          23023,
+          13286,
+          9942,
+          241,
+          21168,
+          23987,
+          13393,
+          13747,
+          6602
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to any type of movie! I really enjoy stories that blend adventure, romance, and humor, especially ones with memorable characters and clever dialogue.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Amelia (2009)\n2: What Women Want (2011)\n3: Enchanted (2007)\n4: Legend (1985)\n5: Absolutely Anything (2015)\n6: Avatar\n7: Fanboys (2009)\n8: Her (2013)\n9: Doctor Who\n10: Chef (2014)\n11: Aladdin\n12: Clueless (1995)\n13: Tinker Bell\n14: Tinker Bell\n15: What Women Want (2000)\n16: Ladyhawke (1985)\n17: Hugo (2011)\n18: Adventureland (2009)\n19: Avenger (2006)\n20: Allied (2016)\n21: Get Smart (2008)\n22: Toy Story (1995)\n23: The Borrowers (1997)\n24: Away We Go (2009)\n25: Anastasia (1997)\n26: Rio (2011)\n27: Arrietty\n28: Easy A (2010)\n29: The Princess Bride (1987)\n30: Good Will Hunting (1997)\n31: Say Anything... (1989)\n32: As Good as It Gets (1997)\n33: Casanova (2005)\n34: Australia (2008)\n35: Sherlock Holmes (2009)\n36: Just Go with It (2011)\n37: Sherlock Holmes (2010)\n38: The Martian (2015)\n39: 50 (2011)\n40: Letters to Juliet (2010)\n41: Into the Woods (2014)\n42: (2007)\n43: Grimm (2003)\n44: Epic Movie (2007)\n45: Mystic Pizza (1988)\n46: Avatar (2009)\n47: It's Kind of a Funny Story (2010)\n48: Amélie (2001)\n49: Just Visiting (2001)\n50: The Hobbit\n:Thanks for sharing your preferences! Here are some movie recommendations that blend adventure, romance, and humor:\n\n1. The Princess Bride\n2. Stardust\n3. Jumanji: Welcome to the Jungle\n4. The Grand Budapest Hotel\n5. Crazy, Stupid, Love\n6. The Secret Life of Walter Mitty\n7. La La Land\n8. Pirates of the Caribbean: The Curse of the Black Pearl\n9. 10 Things I Hate About You\n10. The Proposal",
+        "entity": [],
+        "rec_items": [
+          15163,
+          14722,
+          23506,
+          15627,
+          21534,
+          13768,
+          1371,
+          18000,
+          13061,
+          9003,
+          9645,
+          10091,
+          1572,
+          1572,
+          6699,
+          17437,
+          10937,
+          13548,
+          2693,
+          15263,
+          19895,
+          21678,
+          17317,
+          7819,
+          15961,
+          19313,
+          6139,
+          9211,
+          1991,
+          18159,
+          17511,
+          5528,
+          16210,
+          19277,
+          8347,
+          12402,
+          11337,
+          12399,
+          10215,
+          14875,
+          24272,
+          16809,
+          6062,
+          23450,
+          4085,
+          23296,
+          22938,
+          17581,
+          24475,
+          12631
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I think I’m looking for something a bit different. I really enjoy a classic tale that features a mix of adventure, romance, and humor, with memorable characters and witty dialogue. It’s a story that has a charming blend of fantasy and a quest, along with some iconic lines that have stood the test of time.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Toy Story (1995)"
+    ],
+    "rec": [
+      "The Princess Bride (1987)"
+    ],
+    "resp": "The Princess Bride (1987) is good",
+    "template": [
+      "hey how are you?",
+      "I'm good. What are you in the mood for?",
+      "I'm looking for some movies to watch any genre it doesn't amtter matter",
+      "<mask> is good.",
+      "ok. I haven't seen that",
+      "<mask> is good"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

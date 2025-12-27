@@ -1,0 +1,194 @@
+{
+  "dialog_id": "23108",
+  "turn_id": 11,
+  "context": [
+    "Hi, I like almost anything",
+    "Hey. Do you like Eddie Murphy?",
+    "He's OK. I like Bill Murray better",
+    "Cause I recommend Life (1999) for the grownups. And Dr. Dolittle (1998) for the family.",
+    "Oh, I haven't seen cause I recommend life and I saw Dr. Dolittle (1998) a million years ago I liked Stripes (1981)",
+    "I haven't seen that.",
+    "There's another one I like something about a guy 'Bob'",
+    "If you're in the mood for a revamp of Bill Murray I suggest Happy Death Day (2017) for Groundhog Day (1993).",
+    "Oh, I haven't seen either of those, but they sound interesting especially Happy Death Day (2017)",
+    "They probably have few similarities, but you can try.",
+    "I didn't much care for St. Vincent (2014)"
+  ],
+  "entity": [
+    "Eddie Murphy",
+    "Bill Murray",
+    "family",
+    "Life (1999)",
+    "Dr. Dolittle (1998)",
+    "Dr. Dolittle (1998)",
+    "Stripes (1981)",
+    "Bill Murray",
+    "Happy Death Day (2017)",
+    "Groundhog Day (1993)",
+    "Happy Death Day (2017)",
+    "St. Vincent (2014)"
+  ],
+  "rec": [
+    "Groundhog Day (1993)",
+    "St. Vincent (2014)"
+  ],
+  "resp": "Remember Groundhog Day (1993) is Bill Murray. Why didn't you like St. Vincent (2014)?",
+  "template": [
+    "Hi, I like almost anything",
+    "Hey. Do you like <mask>",
+    "He's OK. I like <mask>tter",
+    "Cause I recommend <mask> for the grownups. And <mask> for the <mask>.",
+    "Oh, I haven't seen cause I recommend life and I saw <mask> a million years ago I liked <mask>",
+    "I haven't seen that.",
+    "There's another one I like something about a guy 'Bob'",
+    "If you're in the mood for a revamp of <mask>suggest <mask> for <mask>.",
+    "Oh, I haven't seen either of those, but they sound interesting especially <mask>",
+    "They probably have few similarities, but you can try.",
+    "I didn't much care for <mask>",
+    "Remember <mask> is <mask>hy didn't you like <mask>?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23108",
+    "turn_id": 11,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi, I like almost anything"
+      },
+      {
+        "role": "assistant",
+        "content": "Hey. Do you like Eddie Murphy?"
+      },
+      {
+        "role": "user",
+        "content": "He's OK. I like Bill Murray better"
+      },
+      {
+        "role": "assistant",
+        "content": "Cause I recommend Life (1999) for the grownups. And Dr. Dolittle (1998) for the family."
+      },
+      {
+        "role": "user",
+        "content": "Oh, I haven't seen cause I recommend life and I saw Dr. Dolittle (1998) a million years ago I liked Stripes (1981)"
+      },
+      {
+        "role": "assistant",
+        "content": "I haven't seen that."
+      },
+      {
+        "role": "user",
+        "content": "There's another one I like something about a guy 'Bob'"
+      },
+      {
+        "role": "assistant",
+        "content": "If you're in the mood for a revamp of Bill Murray I suggest Happy Death Day (2017) for Groundhog Day (1993)."
+      },
+      {
+        "role": "user",
+        "content": "Oh, I haven't seen either of those, but they sound interesting especially Happy Death Day (2017)"
+      },
+      {
+        "role": "assistant",
+        "content": "They probably have few similarities, but you can try."
+      },
+      {
+        "role": "user",
+        "content": "I didn't much care for St. Vincent (2014)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: St. Vincent (2014)\n2: Same Kind of Different as Me (2017)\n3: Can't Hardly Wait\n4: Almost Friends (2014)\n5: My Cousin Vinny (1992)\n6: A Guide to Recognizing Your Saints (2006)\n7: Joe (2013)\n8: Loving Vincent\n9: The Help (2011)\n10: Thumbsucker (2005)\n11: A Girl Like Her (2012)\n12: Stitches (2011)\n13: They Look Like People (2015)\n14: A Man Apart (2003)\n15: You're Not You (2014)\n16: Sister (2015)\n17: The Internship (2013)\n18: Equals (2015)\n19: You Were Never Really Here\n20: The Artist (2011)\n21: 50 (2011)\n22: Collide (2016)\n23: Her (2013)\n24: 50/50 (2011)\n25: Definitely, Maybe (2008)\n26: The Sitter (2011)\n27: He's Just Not That Into You\n28: Drive (2011)\n29: Frances Ha (2012)\n30: There's Something About Mary (1998)\n31: Gia\n32: Inside Llewyn Davis (2013)\n33: Almost Famous (2000)\n34: Yes (2004)\n35: The Master (2012)\n36: A Lot like Love (2005)\n37: Girl, Interrupted (1999)\n38: Madame (2017)\n39: Someone like You (2001)\n40: Little Nicky (2000)\n41: Strange Days (1995)\n42: A History of Violence (2005)\n43: Sully (2016)\n44: Devil (2011)\n45: The Way, Way Back (2013)\n46: The Human Stain (2003)\n47: 8mm (1999)\n48: Extract\n49: Only God Forgives (2013)\n50: The Rover (2014)\n:Got it! Based on your preferences, here are some recommendations for you:\n\n1. Groundhog Day (1993)\n2. Ghostbusters (1984)\n3. Lost in Translation (2003)\n4. Caddyshack (1980)\n5. The Royal Tenenbaums (2001)\n6. Zombieland (2009)\n7. What About Bob? (1991)\n8. Rushmore (1998)\n9. The Life Aquatic with Steve Zissou (2004)\n10. Meatballs (1979)",
+        "entity": [],
+        "rec_items": [
+          19691,
+          9387,
+          21685,
+          11434,
+          12513,
+          1188,
+          16812,
+          9898,
+          17896,
+          5360,
+          6501,
+          7676,
+          21174,
+          10343,
+          6016,
+          19281,
+          3049,
+          5219,
+          24010,
+          19316,
+          10215,
+          100,
+          18000,
+          20654,
+          7614,
+          22783,
+          16582,
+          17841,
+          17555,
+          16136,
+          14417,
+          14601,
+          10961,
+          21221,
+          13171,
+          6832,
+          18942,
+          18959,
+          10536,
+          22443,
+          4694,
+          16358,
+          2919,
+          2408,
+          21554,
+          12055,
+          24325,
+          18240,
+          23567,
+          17115
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Oh, those sound great! I really enjoy films that have a unique twist or a heartfelt story. For instance, there's a classic where a man relives the same day over and over, which leads to some hilarious and profound moments. There's also a touching story about a grumpy man who forms an unexpected friendship with a young boy. Both films have a great mix of humor and heart!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eddie Murphy",
+      "St. Vincent (2014)",
+      "Bill Murray",
+      "Happy Death Day (2017)",
+      "Life (1999)",
+      "family",
+      "Dr. Dolittle (1998)",
+      "Stripes (1981)",
+      "Groundhog Day (1993)"
+    ],
+    "rec": [
+      "Groundhog Day (1993)",
+      "St. Vincent (2014)"
+    ],
+    "resp": "Remember Groundhog Day (1993) is Bill Murray. Why didn't you like St. Vincent (2014)?",
+    "template": [
+      "Hi, I like almost anything",
+      "Hey. Do you like <mask>",
+      "He's OK. I like <mask>tter",
+      "Cause I recommend <mask> for the grownups. And <mask> for the <mask>.",
+      "Oh, I haven't seen cause I recommend life and I saw <mask> a million years ago I liked <mask>",
+      "I haven't seen that.",
+      "There's another one I like something about a guy 'Bob'",
+      "If you're in the mood for a revamp of <mask>suggest <mask> for <mask>.",
+      "Oh, I haven't seen either of those, but they sound interesting especially <mask>",
+      "They probably have few similarities, but you can try.",
+      "I didn't much care for <mask>",
+      "Remember <mask> is <mask>hy didn't you like <mask>?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

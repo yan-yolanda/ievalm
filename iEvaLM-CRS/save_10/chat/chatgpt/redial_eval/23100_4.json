@@ -1,0 +1,188 @@
+{
+  "dialog_id": "23100",
+  "turn_id": 4,
+  "context": [
+    "",
+    "How are you doing today?",
+    "Hi, I'm up for anything, but I do like climbing movies like Vertical Limit (2000)",
+    "what kind of movie can I recommend for you?",
+    "Really just like a GOOD movie!"
+  ],
+  "entity": [
+    "Vertical Limit (2000)"
+  ],
+  "rec": [
+    "Cliffhanger (1993)"
+  ],
+  "resp": "Cliffhanger (1993) is the only climbing movie I know",
+  "template": [
+    "How are you doing today?",
+    "Hi, I'm up for anything, but I do like climbing movies like <mask>",
+    "what kind of movie can I recommend for you?",
+    "Really just like a GOOD movie!",
+    "<mask> is the only climbing movie I know"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23100",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "How are you doing today?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, I'm up for anything, but I do like climbing movies like Vertical Limit (2000)"
+      },
+      {
+        "role": "assistant",
+        "content": "what kind of movie can I recommend for you?"
+      },
+      {
+        "role": "user",
+        "content": "Really just like a GOOD movie!"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Do you have any specific genres you prefer, or are you open to anything?",
+        "entity": [],
+        "rec_items": [
+          5528,
+          18159,
+          24004,
+          24478,
+          21884,
+          19331,
+          11517,
+          18491,
+          6201,
+          17435,
+          19269,
+          3428,
+          12402,
+          17571,
+          10961,
+          13171,
+          13747,
+          10035,
+          10536,
+          13846,
+          19617,
+          23459,
+          7362,
+          9211,
+          6514,
+          17685,
+          6277,
+          11892,
+          10013,
+          17013,
+          10753,
+          3295,
+          6250,
+          7793,
+          18615,
+          10987,
+          21120,
+          20657,
+          21525,
+          628,
+          14114,
+          24591,
+          21678,
+          4224,
+          20071,
+          10157,
+          14722,
+          18000,
+          9160,
+          4464
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to anything, but I really enjoy thrilling action movies, especially those that involve intense outdoor adventures and high-stakes situations. There's something about the combination of breathtaking scenery and adrenaline-pumping moments that really captivates me!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Mission: Impossible\n2: G.I. Joe\n3: Jack Reacher (2012)\n4: Avenger (2006)\n5: Mission: Impossible II (2000)\n6: Mission: Impossible (1996)\n7: The Hunger Games\n8: Indiana Jones\n9: The A-Team (2010)\n10: Thor\n11: Jurassic Park\n12: Jaws\n13: 13 Assassins (2010)\n14: Mission: Impossible III (2006)\n15: American Assassin\n16: National Treasure\n17: Hanna (2011)\n18: The Chaser (2008)\n19: High Sierra (1941)\n20: Skyfall (2012)\n21: Assassins (1995)\n22: Cliffhanger (1993)\n23: National Treasure (2004)\n24: The Force\n25: Into the Blue (2005)\n26: The Guardian (2006)\n27: Doctor Who\n28: American Sniper (2014)\n29: The High and the Mighty (1954)\n30: The Expendables\n31: San Andreas (2015)\n32: Sudden Impact (1983)\n33: Everest (2015)\n34: The Specialist (1994)\n35: Enemy Mine (1985)\n36: The Hunger Games (2012)\n37: North by Northwest (1959)\n38: Mission: Impossible – Rogue Nation (2015)\n39: Spider-Man (2002)\n40: Jaws (1975)\n41: That's It, That's All\n42: Spider (2007)\n43: Jason Bourne (2016)\n44: Bourne\n45: The Edge (1997)\n46: Jurassic World (2015)\n47: Avatar\n48: Jumper (2008)\n49: The Martian (2015)\n50: The Hunter (2011)\n:Great! Based on your preference for thrilling action movies with intense outdoor adventures, here are some recommendations for you:\n\n1. Cliffhanger\n2. 127 Hours\n3. The Dawn Wall\n4. Everest\n5. Free Solo\n6. The Eiger Sanction\n7. Touching the Void\n8. The Summit\n9. Meru\n10. The Vertical Limit (2000)",
+        "entity": [],
+        "rec_items": [
+          21731,
+          18672,
+          21156,
+          2693,
+          18936,
+          17812,
+          14878,
+          12724,
+          2580,
+          2623,
+          467,
+          23094,
+          17984,
+          10253,
+          10173,
+          21274,
+          23793,
+          14977,
+          11066,
+          14245,
+          15257,
+          22576,
+          16619,
+          19668,
+          22073,
+          13081,
+          13061,
+          12425,
+          6277,
+          21293,
+          12973,
+          23139,
+          18742,
+          14114,
+          14689,
+          8394,
+          15756,
+          16720,
+          24614,
+          16566,
+          24560,
+          549,
+          5631,
+          8644,
+          23532,
+          23218,
+          13768,
+          1365,
+          12399,
+          8587
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out a film that features a gripping story set in the mountains, where a group faces extreme challenges and high-stakes situations. It stars a well-known action hero and has some breathtaking scenery, along with intense moments that keep you on the edge of your seat. It's a classic in the genre and really captures the thrill of climbing and survival.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Vertical Limit (2000)"
+    ],
+    "rec": [
+      "Cliffhanger (1993)"
+    ],
+    "resp": "Cliffhanger (1993) is the only climbing movie I know",
+    "template": [
+      "How are you doing today?",
+      "Hi, I'm up for anything, but I do like climbing movies like <mask>",
+      "what kind of movie can I recommend for you?",
+      "Really just like a GOOD movie!",
+      "<mask> is the only climbing movie I know"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

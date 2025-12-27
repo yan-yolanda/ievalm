@@ -1,0 +1,149 @@
+{
+  "dialog_id": "20657",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello How are you?",
+    "Hi I’m good how are you ?",
+    "Tell me what kind of movies would you like to watch? i'm awesome",
+    "I like to watch comedy, action , and a little drama! What about you ?",
+    "i like Comedy movies and Action movies",
+    "Glad to hear you are doing awesome !"
+  ],
+  "entity": [
+    "comedy",
+    "action",
+    "drama",
+    "comedy",
+    "action"
+  ],
+  "rec": [
+    "Click (2010)",
+    "Black Panther (2018)",
+    "You Don't Mess with the Zohan (2008)"
+  ],
+  "resp": "Have you seen Click (2010) ? And what about Black Panther (2018) ? i also can recommend you You Don't Mess with the Zohan (2008)",
+  "template": [
+    "Hello How are you?",
+    "Hi I’m good how are you ?",
+    "Tell me what kind of movies would you like to watch? i'm awesome",
+    "I like to watch <mask>, <mask> , and a littl<mask>ma! What about you ?",
+    "i like <mask>> movies and<mask>>n movies",
+    "Glad to hear you are doing awesome !",
+    "Have you seen <mask> ? And what about <mask> ? i also can recommend you <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20657",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello How are you?"
+      },
+      {
+        "role": "user",
+        "content": "Hi I’m good how are you ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Tell me what kind of movies would you like to watch? i'm awesome"
+      },
+      {
+        "role": "user",
+        "content": "I like to watch comedy, action , and a little drama! What about you ?"
+      },
+      {
+        "role": "assistant",
+        "content": "i like Comedy movies and Action movies"
+      },
+      {
+        "role": "user",
+        "content": "Glad to hear you are doing awesome !"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Super (2010)\n2: The Comedy (2012)\n3: Kick-Ass\n4: Superhero Movie (2008)\n5: The Comedian (2016)\n6: Epic Movie (2007)\n7: Tropic Thunder (2008)\n8: Your Highness (2011)\n9: Wonder Woman 2 (2019)\n10: Kick-Ass (2010)\n11: The Green Hornet (2011)\n12: Superfast! (2015)\n13: Extract\n14: The Dark Knight Trilogy\n15: The Hitman's Bodyguard\n16: Project A (1983)\n17: Kick-Ass 2 (2013)\n18: American Ninja (1985)\n19: The Interview (2014)\n20: Last Action Hero (1993)\n21: American Ultra (2015)\n22: Ant-Man (2015)\n23: God Bless America (2011)\n24: Guardians of the Galaxy (2014)\n25: As Good as It Gets (1997)\n26: Get Smart (2008)\n27: Young Adult (2011)\n28: Mr. and Mrs. (2012)\n29: Avenger (2006)\n30: Tank (1984)\n31: Mystery Science Theater 3000: The Movie (1996)\n32: Grosse Pointe Blank (1997)\n33: American Ninja 2: The Confrontation (1987)\n34: Attack the Block\n35: Cop Out (2010)\n36: My Super Ex-Girlfriend\n37: His Girl Friday (1940)\n38: G.I. Joe\n39: Superman (1997)\n40: Funny People (2009)\n41: Snatched (2017)\n42: Sky High (2003)\n43: The Marine (2006)\n44: Super Troopers (2001)\n45: Chef (2014)\n46: Captain Underpants: The First Epic Movie\n47: Friday\n48: You Don't Mess with the Zohan (2008)\n49: Space Cop (2016)\n50: Guardians (2017)\n:Thank you! Based on your preferences for comedy, action, and a bit of drama, here are some recommendations for you:\n\n1. Superbad\n2. The Hangover\n3. Step Brothers\n4. 21 Jump Street\n5. Deadpool\n6. Guardians of the Galaxy\n7. Jumanji: Welcome to the Jungle\n8. Tropic Thunder\n9. The Other Guys\n10. Zombieland\n\nI hope you find something you enjoy!",
+        "entity": [],
+        "rec_items": [
+          15579,
+          2993,
+          22547,
+          19896,
+          17647,
+          23450,
+          18555,
+          13102,
+          20359,
+          19455,
+          7165,
+          18710,
+          18240,
+          14481,
+          2132,
+          21692,
+          6334,
+          23605,
+          23984,
+          19952,
+          12660,
+          11794,
+          14982,
+          17184,
+          5528,
+          19895,
+          18746,
+          19864,
+          2693,
+          22259,
+          7362,
+          2346,
+          6242,
+          12404,
+          5424,
+          22065,
+          23270,
+          18672,
+          10581,
+          13238,
+          20338,
+          21245,
+          15029,
+          3269,
+          9003,
+          20392,
+          11173,
+          2507,
+          1692,
+          4715
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I have some specific titles in mind that I think you might enjoy. One is a comedy that explores the consequences of having a remote control that can manipulate time. Another is a superhero film that features a groundbreaking portrayal of a black hero and has a strong cultural impact. Lastly, there's a comedy about a man who becomes a hairdresser in a foreign country, which is quite entertaining. Let me know if you'd like to hear more about these!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "comedy",
+      "action",
+      "drama"
+    ],
+    "rec": [
+      "Click (2010)",
+      "Black Panther (2018)",
+      "You Don't Mess with the Zohan (2008)"
+    ],
+    "resp": "Have you seen Click (2010) ? And what about Black Panther (2018) ? i also can recommend you You Don't Mess with the Zohan (2008)",
+    "template": [
+      "Hello How are you?",
+      "Hi I’m good how are you ?",
+      "Tell me what kind of movies would you like to watch? i'm awesome",
+      "I like to watch <mask>, <mask> , and a littl<mask>ma! What about you ?",
+      "i like <mask>> movies and<mask>>n movies",
+      "Glad to hear you are doing awesome !",
+      "Have you seen <mask> ? And what about <mask> ? i also can recommend you <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

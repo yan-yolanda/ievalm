@@ -1,0 +1,145 @@
+{
+  "dialog_id": "20636",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello. Have you seen Jaws (1975) It's based on a book about a rogue shark that terrorizes a small beach community during the tourist summer season.",
+    "Hi How are you? No I have not Not really my kind of movie.",
+    "What type of movies do you like?",
+    "I like action",
+    "Then might I recommend Last Action Hero (1993) starring Arnold Schwarzenegger?",
+    "Okay. I haven't seen that one."
+  ],
+  "entity": [
+    "Jaws (1975)",
+    "action",
+    "Arnold Schwarzenegger",
+    "war"
+  ],
+  "rec": [
+    "Die Hard (1988)"
+  ],
+  "resp": "I could also recommend Die Hard (1988)",
+  "template": [
+    "Hello. Have you seen <mask> It's based on a book about a rogue shark that terrorizes a small beach community during the tourist summer season.",
+    "Hi How are you? No I have not Not really my kind of movie.",
+    "What type of movies do you like?",
+    "I like <mask>",
+    "<mask>T<mask>h<mask>e<mask>n<mask> <mask>e>g<mask>h<mask>t<mask> <mask>I<mask> <mask>r<mask>e<mask>c<mask>o<mask>m<mask>m<mask>e<mask>n<mask>d<mask> <mask>@<mask>2<mask>0<mask>1<mask>8<mask>6<mask>1<mask> <mask>s<mask>t<mask>a<mask>r<mask>r<mask>i<mask>n<mask>g<mask> <mask><<mask>p<mask>e<mask>r<mask>s<mask>o<mask>n<mask>><mask>?<mask>",
+    "Okay. I haven't seen that one.",
+    "I could also recommend <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20636",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello. Have you seen Jaws (1975) It's based on a book about a rogue shark that terrorizes a small beach community during the tourist summer season."
+      },
+      {
+        "role": "user",
+        "content": "Hi How are you? No I have not Not really my kind of movie."
+      },
+      {
+        "role": "assistant",
+        "content": "What type of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I like action"
+      },
+      {
+        "role": "assistant",
+        "content": "Then might I recommend Last Action Hero (1993) starring Arnold Schwarzenegger?"
+      },
+      {
+        "role": "user",
+        "content": "Okay. I haven't seen that one."
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Last Action Hero (1993)\n2: Commando (1985)\n3: End of Days (1999)\n4: Total Recall (1990)\n5: Assassins (1995)\n6: Batman & Robin (1997)\n7: True Lies (1994)\n8: The Terminator (1984)\n9: The Last Stand (2013)\n10: Eraser (1996)\n11: Sabotage (2014)\n12: The Running Man (1987)\n13: Red Heat (1988)\n14: Terminator 2: Judgment Day (1991)\n15: Terminator 3: Rise of the Machines (2003)\n16: Collateral Damage (2002)\n17: The Hitcher (1986)\n18: Hatari! (1962)\n19: The Arrow (1996)\n20: The Last Boy Scout (1991)\n21: Conan the Barbarian (1982)\n22: The Last Starfighter (1984)\n23: The Last Dragon (2004)\n24: Bronson (2008)\n25: The Specialist (1994)\n26: Rambo III (1988)\n27: Predator (1987)\n28: Last Man Standing (1996)\n29: Die Hard (1988)\n30: Kung Fury (2015)\n31: American Ninja 2: The Confrontation (1987)\n32: Warrior (2011)\n33: Indiana Jones and the Last Crusade (1989)\n34: Rambo (2008)\n35: Raw Deal (1986)\n36: Spartan (2004)\n37: Hee Man: Master of None (1985)\n38: Hooper (1978)\n39: The Last Samurai (2003)\n40: Hamburger Hill (1987)\n41: Hero (2007)\n42: Universal Soldier (1992)\n43: First Knight (1995)\n44: Avenger (2006)\n45: Hot Shots! (1991)\n46: Hudson Hawk (1991)\n47: Anaconda (1997)\n48: Rambo: First Blood Part II (1985)\n49: Timeline (2003)\n50: Die Hard with a Vengeance (1995)\n:Great! Since you enjoy action movies, here are some recommendations for you:\n\n1. Mad Max: Fury Road\n2. John Wick\n3. Die Hard\n4. Gladiator\n5. The Dark Knight\n6. Inception\n7. The Bourne Identity\n8. Terminator 2: Judgment Day\n9. Speed\n10. Lethal Weapon",
+        "entity": [],
+        "rec_items": [
+          19952,
+          9514,
+          10351,
+          19462,
+          15257,
+          16816,
+          10200,
+          14891,
+          17650,
+          21481,
+          12990,
+          24200,
+          6309,
+          9404,
+          13172,
+          1602,
+          396,
+          12114,
+          18490,
+          21598,
+          13221,
+          6618,
+          7992,
+          15118,
+          14114,
+          4705,
+          18015,
+          684,
+          13360,
+          15969,
+          6242,
+          6573,
+          21258,
+          5231,
+          9060,
+          22813,
+          7564,
+          13005,
+          1400,
+          4047,
+          2675,
+          17760,
+          17504,
+          2693,
+          16932,
+          13859,
+          21791,
+          13763,
+          15920,
+          3579
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really drawn to a classic action film that features a New York City cop who finds himself in a high-stakes situation during a holiday party in a skyscraper. It's known for its intense action sequences and memorable one-liners. Would you like to hear more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Jaws (1975)",
+      "action",
+      "Arnold Schwarzenegger",
+      "war"
+    ],
+    "rec": [
+      "Die Hard (1988)"
+    ],
+    "resp": "I could also recommend Die Hard (1988)",
+    "template": [
+      "Hello. Have you seen <mask> It's based on a book about a rogue shark that terrorizes a small beach community during the tourist summer season.",
+      "Hi How are you? No I have not Not really my kind of movie.",
+      "What type of movies do you like?",
+      "I like <mask>",
+      "<mask>T<mask>h<mask>e<mask>n<mask> <mask>e>g<mask>h<mask>t<mask> <mask>I<mask> <mask>r<mask>e<mask>c<mask>o<mask>m<mask>m<mask>e<mask>n<mask>d<mask> <mask>@<mask>2<mask>0<mask>1<mask>8<mask>6<mask>1<mask> <mask>s<mask>t<mask>a<mask>r<mask>r<mask>i<mask>n<mask>g<mask> <mask><<mask>p<mask>e<mask>r<mask>s<mask>o<mask>n<mask>><mask>?<mask>",
+      "Okay. I haven't seen that one.",
+      "I could also recommend <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

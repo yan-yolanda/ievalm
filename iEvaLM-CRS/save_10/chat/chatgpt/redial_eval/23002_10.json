@@ -1,0 +1,186 @@
+{
+  "dialog_id": "23002",
+  "turn_id": 10,
+  "context": [
+    "",
+    "Hi",
+    "Hi! I like movies about climbing, Into Thin Air: Death on Everest (1997) is a favorite of mine",
+    "So like action ?!",
+    "yes, but based on a true story like Up Denali 3D (2003)",
+    "Gotcha ! The Vow (2012) was really good ! Have you seen it Or Into the Wild (2007)",
+    "No, what was The Vow (2012) ow about",
+    "A married couple happily together but everything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+    "Into the Wild (2007) ld was not about climbing. I mean like Vertical Limit (2000)",
+    "Have you seen K2 (1991)",
+    "Nope, The Vow (2012) was not about the kind of climbing I'm referring to like The Wildest Dream (2010)"
+  ],
+  "entity": [
+    "Into Thin Air: Death on Everest (1997)",
+    "action",
+    "The Vow (2012)",
+    "Into the Wild (2007)",
+    "The Vow (2012)",
+    "Eve",
+    "Into the Wild (2007)",
+    "Vertical Limit (2000)",
+    "K2 (1991)",
+    "The Vow (2012)",
+    "The Wildest Dream (2010)"
+  ],
+  "rec": [
+    "The Mountain Between Us (2017)",
+    "Everest (2015)"
+  ],
+  "resp": "Or The Mountain Between Us (2017) ?! Those are climbing movies Everest (2015) was pretty good",
+  "template": [
+    "Hi",
+    "Hi! I like movies about climbing, <mask> is a favorite of mine",
+    "So like <mask> ?!",
+    "yes, but based on a true story like <mask>",
+    "Gotcha ! <mask> was really good ! Have you seen it Or <mask>",
+    "No, what was <mask> ow about",
+    "A married couple happily together but <mask>rything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+    "<mask> ld was not about climbing. I mean like <mask>",
+    "Have you seen <mask>",
+    "Nope, <mask> was not about the kind of climbing I'm referring to like <mask>",
+    "Or <mask> ?! Those are climbing movies <mask> was pretty good"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23002",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi"
+      },
+      {
+        "role": "user",
+        "content": "Hi! I like movies about climbing, Into Thin Air: Death on Everest (1997) is a favorite of mine"
+      },
+      {
+        "role": "assistant",
+        "content": "So like action ?!"
+      },
+      {
+        "role": "user",
+        "content": "yes, but based on a true story like Up Denali 3D (2003)"
+      },
+      {
+        "role": "assistant",
+        "content": "Gotcha ! The Vow (2012) was really good ! Have you seen it Or Into the Wild (2007)"
+      },
+      {
+        "role": "user",
+        "content": "No, what was The Vow (2012) ow about"
+      },
+      {
+        "role": "assistant",
+        "content": "A married couple happily together but everything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same"
+      },
+      {
+        "role": "user",
+        "content": "Into the Wild (2007) ld was not about climbing. I mean like Vertical Limit (2000)"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen K2 (1991)"
+      },
+      {
+        "role": "user",
+        "content": "Nope, The Vow (2012) was not about the kind of climbing I'm referring to like The Wildest Dream (2010)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: K2 (1991)\n2: The Vow (2012)\n3: The Mountain Between Us (2017)\n4: A Walk in the Clouds (1995)\n5: The Wildest Dream (2010)\n6: Into Thin Air: Death on Everest (1997)\n7: In Dreams (1999)\n8: Willow (1988)\n9: The Impossible (2012)\n10: K-19: The Widowmaker (2002)\n11: K (2002)\n12: Cold Mountain (2003)\n13: Kahaani (2012)\n14: Vanilla Sky (2001)\n15: The Prophecy (1995)\n16: Jacob's Ladder (1990)\n17: Phenomenon (1996)\n18: Copper Mountain (1983)\n19: Everest (2015)\n20: Touching the Void (2003)\n21: Meek's Cutoff (2010)\n22: O (2001)\n23: Journey of Hope (1990)\n24: Eyes Wide Shut (1999)\n25: Escape to Witch Mountain (1995)\n26: The Ledge (2011)\n27: 21 (2008)\n28: Race to Witch Mountain (2009)\n29: Far and Away (1992)\n30: A Knight's Tale (2001)\n31: W.E. (2011)\n32: Blue Crush (2002)\n33: Dreamer (2005)\n34: Gone (2012)\n35: Man on a Ledge (2012)\n36: Courageous (2011)\n37: Backcountry (2014)\n38: Kiss of the Dragon (2001)\n39: Waking Life (2001)\n40: Witness (1985)\n41: Third Man on the Mountain (1959)\n42: Into the Wild (2007)\n43: Sky High (2003)\n44: Knight and Day (2010)\n45: Twister (1996)\n46: The Stolen (2017)\n47: Escape to Witch Mountain (1975)\n48: Rob Roy (1995)\n49: Legend (1985)\n50: Book of Shadows: Blair Witch 2 (2000)\n:Thanks for clarifying! Here are some climbing-related movies based on true stories that you might enjoy:\n\n1. Touching the Void\n2. Meru\n3. Free Solo\n4. The Dawn Wall\n5. Everest\n6. The Summit\n7. 14 Peaks: Nothing Is Impossible\n8. The Eiger Sanction\n9. K2: The Ultimate High\n10. The Wildest Dream",
+        "entity": [],
+        "rec_items": [
+          22470,
+          20978,
+          20312,
+          7769,
+          743,
+          22518,
+          9706,
+          10194,
+          6564,
+          13866,
+          6518,
+          12920,
+          13465,
+          18583,
+          21984,
+          23917,
+          14605,
+          3344,
+          18742,
+          4438,
+          4804,
+          13178,
+          17489,
+          19400,
+          15371,
+          2092,
+          6906,
+          22672,
+          13717,
+          18582,
+          10482,
+          9861,
+          17593,
+          10590,
+          13218,
+          19485,
+          5148,
+          13996,
+          18386,
+          7821,
+          21820,
+          5689,
+          21245,
+          5620,
+          18900,
+          20459,
+          13709,
+          9269,
+          15627,
+          197
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I'm really looking for movies that focus on climbing and survival in extreme conditions, particularly those that are based on true stories. For instance, there's a film that tells the story of two strangers who must work together to survive after a plane crash in a remote area, facing harsh weather and challenging terrain. Another one depicts the harrowing journey of climbers attempting to reach the summit of the world's highest peak, showcasing both the beauty and danger of the climb. These films capture the essence of adventure and resilience in the face of nature's challenges.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "The Vow (2012)",
+      "Into the Wild (2007)",
+      "K2 (1991)",
+      "The Wildest Dream (2010)",
+      "Into Thin Air: Death on Everest (1997)",
+      "Vertical Limit (2000)",
+      "action"
+    ],
+    "rec": [
+      "The Mountain Between Us (2017)",
+      "Everest (2015)"
+    ],
+    "resp": "Or The Mountain Between Us (2017) ?! Those are climbing movies Everest (2015) was pretty good",
+    "template": [
+      "Hi",
+      "Hi! I like movies about climbing, <mask> is a favorite of mine",
+      "So like <mask> ?!",
+      "yes, but based on a true story like <mask>",
+      "Gotcha ! <mask> was really good ! Have you seen it Or <mask>",
+      "No, what was <mask> ow about",
+      "A married couple happily together but <mask>rything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+      "<mask> ld was not about climbing. I mean like <mask>",
+      "Have you seen <mask>",
+      "Nope, <mask> was not about the kind of climbing I'm referring to like <mask>",
+      "Or <mask> ?! Those are climbing movies <mask> was pretty good"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

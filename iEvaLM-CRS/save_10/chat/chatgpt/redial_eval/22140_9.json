@@ -1,0 +1,178 @@
+{
+  "dialog_id": "22140",
+  "turn_id": 9,
+  "context": [
+    "Good evening! How are you?",
+    "Hello1 I'm good.",
+    "My husband and I saw Hell or High Water (2016) and he enjoyed it so much. I am looking for something similar, or maybe with some of the same actors from that movie. Jeff Bridges was sensational in that film. My husband likes westerns, but he likes other things, too.",
+    "Okay. I have a few ideas. Give me a minute",
+    "Sure!",
+    "Have you seen No Country for Old Men (2007)?",
+    "I have not seen that one. Is it a western? I bet my husband would love it.",
+    "It is a western.",
+    "Cool. Now, if I'm picking for me, I loved Jeff Bridges in Tron: Legacy (2010) . Most people aren't crazy about that one and my husband hates it, but I don't understand that. The music in Tron: Legacy (2010) just made the film have such flow. It was great. Any other suggestions?"
+  ],
+  "entity": [
+    "Eve",
+    "Jeff Bridges",
+    "western",
+    "Ste",
+    "Hell or High Water (2016)",
+    "No Country for Old Men (2007)",
+    "western",
+    "Ste",
+    "western",
+    "Ste",
+    "Jeff Bridges",
+    "music",
+    "Tron: Legacy (2010)"
+  ],
+  "rec": [
+    "True Grit (2010)"
+  ],
+  "resp": "True Grit (2010) has Jeff Bridges in it and it is a western. You should both like it.",
+  "template": [
+    "Good <mask>ning! How are you?",
+    "Hello1 I'm good.",
+    "My husband and I saw <mask> and he enjoyed it so much. I am looking for something similar, or maybe with some of the same actors from that movie. <mask> sensational in that film. My husband likes west<mask>on> but he likes other things, too.",
+    "Okay. I have a few ideas. Give me a minute",
+    "Sure!",
+    "Have you seen <mask>?",
+    "I have not seen that one. Is it a <mask>on>rn? I bet my husband would love it.",
+    "It is a <mask>on>rn.",
+    "Cool. Now, if I'm picking for me, I loved <mask><mask> . Most people aren't crazy about that one and my husband hates it, but I don't understand that. The musi<mask><mask> just made the film have such flow. It was great. Any other suggestions?",
+    "<mask> has <mask>it and it is a west<mask>on>You should both like it."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22140",
+    "turn_id": 9,
+    "context": [
+      {
+        "role": "user",
+        "content": "Good evening! How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello1 I'm good."
+      },
+      {
+        "role": "user",
+        "content": "My husband and I saw Hell or High Water (2016) and he enjoyed it so much. I am looking for something similar, or maybe with some of the same actors from that movie. Jeff Bridges was sensational in that film. My husband likes westerns, but he likes other things, too."
+      },
+      {
+        "role": "assistant",
+        "content": "Okay. I have a few ideas. Give me a minute"
+      },
+      {
+        "role": "user",
+        "content": "Sure!"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen No Country for Old Men (2007)?"
+      },
+      {
+        "role": "user",
+        "content": "I have not seen that one. Is it a western? I bet my husband would love it."
+      },
+      {
+        "role": "assistant",
+        "content": "It is a western."
+      },
+      {
+        "role": "user",
+        "content": "Cool. Now, if I'm picking for me, I loved Jeff Bridges in Tron: Legacy (2010) . Most people aren't crazy about that one and my husband hates it, but I don't understand that. The music in Tron: Legacy (2010) just made the film have such flow. It was great. Any other suggestions?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Tron: Legacy (2010)\n2: Tron (1982)\n3: True Grit (2010)\n4: Starman (1984)\n5: Blown Away (1994)\n6: Looper (2012)\n7: Six Reasons Why (2008)\n8: Back to the Future\n9: The Big Lebowski\n10: The Magnificent Seven (2016)\n11: High Fidelity (2000)\n12: Blade Runner (1982)\n13: Jumper (2008)\n14: The Outlaw Josey Wales (1976)\n15: Texas Rising (2015)\n16: Gran Torino (2008)\n17: The Duel (2016)\n18: Crazy Heart (2009)\n19: I, Robot (2004)\n20: Man of the West (1958)\n21: Against All Odds (1984)\n22: The Giver (2014)\n23: Space Cowboys (2000)\n24: Back to the Future (1985)\n25: Passengers (2016)\n26: Blade: Trinity (2004)\n27: The Hitcher (1986)\n28: Freejack (1992)\n29: Surrogates (2009)\n30: Back to the Future Part II (1989)\n31: Westworld (1973)\n32: A Scanner Darkly (2006)\n33: THX 1138 (1971)\n34: Escape from L.A. (1996)\n35: Once Upon a Time in the West (1968)\n36: Appaloosa (2008)\n37: American Graffiti (1973)\n38: Idiocracy (2006)\n39: The Good, the Bad and the Ugly (1966)\n40: Cowboys & Aliens (2011)\n41: Independence Day: Resurgence (2016)\n42: Hardware (1990)\n43: Son of Django (1967)\n44: The Last Picture Show (1971)\n45: 2010 (1984)\n46: Awesome (2006)\n47: Sukiyaki Western Django (2007)\n48: Badlands (1973)\n49: Oblivion (2013)\n50: Passenger 57 (1992)\n:Got it! I have enough information now. Here are some recommendations for you and your husband:\n\n1. No Country for Old Men\n2. True Grit (2010)\n3. The Big Lebowski\n4. Hell or High Water\n5. The Assassination of Jesse James by the Coward Robert Ford\n6. The Last Picture Show\n7. The Old Man & the Gun\n8. The Giver\n9. Tron (1982)\n10. Blade Runner 2049",
+        "entity": [],
+        "rec_items": [
+          14912,
+          10223,
+          22215,
+          22990,
+          11970,
+          18754,
+          24024,
+          16,
+          17013,
+          23633,
+          23050,
+          10862,
+          1365,
+          10703,
+          20808,
+          21608,
+          6541,
+          9438,
+          24571,
+          7444,
+          10060,
+          3157,
+          4748,
+          8522,
+          13054,
+          18689,
+          396,
+          24157,
+          15966,
+          14069,
+          14018,
+          11557,
+          8422,
+          13965,
+          21490,
+          6082,
+          18931,
+          18355,
+          6201,
+          5524,
+          4827,
+          6536,
+          11718,
+          1897,
+          1337,
+          4366,
+          7966,
+          6553,
+          24596,
+          8750
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I think I should share a bit about a film that really stands out. It features a strong narrative about a young girl who seeks to avenge her father's death with the help of a tough U.S. Marshal. The film is set in the rugged American West and showcases themes of justice and determination. The performances are exceptional, especially by the lead actor, who brings a unique depth to the character. The cinematography beautifully captures the landscape, making it a visually stunning experience. If your husband enjoys westerns, this one is definitely worth considering!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "No Country for Old Men (2007)",
+      "Eve",
+      "Hell or High Water (2016)",
+      "Jeff Bridges",
+      "music",
+      "Ste",
+      "Tron: Legacy (2010)",
+      "western"
+    ],
+    "rec": [
+      "True Grit (2010)"
+    ],
+    "resp": "True Grit (2010) has Jeff Bridges in it and it is a western. You should both like it.",
+    "template": [
+      "Good <mask>ning! How are you?",
+      "Hello1 I'm good.",
+      "My husband and I saw <mask> and he enjoyed it so much. I am looking for something similar, or maybe with some of the same actors from that movie. <mask> sensational in that film. My husband likes west<mask>on> but he likes other things, too.",
+      "Okay. I have a few ideas. Give me a minute",
+      "Sure!",
+      "Have you seen <mask>?",
+      "I have not seen that one. Is it a <mask>on>rn? I bet my husband would love it.",
+      "It is a <mask>on>rn.",
+      "Cool. Now, if I'm picking for me, I loved <mask><mask> . Most people aren't crazy about that one and my husband hates it, but I don't understand that. The musi<mask><mask> just made the film have such flow. It was great. Any other suggestions?",
+      "<mask> has <mask>it and it is a west<mask>on>You should both like it."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,197 @@
+{
+  "dialog_id": "21824",
+  "turn_id": 4,
+  "context": [
+    "",
+    "hello how are you",
+    "Hi. I am good thanks, how are you? Hi. How are you? Can you recommend me a movie with Reese Witherspoon? I loved Legally Blonde (2001)",
+    "im great. I loved her in Legally Blonde (2001) Sweet Home Alabama (2002) Hot Pursuit (2015) and Sing (2016)",
+    "Wow so many great movies! Thank you! Which one did you like the most?"
+  ],
+  "entity": [
+    "Reese Witherspoon",
+    "Legally Blonde (2001)",
+    "Legally Blonde (2001)",
+    "Sweet Home Alabama (2002)",
+    "Hot Pursuit (2015)",
+    "Sing (2016)"
+  ],
+  "rec": [
+    "Sing (2016)"
+  ],
+  "resp": "I liked Sing (2016) the most",
+  "template": [
+    "hello how are you",
+    "Hi. I am good thanks, how are you? Hi. How are you? Can you recommend me a movie with <mask> <mask>",
+    "im great. I loved her in <mask> <mask> <mask> and <mask>",
+    "Wow so many great movies! Thank you! Which one did you like the most?",
+    "I liked <mask> the most"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21824",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello how are you"
+      },
+      {
+        "role": "user",
+        "content": "Hi. I am good thanks, how are you? Hi. How are you? Can you recommend me a movie with Reese Witherspoon? I loved Legally Blonde (2001)"
+      },
+      {
+        "role": "assistant",
+        "content": "im great. I loved her in Legally Blonde (2001) Sweet Home Alabama (2002) Hot Pursuit (2015) and Sing (2016)"
+      },
+      {
+        "role": "user",
+        "content": "Wow so many great movies! Thank you! Which one did you like the most?"
+      },
+      {
+        "role": "assistant",
+        "content": "I think Sweet Home Alabama (2002) is a standout! It's a charming romantic comedy with a great storyline and Reese Witherspoon shines in her role. Do you have a favorite genre or type of movie you enjoy?",
+        "entity": [],
+        "rec_items": [
+          8227,
+          7099,
+          16933,
+          23897,
+          9724,
+          17137,
+          17202,
+          10091,
+          16053,
+          9086,
+          4785,
+          18417,
+          23279,
+          20439,
+          19885,
+          10536,
+          15414,
+          17896,
+          15722,
+          18000,
+          16809,
+          12552,
+          12549,
+          9211,
+          20400,
+          17300,
+          7793,
+          24326,
+          636,
+          23357,
+          16932,
+          20197,
+          14722,
+          6892,
+          7091,
+          24119,
+          10810,
+          5124,
+          18281,
+          6162,
+          23140,
+          15163,
+          5759,
+          14440,
+          16397,
+          2253,
+          21221,
+          23050,
+          17701,
+          17143
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy animated films, especially those that have a lot of heart and great music. There's this fantastic movie that features a variety of animals trying to achieve their dreams through a singing competition. It's filled with humor, catchy songs, and a wonderful message about perseverance and following your passion.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Sweet Home Alabama (2002)\n2: Home Again (2017)\n3: Home (2015)\n4: Tinker Bell\n5: Tinker Bell\n6: Enchanted (2007)\n7: Ella Enchanted (2004)\n8: (2007)\n9: Home for the Holidays (1972)\n10: Just like Heaven (2005)\n11: Homeward Bound: The Incredible Journey (1993)\n12: Pitch Perfect (2012)\n13: Honey (2003)\n14: Home Again (2012)\n15: Legally Blonde (2001)\n16: Zootopia\n17: A Far Off Place (1993)\n18: Rio 2 (2014)\n19: Pitch Perfect\n20: Ponyo\n21: Flicka (2006)\n22: Rio (2011)\n23: Sweet and Lowdown (1999)\n24: Mamma Mia! (2008)\n25: Because of Winn-Dixie (2005)\n26: Wild (2014)\n27: The Purple Rose of Cairo (1985)\n28: Aladdin (1992)\n29: Home Sweet Home (2016)\n30: Sing (2016)\n31: Annie Hall (1977)\n32: Amelia (2009)\n33: Another Cinderella Story (2008)\n34: Toy Story 2 (1999)\n35: Steel Magnolias (2012)\n36: Alice in Wonderland (2005)\n37: Where the Heart Is (2000)\n38: The Sweetest Thing (2002)\n39: Waiting to Exhale (1995)\n40: Aliens in the Attic (2009)\n41: Annie (1982)\n42: Fantastic Mr. Fox (2009)\n43: Toy Story (1995)\n44: Love the Coopers (2015)\n45: Homeward Bound (1923)\n46: I Heart Huckabees (2004)\n47: Forrest Gump (1994)\n48: Madea's Family Reunion (2006)\n49: Away We Go (2009)\n50: Anastasia (1997)\n:Great! Since you enjoy animated films with heart and great music, I can recommend some movies that fit that description. Here’s a list for you:\n\n1. Sing (2016)\n2. Zootopia (2016)\n3. Coco (2017)\n4. Moana (2016)\n5. The Lion King (1994)\n6. Inside Out (2015)\n7. Finding Nemo (2003)\n8. Toy Story (1995)\n9. The Incredibles (2004)\n10. Up (2009)",
+        "entity": [],
+        "rec_items": [
+          8227,
+          20439,
+          7040,
+          1572,
+          1572,
+          23506,
+          22209,
+          16809,
+          4289,
+          10753,
+          17243,
+          18281,
+          17549,
+          13561,
+          7099,
+          21954,
+          24452,
+          10559,
+          10685,
+          6591,
+          19013,
+          19313,
+          20175,
+          6162,
+          17240,
+          18511,
+          21928,
+          2295,
+          3084,
+          19944,
+          3738,
+          15163,
+          23316,
+          20937,
+          22238,
+          19736,
+          13916,
+          21118,
+          3792,
+          12504,
+          21709,
+          11641,
+          21678,
+          14426,
+          3164,
+          1893,
+          13648,
+          17764,
+          7819,
+          15961
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the suggestions! However, I really enjoy that animated film where a variety of animals come together to pursue their dreams through a singing competition. It's filled with humor, catchy songs, and a wonderful message about perseverance and following your passion.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Sweet Home Alabama (2002)",
+      "Hot Pursuit (2015)",
+      "Legally Blonde (2001)",
+      "Reese Witherspoon",
+      "Sing (2016)"
+    ],
+    "rec": [
+      "Sing (2016)"
+    ],
+    "resp": "I liked Sing (2016) the most",
+    "template": [
+      "hello how are you",
+      "Hi. I am good thanks, how are you? Hi. How are you? Can you recommend me a movie with <mask> <mask>",
+      "im great. I loved her in <mask> <mask> <mask> and <mask>",
+      "Wow so many great movies! Thank you! Which one did you like the most?",
+      "I liked <mask> the most"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

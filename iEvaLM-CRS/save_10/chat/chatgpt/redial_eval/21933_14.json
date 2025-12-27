@@ -1,0 +1,267 @@
+{
+  "dialog_id": "21933",
+  "turn_id": 14,
+  "context": [
+    "",
+    "Hello there",
+    "Howdy How are you?",
+    "I'm great, how are you?",
+    "fine thanks",
+    "What kind of movies are you looking for?",
+    "Do you know any movies similar to A Walk to Remember (2002)?",
+    "I don't think I have ever watched that movie. I'm not even sure what it's about. Have you ever seen Eagle Eye (2008) ?",
+    "It's a sort of coming of age romance Yes. I didn't like it. Not looking for that at all!",
+    "Ok well I can think of something else.",
+    "Thank you",
+    "Not necessarily romantic, have you seen Love Stinks (1999) ?",
+    "No I haven't. Sounds good though! :) Can you recommend another",
+    "It is hilarious.",
+    "Okay cool! Will check it out"
+  ],
+  "entity": [
+    "A Walk to Remember (2002)",
+    "Eve",
+    "Eagle Eye (2008)",
+    "romance",
+    "romance",
+    "Love Stinks (1999)"
+  ],
+  "rec": [
+    "True Lies (1994)"
+  ],
+  "resp": "I can totally have you seen True Lies (1994) ?",
+  "template": [
+    "Hello there",
+    "Howdy How are you?",
+    "I'm great, how are you?",
+    "fine thanks",
+    "What kind of movies are you looking for?",
+    "Do you know any movies similar to <mask>?",
+    "I don't think I have <mask>r watched that movie. I'm not <mask>n sure what it's about. Have you <mask>r seen <mask> ?",
+    "It's a sort of coming of age <mask> Yes. I didn't like it. Not looking for that at all!",
+    "Ok well I can think of something else.",
+    "Thank you",
+    "Not necessarily <mask>, have you seen <mask> ?",
+    "No I haven't. Sounds good though! :) Can you recommend another",
+    "It is hilarious.",
+    "Okay cool! Will check it out",
+    "I can totally have you seen <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21933",
+    "turn_id": 14,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello there"
+      },
+      {
+        "role": "user",
+        "content": "Howdy How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm great, how are you?"
+      },
+      {
+        "role": "user",
+        "content": "fine thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of movies are you looking for?"
+      },
+      {
+        "role": "user",
+        "content": "Do you know any movies similar to A Walk to Remember (2002)?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't think I have ever watched that movie. I'm not even sure what it's about. Have you ever seen Eagle Eye (2008) ?"
+      },
+      {
+        "role": "user",
+        "content": "It's a sort of coming of age romance Yes. I didn't like it. Not looking for that at all!"
+      },
+      {
+        "role": "assistant",
+        "content": "Ok well I can think of something else."
+      },
+      {
+        "role": "user",
+        "content": "Thank you"
+      },
+      {
+        "role": "assistant",
+        "content": "Not necessarily romantic, have you seen Love Stinks (1999) ?"
+      },
+      {
+        "role": "user",
+        "content": "No I haven't. Sounds good though! :) Can you recommend another"
+      },
+      {
+        "role": "assistant",
+        "content": "It is hilarious."
+      },
+      {
+        "role": "user",
+        "content": "Okay cool! Will check it out"
+      },
+      {
+        "role": "assistant",
+        "content": "What other genres do you enjoy?",
+        "entity": [],
+        "rec_items": [
+          23037,
+          22938,
+          18710,
+          2993,
+          14905,
+          22395,
+          18924,
+          12741,
+          4258,
+          15524,
+          17647,
+          13238,
+          19848,
+          12029,
+          17202,
+          6602,
+          12623,
+          19617,
+          22783,
+          18756,
+          12552,
+          18153,
+          641,
+          17703,
+          20539,
+          1692,
+          11160,
+          23756,
+          18240,
+          8272,
+          10215,
+          23822,
+          4028,
+          16075,
+          10899,
+          8243,
+          8520,
+          10596,
+          7522,
+          23220,
+          23266,
+          22193,
+          13749,
+          18555,
+          15642,
+          12402,
+          19494,
+          23450,
+          4745,
+          6165
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy action-comedy films that have a mix of humor and thrilling moments. One film that stands out in that genre features a secret agent who balances his dangerous job with family life, leading to some hilarious and intense situations. It's a classic from the '90s that combines espionage with comedy in a unique way.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Avenger (2006)\n2: Assassins (1995)\n3: Mission: Impossible\n4: Mission: Impossible (1996)\n5: Spy (2015)\n6: G.I. Joe\n7: Men in Black\n8: Last Action Hero (1993)\n9: Rush Hour\n10: Masterminds (1997)\n11: Spies Like Us (1985)\n12: Sky High (2003)\n13: Rush Hour 2 (2001)\n14: Men in Black (1997)\n15: Police Story 2 (1988)\n16: The Hitman's Bodyguard\n17: Shanghai Noon (2000)\n18: James Bond (2015)\n19: Police Story (1985)\n20: Get Smart (2008)\n21: Spy Hard (1996)\n22: Rush Hour (1998)\n23: Mission: Impossible II (2000)\n24: True Memoirs of an International Assassin\n25: Goldfinger (1964)\n26: Kingsman: The Secret Service (2014)\n27: Shaolin Soccer (2001)\n28: Secretary (2002)\n29: James Bond (1999)\n30: Rush Hour 3 (2007)\n31: The A-Team (2010)\n32: Timecop (1994)\n33: Con Air (1997)\n34: Central Intelligence (2016)\n35: Austin Powers\n36: True Lies (1994)\n37: The Guardian (2006)\n38: Heist (2001)\n39: Superman (1997)\n40: Men in Black II (2002)\n41: National Treasure (2004)\n42: Spy Kids (2001)\n43: GoldenEye (1995)\n44: Mystery Men (1999)\n45: Kung Fu Hustle (2004)\n46: Austin Powers: The Spy Who Shagged Me (1999)\n47: Johnny English (2003)\n48: The Avengers (1998)\n49: Kick-Ass\n50: Hudson Hawk (1991)\n:Great! Based on your preference for action-comedy films, here are some recommendations:\n\n1. True Lies\n2. Rush Hour\n3. 21 Jump Street\n4. Central Intelligence\n5. The Heat\n6. Spy\n7. Bad Boys\n8. Tropic Thunder\n9. Knight and Day\n10. Get Smart",
+        "entity": [],
+        "rec_items": [
+          2693,
+          15257,
+          21731,
+          17812,
+          10960,
+          18672,
+          14558,
+          19952,
+          13035,
+          10281,
+          12515,
+          21245,
+          24005,
+          11504,
+          19310,
+          2132,
+          23995,
+          19390,
+          9068,
+          19895,
+          2518,
+          18608,
+          18936,
+          16905,
+          23068,
+          23618,
+          17515,
+          13213,
+          8318,
+          19905,
+          2580,
+          696,
+          15167,
+          24007,
+          18466,
+          10200,
+          13081,
+          2681,
+          10581,
+          5479,
+          16619,
+          22601,
+          20122,
+          5670,
+          3454,
+          7556,
+          3092,
+          11786,
+          22547,
+          13859
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. There's a classic action-comedy from the '90s that features a secret agent balancing his dangerous job with family life, leading to some hilarious and intense situations. It's a great mix of humor and thrilling moments. Have you heard of it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "A Walk to Remember (2002)",
+      "romance",
+      "Eagle Eye (2008)",
+      "Love Stinks (1999)"
+    ],
+    "rec": [
+      "True Lies (1994)"
+    ],
+    "resp": "I can totally have you seen True Lies (1994) ?",
+    "template": [
+      "Hello there",
+      "Howdy How are you?",
+      "I'm great, how are you?",
+      "fine thanks",
+      "What kind of movies are you looking for?",
+      "Do you know any movies similar to <mask>?",
+      "I don't think I have <mask>r watched that movie. I'm not <mask>n sure what it's about. Have you <mask>r seen <mask> ?",
+      "It's a sort of coming of age <mask> Yes. I didn't like it. Not looking for that at all!",
+      "Ok well I can think of something else.",
+      "Thank you",
+      "Not necessarily <mask>, have you seen <mask> ?",
+      "No I haven't. Sounds good though! :) Can you recommend another",
+      "It is hilarious.",
+      "Okay cool! Will check it out",
+      "I can totally have you seen <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

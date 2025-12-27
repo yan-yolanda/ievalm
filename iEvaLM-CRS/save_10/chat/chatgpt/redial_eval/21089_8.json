@@ -1,0 +1,223 @@
+{
+  "dialog_id": "21089",
+  "turn_id": 8,
+  "context": [
+    "",
+    "Hello what a good action movie I like Rampage (2018)",
+    "Hi! I havent seen it! Ill take a look. I'm into action also.",
+    "What have you seen that you like",
+    "I liked Rush Hour (1998) The other two arent as good!",
+    "Old classic is always good I like them all",
+    "I like Men in Black (1997)",
+    "Not a fan of Will",
+    "Seriously! I love him!! He's had some flops but also some good ones!"
+  ],
+  "entity": [
+    "action",
+    "Rampage (2018)",
+    "action",
+    "Rush Hour (1998)",
+    "Men in Black (1997)"
+  ],
+  "rec": [
+    "The Avengers (2012)"
+  ],
+  "resp": "Other than Fresh prince Im good The new The Avengers (2012) seem like a good one",
+  "template": [
+    "Hello what a good <mask> movie I like <mask>",
+    "Hi! I havent seen it! Ill take a look. I'm into <mask> also.",
+    "What have you seen that you like",
+    "I liked <mask> The other two arent as good!",
+    "Old classic is always good I like them all",
+    "I like <mask>",
+    "Not a fan of Will",
+    "Seriously! I love him!! He's had some flops but also some good ones!",
+    "Other than Fresh prince Im good The new <mask> seem like a good one"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21089",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello what a good action movie I like Rampage (2018)"
+      },
+      {
+        "role": "user",
+        "content": "Hi! I havent seen it! Ill take a look. I'm into action also."
+      },
+      {
+        "role": "assistant",
+        "content": "What have you seen that you like"
+      },
+      {
+        "role": "user",
+        "content": "I liked Rush Hour (1998) The other two arent as good!"
+      },
+      {
+        "role": "assistant",
+        "content": "Old classic is always good I like them all"
+      },
+      {
+        "role": "user",
+        "content": "I like Men in Black (1997)"
+      },
+      {
+        "role": "assistant",
+        "content": "Not a fan of Will"
+      },
+      {
+        "role": "user",
+        "content": "Seriously! I love him!! He's had some flops but also some good ones!"
+      },
+      {
+        "role": "assistant",
+        "content": "Great to hear you love Will Smith! Do you have a preference for any specific type of action, like comedy, sci-fi, or something else?",
+        "entity": [],
+        "rec_items": [
+          16582,
+          24004,
+          18159,
+          10536,
+          160,
+          21693,
+          7860,
+          20379,
+          23357,
+          4443,
+          3295,
+          758,
+          7564,
+          5223,
+          5053,
+          13378,
+          20003,
+          1868,
+          5169,
+          4039,
+          21525,
+          5404,
+          14234,
+          20426,
+          21685,
+          17925,
+          9211,
+          16767,
+          2068,
+          14464,
+          20389,
+          19539,
+          9160,
+          21769,
+          14133,
+          628,
+          20539,
+          18417,
+          11736,
+          23266,
+          3622,
+          10035,
+          5919,
+          24214,
+          12741,
+          8,
+          18916,
+          18584,
+          11641,
+          10215
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy a mix of action and teamwork, especially when there's a strong ensemble cast. There's this fantastic film where a group of superheroes comes together to save the world from a powerful threat. The action sequences are thrilling, and the characters have great chemistry. It's a must-watch for any action fan!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Bright (2017)\n2: Hancock (2008)\n3: Suicide Squad (2016)\n4: Superhero Movie (2008)\n5: The A-Team (2010)\n6: Avenger (2006)\n7: I, Robot (2004)\n8: Men in Black\n9: G.I. Joe\n10: The Avengers (2012)\n11: Super (2010)\n12: S (2012)\n13: Captain America\n14: Bad Boys\n15: Bad Boys (1995)\n16: The Avengers (1998)\n17: Independence Day (1996)\n18: Men in Black (1997)\n19: I Am Legend (2007)\n20: Men in Black II (2002)\n21: Enemy of the State (1998)\n22: Guardians of the Galaxy (2014)\n23: Captain America: The Winter Soldier\n24: Mr. & Mrs. Smith (2005)\n25: Wonder Woman (2017)\n26: Men in Black 3 (2012)\n27: Wonder Woman (2009)\n28: Avatar\n29: Wild Wild West (1999)\n30: 2012 (2009)\n31: The Fifth Element\n32: Wonder Woman (1974)\n33: Fantastic Four (2015)\n34: The Fantastic Four\n35: Iron Man 3\n36: Ant-Man and the Wasp (2018)\n37: Spider-Man (2002)\n38: Timeline (2003)\n39: Super 8 (2011)\n40: Bad Boys II (2003)\n41: Captain America: The First Avenger\n42: Ant-Man (2015)\n43: Superman (1997)\n44: Iron Man (2008)\n45: Attack the Block\n46: After Earth (2013)\n47: Man of Steel (2013)\n48: Focus (2015)\n49: Heist (2015)\n50: Iron Man 2 (2010)\n:Got it! Based on your preferences for action, teamwork, and ensemble casts, here are some recommendations for you:\n\n1. The Avengers\n2. Guardians of the Galaxy\n3. Men in Black II\n4. Bad Boys\n5. Fast & Furious 7\n6. The Incredibles\n7. Ocean's Eleven\n8. Jumanji: Welcome to the Jungle\n9. Suicide Squad\n10. Zombieland",
+        "entity": [],
+        "rec_items": [
+          20354,
+          22235,
+          9530,
+          19896,
+          2580,
+          2693,
+          24571,
+          14558,
+          18672,
+          21396,
+          15579,
+          21866,
+          9271,
+          2068,
+          628,
+          11786,
+          12800,
+          11504,
+          23553,
+          5479,
+          11736,
+          17184,
+          16202,
+          9984,
+          4920,
+          15293,
+          16183,
+          13768,
+          5989,
+          18691,
+          3413,
+          13861,
+          8667,
+          16543,
+          9850,
+          20729,
+          24614,
+          15920,
+          8138,
+          15913,
+          4932,
+          11794,
+          10581,
+          24565,
+          12404,
+          6861,
+          20240,
+          12818,
+          22102,
+          3960
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out that fantastic film where a group of superheroes comes together to save the world from a powerful threat. The action sequences are thrilling, and the characters have great chemistry. It's a must-watch for any action fan!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Men in Black (1997)",
+      "Rampage (2018)",
+      "action",
+      "Rush Hour (1998)"
+    ],
+    "rec": [
+      "The Avengers (2012)"
+    ],
+    "resp": "Other than Fresh prince Im good The new The Avengers (2012) seem like a good one",
+    "template": [
+      "Hello what a good <mask> movie I like <mask>",
+      "Hi! I havent seen it! Ill take a look. I'm into <mask> also.",
+      "What have you seen that you like",
+      "I liked <mask> The other two arent as good!",
+      "Old classic is always good I like them all",
+      "I like <mask>",
+      "Not a fan of Will",
+      "Seriously! I love him!! He's had some flops but also some good ones!",
+      "Other than Fresh prince Im good The new <mask> seem like a good one"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

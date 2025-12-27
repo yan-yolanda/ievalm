@@ -1,0 +1,270 @@
+{
+  "dialog_id": "23002",
+  "turn_id": 12,
+  "context": [
+    "",
+    "Hi",
+    "Hi! I like movies about climbing, Into Thin Air: Death on Everest (1997) is a favorite of mine",
+    "So like action ?!",
+    "yes, but based on a true story like Up Denali 3D (2003)",
+    "Gotcha ! The Vow (2012) was really good ! Have you seen it Or Into the Wild (2007)",
+    "No, what was The Vow (2012) ow about",
+    "A married couple happily together but everything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+    "Into the Wild (2007) ld was not about climbing. I mean like Vertical Limit (2000)",
+    "Have you seen K2 (1991)",
+    "Nope, The Vow (2012) was not about the kind of climbing I'm referring to like The Wildest Dream (2010)",
+    "Or The Mountain Between Us (2017) ?! Those are climbing movies Everest (2015) was pretty good",
+    "Well, The Mountain Between Us (2017) is sorta like it, The Summit (2012) is more what I'm looking for"
+  ],
+  "entity": [
+    "Into Thin Air: Death on Everest (1997)",
+    "action",
+    "The Vow (2012)",
+    "Into the Wild (2007)",
+    "The Vow (2012)",
+    "Eve",
+    "Into the Wild (2007)",
+    "Vertical Limit (2000)",
+    "K2 (1991)",
+    "The Vow (2012)",
+    "The Wildest Dream (2010)",
+    "The Mountain Between Us (2017)",
+    "Everest (2015)",
+    "sport",
+    "The Mountain Between Us (2017)",
+    "The Summit (2012)"
+  ],
+  "rec": [
+    "The Wildest Dream (2010)"
+  ],
+  "resp": "The Wildest Dream (2010) is pretty cool have you seen it",
+  "template": [
+    "Hi",
+    "Hi! I like movies about climbing, <mask> is a favorite of mine",
+    "So like <mask> ?!",
+    "yes, but based on a true story like <mask>",
+    "Gotcha ! <mask> was really good ! Have you seen it Or <mask>",
+    "No, what was <mask> ow about",
+    "A married couple happily together but <mask>rything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+    "<mask> ld was not about climbing. I mean like <mask>",
+    "Have you seen <mask>",
+    "Nope, <mask> was not about the kind of climbing I'm referring to like <mask>",
+    "Or <mask> ?! Those are climbing movies <mask> was pretty good",
+    "Well, <mask> is <mask> like it, <mask> is more what I'm looking for",
+    "<mask> is pretty cool have you seen it"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23002",
+    "turn_id": 12,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi"
+      },
+      {
+        "role": "user",
+        "content": "Hi! I like movies about climbing, Into Thin Air: Death on Everest (1997) is a favorite of mine"
+      },
+      {
+        "role": "assistant",
+        "content": "So like action ?!"
+      },
+      {
+        "role": "user",
+        "content": "yes, but based on a true story like Up Denali 3D (2003)"
+      },
+      {
+        "role": "assistant",
+        "content": "Gotcha ! The Vow (2012) was really good ! Have you seen it Or Into the Wild (2007)"
+      },
+      {
+        "role": "user",
+        "content": "No, what was The Vow (2012) ow about"
+      },
+      {
+        "role": "assistant",
+        "content": "A married couple happily together but everything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same"
+      },
+      {
+        "role": "user",
+        "content": "Into the Wild (2007) ld was not about climbing. I mean like Vertical Limit (2000)"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen K2 (1991)"
+      },
+      {
+        "role": "user",
+        "content": "Nope, The Vow (2012) was not about the kind of climbing I'm referring to like The Wildest Dream (2010)"
+      },
+      {
+        "role": "assistant",
+        "content": "Or The Mountain Between Us (2017) ?! Those are climbing movies Everest (2015) was pretty good"
+      },
+      {
+        "role": "user",
+        "content": "Well, The Mountain Between Us (2017) is sorta like it, The Summit (2012) is more what I'm looking for"
+      },
+      {
+        "role": "assistant",
+        "content": "Thanks for clarifying! Here are some climbing movies based on true stories that you might enjoy:\n\n1. Touching the Void (2003)\n2. Meru (2015)\n3. The Dawn Wall (2017)\n4. Free Solo (2018)\n5. The Summit (2012)\n6. Everest (2015)\n7. K2 (1991)\n8. Vertical Limit (2000)\n9. The Wildest Dream (2010)\n10. Into Thin Air: Death on Everest (1997)",
+        "entity": [],
+        "rec_items": [
+          20312,
+          18742,
+          22518,
+          22444,
+          12920,
+          1803,
+          5148,
+          9238,
+          24128,
+          21820,
+          13978,
+          8343,
+          22242,
+          4804,
+          15371,
+          22672,
+          19858,
+          22295,
+          22470,
+          19819,
+          13709,
+          2092,
+          6564,
+          24272,
+          3317,
+          22527,
+          5689,
+          20581,
+          5528,
+          23532,
+          22176,
+          20036,
+          18999,
+          21782,
+          14292,
+          24560,
+          267,
+          24006,
+          17355,
+          14406,
+          7819,
+          20671,
+          13218,
+          7009,
+          4438,
+          16460,
+          12869,
+          23671,
+          23633,
+          15263
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the list, but I'm really looking for something specific. There's a film that beautifully captures the essence of climbing and is based on a true story, focusing on the challenges faced by climbers in a breathtaking setting. It tells the story of a legendary climber and his ambitious attempt to conquer one of the world's highest peaks. The cinematography is stunning, and it really delves into the spirit of adventure and the risks involved in such endeavors. Have you heard of it?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Into Thin Air: Death on Everest (1997)\n2: Touching the Void (2003)\n3: Everest (2015)\n4: The Summit (2012)\n5: That's It, That's All\n6: The Mountain Between Us (2017)\n7: Into the Wild (2007)\n8: Cold Mountain (2003)\n9: K2 (1991)\n10: 127 Hours (2010)\n11: Third Man on the Mountain (1959)\n12: The Ledge (2011)\n13: Seven Years in Tibet (1997)\n14: The 15-17 to Paris\n15: Chasing Mavericks (2012)\n16: The Seven Five\n17: Vertical Limit (2000)\n18: Dante's Peak (1997)\n19: The High and the Mighty (1954)\n20: The Edge (1997)\n21: The Cabin in the Mountains (2014)\n22: Chasing Ice\n23: The Fall (2006)\n24: True Grit (2010)\n25: Only the Brave (2017)\n26: The Holy Mountain (1973)\n27: Man on a Ledge (2012)\n28: Legends of the Fall (1994)\n29: Rescue Dawn (2006)\n30: Grizzly Man (2005)\n31: The Way Back (2010)\n32: Tightrope (1984)\n33: Escape to Victory (1981)\n34: Copper Mountain (1983)\n35: The Impossible (2012)\n36: Blue Moon Rising (2010)\n37: The Wildest Dream (2010)\n38: To the Arctic 3D (2012)\n39: Lifted (2011)\n40: The Descent (2005)\n41: Miracle (2004)\n42: Heartbreak Ridge (1986)\n43: Legend (1985)\n44: Man on Wire (2008)\n45: High Sierra (1941)\n46: Goal! (2005)\n47: Backcountry (2014)\n48: Into the Storm (2009)\n49: Courageous (2011)\n50: Born Free (1966)\n:It sounds like you might be referring to \"The Dawn Wall\" (2017) or \"Meru\" (2015). Both films beautifully capture the essence of climbing and focus on the challenges faced by climbers in breathtaking settings. Would you like recommendations based on those themes?",
+        "entity": [],
+        "rec_items": [
+          22518,
+          4438,
+          18742,
+          22444,
+          24560,
+          20312,
+          5689,
+          12920,
+          22470,
+          22242,
+          21820,
+          2092,
+          24128,
+          20671,
+          8475,
+          16614,
+          9801,
+          19819,
+          6277,
+          23532,
+          1803,
+          3026,
+          12869,
+          22215,
+          20581,
+          20036,
+          13218,
+          13205,
+          23461,
+          13047,
+          13978,
+          23454,
+          11529,
+          3344,
+          6564,
+          6302,
+          743,
+          11485,
+          1830,
+          14292,
+          24507,
+          9493,
+          15627,
+          18443,
+          11066,
+          13747,
+          5148,
+          14627,
+          19485,
+          7380
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something that specifically tells the story of a legendary climber's ambitious attempt to conquer one of the world's highest peaks. It has stunning cinematography and delves deeply into the spirit of adventure and the risks involved. There's a film that perfectly encapsulates that essence, focusing on the challenges faced by climbers. Have you heard of it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "Everest (2015)",
+      "sport",
+      "The Vow (2012)",
+      "Into the Wild (2007)",
+      "K2 (1991)",
+      "The Summit (2012)",
+      "The Wildest Dream (2010)",
+      "Into Thin Air: Death on Everest (1997)",
+      "action",
+      "Vertical Limit (2000)",
+      "The Mountain Between Us (2017)"
+    ],
+    "rec": [
+      "The Wildest Dream (2010)"
+    ],
+    "resp": "The Wildest Dream (2010) is pretty cool have you seen it",
+    "template": [
+      "Hi",
+      "Hi! I like movies about climbing, <mask> is a favorite of mine",
+      "So like <mask> ?!",
+      "yes, but based on a true story like <mask>",
+      "Gotcha ! <mask> was really good ! Have you seen it Or <mask>",
+      "No, what was <mask> ow about",
+      "A married couple happily together but <mask>rything shifted when the wife got in a car accident and wasn’t in a Coma for a long time, after she wasn’t out of coma she was not the same",
+      "<mask> ld was not about climbing. I mean like <mask>",
+      "Have you seen <mask>",
+      "Nope, <mask> was not about the kind of climbing I'm referring to like <mask>",
+      "Or <mask> ?! Those are climbing movies <mask> was pretty good",
+      "Well, <mask> is <mask> like it, <mask> is more what I'm looking for",
+      "<mask> is pretty cool have you seen it"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

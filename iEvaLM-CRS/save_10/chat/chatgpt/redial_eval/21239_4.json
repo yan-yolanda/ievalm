@@ -1,0 +1,191 @@
+{
+  "dialog_id": "21239",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hello What's your favorite movie?",
+    "Hello, my favorite movie is Mr. Holland's Opus (1995)",
+    "Oh that's wonderful. Have you seen The Shawshank Redemption (1994) or What About Bob%3F (1991) ?",
+    "I have seen The Shawshank Redemption (1994) and love that movie. I have not seen What About Bob%3F (1991)"
+  ],
+  "entity": [
+    "Mr. Holland's Opus (1995)",
+    "The Shawshank Redemption (1994)",
+    "The Shawshank Redemption (1994)"
+  ],
+  "rec": [
+    "Jaws (1975)"
+  ],
+  "resp": "Another great Dreyfuss movie is Jaws (1975)",
+  "template": [
+    "Hello What's your favorite movie?",
+    "Hello, my favorite movie is <mask>",
+    "Oh that's wonderful. Have you seen <mask> or <mask> ?",
+    "I have seen <mask> and love that movie. I have not seen <mask>",
+    "Another great Dreyfuss movie is <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21239",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello What's your favorite movie?"
+      },
+      {
+        "role": "user",
+        "content": "Hello, my favorite movie is Mr. Holland's Opus (1995)"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh that's wonderful. Have you seen The Shawshank Redemption (1994) or What About Bob%3F (1991) ?"
+      },
+      {
+        "role": "user",
+        "content": "I have seen The Shawshank Redemption (1994) and love that movie. I have not seen What About Bob%3F (1991)"
+      },
+      {
+        "role": "assistant",
+        "content": "Great to hear you love The Shawshank Redemption! Do you prefer dramas, comedies, or a mix of both?",
+        "entity": [],
+        "rec_items": [
+          16666,
+          5078,
+          21221,
+          13648,
+          18159,
+          14117,
+          18366,
+          22016,
+          11993,
+          23459,
+          16959,
+          5528,
+          5456,
+          5924,
+          13472,
+          10035,
+          19882,
+          21413,
+          12913,
+          11958,
+          7821,
+          6514,
+          22437,
+          21362,
+          23742,
+          16315,
+          24478,
+          5404,
+          14236,
+          6004,
+          3448,
+          10961,
+          17908,
+          10013,
+          24110,
+          16097,
+          5176,
+          6906,
+          12137,
+          11209,
+          23808,
+          23930,
+          13171,
+          23399,
+          17364,
+          19206,
+          23768,
+          11641,
+          7459,
+          17865
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy a thrilling experience, especially when it involves suspense and adventure. There's a classic film that features a terrifying creature lurking in the water, creating an atmosphere of tension and fear. It's a must-see for anyone who loves a good thrill!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Shawshank Redemption (1994)\n2: Jaws\n3: Jaws (1975)\n4: Jaws 2 (1978)\n5: Great Expectations (1946)\n6: Dark Water (2005)\n7: Psycho\n8: The Great Escape (1963)\n9: The Descent (2005)\n10: The Ghost and the Darkness (1996)\n11: Descent (2005)\n12: Jaws: The Revenge (1987)\n13: On the Waterfront (1954)\n14: Lady in the Water (2006)\n15: Red Dragon (2002)\n16: The Shape of Water (2017)\n17: Jaws 3-D (1983)\n18: Shutter Island (2010)\n19: The Birds\n20: The Treasure of the Sierra Madre (1948)\n21: The River Wild (1994)\n22: The Cabin in the Woods\n23: Rope (1948)\n24: Panic Room (2002)\n25: The Abyss (1989)\n26: The Man Who Knew Too Much (1956)\n27: Psycho (1960)\n28: Ghost Story (1981)\n29: The Sum of All Fears (2002)\n30: Mystic River (2003)\n31: Submergence\n32: The Hole (2001)\n33: Hannibal (2001)\n34: The Talented Mr. Ripley (1999)\n35: The Spanish Prisoner (1997)\n36: The Birds (1963)\n37: All the President's Men (1976)\n38: Open Water (2003)\n39: The Deep (1977)\n40: Marnie (1964)\n41: Hannibal Rising (2007)\n42: Dark Water (2002)\n43: The Green Mile (1999)\n44: Into the Woods (2014)\n45: Water (1985)\n46: The Cave (2005)\n47: Deliverance\n48: Escape (2012)\n49: North by Northwest (1959)\n50: Arachnophobia (1990)\n:It sounds like you enjoy suspenseful thrillers! Based on your preferences, here are some recommendations for you:\n\n1. Jaws (1975)\n2. Se7en (1995)\n3. The Silence of the Lambs (1991)\n4. The Sixth Sense (1999)\n5. Psycho (1960)\n6. A Quiet Place (2018)\n7. The Others (2001)\n8. Shutter Island (2010)\n9. Misery (1990)\n10. The Game (1997)",
+        "entity": [],
+        "rec_items": [
+          16666,
+          23094,
+          16566,
+          13078,
+          10336,
+          9049,
+          24311,
+          9573,
+          14292,
+          21379,
+          7009,
+          8886,
+          382,
+          19914,
+          2438,
+          5202,
+          7133,
+          18785,
+          5475,
+          21964,
+          14733,
+          16518,
+          13104,
+          3012,
+          18353,
+          22250,
+          23755,
+          16978,
+          19821,
+          24442,
+          13092,
+          19428,
+          17386,
+          12105,
+          15367,
+          6980,
+          11677,
+          24060,
+          12628,
+          3751,
+          16015,
+          11751,
+          21413,
+          24272,
+          4276,
+          21806,
+          18793,
+          22527,
+          15756,
+          12390
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the recommendations, but I really think you should check out that classic film featuring a terrifying creature lurking in the water. It's a thrilling experience filled with suspense and adventure that has captivated audiences for decades. It's definitely a must-see for anyone who enjoys a good thrill!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Mr. Holland's Opus (1995)",
+      "The Shawshank Redemption (1994)"
+    ],
+    "rec": [
+      "Jaws (1975)"
+    ],
+    "resp": "Another great Dreyfuss movie is Jaws (1975)",
+    "template": [
+      "Hello What's your favorite movie?",
+      "Hello, my favorite movie is <mask>",
+      "Oh that's wonderful. Have you seen <mask> or <mask> ?",
+      "I have seen <mask> and love that movie. I have not seen <mask>",
+      "Another great Dreyfuss movie is <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

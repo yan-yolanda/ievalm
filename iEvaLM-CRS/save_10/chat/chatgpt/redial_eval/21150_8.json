@@ -1,0 +1,164 @@
+{
+  "dialog_id": "21150",
+  "turn_id": 8,
+  "context": [
+    "",
+    "Hello! How are you",
+    "Hey, I'm good. I'm looking for 80s movies",
+    "Have you seen Footloose (1984)",
+    "No, but I should!",
+    "Omg yesss!!!!! That’s a classic! What about The Breakfast Club (1985) Or Ghostbusters (1984)",
+    "Yeah, I like The Breakfast Club (1985)",
+    "Yes it’s good! What movie have you seen recently",
+    "I actually haven't seen Ghostbusters but I should. I just saw Fast Times at Ridgemont High which is an 80s movie I really liked. I also saw Avengers: Infinity War (2018) which I liked"
+  ],
+  "entity": [
+    "Footloose (1984)",
+    "The Breakfast Club (1985)",
+    "Ghostbusters (1984)",
+    "The Breakfast Club (1985)",
+    "Ste",
+    "Fast Times at Ridgemont High",
+    "Avengers: Infinity War (2018)"
+  ],
+  "rec": [
+    "Fast Times at Ridgemont High"
+  ],
+  "resp": "Yes pretty goood it’s the original ! I haven’t seen Fast Times at Ridgemont High But I should check it out",
+  "template": [
+    "Hello! How are you",
+    "Hey, I'm good. I'm looking for 80s movies",
+    "Have you seen <mask>",
+    "No, but I should!",
+    "Omg yesss!!!!! That’s a classic! What about <mask> Or <mask>",
+    "Yeah, I like <mask>",
+    "Yes it’s good! What movie have you seen recently",
+    "I actually haven't seen Ghostbu<mask>rs but I should. I just saw <mask> which is an 80s movie I really liked. I also saw <mask> which I liked",
+    "Yes pretty goood it’s the original ! I haven’t seen <mask> But I should check it out"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21150",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! How are you"
+      },
+      {
+        "role": "user",
+        "content": "Hey, I'm good. I'm looking for 80s movies"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen Footloose (1984)"
+      },
+      {
+        "role": "user",
+        "content": "No, but I should!"
+      },
+      {
+        "role": "assistant",
+        "content": "Omg yesss!!!!! That’s a classic! What about The Breakfast Club (1985) Or Ghostbusters (1984)"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I like The Breakfast Club (1985)"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes it’s good! What movie have you seen recently"
+      },
+      {
+        "role": "user",
+        "content": "I actually haven't seen Ghostbusters but I should. I just saw Fast Times at Ridgemont High which is an 80s movie I really liked. I also saw Avengers: Infinity War (2018) which I liked"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Ghostbusters (1984)\n2: Ghostbusters II (1989)\n3: Ghostbusters (2016)\n4: Avengers: Infinity War (2018)\n5: The Avengers (1998)\n6: Fast Times at Ridgemont High\n7: Super 8 (2011)\n8: Avenger (2006)\n9: Avengers Grimm (2015)\n10: The Avengers (2012)\n11: Avengers: Age of Ultron (2015)\n12: Ant-Man (2015)\n13: Ghosts of Girlfriends Past (2009)\n14: Mission: Impossible – Ghost Protocol (2011)\n15: Superhero Movie (2008)\n16: Superfast! (2015)\n17: Iron Man (2008)\n18: Ant-Man and the Wasp (2018)\n19: Ghost (1998)\n20: Iron Man 2 (2010)\n21: Spider-Man: Homecoming (2017)\n22: Seems Like Old Times (1980)\n23: 3 Avengers\n24: Good Time\n25: Back to the Future (1985)\n26: Fast 8\n27: Ghost Story (1981)\n28: Epic Movie (2007)\n29: Ghost (1990)\n30: Attack the Block\n31: The Monster Squad (1987)\n32: Ghosts of Mars (2001)\n33: The Intern (2015)\n34: A Ghost Story (2017)\n35: The Goonies (1985)\n36: Guardians of the Galaxy (2014)\n37: Thor: Ragnarok (2017)\n38: The Ghost and the Darkness (1996)\n39: Get Smart (2008)\n40: Back to the Future\n41: Inferno (2016)\n42: Ghost Rider (1982)\n43: Fright Night (1985)\n44: The Empire Strikes Back (1980)\n45: Godzilla (2017)\n46: Grosse Pointe Blank (1997)\n47: Captain America: The First Avenger\n48: Ghost Rider (2007)\n49: The Quick and the Dead (1995)\n50: Ghost Rider: Spirit of Vengeance (2012)\n:Great choices! Since you enjoy 80s movies like The Breakfast Club and Fast Times at Ridgemont High, as well as the action from Avengers: Infinity War, I can recommend some more films. Here’s a list for you:\n\n1. Ferris Bueller's Day Off (1986)\n2. Pretty in Pink (1986)\n3. Sixteen Candles (1984)\n4. The Goonies (1985)\n5. Back to the Future (1985)\n6. Raiders of the Lost Ark (1981)\n7. The Outsiders (1983)\n8. Die Hard (1988)\n9. Stand by Me (1986)\n10. The Lost Boys (1987)",
+        "entity": [],
+        "rec_items": [
+          8793,
+          5241,
+          282,
+          20468,
+          11786,
+          2358,
+          8138,
+          2693,
+          14186,
+          21396,
+          14005,
+          11794,
+          10936,
+          19124,
+          19896,
+          18710,
+          24565,
+          20729,
+          24142,
+          3960,
+          8721,
+          10551,
+          19851,
+          3428,
+          8522,
+          10258,
+          16978,
+          23450,
+          23097,
+          12404,
+          2365,
+          17715,
+          12552,
+          20489,
+          22063,
+          17184,
+          14739,
+          21379,
+          19895,
+          16,
+          24467,
+          5262,
+          17081,
+          19302,
+          11105,
+          2346,
+          4932,
+          22305,
+          15399,
+          10911
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I recently watched a fantastic film that captures the essence of high school life in the 80s. It features a group of teenagers navigating their way through love, friendship, and the challenges of adolescence. The humor and relatable characters really stood out to me. If you're interested in a classic that embodies that era, I highly recommend checking it out!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Fast Times at Ridgemont High",
+      "Ste",
+      "Footloose (1984)",
+      "Avengers: Infinity War (2018)",
+      "Ghostbusters (1984)",
+      "The Breakfast Club (1985)"
+    ],
+    "rec": [
+      "Fast Times at Ridgemont High"
+    ],
+    "resp": "Yes pretty goood it’s the original ! I haven’t seen Fast Times at Ridgemont High But I should check it out",
+    "template": [
+      "Hello! How are you",
+      "Hey, I'm good. I'm looking for 80s movies",
+      "Have you seen <mask>",
+      "No, but I should!",
+      "Omg yesss!!!!! That’s a classic! What about <mask> Or <mask>",
+      "Yeah, I like <mask>",
+      "Yes it’s good! What movie have you seen recently",
+      "I actually haven't seen Ghostbu<mask>rs but I should. I just saw <mask> which is an 80s movie I really liked. I also saw <mask> which I liked",
+      "Yes pretty goood it’s the original ! I haven’t seen <mask> But I should check it out"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

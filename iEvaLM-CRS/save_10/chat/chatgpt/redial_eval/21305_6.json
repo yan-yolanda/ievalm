@@ -1,0 +1,206 @@
+{
+  "dialog_id": "21305",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello! What is your favorite movie?",
+    "Good morninf how are you",
+    "I'm great",
+    "I dont have one what movie would you suggest",
+    "How about The Addams Family (1991) or The Princess Bride (1987) ? Or something newer",
+    "Something new"
+  ],
+  "entity": [
+    "The Addams Family (1991)",
+    "The Princess Bride (1987)"
+  ],
+  "rec": [
+    "Lady Bird (2017)",
+    "The Shape of Water (2017)"
+  ],
+  "resp": "Lady Bird (2017) and The Shape of Water (2017) were my favorite movies of 2017",
+  "template": [
+    "Hello! What is your favorite movie?",
+    "Good morninf how are you",
+    "I'm great",
+    "I dont have one what movie would you suggest",
+    "How about <mask> or <mask> ? Or something newer",
+    "Something new",
+    "<mask> and <mask> were my favorite movies of 2017"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21305",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! What is your favorite movie?"
+      },
+      {
+        "role": "user",
+        "content": "Good morninf how are you"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm great"
+      },
+      {
+        "role": "user",
+        "content": "I dont have one what movie would you suggest"
+      },
+      {
+        "role": "assistant",
+        "content": "How about The Addams Family (1991) or The Princess Bride (1987) ? Or something newer"
+      },
+      {
+        "role": "user",
+        "content": "Something new"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Do you prefer a specific genre, like action, comedy, drama, or something else?",
+        "entity": [],
+        "rec_items": [
+          1991,
+          23350,
+          10914,
+          17199,
+          15769,
+          15538,
+          9533,
+          10130,
+          22281,
+          23023,
+          3632,
+          23261,
+          16137,
+          16507,
+          17685,
+          1572,
+          1572,
+          12402,
+          17317,
+          14399,
+          12787,
+          24139,
+          13274,
+          19010,
+          16258,
+          16136,
+          21363,
+          9726,
+          10229,
+          12327,
+          19893,
+          14798,
+          21422,
+          21703,
+          13266,
+          20595,
+          7293,
+          10927,
+          24435,
+          8759,
+          11892,
+          17081,
+          2295,
+          17310,
+          24042,
+          12685,
+          7551,
+          9993,
+          19449,
+          17567
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I enjoy stories that are heartfelt and explore personal growth, relationships, and unique perspectives on life. For example, there are some recent films that beautifully capture these themes, showcasing strong character development and emotional depth. One film tells the story of a young woman navigating her final year of high school, dealing with family dynamics and her own aspirations. Another film features a unique love story between a woman and a mysterious creature, set against a backdrop of stunning visuals and a poignant narrative. Both films have received critical acclaim and resonate with audiences on many levels.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Her (2013)\n2: Lady Bird (2017)\n3: Frances Ha (2012)\n4: Julie & Julia (2009)\n5: The Graduate (1967)\n6: (2015)\n7: Brooklyn (2015)\n8: It's Kind of a Funny Story (2010)\n9: (2007)\n10: Japanese Story (2003)\n11: Fighting (2014)\n12: A Fantastic Woman (2017)\n13: 50 (2011)\n14: What Women Want (2011)\n15: Good Will Hunting (1997)\n16: Life (2007)\n17: Me Before You\n18: Love Story (2011)\n19: Focus (2015)\n20: Same Kind of Different as Me (2017)\n21: A Girl Like Her (2012)\n22: Sense and Sensibility (1995)\n23: Life as We Know It (2010)\n24: Where the Heart Is (2000)\n25: The Artist (2011)\n26: Ida (2013)\n27: Every Day (2018)\n28: Love Happens\n29: Enter the Void (2009)\n30: Chasing Amy (1997)\n31: Amelia (2009)\n32: The Spectacular Now (2013)\n33: The Master (2012)\n34: Arrietty\n35: Someone like You (2001)\n36: Goal! (2005)\n37: The Hours (2002)\n38: The Reader (2008)\n39: Jackie (2016)\n40: A Ghost Story (2017)\n41: The Help (2011)\n42: The Best of Me (2014)\n43: What Women Want (2000)\n44: The Shape of Water (2017)\n45: Looper (2012)\n46: Madame (2017)\n47: Wild (2014)\n48: Into the Woods (2014)\n49: The Intern (2015)\n50: As Good as It Gets (1997)\n:Thank you for sharing your preferences! Based on your interest in heartfelt stories that explore personal growth and relationships, here are some recommendations:\n\n1. Everything Everywhere All at Once\n2. The Farewell\n3. A Man Called Otto\n4. The Shape of Water\n5. Licorice Pizza\n6. The Peanut Butter Falcon\n7. CODA\n8. The Lost Daughter\n9. Minari\n10. The Secret Garden (2020)",
+        "entity": [],
+        "rec_items": [
+          18000,
+          82,
+          17555,
+          5059,
+          6514,
+          1021,
+          3927,
+          22938,
+          16809,
+          3442,
+          18682,
+          20657,
+          10215,
+          14722,
+          18159,
+          21934,
+          17746,
+          2606,
+          12818,
+          9387,
+          6501,
+          9539,
+          5488,
+          13916,
+          19316,
+          10093,
+          20751,
+          14133,
+          13148,
+          17143,
+          15163,
+          15759,
+          13171,
+          6139,
+          10536,
+          13747,
+          22933,
+          19662,
+          17848,
+          20489,
+          17896,
+          4224,
+          6699,
+          5202,
+          18754,
+          18959,
+          18511,
+          24272,
+          12552,
+          5528
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the recommendations! I appreciate your suggestions, but I’m particularly drawn to stories that beautifully capture personal growth and unique relationships. For instance, one film tells the story of a young woman navigating her final year of high school, dealing with family dynamics and her aspirations. Another film features a unique love story between a woman and a mysterious creature, set against stunning visuals and a poignant narrative. Both of these films have received critical acclaim and resonate deeply with audiences.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Addams Family (1991)",
+      "The Princess Bride (1987)"
+    ],
+    "rec": [
+      "Lady Bird (2017)",
+      "The Shape of Water (2017)"
+    ],
+    "resp": "Lady Bird (2017) and The Shape of Water (2017) were my favorite movies of 2017",
+    "template": [
+      "Hello! What is your favorite movie?",
+      "Good morninf how are you",
+      "I'm great",
+      "I dont have one what movie would you suggest",
+      "How about <mask> or <mask> ? Or something newer",
+      "Something new",
+      "<mask> and <mask> were my favorite movies of 2017"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

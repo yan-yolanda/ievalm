@@ -1,0 +1,238 @@
+{
+  "dialog_id": "22556",
+  "turn_id": 10,
+  "context": [
+    "",
+    "Hey how are you doing?",
+    "hello how are you i ned your help",
+    "I'm great, thanks. What kind of movies you interested in?",
+    "can you help me with a movie for kids my kids",
+    "Have you ever seen the animated Robin Hood (1973) ?",
+    "great",
+    "This was my favorite movie as a child",
+    "other please",
+    "Or Beauty and the Beast (1992) will always be a great one.",
+    "how Finding Dory (2016)"
+  ],
+  "entity": [
+    "Ste",
+    "Eve",
+    "Robin Hood (1973)",
+    "Beauty and the Beast (1992)",
+    "Finding Dory (2016)"
+  ],
+  "rec": [
+    "The Lion King (1994)"
+  ],
+  "resp": "And I love The Lion King (1994) .",
+  "template": [
+    "Hey how are you doing?",
+    "hello how are you i ned your help",
+    "I'm great, thanks. What kind of movies you intere<mask>d in?",
+    "can you help me with a movie for kids my kids",
+    "Have you <mask>r seen the animated <mask> ?",
+    "great",
+    "This was my favorite movie as a child",
+    "other please",
+    "Or <mask> will always be a great one.",
+    "how <mask>",
+    "And I love <mask> ."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22556",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hey how are you doing?"
+      },
+      {
+        "role": "user",
+        "content": "hello how are you i ned your help"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm great, thanks. What kind of movies you interested in?"
+      },
+      {
+        "role": "user",
+        "content": "can you help me with a movie for kids my kids"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you ever seen the animated Robin Hood (1973) ?"
+      },
+      {
+        "role": "user",
+        "content": "great"
+      },
+      {
+        "role": "assistant",
+        "content": "This was my favorite movie as a child"
+      },
+      {
+        "role": "user",
+        "content": "other please"
+      },
+      {
+        "role": "assistant",
+        "content": "Or Beauty and the Beast (1992) will always be a great one."
+      },
+      {
+        "role": "user",
+        "content": "how Finding Dory (2016)"
+      },
+      {
+        "role": "assistant",
+        "content": "Finding Dory is a fantastic choice! Do you have any other specific preferences for kids' movies, like animation, adventure, or a particular theme?",
+        "entity": [],
+        "rec_items": [
+          13622,
+          13776,
+          15909,
+          22394,
+          17850,
+          5958,
+          8514,
+          14399,
+          12145,
+          7201,
+          14070,
+          2295,
+          17858,
+          15961,
+          9260,
+          21678,
+          18820,
+          22249,
+          5919,
+          22155,
+          14748,
+          20129,
+          1572,
+          1572,
+          7131,
+          20937,
+          15540,
+          7295,
+          23506,
+          3704,
+          9645,
+          20853,
+          21664,
+          21198,
+          19793,
+          21456,
+          17902,
+          106,
+          12327,
+          20365,
+          23741,
+          9179,
+          13535,
+          11759,
+          6591,
+          22100,
+          18513,
+          22438,
+          12553,
+          2087
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy stories that feature animals and themes of family and friendship. There's a classic animated film that beautifully captures the journey of a young lion as he learns about responsibility and the circle of life. It's filled with memorable songs and characters that resonate with both kids and adults.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Finding Dory (2016)\n2: Finding Nemo (2003)\n3: Dolphin Tale (2011)\n4: Ponyo\n5: Dolphin Tale 2 (2014)\n6: The Good Dinosaur (2015)\n7: Dumbo\n8: The Little Mermaid: Ariel's Beginning\n9: The Jungle Book (2016)\n10: Turtle: The Incredible Journey (2009)\n11: The Little Mermaid (1989)\n12: Zootopia\n13: Toy Story (1995)\n14: Coco\n15: Jungle Book (2018)\n16: Dinosaur (2000)\n17: Leo the Lion: King of the Jungle (1994)\n18: The Jungle Book 2 (2003)\n19: Tinker Bell\n20: Tinker Bell\n21: 101 Dalmatians (1996)\n22: The Jungle Book (1994)\n23: The Little Mermaid (1992)\n24: Toy Story 3 (2010)\n25: The Lion King (1994)\n26: Inside Out (2015)\n27: The Lion King (2019)\n28: Toy Story 2 (1999)\n29: The Jungle (1967)\n30: Aladdin\n31: Pinocchio (2012)\n32: Free Willy\n33: Rango (2011)\n34: Moana (2016)\n35: Cars (2006)\n36: The Jungle Book (1967)\n37: Arrietty\n38: The Fox and the Hound\n39: Christopher Robin (2018)\n40: Coco (2017)\n41: Free Willy (1993)\n42: Enchanted (2007)\n43: The Lion King 1½ (2004)\n44: The Pixar Story (2007)\n45: Winnie the Pooh (2011)\n46: Horton Hears a Who! (2008)\n47: Anastasia (1997)\n48: The Little Mermaid II: Return to the Sea (2000)\n49: Moana\n50: Animal Crackers (2017)\n:Great! Based on your preferences for stories featuring animals, family, and friendship, here are some recommendations:\n\n1. The Lion King (1994)\n2. Zootopia (2016)\n3. Finding Nemo (2003)\n4. Kung Fu Panda (2008)\n5. The Secret Life of Pets (2016)\n6. Moana (2016)\n7. Madagascar (2005)\n8. The Jungle Book (1967)\n9. Ice Age (2002)\n10. A Bug's Life (1998)",
+        "entity": [],
+        "rec_items": [
+          13622,
+          12145,
+          13535,
+          6591,
+          2535,
+          13253,
+          2087,
+          20129,
+          16246,
+          20132,
+          7201,
+          21954,
+          21678,
+          6276,
+          13016,
+          21917,
+          10053,
+          6942,
+          1572,
+          1572,
+          7131,
+          22657,
+          14070,
+          13381,
+          2483,
+          16961,
+          20473,
+          20937,
+          12370,
+          9645,
+          1193,
+          23440,
+          16742,
+          9586,
+          23504,
+          17495,
+          6139,
+          11122,
+          20853,
+          5806,
+          18290,
+          23506,
+          8180,
+          149,
+          8335,
+          11429,
+          15961,
+          14748,
+          2611,
+          6910
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I'm really looking for something that beautifully captures the journey of a young lion, filled with memorable songs and themes of family and friendship. It's a classic animated film that resonates with both kids and adults.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Finding Dory (2016)",
+      "Eve",
+      "Beauty and the Beast (1992)",
+      "Robin Hood (1973)",
+      "Ste"
+    ],
+    "rec": [
+      "The Lion King (1994)"
+    ],
+    "resp": "And I love The Lion King (1994) .",
+    "template": [
+      "Hey how are you doing?",
+      "hello how are you i ned your help",
+      "I'm great, thanks. What kind of movies you intere<mask>d in?",
+      "can you help me with a movie for kids my kids",
+      "Have you <mask>r seen the animated <mask> ?",
+      "great",
+      "This was my favorite movie as a child",
+      "other please",
+      "Or <mask> will always be a great one.",
+      "how <mask>",
+      "And I love <mask> ."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

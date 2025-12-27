@@ -1,0 +1,145 @@
+{
+  "dialog_id": "21188",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello What's your favorite movie?",
+    "Mastermind (1976)",
+    "Oh! Interesting",
+    "How about you?",
+    "Have you seen Othello (1990) or Eraserhead (1977) ?",
+    "No but I did see Seed of Chucky (2004)"
+  ],
+  "entity": [
+    "Mastermind (1976)",
+    "Othello (1990)",
+    "Eraserhead (1977)",
+    "Seed of Chucky (2004)"
+  ],
+  "rec": [
+    "Bride of Chucky (1998)"
+  ],
+  "resp": "Oh cool, you'd like Bride of Chucky (1998) then",
+  "template": [
+    "Hello What's your favorite movie?",
+    "<mask>",
+    "Oh! Interesting",
+    "How about you?",
+    "Have you seen <mask> or <mask> ?",
+    "No but I did see <mask>",
+    "Oh cool, you'd like <mask> then"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21188",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello What's your favorite movie?"
+      },
+      {
+        "role": "user",
+        "content": "Mastermind (1976)"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh! Interesting"
+      },
+      {
+        "role": "user",
+        "content": "How about you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you seen Othello (1990) or Eraserhead (1977) ?"
+      },
+      {
+        "role": "user",
+        "content": "No but I did see Seed of Chucky (2004)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Seed of Chucky (2004)\n2: Eraserhead (1977)\n3: Cult of Chucky (2017)\n4: Bride of Chucky (1998)\n5: Donnie Darko: The Director's Cut (2004)\n6: Mimic (1997)\n7: Puppet Master (1989)\n8: Mosquito (1995)\n9: Eraser (1996)\n10: See No Evil, Hear No Evil (1989)\n11: A Clockwork Orange (1971)\n12: Curse of Chucky (2013)\n13: See No Evil (1971)\n14: See No Evil 2 (2014)\n15: O (2001)\n16: Saw (2004)\n17: Heathers (1988)\n18: 8mm (1999)\n19: See No Evil (2006)\n20: Child's Play (1988)\n21: Popcorn (1991)\n22: Yes (2004)\n23: The Hills Have Eyes (2006)\n24: Child's Play 2 (1990)\n25: Hellraiser: Inferno (2000)\n26: Evil Dead II (1987)\n27: Psycho (1998)\n28: Lord of Illusions (1995)\n29: Eyes Wide Shut (1999)\n30: Open Your Eyes (1997)\n31: Hellraiser (1987)\n32: The Hills Have Eyes (1977)\n33: Face/Off (1997)\n34: Reel Horror (1985)\n35: The Blob (1988)\n36: I, Zombie (1998)\n37: Alien 51 (2004)\n38: Body Snatchers (1993)\n39: Orphan (2009)\n40: Seven (1995)\n41: Snuff 102 (2007)\n42: The Hills Have Eyes\n43: A Nightmare on Elm Street (1984)\n44: Killer Clowns from Outer Space (1988)\n45: The Mask (1988)\n46: Antichrist (2009)\n47: Strange Days (1995)\n48: Mask (1985)\n49: Killer Klowns from Outer Space (1988)\n50: Troll 2 (1990)\n:Great! Do you prefer horror, thriller, or a mix of genres in your movies?",
+        "entity": [],
+        "rec_items": [
+          17342,
+          23273,
+          20376,
+          22693,
+          13643,
+          1919,
+          16353,
+          18756,
+          21481,
+          15924,
+          1250,
+          10654,
+          7459,
+          23089,
+          13178,
+          4130,
+          11769,
+          24325,
+          11088,
+          9993,
+          10229,
+          21221,
+          21024,
+          1786,
+          15569,
+          18971,
+          22061,
+          20021,
+          19400,
+          7662,
+          7729,
+          3519,
+          20431,
+          11001,
+          23674,
+          8917,
+          3201,
+          3234,
+          22974,
+          16959,
+          4114,
+          19977,
+          21165,
+          20868,
+          21623,
+          16796,
+          4694,
+          7301,
+          18909,
+          11619
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I enjoy a mix of genres, especially when there's a blend of horror and dark humor. For instance, there's a film that features a doll coming to life and causing chaos, which adds a unique twist to the horror genre. It also explores themes of love and revenge in a rather unconventional way. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Seed of Chucky (2004)",
+      "Othello (1990)",
+      "Eraserhead (1977)",
+      "Mastermind (1976)"
+    ],
+    "rec": [
+      "Bride of Chucky (1998)"
+    ],
+    "resp": "Oh cool, you'd like Bride of Chucky (1998) then",
+    "template": [
+      "Hello What's your favorite movie?",
+      "<mask>",
+      "Oh! Interesting",
+      "How about you?",
+      "Have you seen <mask> or <mask> ?",
+      "No but I did see <mask>",
+      "Oh cool, you'd like <mask> then"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

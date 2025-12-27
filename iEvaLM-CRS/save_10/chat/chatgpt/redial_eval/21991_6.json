@@ -1,0 +1,216 @@
+{
+  "dialog_id": "21991",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hey! How are ya?",
+    "hello im great im into horros and comedies do you have any suggestions",
+    "Yes! Have you seen Evil Dead or Evil Dead II (1987) ? Those are horror and comedy in one1",
+    "I have no seen either, are they worth the time?",
+    "They are really great! Pretty cheesy, but some good horror effects. Army of Darkness (1992) is good too!",
+    "The last comedy i saw was Girls Trip (2017) was great"
+  ],
+  "entity": [
+    "horror",
+    "comedy",
+    "horror",
+    "comedy",
+    "Evil Dead",
+    "Evil Dead II (1987)",
+    "horror",
+    "Army of Darkness (1992)",
+    "comedy",
+    "Girls Trip (2017)"
+  ],
+  "rec": [
+    "Shaun of the Dead (2004)"
+  ],
+  "resp": "And Shaun of the Dead (2004) is my favorite horror comedy! Super funny and gory.",
+  "template": [
+    "Hey! How are ya?",
+    "hello im great im into <mask> and <mask> do you have any suggestions",
+    "Yes! Have you seen <mask> or <mask> ? Those are <mask> and<mask>y in one1",
+    "I have no seen either, are they worth the time?",
+    "They are really great! Pretty cheesy, but some good <mask> effects. <mask> is good too!",
+    "The last <mask> i saw was <mask> was great",
+    "And <mask> is my favorite <mask><mask>y! Super funny and gory."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21991",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hey! How are ya?"
+      },
+      {
+        "role": "user",
+        "content": "hello im great im into horros and comedies do you have any suggestions"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes! Have you seen Evil Dead or Evil Dead II (1987) ? Those are horror and comedy in one1"
+      },
+      {
+        "role": "user",
+        "content": "I have no seen either, are they worth the time?"
+      },
+      {
+        "role": "assistant",
+        "content": "They are really great! Pretty cheesy, but some good horror effects. Army of Darkness (1992) is good too!"
+      },
+      {
+        "role": "user",
+        "content": "The last comedy i saw was Girls Trip (2017) was great"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a fun movie! Do you prefer more recent comedies, or are you open to classics as well?",
+        "entity": [],
+        "rec_items": [
+          8618,
+          18971,
+          16223,
+          9814,
+          7463,
+          8723,
+          10229,
+          8243,
+          18345,
+          2365,
+          10130,
+          10603,
+          18626,
+          6915,
+          22091,
+          18074,
+          16137,
+          23622,
+          10936,
+          8221,
+          2561,
+          11054,
+          7362,
+          24590,
+          19714,
+          22953,
+          18834,
+          10351,
+          282,
+          7532,
+          20289,
+          20071,
+          8316,
+          24083,
+          12998,
+          17202,
+          4877,
+          3932,
+          21556,
+          18555,
+          15829,
+          12796,
+          4572,
+          20385,
+          23450,
+          5370,
+          10790,
+          6392,
+          21818,
+          19952
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to both! I enjoy a good mix of recent and classic films. One classic that blends humor and horror really well is about a group of friends trying to survive a zombie apocalypse while dealing with their personal issues. It's filled with clever writing and memorable moments.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Zombieland (2009)\n2: American Zombie (2007)\n3: Scouts Guide to the Zombie Apocalypse (2015)\n4: Zombie Apocalypse\n5: I, Zombie (1998)\n6: Zombiez (2005)\n7: The Return of the Living Dead (1985)\n8: The Zombinator (2012)\n9: Return of the Living Dead\n10: The Comedy (2012)\n11: Shaun of the Dead (2004)\n12: Zombeavers (2014)\n13: The Hangover\n14: Return of the Living Dead Part II (1988)\n15: Seeking a Friend for the End of the World (2012)\n16: Re-Animator (1985)\n17: Army of Darkness (1992)\n18: Evil Dead II (1987)\n19: Horrorween (2010)\n20: Gremlins (1984)\n21: Night of the Living Dead 3D: Re-Animation (2012)\n22: Night of the Living Dead\n23: Popcorn (1991)\n24: Dawn of the Dead (1978)\n25: The Hangover (2009)\n26: Night of the Dead (2006)\n27: Dawn of the Dead (2004)\n28: Night of the Living Dead (1968)\n29: Dracula: Dead and Loving It (1995)\n30: An American Werewolf in Paris (1997)\n31: Better Off Dead (1985)\n32: Pride and Prejudice and Zombies (2016)\n33: Gremlins 2: The New Batch (1990)\n34: The Gingerdead Man (2005)\n35: The 'Burbs (1989)\n36: Piranha 3D (2010)\n37: Night of the Living Dead (1990)\n38: Dead Before Dawn (2012)\n39: Tucker & Dale vs. Evil (2010)\n40: Funny People (2009)\n41: What We Do in the Shadows (2014)\n42: Mystery Science Theater 3000: The Movie (1996)\n43: The Hangover Part II (2011)\n44: The Comedian (2016)\n45: Young Adult (2011)\n46: The Life Aquatic with Steve Zissou (2004)\n47: Creepshow (1982)\n48: Superbad (2007)\n49: Mosquito (1995)\n50: Land of the Dead (2005)\n:Great! Based on your preferences for horror and comedy, here are some recommendations:\n\n1. Evil Dead\n2. Evil Dead II\n3. Army of Darkness\n4. Shaun of the Dead\n5. What We Do in the Shadows\n6. Zombieland\n7. The Cabin in the Woods\n8. Happy Death Day\n9. The Final Girls\n10. Tucker and Dale vs. Evil",
+        "entity": [],
+        "rec_items": [
+          24590,
+          6555,
+          16302,
+          4842,
+          8917,
+          12440,
+          3932,
+          15782,
+          22686,
+          2993,
+          17004,
+          512,
+          18558,
+          18345,
+          24006,
+          13600,
+          8618,
+          18971,
+          8243,
+          15829,
+          12998,
+          3347,
+          10229,
+          22953,
+          8528,
+          2561,
+          18074,
+          21556,
+          14559,
+          20950,
+          7532,
+          17805,
+          8759,
+          16383,
+          8086,
+          20116,
+          24083,
+          6915,
+          18834,
+          13238,
+          14665,
+          7362,
+          8078,
+          17647,
+          18746,
+          16167,
+          4572,
+          19617,
+          18756,
+          18930
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. There's a fantastic film that combines humor and horror, featuring a group of friends navigating a zombie apocalypse while dealing with their personal lives. It's known for its clever writing and memorable moments. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "horror",
+      "Army of Darkness (1992)",
+      "Evil Dead II (1987)",
+      "comedy",
+      "Evil Dead",
+      "Girls Trip (2017)"
+    ],
+    "rec": [
+      "Shaun of the Dead (2004)"
+    ],
+    "resp": "And Shaun of the Dead (2004) is my favorite horror comedy! Super funny and gory.",
+    "template": [
+      "Hey! How are ya?",
+      "hello im great im into <mask> and <mask> do you have any suggestions",
+      "Yes! Have you seen <mask> or <mask> ? Those are <mask> and<mask>y in one1",
+      "I have no seen either, are they worth the time?",
+      "They are really great! Pretty cheesy, but some good <mask> effects. <mask> is good too!",
+      "The last <mask> i saw was <mask> was great",
+      "And <mask> is my favorite <mask><mask>y! Super funny and gory."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

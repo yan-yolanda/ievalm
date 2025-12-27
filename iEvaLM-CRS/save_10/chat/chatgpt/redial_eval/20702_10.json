@@ -1,0 +1,245 @@
+{
+  "dialog_id": "20702",
+  "turn_id": 10,
+  "context": [
+    "",
+    "Hello have you seen Pulp Fiction (1994) ? It is one of my favorite movies Pulp Fiction (1994)",
+    "Hi yes, that is a classic! I love movies like that Also, Goodfellas (1990)",
+    "all the mob movies are great like Casino (1995)",
+    "another one is Casino (1995) I tend to enjoy gangster movies",
+    "nice me too",
+    "yes!!",
+    "have you seen the Godfather (1991) ? Its the ultimate classic",
+    "I actually hated The Godfather (1972) and never watched any of the others. It was just too slow lol",
+    "they do take some time to finish, theyre all 3 hours plus",
+    "Any other good suggestions? Like the movie Hoodlum (1997) for me that was another classic"
+  ],
+  "entity": [
+    "Pulp Fiction (1994)",
+    "Goodfellas (1990)",
+    "Casino (1995)",
+    "Ste",
+    "Casino (1995)",
+    "Godfather (1991)",
+    "Eve",
+    "The Godfather (1972)",
+    "Hoodlum (1997)"
+  ],
+  "rec": [
+    "The Departed (2006)"
+  ],
+  "resp": "if you haven't seen it yet, The Departed (2006) is great",
+  "template": [
+    "Hello have you seen <mask> ? It is one of my favorite movies <mask>",
+    "Hi yes, that is a classic! I love movies like that Also, <mask>",
+    "all the mob movies are great like <mask>",
+    "another one is <mask> I tend to enjoy gang<mask>r movies",
+    "nice me too",
+    "yes!!",
+    "have you seen the <mask> ? Its the ultimate classic",
+    "I actually hated <mask> and n<mask>r watched any of the others. It was just too slow lol",
+    "they do take some time to finish, theyre all 3 hours plus",
+    "Any other good suggestions? Like the movie <mask> for me that was another classic",
+    "if you haven't seen it yet, <mask> is great"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20702",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello have you seen Pulp Fiction (1994) ? It is one of my favorite movies Pulp Fiction (1994)"
+      },
+      {
+        "role": "user",
+        "content": "Hi yes, that is a classic! I love movies like that Also, Goodfellas (1990)"
+      },
+      {
+        "role": "assistant",
+        "content": "all the mob movies are great like Casino (1995)"
+      },
+      {
+        "role": "user",
+        "content": "another one is Casino (1995) I tend to enjoy gangster movies"
+      },
+      {
+        "role": "assistant",
+        "content": "nice me too"
+      },
+      {
+        "role": "user",
+        "content": "yes!!"
+      },
+      {
+        "role": "assistant",
+        "content": "have you seen the Godfather (1991) ? Its the ultimate classic"
+      },
+      {
+        "role": "user",
+        "content": "I actually hated The Godfather (1972) and never watched any of the others. It was just too slow lol"
+      },
+      {
+        "role": "assistant",
+        "content": "they do take some time to finish, theyre all 3 hours plus"
+      },
+      {
+        "role": "user",
+        "content": "Any other good suggestions? Like the movie Hoodlum (1997) for me that was another classic"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! You enjoy gangster movies but prefer ones that are more fast-paced. Here are some recommendations for you:\n\n1. Scarface (1983)\n2. The Departed (2006)\n3. American Gangster (2007)\n4. Donnie Brasco (1997)\n5. A Bronx Tale (1993)\n6. Blow (2001)\n7. The Town (2010)\n8. Layer Cake (2004)\n9. Road to Perdition (2002)\n10. Public Enemies (2009)",
+        "entity": [],
+        "rec_items": [
+          10995,
+          23982,
+          7882,
+          14501,
+          6304,
+          8131,
+          6763,
+          7432,
+          12068,
+          19905,
+          24005,
+          18608,
+          21423,
+          16959,
+          13693,
+          15547,
+          7192,
+          13035,
+          22933,
+          9249,
+          17545,
+          22758,
+          2882,
+          1639,
+          13005,
+          5924,
+          2681,
+          3215,
+          13317,
+          1250,
+          21810,
+          2970,
+          13300,
+          10629,
+          14273,
+          3428,
+          17386,
+          782,
+          11862,
+          16989,
+          23177,
+          396,
+          8216,
+          22514,
+          18221,
+          10593,
+          348,
+          9450,
+          9488,
+          4623
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out a film that features an intense cat-and-mouse game between an undercover cop and a mole in the police force. It has a gripping storyline, stellar performances, and a fantastic twist. The film dives deep into themes of loyalty and betrayal, set against the backdrop of organized crime. It's definitely a must-see for anyone who enjoys fast-paced gangster movies!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Gangs of New York (2002)\n2: Donnie Brasco (1997)\n3: American Gangster (2007)\n4: Scarface (1983)\n5: The Departed (2006)\n6: Gangster (2006)\n7: Mafia! (1998)\n8: Scarface (1932)\n9: Brooklyn's Finest (2009)\n10: Heist (2001)\n11: A Bronx Tale (1993)\n12: The Godfather (1972)\n13: The Untouchables (1987)\n14: Heist (2015)\n15: The Godfather\n16: Mean Streets (1973)\n17: Goodfellas (1990)\n18: The Last Gangster (1937)\n19: Assassins (1995)\n20: The Godfather Part II (1974)\n21: Rob the Mob (2014)\n22: The Seven-Ups (1973)\n23: The Italian Job (2003)\n24: The Enforcer (1976)\n25: New Jack City (1991)\n26: The Score (2001)\n27: 88 Minutes (2007)\n28: Narc (2002)\n29: Casino (1995)\n30: The American (2010)\n31: La Linea (2009)\n32: Gangs of Wasseypur (2012)\n33: 2 Fast 2 Furious (2003)\n34: Bandits (2001)\n35: Hustle & Flow (2005)\n36: 8mm (1999)\n37: Domino (2005)\n38: The Godfather Part III\n39: Heat (1995)\n40: L.A. Confidential (1997)\n41: The Italian Job (1969)\n42: The Fast and the Furious (2001)\n43: American History X (1998)\n44: Al Capone (1959)\n45: It (1990)\n46: Fast 8\n47: 21 (2008)\n48: Fast and Furious (1939)\n49: Street Kings (2008)\n50: Blown Away (1994)\n:It sounds like you're describing \"The Departed\" (2006), which is indeed a fantastic film with those elements! If you enjoyed that, here are some more recommendations that fit your taste:\n\n1. Scarface (1983)\n2. American Gangster (2007)\n3. Donnie Brasco (1997)\n4. A Bronx Tale (1993)\n5. Blow (2001)\n6. The Town (2010)\n7. Layer Cake (2004)\n8. Road to Perdition (2002)\n9. Public Enemies (2009)\n10. Heat (1995)",
+        "entity": [],
+        "rec_items": [
+          10837,
+          3907,
+          22514,
+          19095,
+          22641,
+          6396,
+          5500,
+          7506,
+          11515,
+          2681,
+          17810,
+          13417,
+          6931,
+          22102,
+          3981,
+          17508,
+          10013,
+          19700,
+          15257,
+          16097,
+          17957,
+          13300,
+          2988,
+          3063,
+          4342,
+          18831,
+          7432,
+          12139,
+          11493,
+          10259,
+          20210,
+          23876,
+          10218,
+          12278,
+          8216,
+          24325,
+          18011,
+          17676,
+          15841,
+          3215,
+          12789,
+          5385,
+          2970,
+          12877,
+          20378,
+          10258,
+          6906,
+          11541,
+          16287,
+          11970
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I really think you should check out a film that features an intense cat-and-mouse game between an undercover cop and a mole in the police force. It has a gripping storyline, stellar performances, and a fantastic twist. The film dives deep into themes of loyalty and betrayal, set against the backdrop of organized crime. It's definitely a must-see for anyone who enjoys fast-paced gangster movies!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "Pulp Fiction (1994)",
+      "Casino (1995)",
+      "Godfather (1991)",
+      "Hoodlum (1997)",
+      "Ste",
+      "The Godfather (1972)",
+      "Goodfellas (1990)"
+    ],
+    "rec": [
+      "The Departed (2006)"
+    ],
+    "resp": "if you haven't seen it yet, The Departed (2006) is great",
+    "template": [
+      "Hello have you seen <mask> ? It is one of my favorite movies <mask>",
+      "Hi yes, that is a classic! I love movies like that Also, <mask>",
+      "all the mob movies are great like <mask>",
+      "another one is <mask> I tend to enjoy gang<mask>r movies",
+      "nice me too",
+      "yes!!",
+      "have you seen the <mask> ? Its the ultimate classic",
+      "I actually hated <mask> and n<mask>r watched any of the others. It was just too slow lol",
+      "they do take some time to finish, theyre all 3 hours plus",
+      "Any other good suggestions? Like the movie <mask> for me that was another classic",
+      "if you haven't seen it yet, <mask> is great"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

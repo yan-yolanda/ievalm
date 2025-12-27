@@ -1,0 +1,206 @@
+{
+  "dialog_id": "21603",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello What are your favorites?",
+    "Hello, I am looking for a great movie for date night? It can be anything lol",
+    "Yeah! How about The Lone Ranger (2013) or Battlefield Earth (2000) ?",
+    "I haven't heard of it But I will take it",
+    "Oh well, have you seen Titanic (1997) ?",
+    "nope not that one either but sounds fun"
+  ],
+  "entity": [
+    "The Lone Ranger (2013)",
+    "Battlefield Earth (2000)",
+    "Titanic (1997)"
+  ],
+  "rec": [
+    "Men in Black (1997)"
+  ],
+  "resp": "Hmm, well how about Men in Black (1997) ?",
+  "template": [
+    "Hello What are your favorites?",
+    "Hello, I am looking for a great movie for date night? It can be anything lol",
+    "Yeah! How about <mask> or <mask> ?",
+    "I haven't heard of it But I will take it",
+    "Oh well, have you seen <mask> ?",
+    "nope not that one either but sounds fun",
+    "Hmm, well how about <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21603",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello What are your favorites?"
+      },
+      {
+        "role": "user",
+        "content": "Hello, I am looking for a great movie for date night? It can be anything lol"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeah! How about The Lone Ranger (2013) or Battlefield Earth (2000) ?"
+      },
+      {
+        "role": "user",
+        "content": "I haven't heard of it But I will take it"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh well, have you seen Titanic (1997) ?"
+      },
+      {
+        "role": "user",
+        "content": "nope not that one either but sounds fun"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! To help me recommend more movies, could you tell me what genres you and your date enjoy? For example, do you prefer romantic comedies, action, drama, or something else?",
+        "entity": [],
+        "rec_items": [
+          15614,
+          20552,
+          24568,
+          18519,
+          5528,
+          21700,
+          15961,
+          18725,
+          8684,
+          21221,
+          18900,
+          16167,
+          19914,
+          14636,
+          22932,
+          21678,
+          11209,
+          15769,
+          16243,
+          22580,
+          14283,
+          7819,
+          22874,
+          13535,
+          2194,
+          8699,
+          17871,
+          20937,
+          9169,
+          23103,
+          18862,
+          6105,
+          16959,
+          17054,
+          4258,
+          4859,
+          8750,
+          5411,
+          4076,
+          23995,
+          12402,
+          13054,
+          15505,
+          4824,
+          17925,
+          14117,
+          12363,
+          8447,
+          2535,
+          17444
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I think a mix of action and comedy would be perfect for a fun date night! There's this fantastic film that combines those elements really well. It features a secret organization that monitors extraterrestrial activity on Earth, and it's filled with humor and exciting action sequences. The chemistry between the lead characters is also a highlight!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Date Night (2010)\n2: Date Movie (2006)\n3: Game Night (2018)\n4: The Martian (2015)\n5: Men in Black\n6: Fighting (2014)\n7: Allied (2016)\n8: The Tuxedo (2002)\n9: Killers (2010)\n10: Romancing the Stone (1984)\n11: My Super Ex-Girlfriend\n12: Men in Black (1997)\n13: 50 (2011)\n14: Definitely, Maybe (2008)\n15: Looper (2012)\n16: Adventureland (2009)\n17: The Nice Guys (2016)\n18: Avenger (2006)\n19: Men in Black II (2002)\n20: Date with an Angel (1987)\n21: Guardians of the Galaxy (2014)\n22: Sherlock Holmes (2009)\n23: What Women Want (2011)\n24: Mr. Right (2015)\n25: 50 First Dates (2004)\n26: Super 8 (2011)\n27: Extract\n28: Shanghai Noon (2000)\n29: Next (2007)\n30: The Sure Thing (1985)\n31: Mr. and Mrs. (2012)\n32: Knight and Day (2010)\n33: Her (2013)\n34: Sherlock Holmes (2010)\n35: His Girl Friday (1940)\n36: The Change-Up (2011)\n37: Get Smart (2008)\n38: When We First Met\n39: Secretary (2002)\n40: In Time (2011)\n41: Interstellar (2014)\n42: Spider-Man 2 (2004)\n43: Spy (2015)\n44: The Avengers (2012)\n45: Seeking a Friend for the End of the World (2012)\n46: Night at the Museum\n47: Magic in the Moonlight (2014)\n48: The Perfect Match (2016)\n49: Weird Science (1985)\n50: Casanova (2005)\n:Thanks for sharing your preference! Based on your interest in action-comedy films, here are some recommendations for your date night:\n\n1. Men in Black (1997)\n2. 21 Jump Street (2012)\n3. The Heat (2013)\n4. Guardians of the Galaxy (2014)\n5. Rush Hour (1998)\n6. Deadpool (2016)\n7. Central Intelligence (2016)\n8. Tropic Thunder (2008)\n9. Spy (2015)\n10. Zombieland (2009) \n\nEnjoy your movie night!",
+        "entity": [],
+        "rec_items": [
+          9056,
+          3100,
+          20538,
+          12399,
+          14558,
+          18682,
+          15263,
+          13485,
+          21076,
+          16957,
+          22065,
+          11504,
+          10215,
+          7614,
+          18754,
+          13548,
+          15930,
+          2693,
+          5479,
+          21849,
+          17184,
+          8347,
+          14722,
+          6250,
+          4237,
+          8138,
+          18240,
+          23995,
+          24068,
+          11892,
+          19864,
+          5620,
+          18000,
+          11337,
+          23270,
+          7944,
+          19895,
+          22077,
+          13213,
+          5968,
+          19226,
+          8862,
+          10960,
+          21396,
+          24006,
+          895,
+          19759,
+          13851,
+          18505,
+          16210
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the recommendations! I think I would really enjoy the one that features a secret organization monitoring extraterrestrial activity. It's a perfect blend of action and comedy, and I've heard great things about the chemistry between the lead characters. Sounds like a fantastic choice for a fun date night!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Titanic (1997)",
+      "Battlefield Earth (2000)",
+      "The Lone Ranger (2013)"
+    ],
+    "rec": [
+      "Men in Black (1997)"
+    ],
+    "resp": "Hmm, well how about Men in Black (1997) ?",
+    "template": [
+      "Hello What are your favorites?",
+      "Hello, I am looking for a great movie for date night? It can be anything lol",
+      "Yeah! How about <mask> or <mask> ?",
+      "I haven't heard of it But I will take it",
+      "Oh well, have you seen <mask> ?",
+      "nope not that one either but sounds fun",
+      "Hmm, well how about <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,202 @@
+{
+  "dialog_id": "20940",
+  "turn_id": 5,
+  "context": [
+    "Hi How are you?",
+    "Hello there How are you? Tell me what kind of movies would you like to watch?",
+    "Romance and comedy",
+    "I can recommend Click (2010) by Adan Sandler You can smile a lot there!",
+    "It's pretty good!"
+  ],
+  "entity": [
+    "romance",
+    "comedy",
+    "Adam Sandler",
+    "Click (2010)"
+  ],
+  "rec": [
+    "Deadpool (2016)",
+    "Deadpool 2 (2018)"
+  ],
+  "resp": "I can also recommend Deadpool (2016) the old one and the new one Deadpool 2 (2018)",
+  "template": [
+    "Hi How are you?",
+    "Hello there How are you? Tell me what kind of movies would you like to watch?",
+    "<mask> and <mask>",
+    "I can recommend <mask> by <mask> You can smile a lot there!",
+    "It's pretty good!",
+    "I can also recommend <mask> the old one and the new one <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20940",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello there How are you? Tell me what kind of movies would you like to watch?"
+      },
+      {
+        "role": "user",
+        "content": "Romance and comedy"
+      },
+      {
+        "role": "assistant",
+        "content": "I can recommend Click (2010) by Adan Sandler You can smile a lot there!"
+      },
+      {
+        "role": "user",
+        "content": "It's pretty good!"
+      },
+      {
+        "role": "assistant",
+        "content": "Great to hear you liked it! Would you like more recommendations in the romance and comedy genres?",
+        "entity": [],
+        "rec_items": [
+          21478,
+          9763,
+          10576,
+          12402,
+          13238,
+          2213,
+          22938,
+          9211,
+          14905,
+          4258,
+          13274,
+          10035,
+          16767,
+          7238,
+          22332,
+          10215,
+          2993,
+          15173,
+          22877,
+          22783,
+          5223,
+          20559,
+          22443,
+          13588,
+          19895,
+          3100,
+          18545,
+          20054,
+          21118,
+          9313,
+          17685,
+          3295,
+          5528,
+          9939,
+          23506,
+          2507,
+          8638,
+          6132,
+          7819,
+          18240,
+          5360,
+          18491,
+          11557,
+          5650,
+          19848,
+          7614,
+          18710,
+          4028,
+          23380,
+          21705
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the offer, but I have something specific in mind. I'm looking for films that blend action with humor, featuring a unique anti-hero who often breaks the fourth wall and has a very unconventional approach to life. The storylines are filled with witty banter and over-the-top action sequences. They also have a strong focus on personal relationships and a bit of a rebellious spirit.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Last Action Hero (1993)\n2: Kick-Ass\n3: Fighting (2014)\n4: Hero (2002)\n5: 50 (2011)\n6: Avenger (2006)\n7: The Comedy (2012)\n8: The Comedian (2016)\n9: Mr. Right (2015)\n10: Ant-Man (2015)\n11: Superhero Movie (2008)\n12: Super (2010)\n13: The Artist (2011)\n14: American Ninja (1985)\n15: The Interview (2014)\n16: Yes Man (2008)\n17: Pan (2015)\n18: Looper (2012)\n19: The Man from U.N.C.L.E. (2015)\n20: What Women Want (2011)\n21: The Green Hornet (2011)\n22: American Ultra (2015)\n23: I, the Other (2006)\n24: Big Hero 6 (2014)\n25: Kick-Ass (2010)\n26: Get Smart (2008)\n27: Deadpool (2016)\n28: Extract\n29: Black Mask (1996)\n30: Tropic Thunder (2008)\n31: The Nice Guys (2016)\n32: (2007)\n33: Attack the Block\n34: Charlie Bartlett (2007)\n35: Hero (2007)\n36: Sherlock Holmes (2010)\n37: Brick (2005)\n38: Annie (2014)\n39: The Hitman's Bodyguard\n40: Argo (2004)\n41: An Officer and a Gentleman\n42: The Quick and the Dead (1995)\n43: I Heart Huckabees (2004)\n44: Warrior (2011)\n45: Superman (1997)\n46: Supersonic Man (1979)\n47: Allied (2016)\n48: The A-Team (2010)\n49: It's Kind of a Funny Story (2010)\n50: 50/50 (2011)\n:Got it! Here are some recommendations that fit your criteria:\n\n1. Deadpool\n2. Guardians of the Galaxy\n3. Kick-Ass\n4. Zombieland\n5. Scott Pilgrim vs. The World\n6. The Nice Guys\n7. Tropic Thunder\n8. 22 Jump Street\n9. Shaun of the Dead\n10. Hot Fuzz",
+        "entity": [],
+        "rec_items": [
+          19952,
+          22547,
+          18682,
+          17129,
+          10215,
+          2693,
+          2993,
+          17647,
+          6250,
+          11794,
+          19896,
+          15579,
+          19316,
+          23605,
+          23984,
+          10035,
+          18740,
+          18754,
+          18556,
+          14722,
+          7165,
+          12660,
+          15430,
+          5053,
+          19455,
+          19895,
+          21378,
+          18240,
+          7174,
+          18555,
+          15930,
+          16809,
+          12404,
+          15632,
+          2675,
+          11337,
+          17751,
+          21732,
+          2132,
+          24284,
+          19331,
+          15399,
+          1893,
+          6573,
+          10581,
+          9876,
+          15263,
+          2580,
+          22938,
+          20654
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for films that feature a certain anti-hero known for his humor and unconventional style, often breaking the fourth wall. These films are packed with action, witty dialogue, and a focus on personal relationships. They have a unique blend of comedy and action that really stands out.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Click (2010)",
+      "comedy",
+      "romance",
+      "Adam Sandler"
+    ],
+    "rec": [
+      "Deadpool (2016)",
+      "Deadpool 2 (2018)"
+    ],
+    "resp": "I can also recommend Deadpool (2016) the old one and the new one Deadpool 2 (2018)",
+    "template": [
+      "Hi How are you?",
+      "Hello there How are you? Tell me what kind of movies would you like to watch?",
+      "<mask> and <mask>",
+      "I can recommend <mask> by <mask> You can smile a lot there!",
+      "It's pretty good!",
+      "I can also recommend <mask> the old one and the new one <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

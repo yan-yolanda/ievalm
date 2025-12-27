@@ -1,0 +1,210 @@
+{
+  "dialog_id": "22653",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello What kind of movies do you like?",
+    "Hi. I like gangster movies",
+    "Ganster movies!! Great",
+    "Know any good ones? Other than The Godfather (1972) I mean.",
+    "Have yo seen The Untouchables (1987) ??",
+    "I did. Love Sean Connery"
+  ],
+  "entity": [
+    "Ste",
+    "Ste",
+    "The Godfather (1972)",
+    "The Untouchables (1987)",
+    "Sean Connery",
+    "Sean Connery"
+  ],
+  "rec": [
+    "Goodfellas (1990)"
+  ],
+  "resp": "Goodfellas (1990) also is a very good movie",
+  "template": [
+    "Hello What kind of movies do you like?",
+    "Hi. I like gang<mask>r movies",
+    "Gan<mask>r movies!! Great",
+    "Know any good ones? Other than <mask> I mean.",
+    "Have yo seen <mask> ??",
+    "I did. <pers<mask>",
+    "<mask> also is a very good movie"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22653",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Hi. I like gangster movies"
+      },
+      {
+        "role": "assistant",
+        "content": "Ganster movies!! Great"
+      },
+      {
+        "role": "user",
+        "content": "Know any good ones? Other than The Godfather (1972) I mean."
+      },
+      {
+        "role": "assistant",
+        "content": "Have yo seen The Untouchables (1987) ??"
+      },
+      {
+        "role": "user",
+        "content": "I did. Love Sean Connery"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome! Do you have a preference for classic gangster films, or are you also interested in more modern ones?",
+        "entity": [],
+        "rec_items": [
+          6931,
+          4799,
+          10362,
+          13300,
+          21505,
+          13684,
+          16772,
+          23068,
+          3063,
+          24518,
+          19833,
+          12472,
+          12280,
+          15257,
+          5990,
+          205,
+          17504,
+          9334,
+          13642,
+          22032,
+          8794,
+          21258,
+          13966,
+          14490,
+          11786,
+          19331,
+          8053,
+          21894,
+          22827,
+          11238,
+          23399,
+          15867,
+          16959,
+          8353,
+          20431,
+          1188,
+          16315,
+          14117,
+          24110,
+          8318,
+          21201,
+          14311,
+          16972,
+          11493,
+          7406,
+          13485,
+          11862,
+          21145,
+          20378,
+          22977
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy films that capture the gritty realism of organized crime and the complex characters involved. There's one film that stands out for its intense storytelling and character development, showcasing the rise and fall of a young mob associate. It features a fantastic cast and is known for its iconic scenes and memorable quotes. The film dives deep into the lifestyle and consequences of being involved in the mob.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Gangs of New York (2002)\n2: Rob the Mob (2014)\n3: American Gangster (2007)\n4: Goodfellas (1990)\n5: Gangster (2006)\n6: The Last Gangster (1937)\n7: Scarface (1932)\n8: The Godfather\n9: The Godfather (1972)\n10: Mafia! (1998)\n11: Mean Streets (1973)\n12: Donnie Brasco (1997)\n13: Heist (2015)\n14: The Godfather Part II (1974)\n15: Scarface (1983)\n16: It (1990)\n17: Brooklyn's Finest (2009)\n18: Gotti (2018)\n19: Al Capone (1959)\n20: Gangs of Wasseypur (2012)\n21: The Outsiders (1983)\n22: The Italian Job (2003)\n23: The Asphalt Jungle (1950)\n24: The Untouchables (1987)\n25: The Godfather Part III\n26: Glengarry Glen Ross\n27: Once Upon a Time in America (1984)\n28: The Seven-Ups (1973)\n29: American History X (1998)\n30: The Enforcer (1976)\n31: Reservoir Dogs (1992)\n32: L.A. Confidential (1997)\n33: Chinatown (1974)\n34: The Italian Job (1969)\n35: Narc (2002)\n36: A Bronx Tale (1993)\n37: Night Falls on Manhattan (1997)\n38: The Drop (2014)\n39: The Mack (1973)\n40: The Godfather Saga (1977)\n41: High Crime (1973)\n42: Casino (1995)\n43: The Departed (2006)\n44: Hard Eight (1996)\n45: Hustle & Flow (2005)\n46: New Jack City (1991)\n47: 8mm (1999)\n48: True Crime (1999)\n49: The Best Offer (2013)\n50: Heist (2001)\n:It sounds like you're describing \"Goodfellas\" (1990). Based on your preferences, here are some recommendations for gangster movies that capture gritty realism and complex characters:\n\n1. Goodfellas\n2. Scarface\n3. The Departed\n4. Casino\n5. A Bronx Tale\n6. Donnie Brasco\n7. American Gangster\n8. The Irishman\n9. Miller's Crossing\n10. Road to Perdition",
+        "entity": [],
+        "rec_items": [
+          10837,
+          17957,
+          22514,
+          10013,
+          6396,
+          19700,
+          7506,
+          3981,
+          13417,
+          5500,
+          17508,
+          3907,
+          22102,
+          16097,
+          19095,
+          20378,
+          11515,
+          20844,
+          12877,
+          23876,
+          11862,
+          2988,
+          10629,
+          6931,
+          17676,
+          6669,
+          24110,
+          13300,
+          2970,
+          3063,
+          9473,
+          3215,
+          15390,
+          12789,
+          12139,
+          17810,
+          21810,
+          19880,
+          5718,
+          16803,
+          11947,
+          11493,
+          22641,
+          24473,
+          8216,
+          4342,
+          24325,
+          9541,
+          9522,
+          2681
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I really enjoy a particular film that captures the gritty realism of organized crime and the complex characters involved. It features a fantastic cast and is known for its intense storytelling, showcasing the rise and fall of a young mob associate. The film dives deep into the lifestyle and consequences of being involved in the mob, with iconic scenes and memorable quotes. It's truly a standout in the genre.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Untouchables (1987)",
+      "The Godfather (1972)",
+      "Sean Connery",
+      "Ste"
+    ],
+    "rec": [
+      "Goodfellas (1990)"
+    ],
+    "resp": "Goodfellas (1990) also is a very good movie",
+    "template": [
+      "Hello What kind of movies do you like?",
+      "Hi. I like gang<mask>r movies",
+      "Gan<mask>r movies!! Great",
+      "Know any good ones? Other than <mask> I mean.",
+      "Have yo seen <mask> ??",
+      "I did. <pers<mask>",
+      "<mask> also is a very good movie"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

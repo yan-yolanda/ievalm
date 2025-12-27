@@ -1,0 +1,176 @@
+{
+  "dialog_id": "21762",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hi there. Looking for any specific type of movie?",
+    "Good morning Something fantasy, like my favorite The Lord of the Rings: The Return of the King (2003)"
+  ],
+  "entity": [
+    "fantasy",
+    "The Lord of the Rings: The Return of the King (2003)"
+  ],
+  "rec": [
+    "The Chronicles of Narnia"
+  ],
+  "resp": "Alright, have you seen The Chronicles of Narnia ?",
+  "template": [
+    "Hi there. Looking for any specific type of movie?",
+    "Good morning Something <mask>, like my favorite <mask>",
+    "Alright, have you seen <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21762",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Looking for any specific type of movie?"
+      },
+      {
+        "role": "user",
+        "content": "Good morning Something fantasy, like my favorite The Lord of the Rings: The Return of the King (2003)"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choice! Do you prefer epic fantasy adventures, or are you open to other sub-genres within fantasy, like dark fantasy or fantasy romance?",
+        "entity": [],
+        "rec_items": [
+          19801,
+          18651,
+          15734,
+          17686,
+          15960,
+          21092,
+          15051,
+          12631,
+          13102,
+          14399,
+          23459,
+          2693,
+          21803,
+          23854,
+          13740,
+          18131,
+          23716,
+          20021,
+          21411,
+          9706,
+          24550,
+          15627,
+          18752,
+          1991,
+          17504,
+          12792,
+          17685,
+          21525,
+          10064,
+          23450,
+          22281,
+          22558,
+          19646,
+          21247,
+          21144,
+          23792,
+          23506,
+          14990,
+          6144,
+          7362,
+          5379,
+          23741,
+          17032,
+          20751,
+          17437,
+          18622,
+          1490,
+          14762,
+          14481,
+          16634
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm definitely drawn to epic fantasy adventures! I love stories that transport me to magical worlds filled with adventure and memorable characters. For example, there's a series that features a group of children who discover a magical land through a wardrobe, where they encounter talking animals and epic battles between good and evil. It's a classic that beautifully blends adventure and fantasy elements.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Mythica: A Quest for Heroes (2015)\n2: Epic (2013)\n3: Eragon (2006)\n4: Justice League Dark\n5: The Hobbit\n6: The Lord of the Rings\n7: Epic Movie (2007)\n8: The Dark Crystal\n9: The Chronicles of Narnia\n10: Dragonslayer (1981)\n11: The Lord of the Rings (1978)\n12: Legend (1985)\n13: Inkheart (2008)\n14: Fantastic Beasts and Where to Find Them (2016)\n15: The Twilight Saga\n16: Strange Magic (2015)\n17: Harry Potter\n18: Doctor Who\n19: The Dark (2005)\n20: Warcraft (2016)\n21: The Dark Tower (2017)\n22: Percy Jackson\n23: Enchanted (2007)\n24: Oz the Great and Powerful (2013)\n25: The Lord of the Rings: The Fellowship of the Ring (2001)\n26: The Enchanted\n27: The Hobbit: An Unexpected Journey (2012)\n28: The Lord of the Rings: The Two Towers (2002)\n29: Fullmetal Alchemist\n30: Once Upon a Time (2013)\n31: The Lion, the Witch and the Wardrobe\n32: Grimm (2003)\n33: The Hunger Games\n34: Excalibur (1981)\n35: The Chronicles of Narnia: Prince Caspian (2008)\n36: Wizards (1977)\n37: Percy Jackson & the Olympians: The Lightning Thief\n38: Merlin and the War of the Dragons (2008)\n39: The Hobbit: The Desolation of Smaug (2013)\n40: The Golden Compass (2007)\n41: Avatar\n42: The Hobbit: The Battle of the Five Armies (2014)\n43: The Jungle Book (1994)\n44: Hugo (2011)\n45: Avenger (2006)\n46: Ewoks: The Battle for Endor\n47: The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005)\n48: The Emerald Forest (1985)\n49: Percy Jackson: Sea of Monsters\n50: Star Wars\n:Thanks for sharing your preferences! Based on your love for epic fantasy adventures like \"The Lord of the Rings\" and the magical world you mentioned, here are some recommendations:\n\n1. The Chronicles of Narnia: The Lion, the Witch and the Wardrobe\n2. The Hobbit: An Unexpected Journey\n3. Harry Potter and the Sorcerer's Stone\n4. Stardust\n5. The Golden Compass\n6. The Princess Bride\n7. Willow\n8. The Dark Crystal\n9. Eragon\n10. The NeverEnding Story",
+        "entity": [],
+        "rec_items": [
+          1490,
+          19996,
+          18622,
+          8196,
+          12631,
+          15734,
+          23450,
+          402,
+          23122,
+          3423,
+          18651,
+          15627,
+          11927,
+          23741,
+          23792,
+          6959,
+          23697,
+          13061,
+          24550,
+          8993,
+          15111,
+          21390,
+          23506,
+          21525,
+          17686,
+          11128,
+          15051,
+          15960,
+          15438,
+          6706,
+          11138,
+          6062,
+          14878,
+          24483,
+          11803,
+          7971,
+          18433,
+          7021,
+          23716,
+          15906,
+          13768,
+          13740,
+          22657,
+          10937,
+          2693,
+          16892,
+          19117,
+          24304,
+          17965,
+          20287
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I'm really looking for something that captures the essence of a magical land where children embark on epic adventures. There's a classic series that features a wardrobe leading to a fantastical realm filled with talking animals and battles between good and evil. It's a timeless tale that beautifully intertwines adventure and fantasy elements.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "fantasy",
+      "The Lord of the Rings: The Return of the King (2003)"
+    ],
+    "rec": [
+      "The Chronicles of Narnia"
+    ],
+    "resp": "Alright, have you seen The Chronicles of Narnia ?",
+    "template": [
+      "Hi there. Looking for any specific type of movie?",
+      "Good morning Something <mask>, like my favorite <mask>",
+      "Alright, have you seen <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

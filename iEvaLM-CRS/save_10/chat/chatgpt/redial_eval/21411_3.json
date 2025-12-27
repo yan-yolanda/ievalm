@@ -1,0 +1,127 @@
+{
+  "dialog_id": "21411",
+  "turn_id": 3,
+  "context": [
+    "Hey there I love horror films. Have you seen any you can recommend?",
+    "Hello I love them too! Have you seen Ring (1998) Or Sinister (2012) Great movies for me!",
+    "I saw the Ring but not Sinister. I liked Hostel (2011) What do you think?"
+  ],
+  "entity": [
+    "horror",
+    "Ring (1998)",
+    "Sinister (2012)",
+    "Ste",
+    "Hostel (2011)"
+  ],
+  "rec": [
+    "Ring (1998)",
+    "The Cabin in the Woods"
+  ],
+  "resp": "If you liked Ring (1998) then you probably like The Cabin in the Woods I havent seen it, but i know its an Indian movie",
+  "template": [
+    "Hey there I love <mask> films. Have you seen any you can recommend?",
+    "Hello I love them too! Have you seen <mask> Or <mask> Great movies for me!",
+    "I saw the Ring but not Sini<mask>r. I liked <mask> What do you think?",
+    "If you liked <mask> then you probably like <mask> I havent seen it, but i know its an <mask> movie"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21411",
+    "turn_id": 3,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hey there I love horror films. Have you seen any you can recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello I love them too! Have you seen Ring (1998) Or Sinister (2012) Great movies for me!"
+      },
+      {
+        "role": "user",
+        "content": "I saw the Ring but not Sinister. I liked Hostel (2011) What do you think?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Sinister 2 (2015)\n2: The Ring (2002)\n3: Sinister (2012)\n4: The Ring Two (2005)\n5: Ring 2 (1999)\n6: Rings (2017)\n7: Hostel (2005)\n8: Hostel: Part II (2007)\n9: Hostel (2011)\n10: The Ring (1996)\n11: The Visit (2015)\n12: Hostel (2013)\n13: Insidious (2011)\n14: Love Bite (2012)\n15: See No Evil 2 (2014)\n16: They (2002)\n17: The Rite (2011)\n18: The Others (2001)\n19: Sister, Sister (1982)\n20: Shriek If You Know What I Did Last Friday the Thirteenth (2000)\n21: Ring (1998)\n22: Reel Horror (1985)\n23: The Dark Half (1993)\n24: The Host (2013)\n25: Insidious (2010)\n26: Saw VI (2009)\n27: The Haunting (1999)\n28: Hellraiser (1987)\n29: Suspiria (1977)\n30: The Host (2006)\n31: The Hills Have Eyes (1977)\n32: Mimic (1997)\n33: Evil Dead II (1987)\n34: Insidious\n35: Ju-On: The Grudge (2002)\n36: An American Haunting (2005)\n37: Friend Request\n38: The Evil Dead (1981)\n39: Scream 2 (1997)\n40: Fright Night (1985)\n41: Insidious: Chapter 2 (2013)\n42: Gia\n43: Saw (2004)\n44: Don't Be Afraid of the Dark (2010)\n45: Mirrors (2008)\n46: The Amityville Horror (1979)\n47: The Resident (2011)\n48: I Know What You Did Last Summer (1997)\n49: Super 8 (2011)\n50: The Pit and the Pendulum (2009)\n:Hostel is a great choice! It has that intense and gritty horror vibe. Do you prefer psychological horror, slasher films, or supernatural themes?",
+        "entity": [],
+        "rec_items": [
+          14323,
+          23036,
+          19096,
+          13257,
+          21275,
+          12801,
+          7503,
+          5291,
+          11441,
+          18618,
+          8213,
+          18251,
+          11886,
+          23045,
+          23089,
+          12796,
+          2823,
+          7680,
+          14337,
+          18873,
+          3376,
+          11001,
+          7192,
+          21431,
+          19104,
+          21479,
+          21504,
+          7729,
+          10163,
+          18265,
+          3519,
+          1919,
+          18971,
+          21158,
+          7116,
+          4535,
+          10046,
+          16223,
+          7442,
+          17081,
+          22931,
+          14417,
+          4130,
+          23602,
+          926,
+          22182,
+          23565,
+          2258,
+          8138,
+          19675
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy films that create a sense of dread and suspense, especially those that involve supernatural elements. For instance, there's a film that revolves around a cursed videotape that leads to terrifying consequences. Another one features a group of friends who find themselves in a remote cabin, where things take a dark turn. Both of these films are excellent examples of how horror can be both chilling and thought-provoking.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Hostel (2011)",
+      "Ring (1998)",
+      "Sinister (2012)",
+      "Ste",
+      "horror"
+    ],
+    "rec": [
+      "Ring (1998)",
+      "The Cabin in the Woods"
+    ],
+    "resp": "If you liked Ring (1998) then you probably like The Cabin in the Woods I havent seen it, but i know its an Indian movie",
+    "template": [
+      "Hey there I love <mask> films. Have you seen any you can recommend?",
+      "Hello I love them too! Have you seen <mask> Or <mask> Great movies for me!",
+      "I saw the Ring but not Sini<mask>r. I liked <mask> What do you think?",
+      "If you liked <mask> then you probably like <mask> I havent seen it, but i know its an <mask> movie"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

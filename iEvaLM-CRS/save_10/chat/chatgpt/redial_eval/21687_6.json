@@ -1,0 +1,149 @@
+{
+  "dialog_id": "21687",
+  "turn_id": 6,
+  "context": [
+    "",
+    "hello what is your favorite movie",
+    "Greetings I like movies like Game Night (2018) Have you seen that one",
+    "Great Choice! no i have not",
+    "Funny movie Date Night (2010) is a good one as well",
+    "I have not seen that one either I need to catch up on my movies, haha!",
+    "hehe Have you seen anything new like Deadpool (2016) Sorry Deadpool 2 (2018)"
+  ],
+  "entity": [
+    "Game Night (2018)",
+    "Date Night (2010)",
+    "Deadpool (2016)",
+    "Deadpool 2 (2018)"
+  ],
+  "rec": [
+    "Charade (1953)",
+    "Teaching Mrs. Tingle (1999)",
+    "Deadpool 2 (2018)"
+  ],
+  "resp": "Have you seen Charade (1953) or Teaching Mrs. Tingle (1999) ? I have not seen Deadpool 2 (2018) looking forward to it. Thanks for the reccomendations!",
+  "template": [
+    "hello what is your favorite movie",
+    "Greetings I like movies like <mask> Have you seen that one",
+    "Great Choice! no i have not",
+    "Funny movie <mask> is a good one as well",
+    "I have not seen that one either I need to catch up on my movies, haha!",
+    "hehe Have you seen anything new like <mask> Sorry <mask>",
+    "Have you seen <mask> or <mask> ? I have not seen <mask> looking for<mask>d to it. Thanks for the reccomendations!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21687",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello what is your favorite movie"
+      },
+      {
+        "role": "user",
+        "content": "Greetings I like movies like Game Night (2018) Have you seen that one"
+      },
+      {
+        "role": "assistant",
+        "content": "Great Choice! no i have not"
+      },
+      {
+        "role": "user",
+        "content": "Funny movie Date Night (2010) is a good one as well"
+      },
+      {
+        "role": "assistant",
+        "content": "I have not seen that one either I need to catch up on my movies, haha!"
+      },
+      {
+        "role": "user",
+        "content": "hehe Have you seen anything new like Deadpool (2016) Sorry Deadpool 2 (2018)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Deadpool 2 (2018)\n2: Deadpool (2016)\n3: Now You See Me 2 (2016)\n4: Rio 2 (2014)\n5: Rio (2011)\n6: Ant-Man (2015)\n7: Guardians of the Galaxy Vol. 2 (2017)\n8: Waiting... (2005)\n9: The Hangover Part II (2011)\n10: The Boss (2016)\n11: The Change-Up (2011)\n12: Dope (2015)\n13: Thor: Ragnarok (2017)\n14: Avengers: Infinity War (2018)\n15: The Comedy (2012)\n16: Blade Runner 2049 (2017)\n17: Defendor (2009)\n18: Ant-Man and the Wasp (2018)\n19: The Intern (2015)\n20: Evil Dead II (1987)\n21: Horrible Bosses 2 (2014)\n22: Hee Man: Master of None (1985)\n23: Super Troopers 2 (2018)\n24: Red 2 (2013)\n25: Meet the Blacks (2016)\n26: Guardians of the Galaxy (2014)\n27: The Do-Over (2016)\n28: Due Date\n29: The Hitman's Bodyguard\n30: Boo 2! A Madea Halloween (2017)\n31: Madame (2017)\n32: Déjà Vu (2006)\n33: Hail, Caesar! (2016)\n34: Superhero Movie (2008)\n35: Game Over, Man! (2018)\n36: God's Not Dead 2 (2016)\n37: Turbo (2013)\n38: Venom (2018)\n39: The Emoji Movie (2017)\n40: Wonder Woman 2 (2019)\n41: They Came Together (2014)\n42: Suicide Squad (2016)\n43: Keanu (2016)\n44: Zoolander 2 (2016)\n45: Unknown (2011)\n46: The Avengers (2012)\n47: Pixels (2015)\n48: Piranha 3DD (2012)\n49: Spider-Man: Homecoming (2017)\n50: Dirty Grandpa (2016)\n:I haven't seen those either, but I know they are popular! Do you enjoy action-comedy films?",
+        "entity": [],
+        "rec_items": [
+          20405,
+          21378,
+          10127,
+          10559,
+          19313,
+          11794,
+          3191,
+          12820,
+          8078,
+          17703,
+          7944,
+          11789,
+          14739,
+          20468,
+          2993,
+          14901,
+          8365,
+          20729,
+          12552,
+          18971,
+          14040,
+          7564,
+          13249,
+          14600,
+          23772,
+          17184,
+          10038,
+          22532,
+          2132,
+          20385,
+          18959,
+          19304,
+          1138,
+          19896,
+          20804,
+          22760,
+          2984,
+          20789,
+          9406,
+          20359,
+          16713,
+          9530,
+          20049,
+          13708,
+          14847,
+          21396,
+          9939,
+          16670,
+          8721,
+          18064
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I do enjoy action-comedy films! Speaking of which, there are some fantastic movies that blend humor with thrilling plots. For instance, there's a classic film from 1953 that combines suspense and wit, featuring a charming lead who gets caught up in a web of intrigue. Then there's a 1999 film about a teacher who finds herself in a rather precarious situation with her students, filled with dark humor. Lastly, a more recent film from 2018 features a superhero with a sharp tongue and plenty of action, making it a hilarious ride. These films really capture the essence of action-comedy!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Game Night (2018)",
+      "Date Night (2010)",
+      "Deadpool 2 (2018)",
+      "Deadpool (2016)"
+    ],
+    "rec": [
+      "Charade (1953)",
+      "Teaching Mrs. Tingle (1999)",
+      "Deadpool 2 (2018)"
+    ],
+    "resp": "Have you seen Charade (1953) or Teaching Mrs. Tingle (1999) ? I have not seen Deadpool 2 (2018) looking forward to it. Thanks for the reccomendations!",
+    "template": [
+      "hello what is your favorite movie",
+      "Greetings I like movies like <mask> Have you seen that one",
+      "Great Choice! no i have not",
+      "Funny movie <mask> is a good one as well",
+      "I have not seen that one either I need to catch up on my movies, haha!",
+      "hehe Have you seen anything new like <mask> Sorry <mask>",
+      "Have you seen <mask> or <mask> ? I have not seen <mask> looking for<mask>d to it. Thanks for the reccomendations!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

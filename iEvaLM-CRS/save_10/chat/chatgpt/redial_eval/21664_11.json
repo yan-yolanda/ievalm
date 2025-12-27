@@ -1,0 +1,307 @@
+{
+  "dialog_id": "21664",
+  "turn_id": 11,
+  "context": [
+    "Hello How are you",
+    "Great! How are you?",
+    "Im looking for a good comedy what would you suggest I am fine thanks",
+    "Sure, let me think a second",
+    "of course",
+    "Spaceballs (1987) is a great comedy! Have you ever seen it?",
+    "I have never heard of it",
+    "It is especially great because it is a making fun of all the space movies! It is pretty old, but it is funny!",
+    "Okay I will give it a try What about something recent like Game Night (2018) I loved that movie",
+    "Well, I am not sure about Game Night. That is really recent. What was the plot?",
+    "Pretty much what the titles says. Well what would you suggest thats recent?"
+  ],
+  "entity": [
+    "comedy",
+    "comedy",
+    "Eve",
+    "Spaceballs (1987)",
+    "Eve",
+    "Game Night (2018)"
+  ],
+  "rec": [
+    "Jumanji (2017)"
+  ],
+  "resp": "Let's see recent comedies...I heard that Jumanji (2017) is pretty cool The new one",
+  "template": [
+    "Hello How are you",
+    "Great! How are you?",
+    "Im looking for a good <mask> what would you suggest I am fine thanks",
+    "Sure, let me think a second",
+    "of course",
+    "<mask> is a great <mask>! Have you<mask>er seen it?",
+    "I have n<mask>r heard of it",
+    "It is especially great because it is a making fun of all the space movies! It is pretty old, but it is funny!",
+    "Okay I will give it a try What about something recent like <mask> I loved that movie",
+    "Well, I am not sure about Game Night. That is really recent. What was the plot?",
+    "Pretty much what the titles says. Well what would you suggest thats recent?",
+    "Let's see recent <mask>...I heard that <mask> is pretty cool The new one"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21664",
+    "turn_id": 11,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello How are you"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! How are you?"
+      },
+      {
+        "role": "user",
+        "content": "Im looking for a good comedy what would you suggest I am fine thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, let me think a second"
+      },
+      {
+        "role": "user",
+        "content": "of course"
+      },
+      {
+        "role": "assistant",
+        "content": "Spaceballs (1987) is a great comedy! Have you ever seen it?"
+      },
+      {
+        "role": "user",
+        "content": "I have never heard of it"
+      },
+      {
+        "role": "assistant",
+        "content": "It is especially great because it is a making fun of all the space movies! It is pretty old, but it is funny!"
+      },
+      {
+        "role": "user",
+        "content": "Okay I will give it a try What about something recent like Game Night (2018) I loved that movie"
+      },
+      {
+        "role": "assistant",
+        "content": "Well, I am not sure about Game Night. That is really recent. What was the plot?"
+      },
+      {
+        "role": "user",
+        "content": "Pretty much what the titles says. Well what would you suggest thats recent?"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Since you enjoyed Game Night, I can recommend some recent comedies. Here are some suggestions: \n\n1. Free Guy\n2. Barb and Star Go to Vista Del Mar\n3. The Mitchells vs. the Machines\n4. Palm Springs\n5. The Lovebirds\n6. Bad Trip\n7. Vacation Friends\n8. Coming 2 America\n9. The Wrong Missy\n10. Eurovision Song Contest: The Story of Fire Saga",
+        "entity": [],
+        "rec_items": [
+          20538,
+          7875,
+          53,
+          2476,
+          23049,
+          19339,
+          9244,
+          15185,
+          24554,
+          11799,
+          9510,
+          2688,
+          21299,
+          3570,
+          20804,
+          9056,
+          16227,
+          8566,
+          15551,
+          23612,
+          10636,
+          11467,
+          18240,
+          10321,
+          22437,
+          15571,
+          10551,
+          4350,
+          14481,
+          1633,
+          14532,
+          21431,
+          15852,
+          13274,
+          9488,
+          11624,
+          21752,
+          18920,
+          22109,
+          4715,
+          7249,
+          12402,
+          22102,
+          17202,
+          22938,
+          7962,
+          2681,
+          1526,
+          22783,
+          23890
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. Have you heard about a movie where a group of friends gets sucked into a game and has to navigate through various challenges? It's a fun adventure with a lot of humor!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, that sounds like \"Jumanji: Welcome to the Jungle\" (2017)! It's a fun adventure comedy where a group of friends gets sucked into a video game and has to navigate through various challenges. Would you like recommendations similar to that?",
+        "entity": [],
+        "rec_items": [
+          20538,
+          23612,
+          2993,
+          15642,
+          24006,
+          17202,
+          7793,
+          7628,
+          15524,
+          11176,
+          22395,
+          9468,
+          14894,
+          4554,
+          12972,
+          12402,
+          14897,
+          2152,
+          19347,
+          16713,
+          17647,
+          3295,
+          20804,
+          23450,
+          21534,
+          9835,
+          2476,
+          15571,
+          19617,
+          3100,
+          10035,
+          23295,
+          13238,
+          1371,
+          13590,
+          18710,
+          9939,
+          13956,
+          21749,
+          12513,
+          11160,
+          17019,
+          23806,
+          18240,
+          9982,
+          7944,
+          5500,
+          16227,
+          12623,
+          12776
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "Yes, that sounds perfect! I would love to hear more about it.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Jumanji (2017)\n2: Jumanji (1995)\n3: The Jungle Book (2016)\n4: The Jungle Book 2 (2003)\n5: The Jungle Book (1994)\n6: Mowgli (2019)\n7: Jungle Book (2018)\n8: The Jungle (1967)\n9: The Jungle Book (1967)\n10: George of the Jungle (1997)\n11: Journey 2: The Mysterious Island (2012)\n12: Hunt for the Wilderpeople (2016)\n13: Jungle Book (1942)\n14: Adventures of Mowgli\n15: Curious George 2: Follow That Monkey! (2009)\n16: Tarzan (1999)\n17: Crazy Safari (1991)\n18: Jurassic World (2015)\n19: The Lion King (2019)\n20: Madagascar: Escape 2 Africa (2008)\n21: Yes Man (2008)\n22: Tarzan & Jane (2002)\n23: Jaws in Japan (2009)\n24: Hatari! (1962)\n25: The King of Kong (2007)\n26: Tarzan (2013)\n27: Zathura (2005)\n28: The Hunter (2011)\n29: Super Mario Bros. (1993)\n30: Zootopia\n31: Strange Wilderness (2008)\n32: Toys (1992)\n33: The Hungover Games (2014)\n34: Anaconda (1997)\n35: The Game (1997)\n36: Jaws\n37: Adventureland (2009)\n38: Away We Go (2009)\n39: Zookeeper (2011)\n40: Seeking a Friend for the End of the World (2012)\n41: Wild America (1997)\n42: Jaws (1975)\n43: Goosebumps (2015)\n44: Born to Be Wild (2011)\n45: Jurassic Park (1993)\n46: Jurassic Park\n47: Epic Movie (2007)\n48: Juno (2007)\n49: Stuart Little (1999)\n50: Meet the Robinsons (2007)\n:Great! Here are some recommendations similar to \"Jumanji: Welcome to the Jungle\":\n\n1. Jumanji: The Next Level\n2. Ready Player One\n3. Zombieland: Double Tap\n4. The Game Plan\n5. Night at the Museum\n6. Spy Kids\n7. The Pacifier\n8. The Sorcerer's Apprentice\n9. Goosebumps\n10. The Lego Movie",
+        "entity": [],
+        "rec_items": [
+          22176,
+          1962,
+          16246,
+          6942,
+          22657,
+          20922,
+          13016,
+          12370,
+          17495,
+          12682,
+          22815,
+          17382,
+          8849,
+          8781,
+          5997,
+          415,
+          19844,
+          23218,
+          20473,
+          14922,
+          10035,
+          22679,
+          21739,
+          12114,
+          7522,
+          9338,
+          654,
+          8587,
+          24042,
+          21954,
+          21301,
+          3632,
+          23612,
+          21791,
+          7875,
+          23094,
+          13548,
+          7819,
+          18656,
+          24006,
+          15534,
+          16566,
+          16954,
+          6608,
+          10921,
+          467,
+          23450,
+          22991,
+          22074,
+          10737
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm really looking for something specific. Have you heard about a movie where a group of friends gets sucked into a game and has to navigate through various challenges? It's a fun adventure with a lot of humor!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Game Night (2018)",
+      "comedy",
+      "Spaceballs (1987)",
+      "Eve"
+    ],
+    "rec": [
+      "Jumanji (2017)"
+    ],
+    "resp": "Let's see recent comedies...I heard that Jumanji (2017) is pretty cool The new one",
+    "template": [
+      "Hello How are you",
+      "Great! How are you?",
+      "Im looking for a good <mask> what would you suggest I am fine thanks",
+      "Sure, let me think a second",
+      "of course",
+      "<mask> is a great <mask>! Have you<mask>er seen it?",
+      "I have n<mask>r heard of it",
+      "It is especially great because it is a making fun of all the space movies! It is pretty old, but it is funny!",
+      "Okay I will give it a try What about something recent like <mask> I loved that movie",
+      "Well, I am not sure about Game Night. That is really recent. What was the plot?",
+      "Pretty much what the titles says. Well what would you suggest thats recent?",
+      "Let's see recent <mask>...I heard that <mask> is pretty cool The new one"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

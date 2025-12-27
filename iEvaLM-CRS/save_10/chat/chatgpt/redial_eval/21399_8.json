@@ -1,0 +1,222 @@
+{
+  "dialog_id": "21399",
+  "turn_id": 8,
+  "context": [
+    "",
+    "Hi what king of movies you want to watch tonight?",
+    "I would love to see anything with Julia Roberts in it! She's great!",
+    "I love her too. What about Pretty Woman (1990) it is classic I know",
+    "I've seen it and love it which is why I am looking for another film with her in it",
+    "Erin Brockovich (2000) is a good movie",
+    "Oh great! Is it sad?",
+    "an Mona Lisa Smile (2003) too Yes! a little",
+    "Awesome suggestions! I'll buy tissues haha Got one more?"
+  ],
+  "entity": [
+    "Julia Roberts",
+    "Pretty Woman (1990)",
+    "Erin Brockovich (2000)",
+    "Mona Lisa Smile (2003)"
+  ],
+  "rec": [
+    "Stepmom (1998)"
+  ],
+  "resp": "Yes, Stepmom (1998) I Have seen it, and it also kind of sad",
+  "template": [
+    "Hi what king of movies you want to watch tonight?",
+    "I would love to see anything with <mask>t! She's great!",
+    "I love her too. What about <mask> it is classic I know",
+    "I've seen it and love it which is why I am looking for another film with her in it",
+    "<mask> is a good movie",
+    "Oh great! Is it sad?",
+    "an <mask> too Yes! a little",
+    "Awesome suggestions! I'll buy tissues haha Got one more?",
+    "Yes, <mask> I Have seen it, and it also kind of sad"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21399",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi what king of movies you want to watch tonight?"
+      },
+      {
+        "role": "user",
+        "content": "I would love to see anything with Julia Roberts in it! She's great!"
+      },
+      {
+        "role": "assistant",
+        "content": "I love her too. What about Pretty Woman (1990) it is classic I know"
+      },
+      {
+        "role": "user",
+        "content": "I've seen it and love it which is why I am looking for another film with her in it"
+      },
+      {
+        "role": "assistant",
+        "content": "Erin Brockovich (2000) is a good movie"
+      },
+      {
+        "role": "user",
+        "content": "Oh great! Is it sad?"
+      },
+      {
+        "role": "assistant",
+        "content": "an Mona Lisa Smile (2003) too Yes! a little"
+      },
+      {
+        "role": "user",
+        "content": "Awesome suggestions! I'll buy tissues haha Got one more?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! How about Notting Hill (1999)? It's a romantic comedy with a great mix of humor and heart. Would you like more recommendations?",
+        "entity": [],
+        "rec_items": [
+          4620,
+          10576,
+          21221,
+          7238,
+          10775,
+          16397,
+          21979,
+          18959,
+          5650,
+          5360,
+          4720,
+          3295,
+          10035,
+          17364,
+          7614,
+          23357,
+          24591,
+          17896,
+          12055,
+          16003,
+          9724,
+          9211,
+          17240,
+          20999,
+          6867,
+          24468,
+          10536,
+          5919,
+          5386,
+          16448,
+          21551,
+          22899,
+          13851,
+          20003,
+          23220,
+          14129,
+          4258,
+          12552,
+          16191,
+          19316,
+          5059,
+          15956,
+          22332,
+          21118,
+          6627,
+          17178,
+          12513,
+          4593,
+          18663,
+          21986
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really in the mood for a film that explores family dynamics and the complexities of relationships, especially one that features a strong performance by Julia Roberts. It's a touching story about a woman who becomes a stepmother and navigates the challenges that come with it. Would you like to hear more about that?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Notting Hill\n2: Stepmom (1998)\n3: Something to Talk About (1995)\n4: Yes (2004)\n5: Julie & Julia (2009)\n6: As Good as It Gets (1997)\n7: America's Sweethearts (2001)\n8: The Hours (2002)\n9: My Best Friend's Wedding (1997)\n10: The Holiday (2006)\n11: Sense and Sensibility (1995)\n12: It's Complicated (2009)\n13: (2007)\n14: Pretty Woman (1990)\n15: Now and Then (1995)\n16: Julia and Julia (1987)\n17: The Sure Thing (1985)\n18: Mrs. Doubtfire (1993)\n19: Where the Heart Is (2000)\n20: Love Actually (2003)\n21: Maid in Manhattan\n22: The Other Sister (1999)\n23: P.S. I Love You (2007)\n24: Regarding Henry (1991)\n25: Definitely, Maybe (2008)\n26: Mary Reilly (1996)\n27: Bridget Jones\n28: Gosford Park (2001)\n29: A Room with a View (2007)\n30: Meet the Parents (2004)\n31: What Women Want (2011)\n32: Her Majesty (2001)\n33: Ever After (1998)\n34: Meet the Parents (2000)\n35: Meet the Parents (2000)\n36: Valentine's Day (2007)\n37: What Women Want (2000)\n38: Madame (2017)\n39: Runaway Bride (1999)\n40: The Princess Diaries (2001)\n41: Bridget Jones's Diary (2001)\n42: The Family Stone (2005)\n43: Mother's Day (2016)\n44: Wild Child (2008)\n45: Someone like You (2001)\n46: Valentine's Day (2010)\n47: What a Girl Wants (2003)\n48: Mrs Brown (1997)\n49: A Cinderella Story\n50: Becoming Jane (2007)\n:Absolutely! It sounds like you're looking for films that delve into family dynamics and relationships. Here are some recommendations featuring Julia Roberts that fit that theme:\n\n1. Stepmom (1998)\n2. August: Osage County (2013)\n3. Mother's Day (2016)\n4. The Family Stone (2005)\n5. Secret in Their Eyes (2015)\n6. Ocean's Eleven (2001)\n7. My Best Friend's Wedding (1997)\n8. Homecoming (2018)\n9. Wonder (2017)\n10. Fireflies in the Garden (2008) \n\nI hope you find something you enjoy!",
+        "entity": [],
+        "rec_items": [
+          18450,
+          18906,
+          7434,
+          21221,
+          5059,
+          5528,
+          2791,
+          22933,
+          12965,
+          14440,
+          9539,
+          15637,
+          16809,
+          22373,
+          6627,
+          10586,
+          11892,
+          13472,
+          13916,
+          9908,
+          17178,
+          21551,
+          4785,
+          12913,
+          7614,
+          6492,
+          6566,
+          189,
+          1818,
+          23095,
+          14722,
+          16053,
+          17858,
+          1984,
+          1984,
+          13382,
+          6699,
+          18959,
+          7948,
+          17199,
+          14276,
+          2836,
+          10632,
+          12590,
+          10536,
+          7985,
+          19618,
+          17868,
+          19991,
+          18532
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for a film that beautifully explores the complexities of family relationships, particularly one where Julia Roberts plays a stepmother navigating her new role. It's a heartfelt story that touches on love, loss, and acceptance. Would you like to know more about that?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Julia Roberts",
+      "Mona Lisa Smile (2003)",
+      "Pretty Woman (1990)",
+      "Erin Brockovich (2000)"
+    ],
+    "rec": [
+      "Stepmom (1998)"
+    ],
+    "resp": "Yes, Stepmom (1998) I Have seen it, and it also kind of sad",
+    "template": [
+      "Hi what king of movies you want to watch tonight?",
+      "I would love to see anything with <mask>t! She's great!",
+      "I love her too. What about <mask> it is classic I know",
+      "I've seen it and love it which is why I am looking for another film with her in it",
+      "<mask> is a good movie",
+      "Oh great! Is it sad?",
+      "an <mask> too Yes! a little",
+      "Awesome suggestions! I'll buy tissues haha Got one more?",
+      "Yes, <mask> I Have seen it, and it also kind of sad"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

@@ -1,0 +1,192 @@
+{
+  "dialog_id": "21679",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hello What is your favorite movie?",
+    "Hi Ya! My favorite movie is Fargo (1996)",
+    "Good call",
+    "I also enjoy Pulp Fiction (1994)"
+  ],
+  "entity": [
+    "Fargo (1996)",
+    "Pulp Fiction (1994)"
+  ],
+  "rec": [
+    "Three Billboards Outside Ebbing, Missouri (2017)",
+    "The Big Lebowski"
+  ],
+  "resp": "Have you seen Three Billboards Outside Ebbing, Missouri (2017) or The Big Lebowski Both similar black comedies",
+  "template": [
+    "Hello What is your favorite movie?",
+    "Hi Ya! My favorite movie is <mask>",
+    "Good call",
+    "I also enjoy <mask>",
+    "Have you seen <mask> or <mask> Both similar black <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21679",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello What is your favorite movie?"
+      },
+      {
+        "role": "user",
+        "content": "Hi Ya! My favorite movie is Fargo (1996)"
+      },
+      {
+        "role": "assistant",
+        "content": "Good call"
+      },
+      {
+        "role": "user",
+        "content": "I also enjoy Pulp Fiction (1994)"
+      },
+      {
+        "role": "assistant",
+        "content": "Great choices! Do you have a preference for a specific genre, or are you open to various styles?",
+        "entity": [],
+        "rec_items": [
+          23388,
+          10013,
+          15257,
+          16959,
+          18366,
+          10593,
+          18159,
+          24473,
+          24325,
+          9473,
+          17545,
+          2346,
+          13693,
+          7432,
+          19095,
+          3215,
+          3428,
+          994,
+          18259,
+          17701,
+          16097,
+          11517,
+          22947,
+          16887,
+          13836,
+          2970,
+          12776,
+          636,
+          16943,
+          22061,
+          16392,
+          23897,
+          12513,
+          18491,
+          24110,
+          15841,
+          5176,
+          10163,
+          21471,
+          7253,
+          21752,
+          12105,
+          17832,
+          10229,
+          21423,
+          4702,
+          943,
+          11649,
+          11310,
+          15383
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm really drawn to films that blend dark humor with strong storytelling and memorable characters. For instance, there's a film that features a mother who takes matters into her own hands after a tragedy, and it has a unique blend of drama and wit. Another one I enjoy is a quirky crime-comedy about a laid-back guy who gets caught up in a bizarre series of events involving mistaken identity and a bowling tournament. Both films have a distinct style and memorable dialogue!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Focus (2015)\n2: In Bruges (2008)\n3: The Dark Knight Trilogy\n4: Masterminds (2016)\n5: Inherent Vice (2014)\n6: Extract\n7: The Usual Suspects (1995)\n8: Donnie Darko (2001)\n9: Dark Places (2015)\n10: Frances Ha (2012)\n11: 8mm (1999)\n12: Going in Style (2017)\n13: Funny Games (2007)\n14: Mother! (2017)\n15: Pulp Fiction (1994)\n16: The Big Lebowski\n17: The Artist (2011)\n18: Dark Water (2005)\n19: Funny Games (1997)\n20: Madame (2017)\n21: Grosse Pointe Blank (1997)\n22: Following (1998)\n23: All Good Things (2010)\n24: Lady Bird (2017)\n25: A Scanner Darkly (2006)\n26: Seven Psychopaths (2012)\n27: The Comedy (2012)\n28: Super Dark Times (2017)\n29: It's Kind of a Funny Story (2010)\n30: A Shot in the Dark (1964)\n31: Barton Fink (1991)\n32: To Die For (1995)\n33: Seven (1995)\n34: Defendor (2009)\n35: The Graduate (1967)\n36: Snatch (2000)\n37: I, the Other (2006)\n38: Crooklyn (1994)\n39: L.A. Confidential (1997)\n40: Drishyam (2015)\n41: Easy A (2010)\n42: Strange Days (1995)\n43: The Dark (2005)\n44: A Kind of Murder (2016)\n45: The Stranger (2010)\n46: Confessions of a Dangerous Mind (2002)\n47: Mr. Mom (1983)\n48: The Freshman (1990)\n49: Identity Thief (2013)\n50: Fun (1994)\n:Thanks for sharing your preferences! Based on your taste for dark humor, strong storytelling, and memorable characters, here are some recommendations:\n\n1. The Big Lebowski\n2. In Bruges\n3. Burn After Reading\n4. The Royal Tenenbaums\n5. Seven Psychopaths\n6. American Psycho\n7. Snatch\n8. The Nice Guys\n9. Little Miss Sunshine\n10. A Serious Man",
+        "entity": [],
+        "rec_items": [
+          12818,
+          7013,
+          14481,
+          4454,
+          7253,
+          18240,
+          9780,
+          22241,
+          16980,
+          17555,
+          24325,
+          12147,
+          24554,
+          20355,
+          23388,
+          17013,
+          19316,
+          9049,
+          11799,
+          18959,
+          2346,
+          11649,
+          18491,
+          82,
+          11557,
+          2749,
+          2993,
+          20351,
+          22938,
+          18525,
+          18366,
+          17701,
+          16959,
+          8365,
+          6514,
+          9672,
+          15430,
+          23177,
+          3215,
+          18803,
+          9211,
+          4694,
+          24550,
+          11690,
+          18757,
+          8764,
+          5518,
+          16507,
+          17637,
+          994
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your recommendations, but I really enjoy films that feature a mother taking matters into her own hands after a tragedy, blending drama and wit. There's also a quirky crime-comedy about a laid-back guy caught up in a bizarre series of events involving mistaken identity and a bowling tournament. Both of these films have a distinct style and memorable dialogue!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Fargo (1996)",
+      "Pulp Fiction (1994)"
+    ],
+    "rec": [
+      "Three Billboards Outside Ebbing, Missouri (2017)",
+      "The Big Lebowski"
+    ],
+    "resp": "Have you seen Three Billboards Outside Ebbing, Missouri (2017) or The Big Lebowski Both similar black comedies",
+    "template": [
+      "Hello What is your favorite movie?",
+      "Hi Ya! My favorite movie is <mask>",
+      "Good call",
+      "I also enjoy <mask>",
+      "Have you seen <mask> or <mask> Both similar black <mask>"
+    ]
+  },
+  "persuasiveness_score": "0"
+}

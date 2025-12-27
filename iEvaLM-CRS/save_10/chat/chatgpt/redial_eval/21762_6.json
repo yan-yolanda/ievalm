@@ -1,0 +1,208 @@
+{
+  "dialog_id": "21762",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hi there. Looking for any specific type of movie?",
+    "Good morning Something fantasy, like my favorite The Lord of the Rings: The Return of the King (2003)",
+    "Alright, have you seen The Chronicles of Narnia ?",
+    "Oh yes, love those",
+    "Or Harry Potter ?",
+    "Haha yes, it's a staple Is there anything else you can think of?"
+  ],
+  "entity": [
+    "fantasy",
+    "The Lord of the Rings: The Return of the King (2003)",
+    "The Chronicles of Narnia",
+    "Harry Potter"
+  ],
+  "rec": [
+    "The NeverEnding Story (1984)"
+  ],
+  "resp": "How about The NeverEnding Story (1984) ?",
+  "template": [
+    "Hi there. Looking for any specific type of movie?",
+    "Good morning Something <mask>, like my favorite <mask>",
+    "Alright, have you seen <mask> ?",
+    "Oh yes, love those",
+    "Or <mask> ?",
+    "Haha yes, it's a staple Is there anything else you can think of?",
+    "How about <mask> ?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21762",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi there. Looking for any specific type of movie?"
+      },
+      {
+        "role": "user",
+        "content": "Good morning Something fantasy, like my favorite The Lord of the Rings: The Return of the King (2003)"
+      },
+      {
+        "role": "assistant",
+        "content": "Alright, have you seen The Chronicles of Narnia ?"
+      },
+      {
+        "role": "user",
+        "content": "Oh yes, love those"
+      },
+      {
+        "role": "assistant",
+        "content": "Or Harry Potter ?"
+      },
+      {
+        "role": "user",
+        "content": "Haha yes, it's a staple Is there anything else you can think of?"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Here are some recommendations based on your preferences for fantasy films like The Lord of the Rings and The Chronicles of Narnia:\n\n1. The Hobbit: An Unexpected Journey\n2. Stardust\n3. Pan's Labyrinth\n4. The Golden Compass\n5. Willow\n6. The Princess Bride\n7. Eragon\n8. The NeverEnding Story\n9. Bridge to Terabithia\n10. The Dark Crystal",
+        "entity": [],
+        "rec_items": [
+          23697,
+          2102,
+          21144,
+          13396,
+          24432,
+          13147,
+          13410,
+          22575,
+          22186,
+          17685,
+          18863,
+          23741,
+          7971,
+          22281,
+          4393,
+          21247,
+          19646,
+          17576,
+          7851,
+          3071,
+          18442,
+          1572,
+          1572,
+          17677,
+          5053,
+          21221,
+          19020,
+          11208,
+          24469,
+          23776,
+          21534,
+          11642,
+          20287,
+          15343,
+          2956,
+          10314,
+          3787,
+          19596,
+          12631,
+          23950,
+          8402,
+          19682,
+          10870,
+          8520,
+          23172,
+          23856,
+          15051,
+          22074,
+          5899,
+          22209
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I’m really looking for something that captures the essence of a magical journey and the power of imagination. There’s a classic film that beautifully weaves together themes of adventure and fantasy, featuring a young boy who discovers a mystical book that transports him to a fantastical world. It’s filled with memorable characters and a deep message about courage and friendship. Would you have any recommendations along those lines?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Lord of the Rings (1978)\n2: The Lord of the Rings\n3: The Hobbit: An Unexpected Journey (2012)\n4: The Lord of the Rings: The Fellowship of the Ring (2001)\n5: The Hobbit\n6: The Lord of the Rings: The Two Towers (2002)\n7: The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005)\n8: Harry Potter and the Philosopher's Stone (2001)\n9: The Chronicles of Narnia\n10: The Dark Crystal\n11: The Princess Bride (1987)\n12: The Lord of the Rings: The Return of the King (2003)\n13: The Lion, the Witch and the Wardrobe\n14: The Chronicles of Narnia: Prince Caspian (2008)\n15: Labyrinth (1986)\n16: The Sorcerer's Apprentice (2010)\n17: The Hobbit: The Battle of the Five Armies (2014)\n18: The Golden Compass (2007)\n19: The Twilight Saga\n20: Legend (1985)\n21: Harry Potter\n22: Eragon (2006)\n23: Bridge to Terabithia (2007)\n24: Harry Potter and the Goblet of Fire (2005)\n25: Enchanted (2007)\n26: The Hobbit: The Desolation of Smaug (2013)\n27: The Imaginarium of Doctor Parnassus (2009)\n28: The NeverEnding Story (1984)\n29: Fantastic Beasts and Where to Find Them (2016)\n30: The Spiderwick Chronicles (2008)\n31: Journey to the Center of the Earth (2008)\n32: Tinker Bell\n33: Tinker Bell\n34: The Wizard (1989)\n35: Elf (2003)\n36: Oz the Great and Powerful (2013)\n37: Stardust (2007)\n38: The Enchanted\n39: The NeverEnding Story\n40: Dragonheart: A New Beginning (2000)\n41: The Sword in the Stone\n42: The BFG (2016)\n43: Always (1989)\n44: Harry Potter and the Deathly Hallows – Part 1 (2010)\n45: A Little Princess (1995)\n46: Alice in Wonderland\n47: City of Ember (2008)\n48: Wizards (1977)\n49: Ella Enchanted (2004)\n50: Harry Potter and the Deathly Hallows – Part 2 (2011)\n:Thanks for the clarification! Based on your description, here are some recommendations that capture the essence of a magical journey and the power of imagination:\n\n1. The NeverEnding Story\n2. The Secret of NIMH\n3. The Pagemaster\n4. A Wrinkle in Time\n5. The Chronicles of Narnia: The Lion, the Witch and the Wardrobe\n6. Labyrinth\n7. The Wizard of Oz\n8. Spirited Away\n9. The BFG\n10. The Spiderwick Chronicles",
+        "entity": [],
+        "rec_items": [
+          18651,
+          15734,
+          15051,
+          17686,
+          12631,
+          15960,
+          19117,
+          2102,
+          23122,
+          402,
+          1991,
+          19801,
+          11138,
+          11803,
+          18097,
+          17685,
+          13740,
+          15906,
+          23792,
+          15627,
+          23697,
+          18622,
+          2660,
+          21144,
+          23506,
+          23716,
+          23856,
+          4512,
+          23741,
+          10870,
+          6869,
+          1572,
+          1572,
+          22281,
+          6144,
+          21525,
+          15334,
+          11128,
+          7615,
+          18131,
+          18817,
+          13657,
+          14399,
+          24432,
+          3812,
+          251,
+          13356,
+          7971,
+          22209,
+          13396
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something that embodies a magical journey and the power of imagination. There's a classic film that beautifully weaves together themes of adventure and fantasy, featuring a young boy who discovers a mystical book that transports him to a fantastical world. It’s filled with memorable characters and a deep message about courage and friendship. Would you have any recommendations along those lines?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Chronicles of Narnia",
+      "fantasy",
+      "The Lord of the Rings: The Return of the King (2003)",
+      "Harry Potter"
+    ],
+    "rec": [
+      "The NeverEnding Story (1984)"
+    ],
+    "resp": "How about The NeverEnding Story (1984) ?",
+    "template": [
+      "Hi there. Looking for any specific type of movie?",
+      "Good morning Something <mask>, like my favorite <mask>",
+      "Alright, have you seen <mask> ?",
+      "Oh yes, love those",
+      "Or <mask> ?",
+      "Haha yes, it's a staple Is there anything else you can think of?",
+      "How about <mask> ?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

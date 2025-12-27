@@ -1,0 +1,290 @@
+{
+  "dialog_id": "22689",
+  "turn_id": 16,
+  "context": [
+    "",
+    "Hi how are you",
+    "Hello. I'm great thanks for asking. How are you?",
+    "What kind of movies are you into I’m great :)",
+    "I'm looking for good animated movies for the weekend. Something like The Incredibles (2004) as I get ready to see Incredibles 2 (2018) soon",
+    "Nice okay! Have you seen Up (2009)",
+    "I really also enjoyed Moana (2016) a lot too Oh yes, loved it! One of my favorites!",
+    "Or Megamind (2010)",
+    "Omg, yes... that was actually pretty funny!",
+    "I know mines tooo it’s sooo good and cute but yet sad",
+    "Love it like I love Despicable Me (2010) films",
+    "Moana was awesome !!! Yes the little minions ahhhh to precious My all",
+    "I have to see Spirited Away still... I hear that was good too but haven't seen it yet.",
+    "Time fave is Monsters, Inc. (2001)",
+    "Oh and of course Zootopia is another great one!",
+    "It’s great you have to see it soon !!!!",
+    "OMG, yes! I almost forgot about it. I love little Boo! Thanks for the suggestions, my friend."
+  ],
+  "entity": [
+    "The Incredibles (2004)",
+    "Incredibles 2 (2018)",
+    "Up (2009)",
+    "Moana (2016)",
+    "Megamind (2010)",
+    "Despicable Me (2010)",
+    "Mohanlal",
+    "Spirited Away",
+    "Monsters, Inc. (2001)",
+    "Zootopia"
+  ],
+  "rec": [
+    "Zootopia"
+  ],
+  "resp": "Hmm I don’t think I have seen Zootopia Anytime :) have a great day bye !",
+  "template": [
+    "Hi how are you",
+    "Hello. I'm great thanks for asking. How are you?",
+    "What kind of movies are you into I’m great :)",
+    "I'm looking for good animated movies for the weekend. Something like <mask> as I get ready to see <mask> soon",
+    "Nice okay! Have you seen <mask>",
+    "I really also enjoyed <mask> a lot too Oh yes, loved it! One of my favorites!",
+    "Or <mask>",
+    "Omg, yes... that was actually pretty funny!",
+    "I know mines tooo it’s sooo good and cute but yet sad",
+    "Love it like I love <mask> films",
+    "<mask> was awesome !!! Yes the little minions ahhhh to precious My all",
+    "I have to see <mask> still... I hear that was good too but haven't seen it yet.",
+    "Time fave is <mask>",
+    "Oh and of course <mask> is another great one!",
+    "It’s great you have to see it soon !!!!",
+    "OMG, yes! I almost forgot about it. I love little Boo! Thanks for the suggestions, my friend.",
+    "Hmm I don’t think I have seen <mask> Anytime :) have a great day bye !"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22689",
+    "turn_id": 16,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi how are you"
+      },
+      {
+        "role": "user",
+        "content": "Hello. I'm great thanks for asking. How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of movies are you into I’m great :)"
+      },
+      {
+        "role": "user",
+        "content": "I'm looking for good animated movies for the weekend. Something like The Incredibles (2004) as I get ready to see Incredibles 2 (2018) soon"
+      },
+      {
+        "role": "assistant",
+        "content": "Nice okay! Have you seen Up (2009)"
+      },
+      {
+        "role": "user",
+        "content": "I really also enjoyed Moana (2016) a lot too Oh yes, loved it! One of my favorites!"
+      },
+      {
+        "role": "assistant",
+        "content": "Or Megamind (2010)"
+      },
+      {
+        "role": "user",
+        "content": "Omg, yes... that was actually pretty funny!"
+      },
+      {
+        "role": "assistant",
+        "content": "I know mines tooo it’s sooo good and cute but yet sad"
+      },
+      {
+        "role": "user",
+        "content": "Love it like I love Despicable Me (2010) films"
+      },
+      {
+        "role": "assistant",
+        "content": "Moana was awesome !!! Yes the little minions ahhhh to precious My all"
+      },
+      {
+        "role": "user",
+        "content": "I have to see Spirited Away still... I hear that was good too but haven't seen it yet."
+      },
+      {
+        "role": "assistant",
+        "content": "Time fave is Monsters, Inc. (2001)"
+      },
+      {
+        "role": "user",
+        "content": "Oh and of course Zootopia is another great one!"
+      },
+      {
+        "role": "assistant",
+        "content": "It’s great you have to see it soon !!!!"
+      },
+      {
+        "role": "user",
+        "content": "OMG, yes! I almost forgot about it. I love little Boo! Thanks for the suggestions, my friend."
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some animated movie recommendations for you:\n\n1. Up (2009)\n2. Megamind (2010)\n3. Monsters, Inc. (2001)\n4. Zootopia (2016)\n5. Finding Nemo (2003)\n6. The Lego Movie (2014)\n7. Coco (2017)\n8. How to Train Your Dragon (2010)\n9. Ratatouille (2007)\n10. Spirited Away (2001)",
+        "entity": [],
+        "rec_items": [
+          20385,
+          21818,
+          16673,
+          22074,
+          14790,
+          15881,
+          19449,
+          18513,
+          22395,
+          3973,
+          16689,
+          9533,
+          17781,
+          16476,
+          23335,
+          4393,
+          22443,
+          21979,
+          15363,
+          24071,
+          16954,
+          6766,
+          20539,
+          19911,
+          4007,
+          4319,
+          9668,
+          1572,
+          1572,
+          7489,
+          20204,
+          5078,
+          12283,
+          7793,
+          21860,
+          5707,
+          18824,
+          5333,
+          18274,
+          8213,
+          11965,
+          11434,
+          8914,
+          18873,
+          23991,
+          8514,
+          9942,
+          13566,
+          15344,
+          11167
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the recommendations! I really appreciate it. However, I think I’ll stick with something I already love. It's a fantastic animated film that explores a vibrant city filled with diverse animal characters, tackling themes of friendship and acceptance. The story follows a bunny who becomes a police officer and teams up with a con artist fox to solve a mystery. It's both heartwarming and entertaining!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Up (2009)\n2: Zootopia\n3: Finding Nemo (2003)\n4: Monsters, Inc. (2001)\n5: Monsters University (2013)\n6: Megamind (2010)\n7: Coco (2017)\n8: Fantastic Mr. Fox (2009)\n9: Tangled (2010)\n10: Coco\n11: Inside Out (2015)\n12: Enchanted (2007)\n13: Trolls (2016)\n14: Toy Story 3 (2010)\n15: Finding Dory (2016)\n16: Toy Story (1995)\n17: Rio (2011)\n18: Rango (2011)\n19: The Secret Life of Pets (2016)\n20: Little Nemo: Adventures in Slumberland (1989)\n21: Toy Story 2 (1999)\n22: Despicable Me 2 (2013)\n23: Turbo (2013)\n24: Pets\n25: Ponyo\n26: My Neighbor Totoro\n27: The Lego Batman Movie (2017)\n28: Despicable Me (2010)\n29: A Goofy Movie (1995)\n30: Cars (2006)\n31: The Muppets (2011)\n32: Rio 2 (2014)\n33: Fantasia 2000 (1999)\n34: Toy Story 4 (2018)\n35: Ratatouille (2007)\n36: Minions (2015)\n37: Shrek (2001)\n38: Winnie the Pooh (2011)\n39: Muppets Most Wanted (2014)\n40: The Lego Movie (2014)\n41: Z movie\n42: Pinocchio (2012)\n43: The Pixar Story (2007)\n44: Toy Story That Time Forgot\n45: Frozen (2013)\n46: Hop (2011)\n47: An American Tail\n48: The Fox and the Hound\n49: Animal Crackers (2017)\n50: The Good Dinosaur (2015)\n:It sounds like you're describing Zootopia! It's a fantastic choice. If you need more recommendations or anything else, feel free to ask!",
+        "entity": [],
+        "rec_items": [
+          8081,
+          21954,
+          12145,
+          8622,
+          17052,
+          16425,
+          5806,
+          11641,
+          17902,
+          6276,
+          16961,
+          23506,
+          23756,
+          13381,
+          13622,
+          21678,
+          19313,
+          16742,
+          24279,
+          20204,
+          20937,
+          23080,
+          2984,
+          22746,
+          6591,
+          13286,
+          11220,
+          15358,
+          15524,
+          23504,
+          14798,
+          10559,
+          241,
+          9179,
+          16091,
+          22101,
+          12787,
+          8335,
+          4612,
+          15617,
+          22806,
+          1193,
+          149,
+          18513,
+          22100,
+          16168,
+          18189,
+          11122,
+          6910,
+          13253
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you! I really appreciate your enthusiasm. It's such a wonderful animated film that beautifully explores themes of diversity and teamwork. The characters are so relatable, and the story is both engaging and meaningful. If you're looking for something that combines humor with important messages, it's definitely a great pick!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Despicable Me (2010)",
+      "Incredibles 2 (2018)",
+      "Monsters, Inc. (2001)",
+      "Megamind (2010)",
+      "Mohanlal",
+      "Zootopia",
+      "Moana (2016)",
+      "The Incredibles (2004)",
+      "Up (2009)",
+      "Spirited Away"
+    ],
+    "rec": [
+      "Zootopia"
+    ],
+    "resp": "Hmm I don’t think I have seen Zootopia Anytime :) have a great day bye !",
+    "template": [
+      "Hi how are you",
+      "Hello. I'm great thanks for asking. How are you?",
+      "What kind of movies are you into I’m great :)",
+      "I'm looking for good animated movies for the weekend. Something like <mask> as I get ready to see <mask> soon",
+      "Nice okay! Have you seen <mask>",
+      "I really also enjoyed <mask> a lot too Oh yes, loved it! One of my favorites!",
+      "Or <mask>",
+      "Omg, yes... that was actually pretty funny!",
+      "I know mines tooo it’s sooo good and cute but yet sad",
+      "Love it like I love <mask> films",
+      "<mask> was awesome !!! Yes the little minions ahhhh to precious My all",
+      "I have to see <mask> still... I hear that was good too but haven't seen it yet.",
+      "Time fave is <mask>",
+      "Oh and of course <mask> is another great one!",
+      "It’s great you have to see it soon !!!!",
+      "OMG, yes! I almost forgot about it. I love little Boo! Thanks for the suggestions, my friend.",
+      "Hmm I don’t think I have seen <mask> Anytime :) have a great day bye !"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

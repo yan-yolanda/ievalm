@@ -1,0 +1,200 @@
+{
+  "dialog_id": "20784",
+  "turn_id": 5,
+  "context": [
+    "Hi! How are you",
+    "Hi Im good and you? What kind of movies do you like?",
+    "I’m great :) I’m open but I really enjoy comedy amen actionwhat about you? And*",
+    "Im with you! I like anything! Have you seen Jumanji (2017)",
+    "Noo! Not yet I just never got around to seeing it but I heard Its great!"
+  ],
+  "entity": [
+    "comedy",
+    "action",
+    "Jumanji (2017)",
+    "Eve"
+  ],
+  "rec": [
+    "Deadpool (2016)"
+  ],
+  "resp": "It so funny you have to see it! Kevin Hart is great! What about Deadpool (2016)",
+  "template": [
+    "Hi! How are you",
+    "Hi Im good and you? What kind of movies do you like?",
+    "I’m great :) I’m open but I really enjoy <mask> amen <mask>what about you? And*",
+    "Im with you! I like anything! Have you seen <mask>",
+    "Noo! Not yet I just n<mask>r got around to seeing it but I heard Its great!",
+    "It so funny you have to see it! <mask>s great! What about <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20784",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi! How are you"
+      },
+      {
+        "role": "assistant",
+        "content": "Hi Im good and you? What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I’m great :) I’m open but I really enjoy comedy amen actionwhat about you? And*"
+      },
+      {
+        "role": "assistant",
+        "content": "Im with you! I like anything! Have you seen Jumanji (2017)"
+      },
+      {
+        "role": "user",
+        "content": "Noo! Not yet I just never got around to seeing it but I heard Its great!"
+      },
+      {
+        "role": "assistant",
+        "content": "It really is! If you enjoy comedy and action, I think you'll love it. Would you like some recommendations for similar movies?",
+        "entity": [],
+        "rec_items": [
+          1962,
+          22176,
+          20922,
+          16246,
+          22657,
+          6942,
+          13016,
+          12370,
+          17495,
+          21739,
+          12402,
+          7819,
+          10035,
+          18990,
+          22991,
+          23506,
+          17382,
+          17634,
+          654,
+          22679,
+          21525,
+          10116,
+          12114,
+          12682,
+          23474,
+          4801,
+          9003,
+          15914,
+          3317,
+          6564,
+          16345,
+          16742,
+          10778,
+          10127,
+          5997,
+          11617,
+          9942,
+          415,
+          1919,
+          5528,
+          15173,
+          22520,
+          24475,
+          16566,
+          20473,
+          20389,
+          1371,
+          23094,
+          24272,
+          18069
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the offer, but I’m really interested in a film that combines humor with a unique take on the superhero genre. It features a character who breaks the fourth wall and has a very unconventional approach to heroism. It’s quite entertaining and has a lot of memorable moments!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Superhero Movie (2008)\n2: Super (2010)\n3: Avenger (2006)\n4: Superman (1997)\n5: Ant-Man (2015)\n6: Wonder Woman (1974)\n7: The Avengers (1998)\n8: Kick-Ass\n9: Supersonic Man (1979)\n10: Wonder Woman (2009)\n11: Batman (1966)\n12: Wonder Woman (2017)\n13: Marvel Super Heroes 4D\n14: Batman: Revenge (2003)\n15: The Dark Knight Trilogy\n16: The Interview (2014)\n17: Tropic Thunder (2008)\n18: Justice League Dark\n19: Lego Batman: The Movie – DC Super Heroes Unite\n20: Attack the Block\n21: Wonder Woman 2 (2019)\n22: The Lego Batman Movie (2017)\n23: Fanboys (2009)\n24: The Incredible Hulk (2008)\n25: Deadpool (2016)\n26: Guardians of the Galaxy (2014)\n27: Suicide Squad (2016)\n28: Thor: Ragnarok (2017)\n29: Big Hero 6 (2014)\n30: Sky High (2003)\n31: Spider-Man: Homecoming (2017)\n32: Kick-Ass (2010)\n33: Superman: Unbound (2013)\n34: The Fantastic Four\n35: Hancock (2008)\n36: The Comedy (2012)\n37: Watchmen (2009)\n38: Get Smart (2008)\n39: Spider-Man 2 (2004)\n40: Fantastic Four (2015)\n41: The Sorcerer's Apprentice (2010)\n42: Spider-Man (2002)\n43: Last Action Hero (1993)\n44: Avengers Grimm (2015)\n45: Superfast! (2015)\n46: Pan (2015)\n47: Defendor (2009)\n48: Thor\n49: Captain America\n50: Batman\n:It sounds like you're describing \"Deadpool\"! If you're looking for more films that combine humor with action and a unique take on the superhero genre, I can recommend some. Would you like that?",
+        "entity": [],
+        "rec_items": [
+          19896,
+          15579,
+          2693,
+          10581,
+          11794,
+          13861,
+          11786,
+          22547,
+          9876,
+          16183,
+          18059,
+          4920,
+          19136,
+          21092,
+          14481,
+          23984,
+          18555,
+          8196,
+          5899,
+          12404,
+          20359,
+          11220,
+          1371,
+          21093,
+          21378,
+          17184,
+          9530,
+          14739,
+          5053,
+          21245,
+          8721,
+          19455,
+          19241,
+          16543,
+          22235,
+          2993,
+          14618,
+          19895,
+          8862,
+          8667,
+          17685,
+          24614,
+          19952,
+          14186,
+          18710,
+          18740,
+          8365,
+          2623,
+          9271,
+          7907
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Absolutely! The film I'm thinking of features a witty anti-hero who often breaks the fourth wall, providing a fresh and humorous perspective on the superhero genre. It's packed with action, clever dialogue, and a unique storyline that sets it apart from traditional superhero films. If you enjoy a blend of comedy and action, this one is definitely worth watching!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "comedy",
+      "Jumanji (2017)",
+      "action",
+      "Eve"
+    ],
+    "rec": [
+      "Deadpool (2016)"
+    ],
+    "resp": "It so funny you have to see it! Kevin Hart is great! What about Deadpool (2016)",
+    "template": [
+      "Hi! How are you",
+      "Hi Im good and you? What kind of movies do you like?",
+      "I’m great :) I’m open but I really enjoy <mask> amen <mask>what about you? And*",
+      "Im with you! I like anything! Have you seen <mask>",
+      "Noo! Not yet I just n<mask>r got around to seeing it but I heard Its great!",
+      "It so funny you have to see it! <mask>s great! What about <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

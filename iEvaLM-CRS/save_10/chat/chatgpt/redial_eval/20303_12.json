@@ -1,0 +1,252 @@
+{
+  "dialog_id": "20303",
+  "turn_id": 12,
+  "context": [
+    "",
+    "Hey how are you?",
+    "Hey! I am great. How are you?",
+    "I'm great thanks, what kind of movies do you like?",
+    "I really love Disney movies. I love Aladdin (1992) and The Lion King (1994) .",
+    "Awesome, have you tried the new Beauty and the Beast (2017)",
+    "I haven't seen all of them though.",
+    "Those are great movies",
+    "Oh, the new one?",
+    "Yeh it's a great film",
+    "With the girl from Harry Potter and the Philosopher's Stone (2001) ? I have to watch that!",
+    "Yeh that's the one she is a great actress",
+    "That is a great idea. I didn't even think of that. Thanks a lot!"
+  ],
+  "entity": [
+    "Aladdin (1992)",
+    "The Lion King (1994)",
+    "Beauty and the Beast (2017)",
+    "Harry Potter and the Philosopher's Stone (2001)",
+    "Eve"
+  ],
+  "rec": [
+    "Sleeping Beauty (2011)"
+  ],
+  "resp": "Have you seen Sleeping Beauty (2011) it's a classic",
+  "template": [
+    "Hey how are you?",
+    "Hey! I am great. How are you?",
+    "I'm great thanks, what kind of movies do you like?",
+    "I really love Disney movies. I love <mask> and <mask> .",
+    "Awesome, have you tried the new <mask>",
+    "I haven't seen all of them though.",
+    "Those are great movies",
+    "Oh, the new one?",
+    "Yeh it's a great film",
+    "With the girl from <mask> ? I have to watch that!",
+    "Yeh that's the one she is a great actress",
+    "That is a great idea. I didn't <mask>n think of that. Thanks a lot!",
+    "Have you seen <mask> it's a classic"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20303",
+    "turn_id": 12,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hey how are you?"
+      },
+      {
+        "role": "user",
+        "content": "Hey! I am great. How are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm great thanks, what kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I really love Disney movies. I love Aladdin (1992) and The Lion King (1994) ."
+      },
+      {
+        "role": "assistant",
+        "content": "Awesome, have you tried the new Beauty and the Beast (2017)"
+      },
+      {
+        "role": "user",
+        "content": "I haven't seen all of them though."
+      },
+      {
+        "role": "assistant",
+        "content": "Those are great movies"
+      },
+      {
+        "role": "user",
+        "content": "Oh, the new one?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeh it's a great film"
+      },
+      {
+        "role": "user",
+        "content": "With the girl from Harry Potter and the Philosopher's Stone (2001) ? I have to watch that!"
+      },
+      {
+        "role": "assistant",
+        "content": "Yeh that's the one she is a great actress"
+      },
+      {
+        "role": "user",
+        "content": "That is a great idea. I didn't even think of that. Thanks a lot!"
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! Since you enjoy Disney movies, here are some recommendations you might like:\n\n1. Moana\n2. Tangled\n3. Frozen\n4. Mulan\n5. Zootopia\n6. Pocahontas\n7. The Little Mermaid\n8. Cinderella\n9. Finding Nemo\n10. Toy Story",
+        "entity": [],
+        "rec_items": [
+          15867,
+          23220,
+          20026,
+          9724,
+          21221,
+          20657,
+          18417,
+          10987,
+          5937,
+          16397,
+          23521,
+          16053,
+          7564,
+          8635,
+          17896,
+          16078,
+          6501,
+          14792,
+          20071,
+          17476,
+          23279,
+          21047,
+          20846,
+          20539,
+          1266,
+          15414,
+          18615,
+          5333,
+          18000,
+          17202,
+          12552,
+          5173,
+          10536,
+          7091,
+          6514,
+          17271,
+          7614,
+          18746,
+          12402,
+          13171,
+          11892,
+          2675,
+          23213,
+          10083,
+          4464,
+          4647,
+          17300,
+          15956,
+          10035,
+          17736
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I have a particular film in mind that I think you might find intriguing. It's a unique take on a classic fairy tale, featuring a young woman who experiences a dreamlike state and explores themes of beauty and desire. The film has a distinct visual style and a haunting atmosphere that sets it apart. Would you like to know more about it?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Moana (2016)\n2: Moana\n3: Tangled (2010)\n4: The Little Mermaid: Ariel's Beginning\n5: Tangled Ever After\n6: The Little Mermaid (1989)\n7: Pocahontas (1995)\n8: Enchanted (2007)\n9: The Little Mermaid (1992)\n10: Frozen\n11: Olaf's Frozen Adventure (2017)\n12: Frozen (2013)\n13: Mulan (1998)\n14: Cinderella (1994)\n15: Snow White (1995)\n16: The Princess and the Frog\n17: Finding Nemo (2003)\n18: Tinker Bell\n19: Tinker Bell\n20: Snow White and the Seven Dwarfs (1937)\n21: Sleeping Beauty (1959)\n22: The Little Mermaid II: Return to the Sea (2000)\n23: Mulan (2009)\n24: Aladdin (1992)\n25: Pocahontas (1994)\n26: Tinker Bell and the Lost Treasure\n27: Zootopia\n28: Beauty and the Beast: The Enchanted Christmas (1997)\n29: Trolls (2016)\n30: Frozen Fever\n31: Little Nemo: Adventures in Slumberland (1989)\n32: Anastasia (1997)\n33: Princess (2006)\n34: Cinderella (2015)\n35: Fantasia 2000 (1999)\n36: Toy Story (1995)\n37: Princess Mononoke (1997)\n38: Ponyo\n39: A Little Princess (1995)\n40: Aladdin\n41: Maleficent (2014)\n42: Tangled (2001)\n43: Snow White (1987)\n44: Walt Before Mickey (2015)\n45: Mickey's Magical Christmas: Snowed in at the House of Mouse\n46: Mulan II\n47: Coco\n48: Finding Dory (2016)\n49: Aladdin and the King of Thieves (1996)\n50: Sleeping Beauty (2011)\n:That sounds interesting! What is the title of the film?",
+        "entity": [],
+        "rec_items": [
+          9586,
+          2611,
+          17902,
+          20129,
+          7295,
+          7201,
+          22762,
+          23506,
+          14070,
+          2121,
+          20365,
+          22100,
+          8487,
+          21664,
+          24621,
+          5044,
+          12145,
+          1572,
+          1572,
+          21456,
+          22155,
+          14748,
+          2175,
+          2295,
+          10680,
+          17090,
+          21954,
+          8514,
+          23756,
+          15514,
+          20204,
+          15961,
+          23255,
+          3704,
+          241,
+          21678,
+          23474,
+          6591,
+          3812,
+          9645,
+          15861,
+          22914,
+          106,
+          8031,
+          22291,
+          18596,
+          6276,
+          13622,
+          12327,
+          9260
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I'm glad you find it interesting! The film I'm referring to is a unique take on a classic fairy tale, featuring a young woman who experiences a dreamlike state and explores themes of beauty and desire. It has a distinct visual style and a haunting atmosphere that really sets it apart. Would you like to know more about its plot or themes?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Eve",
+      "The Lion King (1994)",
+      "Aladdin (1992)",
+      "Harry Potter and the Philosopher's Stone (2001)",
+      "Beauty and the Beast (2017)"
+    ],
+    "rec": [
+      "Sleeping Beauty (2011)"
+    ],
+    "resp": "Have you seen Sleeping Beauty (2011) it's a classic",
+    "template": [
+      "Hey how are you?",
+      "Hey! I am great. How are you?",
+      "I'm great thanks, what kind of movies do you like?",
+      "I really love Disney movies. I love <mask> and <mask> .",
+      "Awesome, have you tried the new <mask>",
+      "I haven't seen all of them though.",
+      "Those are great movies",
+      "Oh, the new one?",
+      "Yeh it's a great film",
+      "With the girl from <mask> ? I have to watch that!",
+      "Yeh that's the one she is a great actress",
+      "That is a great idea. I didn't <mask>n think of that. Thanks a lot!",
+      "Have you seen <mask> it's a classic"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

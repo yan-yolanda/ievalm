@@ -1,0 +1,222 @@
+{
+  "dialog_id": "22410",
+  "turn_id": 8,
+  "context": [
+    "",
+    "hello how are you",
+    "Hey, how's it going? I'm great, thanks.",
+    "what tipe of movies do you like watch",
+    "You know any good action packed super hero movies? something like X-Men: The Last Stand (2006) ?",
+    "ooo good",
+    "Or The Dark Knight (2008) , I have always loved Batman.",
+    "Logan (2017)",
+    "I actually have not watched that one yet but I have meant t."
+  ],
+  "entity": [
+    "action",
+    "X-Men: The Last Stand (2006)",
+    "The Dark Knight (2008)",
+    "Logan (2017)"
+  ],
+  "rec": [
+    "Avengers: Infinity War (2018)"
+  ],
+  "resp": "Avengers: Infinity War (2018)",
+  "template": [
+    "hello how are you",
+    "Hey, how's it going? I'm great, thanks.",
+    "what tipe of movies do you like watch",
+    "You know any good <mask> packed super hero movies? something like <mask> ?",
+    "ooo good",
+    "Or <mask> , I have always loved Batman.",
+    "<mask>",
+    "I actually have not watched that one yet but I have meant t.",
+    "<mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22410",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello how are you"
+      },
+      {
+        "role": "user",
+        "content": "Hey, how's it going? I'm great, thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "what tipe of movies do you like watch"
+      },
+      {
+        "role": "user",
+        "content": "You know any good action packed super hero movies? something like X-Men: The Last Stand (2006) ?"
+      },
+      {
+        "role": "assistant",
+        "content": "ooo good"
+      },
+      {
+        "role": "user",
+        "content": "Or The Dark Knight (2008) , I have always loved Batman."
+      },
+      {
+        "role": "assistant",
+        "content": "Logan (2017)"
+      },
+      {
+        "role": "user",
+        "content": "I actually have not watched that one yet but I have meant t."
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Since you enjoy action-packed superhero movies like X-Men and Batman, here are some recommendations for you:\n\n1. Deadpool (2016)\n2. Avengers: Endgame (2019)\n3. Spider-Man: Into the Spider-Verse (2018)\n4. Captain America: The Winter Soldier (2014)\n5. Wonder Woman (2017)\n6. Guardians of the Galaxy (2014)\n7. Iron Man (2008)\n8. Man of Steel (2013)\n9. Joker (2019)\n10. Black Panther (2018)",
+        "entity": [],
+        "rec_items": [
+          16749,
+          20558,
+          17962,
+          18788,
+          16302,
+          10937,
+          23143,
+          4715,
+          19074,
+          9065,
+          19848,
+          20846,
+          2399,
+          17634,
+          2712,
+          8277,
+          16767,
+          22295,
+          6497,
+          6906,
+          18100,
+          8123,
+          15968,
+          21574,
+          14897,
+          16573,
+          24346,
+          10838,
+          9488,
+          20634,
+          6573,
+          23534,
+          15310,
+          15914,
+          20351,
+          19823,
+          19617,
+          22783,
+          541,
+          20416,
+          13284,
+          267,
+          12363,
+          22843,
+          1371,
+          15118,
+          21244,
+          24309,
+          13171,
+          10408
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really looking for something specific. There's a particular film that features an epic battle against a powerful villain, where heroes from different backgrounds unite to save the universe. It has a mix of humor, action, and emotional moments, and it’s part of a larger saga. Would you happen to know about that one?",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Avengers: Infinity War (2018)\n2: The Avengers (2012)\n3: Captain America: Civil War (2016)\n4: Deadpool (2016)\n5: Captain America: The Winter Soldier\n6: Avengers: Age of Ultron (2015)\n7: 3 Avengers\n8: The Avengers (1998)\n9: Deadpool 2 (2018)\n10: Captain America\n11: Captain America: The First Avenger\n12: Superhero Movie (2008)\n13: Avenger (2006)\n14: Iron Man 2 (2010)\n15: Batman v Superman: Dawn of Justice (2016)\n16: The Amazing Spider-Man 2 (2014)\n17: Spider-Man: Homecoming (2017)\n18: Marvel Super Heroes 4D\n19: X-Men: Apocalypse (2016)\n20: Iron Man (2008)\n21: X-Men: First Class (2011)\n22: Guardians of the Galaxy (2014)\n23: Black Panther (2018)\n24: The Amazing Spider-Man (2012)\n25: Iron Man 3\n26: Wonder Woman (2017)\n27: Spider-Man (2002)\n28: Suicide Squad (2016)\n29: Guardians of the Galaxy Vol. 2 (2017)\n30: Avengers Grimm (2015)\n31: Spider-Man 2 (2004)\n32: Captain America (1990)\n33: X-Men: Days of Future Past (2014)\n34: Marvel One-Shots\n35: Ant-Man and the Wasp (2018)\n36: X-Men\n37: X-Men (2000)\n38: Wonder Woman (2009)\n39: X-Men Origins: Wolverine (2009)\n40: Thor\n41: Man of Steel (2013)\n42: Thor: Ragnarok (2017)\n43: Venom (2018)\n44: Fantastic Four (2015)\n45: Ant-Man (2015)\n46: The Fantastic Four\n47: Wonder Women! The Untold Story of American Superheroines (2012)\n48: Wonder Woman (1974)\n49: Big Hero 6 (2014)\n50: Captain America (1979)\n:It sounds like you're describing \"Avengers: Infinity War\" (2018). Would you like more recommendations similar to that film?",
+        "entity": [],
+        "rec_items": [
+          20468,
+          21396,
+          12807,
+          21378,
+          16202,
+          14005,
+          19851,
+          11786,
+          20405,
+          9271,
+          4932,
+          19896,
+          2693,
+          3960,
+          2804,
+          21666,
+          8721,
+          19136,
+          8079,
+          24565,
+          12107,
+          17184,
+          20437,
+          19064,
+          9850,
+          4920,
+          24614,
+          9530,
+          3191,
+          14186,
+          8862,
+          13800,
+          16039,
+          7513,
+          20729,
+          8708,
+          17027,
+          16183,
+          17183,
+          2623,
+          20240,
+          14739,
+          20789,
+          8667,
+          11794,
+          16543,
+          8360,
+          13861,
+          5053,
+          4765
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Absolutely! That film features an epic battle against a powerful villain, where heroes from different backgrounds unite to save the universe. It has a perfect blend of humor, action, and emotional moments, making it a standout in the superhero genre. If you're looking for something that captures that essence, it's definitely worth watching!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "action",
+      "The Dark Knight (2008)",
+      "X-Men: The Last Stand (2006)",
+      "Logan (2017)"
+    ],
+    "rec": [
+      "Avengers: Infinity War (2018)"
+    ],
+    "resp": "Avengers: Infinity War (2018)",
+    "template": [
+      "hello how are you",
+      "Hey, how's it going? I'm great, thanks.",
+      "what tipe of movies do you like watch",
+      "You know any good <mask> packed super hero movies? something like <mask> ?",
+      "ooo good",
+      "Or <mask> , I have always loved Batman.",
+      "<mask>",
+      "I actually have not watched that one yet but I have meant t.",
+      "<mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

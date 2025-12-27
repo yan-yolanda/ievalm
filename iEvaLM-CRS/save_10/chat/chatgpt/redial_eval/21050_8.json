@@ -1,0 +1,230 @@
+{
+  "dialog_id": "21050",
+  "turn_id": 8,
+  "context": [
+    "",
+    "hello! What was the last movie you saw?",
+    "that will be A Quiet Place (2018) I didn't like it",
+    "oh I haven't seen that.. I see that they are remaking the movie Overboard (2018) and I want to see that. I remember when I was younger my mother used to watch the original version all the time.",
+    "I have not seen it. I like mystery movies",
+    "i like comedy and thriller movies",
+    "Have you seen Game (2003)",
+    "I haven't. Ihave you seen The Commuter (2017) have you seen*",
+    "No, but I will thanks bye"
+  ],
+  "entity": [
+    "A Quiet Place (2018)",
+    "Overboard (2018)",
+    "mystery",
+    "Ste",
+    "comedy",
+    "thriller",
+    "Game (2003)",
+    "The Commuter (2017)"
+  ],
+  "rec": [
+    "Game Night (2018)"
+  ],
+  "resp": "The movie Game Night (2018) looks funny",
+  "template": [
+    "hello! What was the last movie you saw?",
+    "that will be <mask> I didn't like it",
+    "oh I haven't seen that.. I see that they are remaking the movie <mask> and I want to see that. I remember when I was younger my mother used to watch the original version all the time.",
+    "I have not seen it. I like <mask>on>ry movies",
+    "i like <mask> and <mask> movies",
+    "Have you seen <mask>",
+    "I haven't. Ihave you seen <mask> have you seen*",
+    "No, but I will thanks bye",
+    "The movie <mask> looks funny"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21050",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello! What was the last movie you saw?"
+      },
+      {
+        "role": "user",
+        "content": "that will be A Quiet Place (2018) I didn't like it"
+      },
+      {
+        "role": "assistant",
+        "content": "oh I haven't seen that.. I see that they are remaking the movie Overboard (2018) and I want to see that. I remember when I was younger my mother used to watch the original version all the time."
+      },
+      {
+        "role": "user",
+        "content": "I have not seen it. I like mystery movies"
+      },
+      {
+        "role": "assistant",
+        "content": "i like comedy and thriller movies"
+      },
+      {
+        "role": "user",
+        "content": "Have you seen Game (2003)"
+      },
+      {
+        "role": "assistant",
+        "content": "I haven't. Ihave you seen The Commuter (2017) have you seen*"
+      },
+      {
+        "role": "user",
+        "content": "No, but I will thanks bye"
+      },
+      {
+        "role": "assistant",
+        "content": "It seems I don't have enough information to provide recommendations. If you have any specific preferences or favorite genres, feel free to share!",
+        "entity": [],
+        "rec_items": [
+          18338,
+          12762,
+          8750,
+          9781,
+          12147,
+          8277,
+          16364,
+          19905,
+          15728,
+          15139,
+          18087,
+          13054,
+          14117,
+          396,
+          3112,
+          18608,
+          19621,
+          24005,
+          13035,
+          5880,
+          23521,
+          21362,
+          23037,
+          4191,
+          23702,
+          10035,
+          3448,
+          16959,
+          17925,
+          6157,
+          16495,
+          24,
+          10545,
+          17513,
+          11558,
+          17135,
+          6514,
+          12552,
+          7819,
+          5424,
+          167,
+          9256,
+          23537,
+          15942,
+          14847,
+          18959,
+          19445,
+          12789,
+          10553,
+          19057
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy movies that blend comedy with thrilling elements, especially ones that involve a group of friends getting caught up in unexpected situations. There's a great film that features a game night that spirals out of control, filled with twists and humor. It's a fun watch!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Game Night (2018)\n2: The Comedy (2012)\n3: Mystery Science Theater 3000: The Movie (1996)\n4: Masterminds (2016)\n5: Funny Games (1997)\n6: Friend Request\n7: The Usual Suspects (1995)\n8: Inherent Vice (2014)\n9: Seeking a Friend for the End of the World (2012)\n10: The 'Burbs (1989)\n11: Extract\n12: Clueless (1995)\n13: The Big Lebowski\n14: The Hangover\n15: Funny Games (2007)\n16: Fanboys (2009)\n17: Silver Linings Playbook (2012)\n18: The Secret Life of Walter Mitty (2013)\n19: Mystic Pizza (1988)\n20: The Comedian (2016)\n21: Date Movie (2006)\n22: Identity Thief (2013)\n23: Fun (1994)\n24: Tower Heist (2011)\n25: Twister (1989)\n26: The Informant (2013)\n27: Clue (1985)\n28: The Change-Up (2011)\n29: Twitches\n30: Guardians (2017)\n31: In Bruges (2008)\n32: Tully\n33: Masterminds (1997)\n34: What Women Want (2011)\n35: Ghostbusters (2016)\n36: The Dark Knight Trilogy\n37: My Best Friend's Girl (2008)\n38: Super 8 (2011)\n39: Mastermind (1976)\n40: Amusement (2008)\n41: A Night in Casablanca (1946)\n42: Heist (2015)\n43: Twister (1996)\n44: Fast Times at Ridgemont High\n45: Superbad (2007)\n46: Hangover (2014)\n47: Spy (2015)\n48: Jack (1996)\n49: The Watch (2012)\n50: A Scanner Darkly (2006)\n:Great! Based on your preference for comedy-thriller movies involving groups of friends in unexpected situations, here are some recommendations:\n\n1. Game Night\n2. The Hangover\n3. Horrible Bosses\n4. We're the Millers\n5. The Other Guys\n6. This Is the End\n7. The Nice Guys\n8. Tag\n9. The Heat\n10. 21 Jump Street",
+        "entity": [],
+        "rec_items": [
+          20538,
+          2993,
+          7362,
+          4454,
+          11799,
+          10046,
+          9780,
+          7253,
+          24006,
+          8086,
+          18240,
+          10091,
+          17013,
+          18558,
+          24554,
+          1371,
+          5420,
+          10264,
+          4085,
+          17647,
+          3100,
+          17637,
+          994,
+          13299,
+          23950,
+          3689,
+          14516,
+          7944,
+          8520,
+          4715,
+          7013,
+          12619,
+          10281,
+          14722,
+          282,
+          14481,
+          7793,
+          8138,
+          18920,
+          12195,
+          7154,
+          22102,
+          18900,
+          2358,
+          19617,
+          8638,
+          10960,
+          15769,
+          19848,
+          11557
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the recommendations, but I really think you should check out the film that features a game night that spirals out of control. It's filled with humor and unexpected twists, making it a fantastic choice for anyone who enjoys a blend of comedy and thrills with friends. It's definitely a fun watch!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "mystery",
+      "A Quiet Place (2018)",
+      "Ste",
+      "Overboard (2018)",
+      "thriller",
+      "The Commuter (2017)",
+      "comedy",
+      "Game (2003)"
+    ],
+    "rec": [
+      "Game Night (2018)"
+    ],
+    "resp": "The movie Game Night (2018) looks funny",
+    "template": [
+      "hello! What was the last movie you saw?",
+      "that will be <mask> I didn't like it",
+      "oh I haven't seen that.. I see that they are remaking the movie <mask> and I want to see that. I remember when I was younger my mother used to watch the original version all the time.",
+      "I have not seen it. I like <mask>on>ry movies",
+      "i like <mask> and <mask> movies",
+      "Have you seen <mask>",
+      "I haven't. Ihave you seen <mask> have you seen*",
+      "No, but I will thanks bye",
+      "The movie <mask> looks funny"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

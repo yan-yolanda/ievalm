@@ -1,0 +1,177 @@
+{
+  "dialog_id": "22972",
+  "turn_id": 2,
+  "context": [
+    "",
+    "hello hello how are you?",
+    "I'm good. I'm looking for something funny, but not slapstick Or, a good war movie like High Noon (1952)"
+  ],
+  "entity": [
+    "war",
+    "war",
+    "High Noon (1952)"
+  ],
+  "rec": [
+    "Saving Private Ryan (1998)"
+  ],
+  "resp": "hmm war i can do how about Saving Private Ryan (1998)",
+  "template": [
+    "hello hello how <mask> you?",
+    "I'm good. I'm looking for something funny, but not slapstick Or, a good <mask> movie like <mask>",
+    "hmm <mask> i can do how about <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22972",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello hello how are you?"
+      },
+      {
+        "role": "user",
+        "content": "I'm good. I'm looking for something funny, but not slapstick Or, a good war movie like High Noon (1952)"
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Just to clarify, are you looking for recommendations for funny movies that have a more subtle humor, or are you also interested in war movies similar to High Noon?",
+        "entity": [],
+        "rec_items": [
+          12417,
+          21803,
+          23995,
+          17571,
+          6277,
+          12114,
+          11066,
+          7558,
+          23399,
+          19331,
+          20208,
+          22835,
+          24105,
+          6201,
+          5528,
+          6782,
+          10749,
+          2683,
+          7603,
+          23270,
+          4799,
+          10647,
+          6573,
+          9617,
+          13209,
+          13937,
+          12137,
+          10551,
+          21948,
+          13324,
+          19269,
+          1138,
+          5511,
+          20081,
+          23948,
+          14117,
+          14689,
+          7532,
+          1090,
+          7154,
+          19189,
+          12472,
+          14486,
+          1074,
+          21884,
+          16932,
+          24313,
+          16668,
+          19804,
+          23569
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm actually more interested in a good war movie. There's something about the intensity and the storytelling that really captivates me.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Charlie Wilson's War (2007)\n2: Warrior (2011)\n3: 1941 (1979)\n4: Private Benjamin (1980)\n5: War Dogs (2016)\n6: War Machine\n7: High Noon (1952)\n8: War (2014)\n9: War (2007)\n10: Dr. Strangelove (1964)\n11: Sir! No Sir! (2005)\n12: Windtalkers (2002)\n13: Good Morning, Vietnam (1987)\n14: Love and Death (1975)\n15: The War Bride (2001)\n16: Inglourious Basterds (2009)\n17: Hatari! (1962)\n18: The Quiet Man (1952)\n19: The High and the Mighty (1954)\n20: War and Peace (2002)\n21: Shanghai Noon (2000)\n22: All Quiet on the Western Front (1930)\n23: The Warrior's Way\n24: The Thin Red Line (1998)\n25: A Serious Man (2009)\n26: Darkest Hour (2017)\n27: Stripes (1981)\n28: The Warrior (2001)\n29: Midway (1976)\n30: Tropic Thunder (2008)\n31: Saving Private Ryan (1998)\n32: Hunt for the Wilderpeople (2016)\n33: An Officer and a Gentleman\n34: In Bruges (2008)\n35: Invincible (2001)\n36: 1944 (2015)\n37: Time to Kill (1989)\n38: In the Army Now (1994)\n39: The Comedy (2012)\n40: The Secret Life of Walter Mitty (2013)\n41: As Good as It Gets (1997)\n42: High Sierra (1941)\n43: Jarhead (2005)\n44: Midnight in Paris (2011)\n45: Lord of War (2005)\n46: Rising Sun (1993)\n47: Heavyweights (1995)\n48: The Fog of War (2003)\n49: Tomorrow, When the War Began\n50: This Means War (2012)\n:Got it! Here are some war movies that you might enjoy:\n\n1. Saving Private Ryan\n2. Apocalypse Now\n3. Full Metal Jacket\n4. 1917\n5. Paths of Glory\n6. Black Hawk Down\n7. The Thin Red Line\n8. Hacksaw Ridge\n9. A Bridge Too Far\n10. We Were Soldiers",
+        "entity": [],
+        "rec_items": [
+          13209,
+          6573,
+          23399,
+          20208,
+          13135,
+          10827,
+          12417,
+          10756,
+          14213,
+          22835,
+          7558,
+          16668,
+          21803,
+          20081,
+          20967,
+          2306,
+          12114,
+          7603,
+          6277,
+          14314,
+          23995,
+          2495,
+          14486,
+          3884,
+          21705,
+          16745,
+          18057,
+          13604,
+          10749,
+          18555,
+          22932,
+          17382,
+          19331,
+          7013,
+          19387,
+          3572,
+          12165,
+          5370,
+          2993,
+          10264,
+          5528,
+          11066,
+          9827,
+          12746,
+          1809,
+          4799,
+          4363,
+          23882,
+          13638,
+          7766
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I’m really looking for something that captures the intensity and storytelling of a specific war film that has had a significant impact on audiences. It’s known for its realistic portrayal of combat and the emotional depth of its characters. It’s a film that many consider a classic in the war genre.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "High Noon (1952)",
+      "war"
+    ],
+    "rec": [
+      "Saving Private Ryan (1998)"
+    ],
+    "resp": "hmm war i can do how about Saving Private Ryan (1998)",
+    "template": [
+      "hello hello how <mask> you?",
+      "I'm good. I'm looking for something funny, but not slapstick Or, a good <mask> movie like <mask>",
+      "hmm <mask> i can do how about <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

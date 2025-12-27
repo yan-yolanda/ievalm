@@ -1,0 +1,137 @@
+{
+  "dialog_id": "21166",
+  "turn_id": 5,
+  "context": [
+    "Hello what a good movie you have seen?",
+    "A good movie I have seen is Step Brothers (2008)",
+    "The last movie I seen was Deadpool 2 (2018) good movie have you seen it",
+    "I am dying to see Avengers: Infinity War (2018)",
+    "okay cool"
+  ],
+  "entity": [
+    "Step Brothers (2008)",
+    "Deadpool 2 (2018)",
+    "Avengers: Infinity War (2018)"
+  ],
+  "rec": [
+    "Deadpool 2 (2018)",
+    "Deadpool (2016)"
+  ],
+  "resp": "I have not seen Deadpool 2 (2018) yet but I rewatched Deadpool (2016) afain the other night",
+  "template": [
+    "Hello what a good movie you have seen?",
+    "A good movie I have seen is <mask>",
+    "The last movie I seen was <mask> good movie have you seen it",
+    "I am dying to see <mask>",
+    "okay cool",
+    "I have not seen <mask> yet but I rewatched <mask> afain the other night"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21166",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello what a good movie you have seen?"
+      },
+      {
+        "role": "assistant",
+        "content": "A good movie I have seen is Step Brothers (2008)"
+      },
+      {
+        "role": "user",
+        "content": "The last movie I seen was Deadpool 2 (2018) good movie have you seen it"
+      },
+      {
+        "role": "assistant",
+        "content": "I am dying to see Avengers: Infinity War (2018)"
+      },
+      {
+        "role": "user",
+        "content": "okay cool"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Avengers: Infinity War (2018)\n2: The Avengers (1998)\n3: Avengers: Age of Ultron (2015)\n4: The Avengers (2012)\n5: 3 Avengers\n6: Avenger (2006)\n7: Captain America: Civil War (2016)\n8: Captain America: The Winter Soldier\n9: Avengers Grimm (2015)\n10: Captain America: The First Avenger\n11: Thor: Ragnarok (2017)\n12: Captain America\n13: Iron Man (2008)\n14: Ant-Man and the Wasp (2018)\n15: Thor\n16: Iron Man 2 (2010)\n17: Black Panther (2018)\n18: Guardians of the Galaxy (2014)\n19: Spider-Man: Homecoming (2017)\n20: Guardians of the Galaxy Vol. 2 (2017)\n21: Thor: The Dark World\n22: Ant-Man (2015)\n23: Suicide Squad (2016)\n24: Deadpool (2016)\n25: Deadpool 2 (2018)\n26: The Amazing Spider-Man 2 (2014)\n27: The Hateful Eight (2015)\n28: Venom (2018)\n29: Atomic Blonde (2017)\n30: Star Wars: The Force Awakens (2015)\n31: Immortals (2011)\n32: Annihilation (2018)\n33: The Magnificent Seven (2016)\n34: Inferno (2016)\n35: Super 8 (2011)\n36: Fury (2012)\n37: Superhero Movie (2008)\n38: Okja\n39: The Amazing Spider-Man (2012)\n40: The Impossible (2012)\n41: Doctor Strange (2016)\n42: Indiana Jones\n43: Dr. Strange\n44: The Incredible Hulk (2008)\n45: Me and Earl and the Dying Girl (2015)\n46: Ready Player One (2018)\n47: Iron Man (1931)\n48: Epic (2013)\n49: Masked Avengers (1981)\n50: Avatar\n:What type of movies do you enjoy? Are there specific genres or themes you prefer?",
+        "entity": [],
+        "rec_items": [
+          20468,
+          11786,
+          14005,
+          21396,
+          19851,
+          2693,
+          12807,
+          16202,
+          14186,
+          4932,
+          14739,
+          9271,
+          24565,
+          20729,
+          2623,
+          3960,
+          20437,
+          17184,
+          8721,
+          3191,
+          15873,
+          11794,
+          9530,
+          21378,
+          20405,
+          21666,
+          3804,
+          20789,
+          20314,
+          18902,
+          4750,
+          1792,
+          23633,
+          24467,
+          8138,
+          15058,
+          19896,
+          21074,
+          19064,
+          6564,
+          23197,
+          12724,
+          10025,
+          21093,
+          9690,
+          19774,
+          24481,
+          19996,
+          15165,
+          13768
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy movies that blend action and comedy, especially those with a unique take on superhero themes. For instance, there's a sequel that continues the story of a wisecracking anti-hero who breaks the fourth wall and delivers plenty of laughs while also featuring intense action sequences. The original film also has a similar vibe, introducing this character and his unconventional approach to heroism. Both films are known for their humor, over-the-top action, and memorable characters.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Deadpool 2 (2018)",
+      "Step Brothers (2008)",
+      "Avengers: Infinity War (2018)"
+    ],
+    "rec": [
+      "Deadpool 2 (2018)",
+      "Deadpool (2016)"
+    ],
+    "resp": "I have not seen Deadpool 2 (2018) yet but I rewatched Deadpool (2016) afain the other night",
+    "template": [
+      "Hello what a good movie you have seen?",
+      "A good movie I have seen is <mask>",
+      "The last movie I seen was <mask> good movie have you seen it",
+      "I am dying to see <mask>",
+      "okay cool",
+      "I have not seen <mask> yet but I rewatched <mask> afain the other night"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

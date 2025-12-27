@@ -1,0 +1,202 @@
+{
+  "dialog_id": "22301",
+  "turn_id": 5,
+  "context": [
+    "Hello",
+    "Hello, what kind of movies do you like?",
+    "I enjoy science fiction movies, especially ones with space ship combat.",
+    "Do you like the Star Wars movies especially?",
+    "They are not bad, but I tend to like Star Trek movies more. Star Wars movies seem more fantasy to me than science fiction."
+  ],
+  "entity": [
+    "action",
+    "Star Wars",
+    "fantasy",
+    "action",
+    "Star Trek",
+    "Star Wars"
+  ],
+  "rec": [
+    "Interstellar (2014)"
+  ],
+  "resp": "Oh so you like the movies that have a possibility of being real? What about movies like Interstellar (2014)",
+  "template": [
+    "Hello",
+    "Hello, what kind of movies do you like?",
+    "I enjoy science <mask> movies, especially ones with space ship combat.",
+    "Do you like the <mask> movies especially?",
+    "They are not bad, but I tend to like <mask> movies more. <mask> movies seem more <mask> to me than science <mask>.",
+    "Oh so you like the movies that have a possibility of being real? What about movies like <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22301",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, what kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I enjoy science fiction movies, especially ones with space ship combat."
+      },
+      {
+        "role": "assistant",
+        "content": "Do you like the Star Wars movies especially?"
+      },
+      {
+        "role": "user",
+        "content": "They are not bad, but I tend to like Star Trek movies more. Star Wars movies seem more fantasy to me than science fiction."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it! Do you prefer more recent films, or are you open to classic science fiction movies as well?",
+        "entity": [],
+        "rec_items": [
+          20287,
+          24519,
+          3071,
+          18902,
+          23854,
+          16945,
+          12350,
+          19302,
+          19668,
+          14621,
+          10009,
+          24079,
+          5786,
+          17104,
+          12357,
+          16146,
+          13320,
+          2287,
+          20879,
+          8422,
+          7946,
+          16892,
+          6383,
+          18373,
+          22990,
+          16404,
+          1956,
+          24039,
+          20416,
+          17259,
+          13061,
+          21257,
+          4464,
+          6585,
+          7291,
+          9695,
+          5317,
+          10391,
+          8138,
+          6618,
+          16632,
+          22181,
+          13768,
+          17610,
+          10223,
+          11467,
+          15734,
+          22281,
+          6659,
+          6238
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I'm open to both recent and classic science fiction movies. I appreciate films that explore deep themes and have stunning visuals, especially those that delve into space exploration and the human experience.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: 2001: A Space Odyssey (1968)\n2: 2001: A Space Odyssey\n3: 2010 (1984)\n4: The Space Between Us (2016)\n5: THX 1138 (1971)\n6: Blade Runner (1982)\n7: Alien (1979)\n8: The Martian (2015)\n9: Her (2013)\n10: Final (2001)\n11: Aliens (1986)\n12: Interstellar (2014)\n13: Galaxy Quest (1999)\n14: Back to the Future\n15: Plan 9 from Outer Space (1959)\n16: 1984 (1956)\n17: Lost in Space (1998)\n18: Close Encounters of the Third Kind (1977)\n19: Gravity (2013)\n20: Starman (1984)\n21: Moon (2009)\n22: Quints\n23: Super 8 (2011)\n24: Blade Runner 2049 (2017)\n25: Doctor Who\n26: Solaris (1972)\n27: A.I. Artificial Intelligence (2001)\n28: Arrival (2016)\n29: I, Robot (2004)\n30: Conquest of Space (1955)\n31: Ex Machina (2015)\n32: The Time Machine (1960)\n33: Back to the Future (1985)\n34: Back to the Future Part II (1989)\n35: Looper (2012)\n36: S (2012)\n37: Alien: Covenant (2017)\n38: Tron (1982)\n39: Mystery Science Theater 3000: The Movie (1996)\n40: Solaris (2002)\n41: Tron: Legacy (2010)\n42: Contact (1997)\n43: Pandorum (2009)\n44: Message from Space (1978)\n45: Donnie Darko (2001)\n46: Ender's Game (2013)\n47: Strange Days (1995)\n48: Dark City (1998)\n49: 2012 (2009)\n50: A Scanner Darkly (2006)\n:Great! Here are some recommendations for you:\n\n1. Interstellar\n2. The Martian\n3. Blade Runner 2049\n4. Arrival\n5. 2001: A Space Odyssey\n6. Gravity\n7. Solaris (1972)\n8. Ad Astra\n9. Contact\n10. The Right Stuff",
+        "entity": [],
+        "rec_items": [
+          6383,
+          24039,
+          1337,
+          8343,
+          8422,
+          10862,
+          21513,
+          12399,
+          18000,
+          11983,
+          23250,
+          19226,
+          18373,
+          16,
+          17311,
+          8021,
+          17297,
+          16971,
+          8004,
+          22990,
+          16474,
+          16798,
+          8138,
+          14901,
+          13061,
+          8324,
+          18615,
+          12621,
+          24571,
+          6659,
+          4519,
+          14593,
+          8522,
+          14069,
+          18754,
+          21866,
+          5714,
+          10223,
+          7362,
+          12892,
+          14912,
+          21233,
+          14453,
+          14544,
+          22241,
+          11467,
+          4694,
+          7523,
+          18691,
+          11557
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the recommendations, but I have to say that I'm particularly drawn to a film that explores the vastness of space and the complexities of human relationships, featuring stunning visuals and a thought-provoking narrative. It delves into themes of love, sacrifice, and the survival of humanity. Would you like to know more about it?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Star Trek",
+      "Star Wars",
+      "fantasy",
+      "action"
+    ],
+    "rec": [
+      "Interstellar (2014)"
+    ],
+    "resp": "Oh so you like the movies that have a possibility of being real? What about movies like Interstellar (2014)",
+    "template": [
+      "Hello",
+      "Hello, what kind of movies do you like?",
+      "I enjoy science <mask> movies, especially ones with space ship combat.",
+      "Do you like the <mask> movies especially?",
+      "They are not bad, but I tend to like <mask> movies more. <mask> movies seem more <mask> to me than science <mask>.",
+      "Oh so you like the movies that have a possibility of being real? What about movies like <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

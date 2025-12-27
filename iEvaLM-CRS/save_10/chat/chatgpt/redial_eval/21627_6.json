@@ -1,0 +1,206 @@
+{
+  "dialog_id": "21627",
+  "turn_id": 6,
+  "context": [
+    "",
+    "Hello!",
+    "Hi there",
+    "i love movies what genre is your favorite?",
+    "Me too, animation movies are my favorite",
+    "i really like Princess Mononoke (1997) and The Boss Baby (2017)",
+    "Me to, I have seen those two! Great movies"
+  ],
+  "entity": [
+    "animation",
+    "Princess Mononoke (1997)",
+    "The Boss Baby (2017)"
+  ],
+  "rec": [
+    "Zootopia"
+  ],
+  "resp": "ok then let me think Maybe Zootopia?",
+  "template": [
+    "Hello!",
+    "Hi there",
+    "i love movies what genre is your favorite?",
+    "Me too, <mask> movies are my favorite",
+    "i really like <mask> and <mask>",
+    "Me to, I have seen those two! Great movies",
+    "ok then let me think Maybe <mask>?"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21627",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello!"
+      },
+      {
+        "role": "user",
+        "content": "Hi there"
+      },
+      {
+        "role": "assistant",
+        "content": "i love movies what genre is your favorite?"
+      },
+      {
+        "role": "user",
+        "content": "Me too, animation movies are my favorite"
+      },
+      {
+        "role": "assistant",
+        "content": "i really like Princess Mononoke (1997) and The Boss Baby (2017)"
+      },
+      {
+        "role": "user",
+        "content": "Me to, I have seen those two! Great movies"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome! Do you have any other favorite animated movies, or are there specific themes or styles you enjoy in animation?",
+        "entity": [],
+        "rec_items": [
+          23474,
+          14092,
+          20630,
+          7782,
+          20824,
+          1991,
+          17052,
+          6591,
+          17703,
+          13286,
+          21562,
+          17279,
+          23255,
+          6942,
+          17199,
+          13102,
+          5044,
+          19827,
+          13430,
+          24040,
+          12047,
+          16817,
+          10116,
+          12324,
+          11965,
+          16476,
+          16756,
+          14526,
+          20026,
+          14478,
+          17495,
+          20937,
+          16635,
+          21962,
+          10778,
+          20922,
+          8622,
+          315,
+          11641,
+          1886,
+          21047,
+          15961,
+          20204,
+          2365,
+          2602,
+          21678,
+          1357,
+          4230,
+          21311,
+          8081
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy animated movies that explore themes of friendship, diversity, and overcoming challenges. One film that stands out is about a city where animals of all kinds coexist, and it beautifully showcases the importance of understanding and acceptance. The story follows a young bunny who dreams of becoming a police officer and teams up with a con artist fox to solve a mystery. The animation is vibrant, and the characters are really relatable!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Zootopia\n2: The Fox and the Hound\n3: Fantastic Mr. Fox (2009)\n4: Pets\n5: Ponyo\n6: An American Tail\n7: My Neighbor Totoro\n8: The Secret Life of Pets (2016)\n9: Enchanted (2007)\n10: Animal Crackers (2017)\n11: My Little Pony: The Movie (1986)\n12: The Aristocats\n13: Looney Tunes: Back in Action\n14: Cars (2006)\n15: Up (2009)\n16: The Jungle Book (1967)\n17: Who Framed Roger Rabbit\n18: The Jungle Book 2 (2003)\n19: The Jungle (1967)\n20: Bambi (1942)\n21: Brother Bear\n22: Coco\n23: Winnie the Pooh (2011)\n24: Tom and Jerry: The Fast and the Furry\n25: My Little Pony: Meet the Ponies (2008)\n26: Porco Rosso\n27: Finding Nemo (2003)\n28: Bugs Bunny in Space\n29: The Cat Returns\n30: Frozen\n31: Rio (2011)\n32: Cool World (1992)\n33: Frozen (2013)\n34: The Cat and the Kit (1925)\n35: Balto (1995)\n36: The Great Mouse Detective\n37: Howl's Moving Castle\n38: My Little Pony: The Movie (2017)\n39: The Princess and the Frog\n40: A Goofy Movie (1995)\n41: The Wonder (2016)\n42: Fantasia (1940)\n43: Anomalisa (2015)\n44: Trolls (2016)\n45: Toy Story (1995)\n46: The Rescuers Down Under\n47: Mickey's Racing Adventure\n48: Wallace & Gromit: The Curse of the Were-Rabbit (2005)\n49: Big Hero 6 (2014)\n50: Coco (2017)\n:It sounds like you’re describing \"Zootopia\"! Based on your preferences for animated movies that explore themes of friendship, diversity, and overcoming challenges, here are some recommendations for you:\n\n1. Zootopia\n2. Inside Out\n3. Coco\n4. Big Hero 6\n5. Moana\n6. The Incredibles\n7. Finding Nemo\n8. Toy Story 3\n9. How to Train Your Dragon\n10. Up",
+        "entity": [],
+        "rec_items": [
+          21954,
+          11122,
+          11641,
+          22746,
+          6591,
+          18189,
+          13286,
+          24279,
+          23506,
+          6910,
+          11965,
+          14886,
+          5394,
+          23504,
+          8081,
+          17495,
+          12959,
+          6942,
+          12370,
+          6098,
+          22857,
+          6276,
+          8335,
+          22741,
+          6766,
+          2602,
+          12145,
+          18824,
+          1357,
+          2121,
+          19313,
+          24040,
+          22100,
+          21784,
+          16544,
+          22837,
+          12158,
+          16476,
+          5044,
+          15524,
+          4753,
+          4159,
+          21009,
+          23756,
+          21678,
+          3582,
+          9732,
+          22020,
+          5053,
+          5806
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I really think you should check out that film about a city where animals of all kinds coexist. It beautifully showcases the importance of understanding and acceptance, following a young bunny who dreams of becoming a police officer and teams up with a con artist fox to solve a mystery. The animation is vibrant, and the characters are really relatable!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Boss Baby (2017)",
+      "animation",
+      "Princess Mononoke (1997)"
+    ],
+    "rec": [
+      "Zootopia"
+    ],
+    "resp": "ok then let me think Maybe Zootopia?",
+    "template": [
+      "Hello!",
+      "Hi there",
+      "i love movies what genre is your favorite?",
+      "Me too, <mask> movies are my favorite",
+      "i really like <mask> and <mask>",
+      "Me to, I have seen those two! Great movies",
+      "ok then let me think Maybe <mask>?"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

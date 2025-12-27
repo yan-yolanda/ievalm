@@ -1,0 +1,115 @@
+{
+  "dialog_id": "21333",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello! What is your favorite movie?",
+    "Hi, how are you? I am a huge Ryan Gosling fan! Can you recommend any movies with him in them?"
+  ],
+  "entity": [
+    "Ryan Gosling"
+  ],
+  "rec": [
+    "The Place Beyond the Pines (2012)",
+    "La La Land (2016)",
+    "Drive (2011)"
+  ],
+  "resp": "Oh yes, The Place Beyond the Pines (2012) is my favorite with him. La La Land (2016) is also great. I also really liked Drive (2011)",
+  "template": [
+    "Hello! What is your favorite movie?",
+    "Hi, how are you? I am a huge <mask>! Can you recommend any movies with him in them?",
+    "Oh yes, <mask> is my favorite with him. <mask> is also great. I also really liked <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21333",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! What is your favorite movie?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, how are you? I am a huge Ryan Gosling fan! Can you recommend any movies with him in them?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: All Good Things (2010)\n2: Lars and the Real Girl (2007)\n3: Drive (2011)\n4: Blade Runner 2049 (2017)\n5: The Nice Guys (2016)\n6: La La Land (2016)\n7: Everybody Wants Some!! (2016)\n8: Blue Valentine (2010)\n9: Hail, Caesar! (2016)\n10: The Interview (2014)\n11: Imagine Me & You (2005)\n12: The Best of Me (2014)\n13: The Notebook (2004)\n14: I Am Michael (2015)\n15: Fanboys (2009)\n16: Yes Man (2008)\n17: Gosford Park (2001)\n18: Hello Herman (2012)\n19: The Hitman's Bodyguard\n20: An Officer and a Gentleman\n21: Definitely, Maybe (2008)\n22: His Girl Friday (1940)\n23: Big Hero 6 (2014)\n24: Good Will Hunting (1997)\n25: I Love You, Man (2009)\n26: Just Friends? (2009)\n27: The Place Beyond the Pines (2012)\n28: Dear John (2010)\n29: Her (2013)\n30: When a Man Loves a Woman (1994)\n31: Hugo (2011)\n32: The Intern (2015)\n33: (2007)\n34: Kiss Kiss Bang Bang (2005)\n35: What's Your Number? (2011)\n36: How to Talk to Girls at Parties\n37: A Guide to Recognizing Your Saints (2006)\n38: Mr. Wonderful (1993)\n39: That's My Boy (2012)\n40: My Best Friend's Girl (2008)\n41: Say Anything... (1989)\n42: Just Friends (2005)\n43: 50 (2011)\n44: Hitman: Agent 47 (2015)\n45: The Stranger (2010)\n46: Me and Orson Welles (2008)\n47: Mr. Right (2015)\n48: Crazy, Stupid, Love (2011)\n49: Almost Famous (2000)\n50: Someone like You (2001)\n:I'm doing well, thank you! Since you're a fan of Ryan Gosling, could you let me know what genre of movies you prefer? For example, do you like romance, action, drama, or something else?",
+        "entity": [],
+        "rec_items": [
+          18491,
+          8231,
+          17841,
+          14901,
+          15930,
+          1397,
+          19539,
+          5355,
+          1138,
+          23984,
+          7091,
+          4224,
+          17364,
+          758,
+          1371,
+          10035,
+          189,
+          13869,
+          2132,
+          19331,
+          7614,
+          23270,
+          5053,
+          18159,
+          3622,
+          3295,
+          17355,
+          11686,
+          18000,
+          5404,
+          10937,
+          12552,
+          16809,
+          17406,
+          3682,
+          8984,
+          1188,
+          23357,
+          16767,
+          7793,
+          17511,
+          20003,
+          10215,
+          17630,
+          18757,
+          4443,
+          6250,
+          444,
+          10961,
+          10536
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy a mix of genres, especially films that have strong storytelling and emotional depth. For instance, there are some incredible movies featuring Ryan Gosling that beautifully blend drama and romance, showcasing complex characters and relationships. One of them explores the lives of a motorcycle stunt rider and a single mother, delving into themes of ambition and sacrifice. Another is a vibrant musical that celebrates dreams and love in Los Angeles, filled with stunning visuals and memorable music. Lastly, there's a gripping story about a getaway driver that combines intense action with a deep emotional core. Each of these films highlights Gosling's talent and offers a unique cinematic experience.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Ryan Gosling"
+    ],
+    "rec": [
+      "The Place Beyond the Pines (2012)",
+      "La La Land (2016)",
+      "Drive (2011)"
+    ],
+    "resp": "Oh yes, The Place Beyond the Pines (2012) is my favorite with him. La La Land (2016) is also great. I also really liked Drive (2011)",
+    "template": [
+      "Hello! What is your favorite movie?",
+      "Hi, how are you? I am a huge <mask>! Can you recommend any movies with him in them?",
+      "Oh yes, <mask> is my favorite with him. <mask> is also great. I also really liked <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

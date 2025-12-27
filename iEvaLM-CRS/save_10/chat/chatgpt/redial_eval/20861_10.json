@@ -1,0 +1,193 @@
+{
+  "dialog_id": "20861",
+  "turn_id": 10,
+  "context": [
+    "",
+    "Hi how are you? Did you see The Last Airbender (2010)?",
+    "HI. Im good! Yes I have. It was okay.",
+    "It's not for everyone, do you like fantasy/sci-fi?",
+    "Not really. I do like action though.",
+    "Ali (2001) - is a good action film with nice acting.",
+    "Yeah, I am a big Will Smith fan it was a good movie. My favorite was The Pursuit of Happyness (2006) Even though there were some sad parts, there was a happy ending",
+    "Do you like a good old classic Men in Black (1997)",
+    "Yes i did!",
+    "Absolutely, The Pursuit of Happyness (2006) hit all the right spots, i like it too. Did you watch Men in Black II (2002)?",
+    "Yes I did. Wasnt as good as the first but I will watch anything with him in it!"
+  ],
+  "entity": [
+    "The Last Airbender (2010)",
+    "Eve",
+    "fantasy",
+    "sci-fi",
+    "action",
+    "action",
+    "action",
+    "Ali (2001)",
+    "Will Smith",
+    "Eve",
+    "The Pursuit of Happyness (2006)",
+    "Men in Black (1997)",
+    "sport",
+    "The Pursuit of Happyness (2006)",
+    "Men in Black II (2002)"
+  ],
+  "rec": [
+    "Men in Black 3 (2012)",
+    "Men in Black II (2002)"
+  ],
+  "resp": "I think Men in Black 3 (2012) was better than Men in Black II (2002)",
+  "template": [
+    "Hi how are you? Did you see <mask>?",
+    "HI. Im good! Yes I have. It was okay.",
+    "It's not for <mask>ryone, do you like <mask>/<mask>?",
+    "Not really. I do like <mask> though.",
+    "<mask> - is a good <mask> film with nice <mask>.",
+    "Yeah, I am a big <mask>an it was a good movie. My favorite was <mask> Even<mask>ough<mask>ere were some sad parts,<mask>ere was a happy ending",
+    "Do you like a good old classic <mask>",
+    "Yes i did!",
+    "Absolutely, <mask> hit all the right <mask>, i like it too. Did you watch <mask>?",
+    "Yes I did. Wasnt as good as the first but I will watch anything with him in it!",
+    "I think <mask> was better than <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20861",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi how are you? Did you see The Last Airbender (2010)?"
+      },
+      {
+        "role": "user",
+        "content": "HI. Im good! Yes I have. It was okay."
+      },
+      {
+        "role": "assistant",
+        "content": "It's not for everyone, do you like fantasy/sci-fi?"
+      },
+      {
+        "role": "user",
+        "content": "Not really. I do like action though."
+      },
+      {
+        "role": "assistant",
+        "content": "Ali (2001) - is a good action film with nice acting."
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I am a big Will Smith fan it was a good movie. My favorite was The Pursuit of Happyness (2006) Even though there were some sad parts, there was a happy ending"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you like a good old classic Men in Black (1997)"
+      },
+      {
+        "role": "user",
+        "content": "Yes i did!"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely, The Pursuit of Happyness (2006) hit all the right spots, i like it too. Did you watch Men in Black II (2002)?"
+      },
+      {
+        "role": "user",
+        "content": "Yes I did. Wasnt as good as the first but I will watch anything with him in it!"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Pursuit of Happyness (2006)\n2: Men in Black II (2002)\n3: Mission: Impossible II (2000)\n4: Men in Black 3 (2012)\n5: Men in Black (1997)\n6: The Pursuit of Happiness (1988)\n7: Men in Black\n8: Bad Boys II (2003)\n9: Like Mike (2002)\n10: Good Will Hunting (1997)\n11: Rush Hour 2 (2001)\n12: Ali (2001)\n13: Boyz n the Hood (1991)\n14: Baby Boy (2001)\n15: Hot Pursuit (2015)\n16: The Pursuit of Happiness (1934)\n17: Yes Man (2008)\n18: Inside Man (2006)\n19: Good Boy! (2003)\n20: The Godfather Part II (1974)\n21: Meet Joe Black (1998)\n22: Madea's Big Happy Family (2011)\n23: Two Can Play That Game (2001)\n24: Menace II Society (1992)\n25: Manhunter (1986)\n26: Step Up (2006)\n27: The Jungle Book 2 (2003)\n28: The Best Man Holiday (2013)\n29: 2 Fast 2 Furious (2003)\n30: As Good as It Gets (1997)\n31: The Family Man (2000)\n32: How High (2001)\n33: 8 Mile (2002)\n34: Madea's Witness Protection (2012)\n35: The Master (2012)\n36: Yes (2004)\n37: Man of the Year (2006)\n38: Men of Honor (2000)\n39: Miami Vice (2006)\n40: Good Deeds (2012)\n41: Away We Go (2009)\n42: The Butler (2013)\n43: Heist (2001)\n44: John Q. (2002)\n45: The Perfect Holiday (2007)\n46: Basic (2003)\n47: Hancock (2008)\n48: Hustle & Flow (2005)\n49: Taken 2 (2012)\n50: Meet the Blacks (2016)\n:Great to hear! Since you're a fan of Will Smith and enjoy action films, here are some recommendations for you:\n\n1. Bad Boys (1995)\n2. I, Robot (2004)\n3. Hancock (2008)\n4. Enemy of the State (1998)\n5. Independence Day (1996)\n6. Aladdin (2019)\n7. Focus (2015)\n8. Bad Boys II (2003)\n9. Gemini Man (2019)\n10. Concussion (2015)",
+        "entity": [],
+        "rec_items": [
+          3640,
+          5479,
+          18936,
+          15293,
+          11504,
+          23407,
+          14558,
+          15913,
+          13378,
+          18159,
+          24005,
+          24214,
+          6763,
+          15958,
+          23897,
+          19098,
+          10035,
+          17599,
+          24004,
+          16097,
+          8389,
+          15979,
+          15571,
+          16020,
+          4623,
+          14470,
+          6942,
+          18327,
+          10218,
+          5528,
+          18553,
+          18736,
+          2253,
+          16480,
+          13171,
+          21221,
+          14464,
+          19168,
+          3400,
+          18151,
+          7819,
+          5169,
+          2681,
+          2310,
+          6378,
+          13589,
+          22235,
+          8216,
+          16766,
+          23772
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really interested in some specific films. There are two action-packed movies featuring a unique blend of sci-fi and humor that I think you might enjoy. One of them involves time travel and has a great storyline about saving the world, while the other is a sequel that continues the adventures of agents dealing with extraterrestrial threats. Both films feature the same charismatic lead actor and are known for their entertaining action sequences and comedic moments. Would you like to know more about them?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Men in Black (1997)",
+      "fantasy",
+      "Eve",
+      "sport",
+      "Men in Black II (2002)",
+      "The Pursuit of Happyness (2006)",
+      "Will Smith",
+      "sci-fi",
+      "action",
+      "Ali (2001)",
+      "The Last Airbender (2010)"
+    ],
+    "rec": [
+      "Men in Black 3 (2012)",
+      "Men in Black II (2002)"
+    ],
+    "resp": "I think Men in Black 3 (2012) was better than Men in Black II (2002)",
+    "template": [
+      "Hi how are you? Did you see <mask>?",
+      "HI. Im good! Yes I have. It was okay.",
+      "It's not for <mask>ryone, do you like <mask>/<mask>?",
+      "Not really. I do like <mask> though.",
+      "<mask> - is a good <mask> film with nice <mask>.",
+      "Yeah, I am a big <mask>an it was a good movie. My favorite was <mask> Even<mask>ough<mask>ere were some sad parts,<mask>ere was a happy ending",
+      "Do you like a good old classic <mask>",
+      "Yes i did!",
+      "Absolutely, <mask> hit all the right <mask>, i like it too. Did you watch <mask>?",
+      "Yes I did. Wasnt as good as the first but I will watch anything with him in it!",
+      "I think <mask> was better than <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

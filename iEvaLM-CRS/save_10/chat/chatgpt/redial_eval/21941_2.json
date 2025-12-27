@@ -1,0 +1,178 @@
+{
+  "dialog_id": "21941",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello there",
+    "Hi hi How are you? I am in the mood for something like The Crow (1994). Can you recommend anything similar?"
+  ],
+  "entity": [
+    "The Crow (1994)"
+  ],
+  "rec": [
+    "Air Bud (1997)",
+    "Donnie Darko (2001)",
+    "Desperado (1995)"
+  ],
+  "resp": "I'm well thanks! Oh man well that rules out my first suggestion of Air Bud (1997) maybe Donnie Darko (2001) or possibly even Desperado (1995)",
+  "template": [
+    "Hello there",
+    "Hi hi How are you? I am in the mood for something like <mask>. Can you recommend anything similar?",
+    "I'm well thanks! Oh man well that rules out my first suggestion of <mask> maybe <mask> or possibly <mask>n <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21941",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello there"
+      },
+      {
+        "role": "user",
+        "content": "Hi hi How are you? I am in the mood for something like The Crow (1994). Can you recommend anything similar?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm doing well, thank you! Since you're in the mood for something like \"The Crow,\" could you let me know if you prefer more dark fantasy, action, or perhaps a mix of both? Also, are you looking for movies, TV shows, or something else?",
+        "entity": [],
+        "rec_items": [
+          17594,
+          15399,
+          14284,
+          10046,
+          11874,
+          18490,
+          1919,
+          396,
+          23177,
+          7882,
+          8141,
+          17511,
+          3215,
+          7729,
+          22145,
+          8691,
+          10961,
+          17437,
+          8225,
+          13887,
+          18756,
+          16744,
+          15257,
+          7225,
+          11742,
+          17406,
+          424,
+          15512,
+          18971,
+          19977,
+          9814,
+          18676,
+          11649,
+          4137,
+          5528,
+          23804,
+          13859,
+          4623,
+          8316,
+          18159,
+          23519,
+          5475,
+          22649,
+          15769,
+          17319,
+          21024,
+          6131,
+          16959,
+          8917,
+          3519
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your interest! I'm actually in the mood for something that features a mix of heartwarming moments and unique storytelling. For instance, there's a film that showcases the bond between a boy and a dog, which is quite uplifting. Another one dives into the complexities of time travel and teenage angst, while a third one is a thrilling action film with a charismatic lead and a strong sense of revenge. If you're looking for something along those lines, I can share more about them!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Crow (1994)\n2: Ghost Dog: The Way of the Samurai (1999)\n3: All Good Things (2010)\n4: The Dark (2005)\n5: Bright (2017)\n6: The Dark Knight Trilogy\n7: Donnie Darko (2001)\n8: Darkman (1990)\n9: Bone Tomahawk (2015)\n10: The Guardian (2006)\n11: Avenger (2006)\n12: The Spirit (2008)\n13: Avengers Grimm (2015)\n14: The Quick and the Dead (1995)\n15: 3:10 to Yuma (2007)\n16: Meek's Cutoff (2010)\n17: Interview with the Vampire\n18: City of Angels\n19: The Sorcerer's Apprentice (2010)\n20: The Wolfman (2010)\n21: Nightbreed (1990)\n22: A Ghost Story (2017)\n23: Blood and Bone (2009)\n24: The Jacket (2005)\n25: Warrior (2011)\n26: The Rover (2014)\n27: Underworld: Rise of the Lycans (2009)\n28: The Warrior's Way\n29: The Grey (2011)\n30: The Gift (2000)\n31: Dragonheart (1996)\n32: Changeling (2008)\n33: Brooklyn (2015)\n34: The Next Three Days (2010)\n35: Let Me In (2010)\n36: Super 8 (2011)\n37: L.A. Confidential (1997)\n38: Willow (1988)\n39: The Revenant (2009)\n40: Dragonheart: A New Beginning (2000)\n41: Jack (1996)\n42: The Dark Crystal\n43: In Dreams (1999)\n44: The Girl with the Dragon Tattoo (2011)\n45: Ghost Rider (2007)\n46: Guardians (2017)\n47: Legend (1985)\n48: Justice League Dark\n49: A Scanner Darkly (2006)\n50: Robin Hood (2010)\n:Thank you for sharing your preferences! Based on your interest in heartwarming moments, unique storytelling, and themes of revenge, here are some recommendations for you:\n\n1. The Iron Giant\n2. A Monster Calls\n3. The Secret Life of Pets\n4. The Time Traveler's Wife\n5. The Perks of Being a Wallflower\n6. The Pursuit of Happyness\n7. The Green Mile\n8. The Book Thief\n9. The Revenant\n10. The Fault in Our Stars",
+        "entity": [],
+        "rec_items": [
+          17594,
+          15308,
+          18491,
+          24550,
+          20354,
+          14481,
+          22241,
+          1245,
+          14284,
+          13081,
+          2693,
+          9158,
+          14186,
+          15399,
+          6779,
+          4804,
+          16744,
+          19559,
+          17685,
+          23833,
+          8225,
+          20489,
+          13436,
+          14064,
+          6573,
+          17115,
+          20083,
+          14486,
+          15708,
+          15199,
+          3242,
+          22753,
+          3927,
+          13887,
+          20237,
+          8138,
+          3215,
+          10194,
+          8909,
+          18131,
+          15769,
+          402,
+          9706,
+          12930,
+          22305,
+          4715,
+          15627,
+          8196,
+          11557,
+          17107
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate your suggestions, but I’m really looking for something that features a heartwarming bond between a boy and his dog, a unique take on time travel and teenage struggles, and a thrilling action film with a charismatic lead. If you’re interested, I can tell you more about those films!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Crow (1994)"
+    ],
+    "rec": [
+      "Air Bud (1997)",
+      "Donnie Darko (2001)",
+      "Desperado (1995)"
+    ],
+    "resp": "I'm well thanks! Oh man well that rules out my first suggestion of Air Bud (1997) maybe Donnie Darko (2001) or possibly even Desperado (1995)",
+    "template": [
+      "Hello there",
+      "Hi hi How are you? I am in the mood for something like <mask>. Can you recommend anything similar?",
+      "I'm well thanks! Oh man well that rules out my first suggestion of <mask> maybe <mask> or possibly <mask>n <mask>"
+    ]
+  },
+  "persuasiveness_score": "0"
+}

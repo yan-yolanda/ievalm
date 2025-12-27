@@ -1,0 +1,208 @@
+{
+  "dialog_id": "22150",
+  "turn_id": 6,
+  "context": [
+    "",
+    "hello how are you",
+    "Hello! I'm good, thanks! I'm in the mood to see a tear jerker. Something kind of like Steel Magnolias (1989) Can you think of anything like that?",
+    "I Am Sam (2001) and The Notebook (2004) were both great",
+    "I've seen The Notebook (2004) but not I Am Sam (2001) . I'll have to look that up.",
+    "youll enjoy it very emotional movie",
+    "Cool. Anything else you can think of?"
+  ],
+  "entity": [
+    "Steel Magnolias (1989)",
+    "I Am Sam (2001)",
+    "The Notebook (2004)",
+    "The Notebook (2004)",
+    "I Am Sam (2001)"
+  ],
+  "rec": [
+    "The Iron Giant (1999)"
+  ],
+  "resp": "The Iron Giant (1999) was also sad at the end",
+  "template": [
+    "hello how are you",
+    "Hello! I'm good, thanks! I'm in the mood to see a tear jerker. Something kind of like <mask> Can you think of anything like that?",
+    "<mask> and <mask> were both great",
+    "I've seen <mask> but not <mask> . I'll have to look that up.",
+    "youll enjoy it very emotional movie",
+    "Cool. Anything else you can think of?",
+    "<mask> was also sad at the end"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22150",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello how are you"
+      },
+      {
+        "role": "user",
+        "content": "Hello! I'm good, thanks! I'm in the mood to see a tear jerker. Something kind of like Steel Magnolias (1989) Can you think of anything like that?"
+      },
+      {
+        "role": "assistant",
+        "content": "I Am Sam (2001) and The Notebook (2004) were both great"
+      },
+      {
+        "role": "user",
+        "content": "I've seen The Notebook (2004) but not I Am Sam (2001) . I'll have to look that up."
+      },
+      {
+        "role": "assistant",
+        "content": "youll enjoy it very emotional movie"
+      },
+      {
+        "role": "user",
+        "content": "Cool. Anything else you can think of?"
+      },
+      {
+        "role": "assistant",
+        "content": "What other types of movies do you enjoy? Do you prefer dramas, comedies, or something else?",
+        "entity": [],
+        "rec_items": [
+          10775,
+          24172,
+          24591,
+          17706,
+          17746,
+          7293,
+          16397,
+          9539,
+          12741,
+          18615,
+          5919,
+          5528,
+          13171,
+          21362,
+          18159,
+          19326,
+          10810,
+          21221,
+          10286,
+          7616,
+          1021,
+          11892,
+          17476,
+          18000,
+          9406,
+          15759,
+          3927,
+          1776,
+          21685,
+          2253,
+          21979,
+          18754,
+          22145,
+          5134,
+          10987,
+          13021,
+          24119,
+          10215,
+          21534,
+          23459,
+          24040,
+          12552,
+          4334,
+          24450,
+          6004,
+          12472,
+          6906,
+          24572,
+          9372,
+          23450
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy animated films that have a heartfelt story. There's one that beautifully explores themes of friendship and sacrifice, featuring a young boy and a giant robot. It's a touching tale that resonates with both kids and adults alike.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Robot Stories (2003)\n2: Robots (2005)\n3: Big Hero 6 (2014)\n4: Arrietty\n5: Ponyo\n6: Toy Story (1995)\n7: I, Robot (2004)\n8: Akira (1988)\n9: My Neighbor Totoro\n10: The Iron Giant (1999)\n11: Toys (1992)\n12: Toy Story 3 (2010)\n13: A.I. Artificial Intelligence (2001)\n14: The Transformers: The Movie\n15: Enchanted (2007)\n16: Anastasia (1997)\n17: Meet the Robinsons (2007)\n18: Kubo and the Two Strings (2016)\n19: Toy Story 4 (2018)\n20: Automata (2014)\n21: The Little Prince (2015)\n22: Spirited Away\n23: Fantasia (2014)\n24: Turbo (2013)\n25: The Star (2017)\n26: The Wonder (2016)\n27: Up (2009)\n28: Cool World (1992)\n29: Toy Story 2 (1999)\n30: Howl's Moving Castle\n31: Coco\n32: Grave of the Fireflies (1988)\n33: WALL-E\n34: Christopher Robin (2018)\n35: Brother Bear\n36: Rio (2011)\n37: The Lord of the Rings\n38: Mowgli (2019)\n39: The Good Dinosaur (2015)\n40: Toy Story That Time Forgot\n41: Hugo (2011)\n42: Titan A.E. (2000)\n43: Your Name (2016)\n44: My Little Pony: The Movie (1986)\n45: A Letter to Momo (2011)\n46: Wolf Children\n47: Tinker Bell\n48: Tinker Bell\n49: Porco Rosso\n50: Fantastic Mr. Fox (2009)\n:Great! Based on your preferences for tear-jerkers and heartfelt animated films, here are some recommendations:\n\n1. I Am Sam\n2. Up\n3. Grave of the Fireflies\n4. Coco\n5. The Iron Giant\n6. Toy Story 3\n7. The Land Before Time\n8. A Monster Calls\n9. Inside Out\n10. The Pursuit of Happyness",
+        "entity": [],
+        "rec_items": [
+          5436,
+          7053,
+          5053,
+          6139,
+          6591,
+          21678,
+          24571,
+          21311,
+          13286,
+          15145,
+          3632,
+          13381,
+          18615,
+          500,
+          23506,
+          15961,
+          10737,
+          21562,
+          9179,
+          4733,
+          7489,
+          21962,
+          13892,
+          2984,
+          20416,
+          4753,
+          8081,
+          24040,
+          20937,
+          12158,
+          6276,
+          16817,
+          9803,
+          20853,
+          22857,
+          19313,
+          15734,
+          20922,
+          13253,
+          18513,
+          10937,
+          4637,
+          10235,
+          11965,
+          19827,
+          16645,
+          1572,
+          1572,
+          2602,
+          11641
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really think you should check out that animated film I mentioned earlier. It beautifully explores themes of friendship and sacrifice, featuring a young boy and a giant robot. It's a touching tale that resonates with both kids and adults alike.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Steel Magnolias (1989)",
+      "The Notebook (2004)",
+      "I Am Sam (2001)"
+    ],
+    "rec": [
+      "The Iron Giant (1999)"
+    ],
+    "resp": "The Iron Giant (1999) was also sad at the end",
+    "template": [
+      "hello how are you",
+      "Hello! I'm good, thanks! I'm in the mood to see a tear jerker. Something kind of like <mask> Can you think of anything like that?",
+      "<mask> and <mask> were both great",
+      "I've seen <mask> but not <mask> . I'll have to look that up.",
+      "youll enjoy it very emotional movie",
+      "Cool. Anything else you can think of?",
+      "<mask> was also sad at the end"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

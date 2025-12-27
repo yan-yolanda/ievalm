@@ -1,0 +1,241 @@
+{
+  "dialog_id": "22965",
+  "turn_id": 10,
+  "context": [
+    "",
+    "hello there",
+    "how are you?",
+    "I hope you are having a great night I am fine",
+    "what movie would you recommend?",
+    "thanks for asking I hope you can watch Cult of Chucky (2017) for scary or Waterboys (2001) for laughter or The Little Mermaid (1989) with your kids",
+    "those sound good I saw that in the theatres",
+    "or Popcorn (1991) for a classic I hope these help you pick I think they are good to watch",
+    "I like scary movies too",
+    "I am a movie fan",
+    "oh me too"
+  ],
+  "entity": [
+    "scary",
+    "Cult of Chucky (2017)",
+    "Waterboys (2001)",
+    "The Little Mermaid (1989)",
+    "Popcorn (1991)",
+    "scary"
+  ],
+  "rec": [
+    "Horrorween (2010)",
+    "Devil (2010)"
+  ],
+  "resp": "They are cool. Like Horrorween (2010) is a scary one yes me too or Devil (2010) is another one",
+  "template": [
+    "hello there",
+    "how are you?",
+    "I hope you are having a great night I am fine",
+    "what movie would you recommend?",
+    "thanks for asking I hope you can watch <mask> for <mask> or <mask> for laughter or <mask> with your kids",
+    "those sound good I saw that in the theatres",
+    "or <mask> for a classic I hope these help you pick I think they are good to watch",
+    "I like <mask> movies too",
+    "I am a movie fan",
+    "oh me too",
+    "They are cool. Like <mask> is a <mask> one yes me too or <mask> is another one"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22965",
+    "turn_id": 10,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello there"
+      },
+      {
+        "role": "user",
+        "content": "how are you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I hope you are having a great night I am fine"
+      },
+      {
+        "role": "user",
+        "content": "what movie would you recommend?"
+      },
+      {
+        "role": "assistant",
+        "content": "thanks for asking I hope you can watch Cult of Chucky (2017) for scary or Waterboys (2001) for laughter or The Little Mermaid (1989) with your kids"
+      },
+      {
+        "role": "user",
+        "content": "those sound good I saw that in the theatres"
+      },
+      {
+        "role": "assistant",
+        "content": "or Popcorn (1991) for a classic I hope these help you pick I think they are good to watch"
+      },
+      {
+        "role": "user",
+        "content": "I like scary movies too"
+      },
+      {
+        "role": "assistant",
+        "content": "I am a movie fan"
+      },
+      {
+        "role": "user",
+        "content": "oh me too"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great! What specific types of scary movies do you enjoy? Do you prefer psychological thrillers, supernatural horror, slasher films, or something else?",
+        "entity": [],
+        "rec_items": [
+          1371,
+          13536,
+          4443,
+          13171,
+          15553,
+          758,
+          7362,
+          14689,
+          5165,
+          10046,
+          10961,
+          23023,
+          19331,
+          7091,
+          15253,
+          22339,
+          18754,
+          16397,
+          7860,
+          7564,
+          20379,
+          13378,
+          2693,
+          16767,
+          19339,
+          9690,
+          12552,
+          8138,
+          17576,
+          18615,
+          782,
+          12472,
+          24091,
+          4334,
+          18936,
+          20026,
+          23188,
+          20819,
+          7754,
+          4393,
+          11704,
+          24,
+          18931,
+          18240,
+          6674,
+          23201,
+          5360,
+          20071,
+          10987,
+          24325
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I enjoy movies that have a mix of suspense and supernatural elements. For instance, there are some films that really capture the essence of fear and tension, often involving a group of people in a confined space facing an unseen threat. One such film features a group trapped in an elevator with a sinister presence, while another revolves around a Halloween-themed gathering that takes a dark turn. Both of these films really deliver on the chills and thrills!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Psycho\n2: Psycho (1960)\n3: Halloween (1978)\n4: Psycho (1998)\n5: Paranormal Activity 4 (2012)\n6: Halloween: The Curse of Michael Myers (1995)\n7: Suspiria (1977)\n8: Sinister (2012)\n9: Don't Be Afraid of the Dark (2010)\n10: Scary Movie 2 (2001)\n11: Let's Scare Jessica to Death (1971)\n12: Saw (2004)\n13: The Dark Half (1993)\n14: Paranormal Activity (2007)\n15: Paranormal Activity\n16: Fright Night (1985)\n17: Panic Room (2002)\n18: An American Haunting (2005)\n19: The Thing (2011)\n20: Horrorween (2010)\n21: Paranormal Activity 3 (2011)\n22: Halloween (2007)\n23: Hellraiser (1987)\n24: Paranormal Activity 2 (2010)\n25: Fear (1990)\n26: Screamers (1995)\n27: Psycho III (1986)\n28: The Conjuring\n29: The Woman in Black (2012)\n30: 1408 (2007)\n31: Halloween II (2009)\n32: Carrie (1976)\n33: The Conjuring (2013)\n34: Scream\n35: Insidious (2010)\n36: Sinister 2 (2015)\n37: Scream 2 (1997)\n38: Scary Movie (2000)\n39: Insidious\n40: Scream (1996)\n41: Night of Fear (1972)\n42: Michael Jackson's Thriller (1983)\n43: Halloween II (1981)\n44: The Last Horror Movie (2003)\n45: Halloween: Resurrection (2002)\n46: Scary Movie\n47: The Others (2001)\n48: Horror Express (1972)\n49: American Psycho (2000)\n50: The Mist (2007)\n:Based on your preference for suspenseful supernatural horror films, here are some recommendations:\n\n1. The Cabin in the Woods\n2. It Follows\n3. The Conjuring\n4. A Quiet Place\n5. The Descent\n6. The Others\n7. The Witch\n8. Insidious\n9. The Haunting of Hill House (series)\n10. The Invisible Man\n\nI hope you find something you enjoy!",
+        "entity": [],
+        "rec_items": [
+          24311,
+          23755,
+          24510,
+          22061,
+          1591,
+          5813,
+          10163,
+          19096,
+          23602,
+          10130,
+          19148,
+          4130,
+          7192,
+          6966,
+          23014,
+          17081,
+          3012,
+          4535,
+          22170,
+          8243,
+          24522,
+          13775,
+          7729,
+          22286,
+          16443,
+          4370,
+          8820,
+          1305,
+          8038,
+          18752,
+          10665,
+          18770,
+          17374,
+          14775,
+          19104,
+          14323,
+          7442,
+          21363,
+          21158,
+          17319,
+          1200,
+          17170,
+          14850,
+          4153,
+          6920,
+          22957,
+          7680,
+          2314,
+          23804,
+          18857
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I really enjoy films that capture the essence of fear and tension, especially those involving a group of people facing an unseen threat. For example, there's a film where a group is trapped in an elevator with a sinister presence, and another that revolves around a Halloween-themed gathering that takes a dark turn. Both of these films really deliver on the chills and thrills!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Cult of Chucky (2017)",
+      "scary",
+      "The Little Mermaid (1989)",
+      "Waterboys (2001)",
+      "Popcorn (1991)"
+    ],
+    "rec": [
+      "Horrorween (2010)",
+      "Devil (2010)"
+    ],
+    "resp": "They are cool. Like Horrorween (2010) is a scary one yes me too or Devil (2010) is another one",
+    "template": [
+      "hello there",
+      "how are you?",
+      "I hope you are having a great night I am fine",
+      "what movie would you recommend?",
+      "thanks for asking I hope you can watch <mask> for <mask> or <mask> for laughter or <mask> with your kids",
+      "those sound good I saw that in the theatres",
+      "or <mask> for a classic I hope these help you pick I think they are good to watch",
+      "I like <mask> movies too",
+      "I am a movie fan",
+      "oh me too",
+      "They are cool. Like <mask> is a <mask> one yes me too or <mask> is another one"
+    ]
+  },
+  "persuasiveness_score": "0"
+}

@@ -1,0 +1,149 @@
+{
+  "dialog_id": "21065",
+  "turn_id": 6,
+  "context": [
+    "",
+    "hello there are some great movies out right now, what are you looking for?",
+    "Hi Maybe a comedy",
+    "How about Spaceballs (1987) or the classic Office Space (1999) ? Those are both really funny",
+    "Oh I havent seen either!",
+    "what funny movie do you like?",
+    "Any others? I liked Rush Hour (1998)"
+  ],
+  "entity": [
+    "comedy",
+    "Spaceballs (1987)",
+    "Office Space (1999)",
+    "Rush Hour (1998)"
+  ],
+  "rec": [
+    "Ghostbusters (1984)",
+    "Scary Movie (2000)",
+    "Rush Hour (1998)"
+  ],
+  "resp": "you could watch an action/comedy like Ghostbusters (1984) or a scary/comedy like Scary Movie (2000) Rush Hour (1998) is also good for action!",
+  "template": [
+    "hello there are some great movies out right now, what are you looking for?",
+    "Hi Maybe a <mask>",
+    "How about <mask> or the classic <mask> ? Those are both really funny",
+    "Oh I havent seen either!",
+    "what funny movie do you like?",
+    "Any others? I liked <mask>",
+    "you could watch an <mask><mask>y like <mask> or a <mask><mask>y like <mask> <mask> is also good for <mask>!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21065",
+    "turn_id": 6,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hello there are some great movies out right now, what are you looking for?"
+      },
+      {
+        "role": "user",
+        "content": "Hi Maybe a comedy"
+      },
+      {
+        "role": "assistant",
+        "content": "How about Spaceballs (1987) or the classic Office Space (1999) ? Those are both really funny"
+      },
+      {
+        "role": "user",
+        "content": "Oh I havent seen either!"
+      },
+      {
+        "role": "assistant",
+        "content": "what funny movie do you like?"
+      },
+      {
+        "role": "user",
+        "content": "Any others? I liked Rush Hour (1998)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Rush Hour (1998)\n2: Rush Hour 2 (2001)\n3: Rush Hour 3 (2007)\n4: Rush Hour\n5: Anything Else (2003)\n6: Another 48 Hrs. (1990)\n7: Rushmore (1998)\n8: Chungking Express (1994)\n9: 48 Hrs. (1982)\n10: Friday (1995)\n11: Grosse Pointe Blank (1997)\n12: Snatch (2000)\n13: I, the Other (2006)\n14: Funny People (2009)\n15: Fast and Furious (1939)\n16: Shanghai Noon (2000)\n17: The Other Guys (2010)\n18: Super Troopers (2001)\n19: As Good as It Gets (1997)\n20: Mosquito (1995)\n21: Analyze This (1999)\n22: Red (2010)\n23: Friday\n24: Clerks II (2006)\n25: Friday After Next (2002)\n26: You Laugh (1998)\n27: Ride Along (2014)\n28: Like Mike (2002)\n29: Kung Fu Hustle (2004)\n30: Clerks (1994)\n31: Police Story 2 (1988)\n32: 3 Idiots (2009)\n33: The Mask (1994)\n34: 30 Minutes or Less (2011)\n35: Rumble in the Bronx (1995)\n36: Police Academy 2: Their First Assignment (1985)\n37: Away We Go (2009)\n38: 25th Hour\n39: Yes Man (2008)\n40: Freebie and the Bean (1974)\n41: Bad Boys II (2003)\n42: Pootie Tang (2001)\n43: Ride Along 2 (2016)\n44: Fun (1994)\n45: My Boss's Daughter (2003)\n46: Anywhere but Here (1999)\n47: What About Bob? (1991)\n48: Tropic Thunder (2008)\n49: Clueless (1995)\n50: Planes, Trains and Automobiles (1986)\n:Great choice! Based on your preference for comedies like Rush Hour, here are some recommendations:\n\n1. 21 Jump Street\n2. Superbad\n3. Tropic Thunder\n4. The Hangover\n5. Step Brothers\n6. Hot Fuzz\n7. We're the Millers\n8. Zombieland\n9. Horrible Bosses\n10. The Other Guys",
+        "entity": [],
+        "rec_items": [
+          18608,
+          24005,
+          19905,
+          13035,
+          7293,
+          14501,
+          12192,
+          11494,
+          6304,
+          21848,
+          2346,
+          9672,
+          15430,
+          13238,
+          11541,
+          23995,
+          9982,
+          3269,
+          5528,
+          18756,
+          19058,
+          12704,
+          11173,
+          4321,
+          21749,
+          14905,
+          23152,
+          13378,
+          3454,
+          21279,
+          19310,
+          14683,
+          14170,
+          15547,
+          16837,
+          23822,
+          7819,
+          12068,
+          10035,
+          21860,
+          15913,
+          5985,
+          21023,
+          994,
+          20026,
+          6666,
+          5078,
+          18555,
+          10091,
+          19445
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really interested in some specific comedies. For instance, there's a classic film featuring a group of paranormal investigators who tackle supernatural entities in New York City. It's a blend of humor and adventure that has become iconic. Additionally, there's a hilarious movie that parodies horror films, filled with over-the-top comedy and memorable characters. Lastly, there's a buddy cop film that combines action and humor, showcasing the dynamic between two very different detectives. These films are definitely worth checking out!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "comedy",
+      "Spaceballs (1987)",
+      "Office Space (1999)",
+      "Rush Hour (1998)"
+    ],
+    "rec": [
+      "Ghostbusters (1984)",
+      "Scary Movie (2000)",
+      "Rush Hour (1998)"
+    ],
+    "resp": "you could watch an action/comedy like Ghostbusters (1984) or a scary/comedy like Scary Movie (2000) Rush Hour (1998) is also good for action!",
+    "template": [
+      "hello there are some great movies out right now, what are you looking for?",
+      "Hi Maybe a <mask>",
+      "How about <mask> or the classic <mask> ? Those are both really funny",
+      "Oh I havent seen either!",
+      "what funny movie do you like?",
+      "Any others? I liked <mask>",
+      "you could watch an <mask><mask>y like <mask> or a <mask><mask>y like <mask> <mask> is also good for <mask>!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

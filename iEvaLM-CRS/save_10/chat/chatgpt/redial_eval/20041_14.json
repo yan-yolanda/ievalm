@@ -1,0 +1,220 @@
+{
+  "dialog_id": "20041",
+  "turn_id": 14,
+  "context": [
+    "",
+    "Hello!",
+    "Hello!",
+    "What kind of movies do you like?",
+    "I am looking for a movie recommendation. When I was younger I really enjoyed the A Nightmare on Elm Street (1984)",
+    "Oh, you like scary movies? I recently watched Happy Death Day (2017)",
+    "I also enjoyed watching The Last House on the Left (1972)",
+    "It was really good for a new \"scary movie\"",
+    "I do enjoy some of the newer horror movies that I have seen as well.",
+    "I heard that A Quiet Place (2018) is good. It is still in theaters though.",
+    "I really liked the movie Annabelle (2014)",
+    "Me, too! It was really creepy, but I thought it was good!",
+    "Or The Forest (2016) I saw while in theaters, this was a very good movie. It had me on the edge of my seat for the whole show.",
+    "I'm not sure if I saw that one, I'll have to check into it. Sounds familiar, but not sure. Thank you for your suggestions!",
+    "Are there any comedies that you would suggest?"
+  ],
+  "entity": [
+    "A Nightmare on Elm Street (1984)",
+    "scary",
+    "Happy Death Day (2017)",
+    "The Last House on the Left (1972)",
+    "scary",
+    "horror",
+    "A Quiet Place (2018)",
+    "Annabelle (2014)",
+    "The Who",
+    "The Forest (2016)",
+    "comedy"
+  ],
+  "rec": [
+    "Hot Tub Time Machine",
+    "Super Troopers (2001)",
+    "Identity Thief (2013)",
+    "The Heat (2013)"
+  ],
+  "resp": "Sure! I like comedies a lot. I like movies like Hot Tub Time Machine and Super Troopers (2001) , but I also like Identity Thief (2013) and The Heat (2013) .",
+  "template": [
+    "Hello!",
+    "Hello!",
+    "What kind of movies do you like?",
+    "I am looking for a movie recommendation. When I was younger I really enjoyed the <mask>",
+    "Oh, you like <mask> movies? I recently watched <mask>",
+    "I also enjoyed watching <mask>",
+    "It was really good for a new \"<mask> movie\"",
+    "I do enjoy some of the newer <mask> movies that I have seen as well.",
+    "I heard that <mask> is good. It is still in theaters though.",
+    "I really liked the movie <mask>",
+    "Me, too! It was really creepy, but I thought it was good!",
+    "Or <mask> I saw while in theaters, this was a very good movie. It had me on the edge of my seat for <mask>le show.",
+    "I'm not sure if I saw that one, I'll have to check into it. Sounds familiar, but not sure. Thank you for your suggestions!",
+    "Are there any <mask> that you would suggest?",
+    "Sure! I like <mask> a lot. I like movies like <mask> and <mask> , but I also like <mask> and <mask> ."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20041",
+    "turn_id": 14,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello!"
+      },
+      {
+        "role": "user",
+        "content": "Hello!"
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I am looking for a movie recommendation. When I was younger I really enjoyed the A Nightmare on Elm Street (1984)"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh, you like scary movies? I recently watched Happy Death Day (2017)"
+      },
+      {
+        "role": "user",
+        "content": "I also enjoyed watching The Last House on the Left (1972)"
+      },
+      {
+        "role": "assistant",
+        "content": "It was really good for a new \"scary movie\""
+      },
+      {
+        "role": "user",
+        "content": "I do enjoy some of the newer horror movies that I have seen as well."
+      },
+      {
+        "role": "assistant",
+        "content": "I heard that A Quiet Place (2018) is good. It is still in theaters though."
+      },
+      {
+        "role": "user",
+        "content": "I really liked the movie Annabelle (2014)"
+      },
+      {
+        "role": "assistant",
+        "content": "Me, too! It was really creepy, but I thought it was good!"
+      },
+      {
+        "role": "user",
+        "content": "Or The Forest (2016) I saw while in theaters, this was a very good movie. It had me on the edge of my seat for the whole show."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm not sure if I saw that one, I'll have to check into it. Sounds familiar, but not sure. Thank you for your suggestions!"
+      },
+      {
+        "role": "user",
+        "content": "Are there any comedies that you would suggest?"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: The Comedy (2012)\n2: Checking Out (2005)\n3: Seems Like Old Times (1980)\n4: The Sure Thing (1985)\n5: Definitely, Maybe (2008)\n6: The Comedian (2016)\n7: It Could Happen to You (1994)\n8: The Odd Couple (1968)\n9: Sister Act 2: Back in the Habit (1993)\n10: Funny People (2009)\n11: That's Life! (1986)\n12: The To Do List (2013)\n13: Police Academy 2: Their First Assignment (1985)\n14: Planes, Trains and Automobiles (1986)\n15: Tammy (2014)\n16: Clerks (1994)\n17: Clueless (1995)\n18: Mystery Science Theater 3000: The Movie (1996)\n19: Yes Man (2008)\n20: Nostalgia (1971)\n21: Safety Not Guaranteed (2012)\n22: Sister Act (1992)\n23: Guess Who (2005)\n24: As Good as It Gets (1997)\n25: Analyze This (1999)\n26: The Honeymooners (2005)\n27: Anything Else (2003)\n28: A Goofy Movie (1995)\n29: My Girl 2 (1994)\n30: Someone like You (2001)\n31: Something to Talk About (1995)\n32: And So It Goes (2014)\n33: The Other Sister (1999)\n34: Mosquito (1995)\n35: There's Something About Mary (1998)\n36: What About Bob? (1991)\n37: The Ref (1994)\n38: Wonder Woman 2 (2019)\n39: Clerks II (2006)\n40: The Boss (2016)\n41: Year One (2009)\n42: The Hot Chick (2002)\n43: That Thing You Do!\n44: Super Troopers (2001)\n45: The Intern (2015)\n46: Madame (2017)\n47: Dunston Checks In (1996)\n48: Jack (1996)\n49: The 'Burbs (1989)\n50: Absolutely Anything (2015)\n:What type of comedies do you enjoy? Do you prefer romantic comedies, dark humor, or something else?",
+        "entity": [],
+        "rec_items": [
+          2993,
+          23037,
+          10551,
+          11892,
+          7614,
+          17647,
+          22145,
+          1996,
+          24326,
+          13238,
+          15956,
+          22395,
+          23822,
+          19445,
+          13749,
+          21279,
+          10091,
+          7362,
+          10035,
+          12472,
+          8277,
+          21785,
+          11052,
+          5528,
+          19058,
+          20214,
+          7293,
+          15524,
+          20071,
+          10536,
+          7434,
+          4745,
+          21551,
+          18756,
+          16136,
+          5078,
+          5514,
+          20359,
+          4321,
+          17703,
+          24542,
+          17202,
+          23220,
+          3269,
+          12552,
+          18959,
+          12517,
+          15769,
+          8086,
+          21534
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy comedies that have a mix of humor and adventure. For example, there are some great films that feature time travel and hilarious situations, as well as others that focus on quirky characters and their misadventures. There are also some fantastic buddy comedies that showcase the dynamics between friends in funny and sometimes outrageous scenarios. If you're looking for something that fits that vibe, I can share more about some great options!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Who",
+      "A Nightmare on Elm Street (1984)",
+      "The Last House on the Left (1972)",
+      "A Quiet Place (2018)",
+      "scary",
+      "Happy Death Day (2017)",
+      "Annabelle (2014)",
+      "comedy",
+      "horror",
+      "The Forest (2016)"
+    ],
+    "rec": [
+      "Hot Tub Time Machine",
+      "Super Troopers (2001)",
+      "Identity Thief (2013)",
+      "The Heat (2013)"
+    ],
+    "resp": "Sure! I like comedies a lot. I like movies like Hot Tub Time Machine and Super Troopers (2001) , but I also like Identity Thief (2013) and The Heat (2013) .",
+    "template": [
+      "Hello!",
+      "Hello!",
+      "What kind of movies do you like?",
+      "I am looking for a movie recommendation. When I was younger I really enjoyed the <mask>",
+      "Oh, you like <mask> movies? I recently watched <mask>",
+      "I also enjoyed watching <mask>",
+      "It was really good for a new \"<mask> movie\"",
+      "I do enjoy some of the newer <mask> movies that I have seen as well.",
+      "I heard that <mask> is good. It is still in theaters though.",
+      "I really liked the movie <mask>",
+      "Me, too! It was really creepy, but I thought it was good!",
+      "Or <mask> I saw while in theaters, this was a very good movie. It had me on the edge of my seat for <mask>le show.",
+      "I'm not sure if I saw that one, I'll have to check into it. Sounds familiar, but not sure. Thank you for your suggestions!",
+      "Are there any <mask> that you would suggest?",
+      "Sure! I like <mask> a lot. I like movies like <mask> and <mask> , but I also like <mask> and <mask> ."
+    ]
+  },
+  "persuasiveness_score": "0"
+}

@@ -1,0 +1,137 @@
+{
+  "dialog_id": "22311",
+  "turn_id": 5,
+  "context": [
+    "Hello how are you tonight?",
+    "I'm great. You?",
+    "Doing great. Looking for some great movies to watch.",
+    "What kind of movies do you like?",
+    "I like everything but I'd like to watch some action movies something like X-Men (2000) ."
+  ],
+  "entity": [
+    "Eve",
+    "action",
+    "X-Men (2000)"
+  ],
+  "rec": [
+    "The Wolverine (2013)",
+    "Logan (2017)"
+  ],
+  "resp": "The Wolverine (2013) is a great one. There is also Logan (2017)",
+  "template": [
+    "Hello how are you tonight?",
+    "I'm great. You?",
+    "Doing great. Looking for some great movies to watch.",
+    "What kind of movies do you like?",
+    "I like <mask>rything but I'd like to watch some <mask> movies something like <mask> .",
+    "<mask> is a great one. There is also <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22311",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hello how are you tonight?"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm great. You?"
+      },
+      {
+        "role": "user",
+        "content": "Doing great. Looking for some great movies to watch."
+      },
+      {
+        "role": "assistant",
+        "content": "What kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "I like everything but I'd like to watch some action movies something like X-Men (2000) ."
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: X-Men (2000)\n2: X-Men: First Class (2011)\n3: X-Men\n4: Avenger (2006)\n5: X-Men: Apocalypse (2016)\n6: X-Men Origins: Wolverine (2009)\n7: XXX (2002)\n8: Mission: Impossible II (2000)\n9: X-Men: The Last Stand (2006)\n10: Spider-Man 2 (2004)\n11: Spider-Man (2002)\n12: X-Men: Days of Future Past (2014)\n13: The Avengers (1998)\n14: The Wolverine (2013)\n15: G.I. Joe\n16: Mission: Impossible (1996)\n17: Spider (2007)\n18: Wanted (2008)\n19: The Avengers (2012)\n20: Catwoman (2004)\n21: Mission: Impossible\n22: The Expendables (2000)\n23: The Sorcerer's Apprentice (2010)\n24: Darkman (1990)\n25: Iron Man 2 (2010)\n26: Superhero Movie (2008)\n27: Next (2007)\n28: Spider-Man 3 (2007)\n29: The Specialist (1994)\n30: Super 8 (2011)\n31: Assassins (1995)\n32: Timeline (2003)\n33: Unknown (2011)\n34: Men in Black II (2002)\n35: Rogue (2007)\n36: Collateral (2004)\n37: Batman: Revenge (2003)\n38: Men in Black\n39: Mission: Impossible III (2006)\n40: V for Vendetta (2005)\n41: Logan (2017)\n42: Hero (2002)\n43: Jumper (2008)\n44: The Arrow (1996)\n45: The Punisher (2004)\n46: Captain America: The First Avenger\n47: Jack Reacher (2012)\n48: Unleashed (2005)\n49: Men in Black (1997)\n50: Universal Soldier (1992)\n:Great choice! Here are some action movies you might enjoy:\n\n1. The Avengers\n2. Deadpool\n3. Spider-Man: Homecoming\n4. Guardians of the Galaxy\n5. Captain America: The Winter Soldier\n6. Logan\n7. Thor: Ragnarok\n8. Wonder Woman\n9. Iron Man\n10. Black Panther",
+        "entity": [],
+        "rec_items": [
+          17027,
+          12107,
+          8708,
+          2693,
+          8079,
+          17183,
+          20117,
+          18936,
+          335,
+          8862,
+          24614,
+          16039,
+          11786,
+          9065,
+          18672,
+          17812,
+          549,
+          10599,
+          21396,
+          7369,
+          21731,
+          12673,
+          17685,
+          1245,
+          3960,
+          19896,
+          24068,
+          14076,
+          14114,
+          8138,
+          15257,
+          15920,
+          14847,
+          5479,
+          13670,
+          16887,
+          21092,
+          14558,
+          10253,
+          20234,
+          16749,
+          17129,
+          1365,
+          18490,
+          11470,
+          4932,
+          21156,
+          13966,
+          11504,
+          17760
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really interested in some specific titles that focus on a certain character's journey. For instance, there's a film that explores a character's time in Japan, dealing with personal struggles and intense action. Another one delves into a darker, more emotional phase of the same character's life, showcasing his battles and relationships in a gritty setting. Both films are quite impactful and have received positive reviews.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "action",
+      "Eve",
+      "X-Men (2000)"
+    ],
+    "rec": [
+      "The Wolverine (2013)",
+      "Logan (2017)"
+    ],
+    "resp": "The Wolverine (2013) is a great one. There is also Logan (2017)",
+    "template": [
+      "Hello how are you tonight?",
+      "I'm great. You?",
+      "Doing great. Looking for some great movies to watch.",
+      "What kind of movies do you like?",
+      "I like <mask>rything but I'd like to watch some <mask> movies something like <mask> .",
+      "<mask> is a great one. There is also <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

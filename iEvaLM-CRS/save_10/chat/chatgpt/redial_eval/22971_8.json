@@ -1,0 +1,164 @@
+{
+  "dialog_id": "22971",
+  "turn_id": 8,
+  "context": [
+    "",
+    "hey hey how are you?",
+    "I'm great thanks s",
+    "awesome what kind of movies do you like?",
+    "what kind of movies would you suggest war and action action mostly",
+    "I watch Death Wish last night",
+    "like The Town (2010)",
+    "it had bruce willis was really good",
+    "that sounds good Den of Thieves (2018) was really good too I like bruce willis"
+  ],
+  "entity": [
+    "war",
+    "action",
+    "Death Wish",
+    "The Town (2010)",
+    "Bruce Willis",
+    "Bruce Willis",
+    "Den of Thieves (2018)"
+  ],
+  "rec": [
+    "Red (2010)"
+  ],
+  "resp": "yeah can't go wrong with bruce have you seen Red (2010)",
+  "template": [
+    "hey hey how are you?",
+    "I'm great thanks s",
+    "awesome what kind of movies do you like?",
+    "what kind of movies would you suggest <mask> <mask>tion <mask> mostly",
+    "I watch <mask> last night",
+    "like <mask>",
+    "it had <mask> was really good",
+    "that sounds good <mask> was really good too I like <mask>",
+    "yeah can't go wrong with bruce have you seen <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22971",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "hey hey how are you?"
+      },
+      {
+        "role": "user",
+        "content": "I'm great thanks s"
+      },
+      {
+        "role": "assistant",
+        "content": "awesome what kind of movies do you like?"
+      },
+      {
+        "role": "user",
+        "content": "what kind of movies would you suggest war and action action mostly"
+      },
+      {
+        "role": "assistant",
+        "content": "I watch Death Wish last night"
+      },
+      {
+        "role": "user",
+        "content": "like The Town (2010)"
+      },
+      {
+        "role": "assistant",
+        "content": "it had bruce willis was really good"
+      },
+      {
+        "role": "user",
+        "content": "that sounds good Den of Thieves (2018) was really good too I like bruce willis"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Den of Thieves (2018)\n2: A Good Day to Die Hard (2013)\n3: Die Hard 2 (1990)\n4: Die Hard (1988)\n5: Die Hard with a Vengeance (1995)\n6: Bandits (2001)\n7: Red (2010)\n8: Cop Out (2010)\n9: Red 2 (2013)\n10: The Bruce (1996)\n11: Thief (1981)\n12: Heist (2015)\n13: Death Wish\n14: Brick (2005)\n15: Last Man Standing (1996)\n16: Inside Man (2006)\n17: Wise Guys (1986)\n18: Defendor (2009)\n19: The Last Boy Scout (1991)\n20: Good Will Hunting (1997)\n21: Aladdin and the King of Thieves (1996)\n22: Hostage\n23: Live Free or Die Hard (2007)\n24: Assassins (1995)\n25: Bronson (2008)\n26: Good Time\n27: Heist (2001)\n28: The Driver (1978)\n29: Passenger 57 (1992)\n30: The Big Boss (1971)\n31: Going in Style (2017)\n32: Extract\n33: The Enforcer (1976)\n34: Man on Fire (2004)\n35: Armageddon (1998)\n36: Rob the Mob (2014)\n37: Bulletproof (1996)\n38: Cop (1988)\n39: Donnie Brasco (1997)\n40: Bright (2017)\n41: Mr. Brooks (2007)\n42: Batman Returns (1992)\n43: Hudson Hawk (1991)\n44: Tales from the Hood (1995)\n45: All Good Things (2010)\n46: The Score (2001)\n47: Seven (1995)\n48: 12 Monkeys (1995)\n49: Sin City (2005)\n50: Following (1998)\n:Great! Since you enjoy action and war movies, especially those featuring Bruce Willis, here are some recommendations for you:\n\n1. Die Hard (1988)\n2. Lone Survivor (2013)\n3. 13 Hours: The Secret Soldiers of Benghazi (2016)\n4. Tears of the Sun (2003)\n5. A Good Day to Die Hard (2013)\n6. The Expendables (2010)\n7. G.I. Joe: Retaliation (2013)\n8. The Siege (1998)\n9. Red (2010)\n10. The Last Boy Scout (1991)",
+        "entity": [],
+        "rec_items": [
+          20464,
+          19269,
+          14861,
+          13360,
+          3579,
+          12278,
+          12704,
+          5424,
+          14600,
+          12242,
+          22162,
+          22102,
+          13850,
+          17751,
+          684,
+          17599,
+          12776,
+          8365,
+          21598,
+          18159,
+          12327,
+          14297,
+          19909,
+          15257,
+          15118,
+          3428,
+          2681,
+          5880,
+          8750,
+          10674,
+          12147,
+          18240,
+          3063,
+          11136,
+          5799,
+          17957,
+          24086,
+          23865,
+          3907,
+          20354,
+          1205,
+          21926,
+          13859,
+          7882,
+          18491,
+          18831,
+          16959,
+          12652,
+          2752,
+          11649
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I think you should know about a film that features a retired black-ops CIA agent who reunites with his old team to take down a high-tech assassin. It has a great mix of action and humor, and the cast includes some fantastic actors. It's definitely worth checking out!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Bruce Willis",
+      "The Town (2010)",
+      "war",
+      "action",
+      "Den of Thieves (2018)",
+      "Death Wish"
+    ],
+    "rec": [
+      "Red (2010)"
+    ],
+    "resp": "yeah can't go wrong with bruce have you seen Red (2010)",
+    "template": [
+      "hey hey how are you?",
+      "I'm great thanks s",
+      "awesome what kind of movies do you like?",
+      "what kind of movies would you suggest <mask> <mask>tion <mask> mostly",
+      "I watch <mask> last night",
+      "like <mask>",
+      "it had <mask> was really good",
+      "that sounds good <mask> was really good too I like <mask>",
+      "yeah can't go wrong with bruce have you seen <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

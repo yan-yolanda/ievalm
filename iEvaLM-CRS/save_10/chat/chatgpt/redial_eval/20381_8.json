@@ -1,0 +1,171 @@
+{
+  "dialog_id": "20381",
+  "turn_id": 8,
+  "context": [
+    "",
+    "Hi there are you interested in some classic comedies?",
+    "I am actually looking for movies for my 12 yr olds sleepover",
+    "There is a movie called Uncle Buck and it is absolutely hilarious. Well Uncle Buck is family friendly I could do better I am sure. How abut The Hunger Games (2012) and The Hunger Games: Catching Fire (2013)",
+    "I dont think the kids would be interested in a movie that old. Hunger Games they have seen and love",
+    "Well how about Wonder Woman (2017) .",
+    "They really liked Sky High (2003) when I showed that to them and Wonder Woman (2017) could be good too",
+    "I could also suggest X-Men: Apocalypse (2016).",
+    "I think I will try that with them as well."
+  ],
+  "entity": [
+    "Ste",
+    "comedy",
+    "family",
+    "Uncle Buck",
+    "The Hunger Games (2012)",
+    "The Hunger Games: Catching Fire (2013)",
+    "Ste",
+    "Wonder Woman (2017)",
+    "Sky High (2003)",
+    "Wonder Woman (2017)",
+    "X-Men: Apocalypse (2016)"
+  ],
+  "rec": [
+    "Logan (2017)"
+  ],
+  "resp": "or the newest one I believe is Logan (2017) .",
+  "template": [
+    "Hi there are you intere<mask>d in some classic <mask>?",
+    "I am actually looking for movies for my 12 yr olds sleepover",
+    "There is a movie called <mask> and it is absolutely hilarious. Well <mask> is <mask> friendly I could do better I am sure. How abut <mask> and <mask>",
+    "I dont think the kids would be intere<mask>d in a movie that old. Hunger Games they have seen and love",
+    "Well how about <mask> .",
+    "They really liked <mask> when I showed that to them and <mask> could be good too",
+    "I could also suggest <mask>.",
+    "I think I will try that with them as well.",
+    "or the newest one I beli<mask> is <mask> ."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20381",
+    "turn_id": 8,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hi there are you interested in some classic comedies?"
+      },
+      {
+        "role": "user",
+        "content": "I am actually looking for movies for my 12 yr olds sleepover"
+      },
+      {
+        "role": "assistant",
+        "content": "There is a movie called Uncle Buck and it is absolutely hilarious. Well Uncle Buck is family friendly I could do better I am sure. How abut The Hunger Games (2012) and The Hunger Games: Catching Fire (2013)"
+      },
+      {
+        "role": "user",
+        "content": "I dont think the kids would be interested in a movie that old. Hunger Games they have seen and love"
+      },
+      {
+        "role": "assistant",
+        "content": "Well how about Wonder Woman (2017) ."
+      },
+      {
+        "role": "user",
+        "content": "They really liked Sky High (2003) when I showed that to them and Wonder Woman (2017) could be good too"
+      },
+      {
+        "role": "assistant",
+        "content": "I could also suggest X-Men: Apocalypse (2016)."
+      },
+      {
+        "role": "user",
+        "content": "I think I will try that with them as well."
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: X-Men: Apocalypse (2016)\n2: X-Men: First Class (2011)\n3: X-Men (2000)\n4: X-Men\n5: X-Men: Days of Future Past (2014)\n6: X-Men: The Last Stand (2006)\n7: X-Men Origins: Wolverine (2009)\n8: The Wolverine (2013)\n9: Deadpool (2016)\n10: The Avengers (2012)\n11: Avenger (2006)\n12: Oz the Great and Powerful (2013)\n13: Avengers: Age of Ultron (2015)\n14: Avengers: Infinity War (2018)\n15: Logan (2017)\n16: The Sorcerer's Apprentice (2010)\n17: Batman v Superman: Dawn of Justice (2016)\n18: The Fantastic Four\n19: Fantastic Four (2015)\n20: The Avengers (1998)\n21: 3 Avengers\n22: Captain America: Civil War (2016)\n23: Avengers Grimm (2015)\n24: Mad Max: Fury Road (2015)\n25: Ant-Man (2015)\n26: Suicide Squad (2016)\n27: Deadpool 2 (2018)\n28: Hugo (2011)\n29: Captain America: The Winter Soldier\n30: Apocalypse Now (1979)\n31: Mission: Impossible – Rogue Nation (2015)\n32: Marvel One-Shots\n33: Doctor Strange (2016)\n34: Black Panther (2018)\n35: Collide (2016)\n36: Captain America\n37: Assassin's Creed (2016)\n38: Them (2006)\n39: Scouts Guide to the Zombie Apocalypse (2015)\n40: Super 8 (2011)\n41: Epic (2013)\n42: Captain America: The First Avenger\n43: Big Hero 6 (2014)\n44: Les Misérables (2012)\n45: Ant-Man and the Wasp (2018)\n46: The Amazing Spider-Man (2012)\n47: Dr. Strange\n48: The Amazing Spider-Man 2 (2014)\n49: Rise of the Planet of the Apes (2011)\n50: Ex Machina (2015)\n:Great! To help me provide more recommendations, could you let me know if they prefer animated movies, superhero films, or any specific genres?",
+        "entity": [],
+        "rec_items": [
+          8079,
+          12107,
+          17027,
+          8708,
+          16039,
+          335,
+          17183,
+          9065,
+          21378,
+          21396,
+          2693,
+          21525,
+          14005,
+          20468,
+          16749,
+          17685,
+          2804,
+          16543,
+          8667,
+          11786,
+          19851,
+          12807,
+          14186,
+          3313,
+          11794,
+          9530,
+          20405,
+          10937,
+          16202,
+          16606,
+          16720,
+          7513,
+          23197,
+          20437,
+          100,
+          9271,
+          4070,
+          5962,
+          16302,
+          8138,
+          19996,
+          4932,
+          5053,
+          2109,
+          20729,
+          19064,
+          10025,
+          21666,
+          14928,
+          4519
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I think they would really enjoy a film that combines action and emotional depth, featuring a strong character arc and a gritty storyline. It's a film that showcases a unique take on the superhero genre, with a focus on themes of sacrifice and legacy. The characters are well-developed, and it has some intense action sequences that would keep them engaged. Plus, it has a great balance of drama and action that resonates well with both younger and older audiences.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Hunger Games: Catching Fire (2013)",
+      "Uncle Buck",
+      "The Hunger Games (2012)",
+      "family",
+      "Wonder Woman (2017)",
+      "Ste",
+      "comedy",
+      "X-Men: Apocalypse (2016)",
+      "Sky High (2003)"
+    ],
+    "rec": [
+      "Logan (2017)"
+    ],
+    "resp": "or the newest one I believe is Logan (2017) .",
+    "template": [
+      "Hi there are you intere<mask>d in some classic <mask>?",
+      "I am actually looking for movies for my 12 yr olds sleepover",
+      "There is a movie called <mask> and it is absolutely hilarious. Well <mask> is <mask> friendly I could do better I am sure. How abut <mask> and <mask>",
+      "I dont think the kids would be intere<mask>d in a movie that old. Hunger Games they have seen and love",
+      "Well how about <mask> .",
+      "They really liked <mask> when I showed that to them and <mask> could be good too",
+      "I could also suggest <mask>.",
+      "I think I will try that with them as well.",
+      "or the newest one I beli<mask> is <mask> ."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

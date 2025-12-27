@@ -1,0 +1,154 @@
+{
+  "dialog_id": "20991",
+  "turn_id": 7,
+  "context": [
+    "Hi!",
+    "Hello, what kind of movies are you looking to see?",
+    "How are you",
+    "I'm good!",
+    "I like action and comedy What about you ?",
+    "Oh nice, Taken (2008) is one of my favorite action movies. Have you seen it?",
+    "Yess!! Love it !!! Takers (2010) was a great one too"
+  ],
+  "entity": [
+    "action",
+    "comedy",
+    "action",
+    "Taken (2008)",
+    "Takers (2010)"
+  ],
+  "rec": [
+    "Takers (2010)",
+    "Blockers (2018)"
+  ],
+  "resp": "Oh nice, I've never seen Takers (2010) . For comedy, I just saw Blockers (2018) in theaters. It was way funnier than I expected.",
+  "template": [
+    "Hi!",
+    "Hello, what kind of movies are you looking to see?",
+    "How are you",
+    "I'm good!",
+    "I like <mask> and<mask>y What about you ?",
+    "Oh nice, <mask> is one of my favorite <mask> movies. Have you seen it?",
+    "Yess!! Love it !!! <mask> was a great one too",
+    "Oh nice, I've n<mask>r seen <mask> . For <mask>, I just saw <mask> in theaters. It was way funnier than I expected."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "20991",
+    "turn_id": 7,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi!"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, what kind of movies are you looking to see?"
+      },
+      {
+        "role": "user",
+        "content": "How are you"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm good!"
+      },
+      {
+        "role": "user",
+        "content": "I like action and comedy What about you ?"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh nice, Taken (2008) is one of my favorite action movies. Have you seen it?"
+      },
+      {
+        "role": "user",
+        "content": "Yess!! Love it !!! Takers (2010) was a great one too"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Taken (2008)\n2: Takers (2010)\n3: Taken 2 (2012)\n4: Taken\n5: Taken 3 (2014)\n6: The Take (2007)\n7: Take (2007)\n8: Taking Lives (2004)\n9: Hard Target (1993)\n10: Killers (2010)\n11: Snatch (2000)\n12: The Bounty Hunter (2010)\n13: Clash of the Titans (2010)\n14: Warrior (2011)\n15: Kick-Ass (2010)\n16: Avenger (2006)\n17: Mission: Impossible II (2000)\n18: The A-Team (2010)\n19: Shooter (2007)\n20: 13 Assassins (2010)\n21: Olympus Has Fallen (2013)\n22: The Raid (2011)\n23: Transporter 2 (2005)\n24: The Guardian (2006)\n25: Ninja Assassin (2009)\n26: The Dark Knight (2008)\n27: The Sniper (2009)\n28: Wanted (2008)\n29: Assassins (1995)\n30: Kick-Ass 2 (2013)\n31: Super 8 (2011)\n32: Stolen (2012)\n33: Ninja Kids!!! (2011)\n34: Step Up (2006)\n35: Gone (2012)\n36: The Replacement Killers (1998)\n37: The Bourne Supremacy (2004)\n38: 21 (2008)\n39: The Stolen (2017)\n40: The Taking of Deborah Logan (2014)\n41: The Transporter (2002)\n42: The Quick and the Dead (1995)\n43: The Dark Knight Rises (2012)\n44: Transporter 3 (2008)\n45: The Hitman's Bodyguard\n46: Ninja (2009)\n47: Transformers: Revenge of the Fallen (2009)\n48: Next (2007)\n49: The Happening (2008)\n50: American Assassin\n:Great choices! Do you prefer more recent action and comedy films, or are you open to classics as well?",
+        "entity": [],
+        "rec_items": [
+          10182,
+          13618,
+          16766,
+          8380,
+          16831,
+          10950,
+          14273,
+          6599,
+          6884,
+          21076,
+          9672,
+          7864,
+          2370,
+          6573,
+          19455,
+          2693,
+          18936,
+          2580,
+          2589,
+          17984,
+          9241,
+          16973,
+          16364,
+          13081,
+          20932,
+          8242,
+          13479,
+          10599,
+          15257,
+          6334,
+          8138,
+          17655,
+          10116,
+          14470,
+          10590,
+          23519,
+          14280,
+          6906,
+          20459,
+          18788,
+          11558,
+          15399,
+          10939,
+          17175,
+          2132,
+          24125,
+          16755,
+          24068,
+          18554,
+          10173
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I enjoy a mix of both! For instance, there's a thrilling heist film that features a group of skilled criminals executing a meticulously planned robbery, filled with intense action and suspense. Additionally, there's a hilarious comedy that revolves around a group of friends navigating the challenges of parenthood, packed with laughs and relatable moments. Both of these films are definitely worth checking out!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "action",
+      "comedy",
+      "Taken (2008)",
+      "Takers (2010)"
+    ],
+    "rec": [
+      "Takers (2010)",
+      "Blockers (2018)"
+    ],
+    "resp": "Oh nice, I've never seen Takers (2010) . For comedy, I just saw Blockers (2018) in theaters. It was way funnier than I expected.",
+    "template": [
+      "Hi!",
+      "Hello, what kind of movies are you looking to see?",
+      "How are you",
+      "I'm good!",
+      "I like <mask> and<mask>y What about you ?",
+      "Oh nice, <mask> is one of my favorite <mask> movies. Have you seen it?",
+      "Yess!! Love it !!! <mask> was a great one too",
+      "Oh nice, I've n<mask>r seen <mask> . For <mask>, I just saw <mask> in theaters. It was way funnier than I expected."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

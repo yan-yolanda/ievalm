@@ -1,0 +1,115 @@
+{
+  "dialog_id": "22485",
+  "turn_id": 2,
+  "context": [
+    "",
+    "Hello there! How are you? What kind of movies are you interested in today?",
+    "Hi, I'm great. How are you? Let's go with animated films like The Incredibles (2004) since I can't stop talking about my excitement for Incredibles 2 (2018)"
+  ],
+  "entity": [
+    "Ste",
+    "The Incredibles (2004)",
+    "Incredibles 2 (2018)"
+  ],
+  "rec": [
+    "The Iron Giant (1999)"
+  ],
+  "resp": "I can't wait until it comes out, either! How about The Iron Giant (1999) ? My son and I went to see it with his friend this morning.",
+  "template": [
+    "Hello there! How are you? What kind of movies are you intere<mask>d in today?",
+    "Hi, I'm great. How are you? Let's go with animated films like <mask> since I can't stop talking about my excitement for <mask>",
+    "I can't wait until it comes out, either! How about <mask> ? My son and I went to see it with his friend this morning."
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22485",
+    "turn_id": 2,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello there! How are you? What kind of movies are you interested in today?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, I'm great. How are you? Let's go with animated films like The Incredibles (2004) since I can't stop talking about my excitement for Incredibles 2 (2018)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Incredibles 2 (2018)\n2: The Incredibles (2004)\n3: Enchanted (2007)\n4: Toy Story 2 (1999)\n5: Up (2009)\n6: Despicable Me 2 (2013)\n7: The Iron Giant (1999)\n8: Toy Story (1995)\n9: The Pixar Story (2007)\n10: Fantastic Mr. Fox (2009)\n11: Coco\n12: Epic (2013)\n13: Monsters, Inc. (2001)\n14: Captain Underpants: The First Epic Movie\n15: Meet the Robinsons (2007)\n16: How to Train Your Dragon 2 (2014)\n17: Coco (2017)\n18: The Jungle Book 2 (2003)\n19: Tinker Bell\n20: Tinker Bell\n21: Epic Movie (2007)\n22: Cars 2 (2011)\n23: Toy Story 3 (2010)\n24: Kubo and the Two Strings (2016)\n25: Iron Man 2 (2010)\n26: Cars (2006)\n27: Big Hero 6 (2014)\n28: Happy Feet Two (2011)\n29: The Adventures of Tintin (2011)\n30: Curious George 2: Follow That Monkey! (2009)\n31: Finding Dory (2016)\n32: Finding Nemo (2003)\n33: Superhero Movie (2008)\n34: Shrek 2 (2004)\n35: The Simpsons Movie (2007)\n36: Rio (2011)\n37: Rio 2 (2014)\n38: Avenger (2006)\n39: Christopher Robin (2018)\n40: Turbo (2013)\n41: ParaNorman (2012)\n42: Marvel Super Heroes 4D\n43: Oz the Great and Powerful (2013)\n44: A Goofy Movie (1995)\n45: Inside Out (2015)\n46: Fantasia 2000 (1999)\n47: Arrietty\n48: Monsters University (2013)\n49: Despicable Me (2010)\n50: The Good Dinosaur (2015)\n:I'm doing well, thank you! It's great to hear you're excited about The Incredibles and its sequel. Do you have any specific themes or styles you prefer in animated films, like action, comedy, or family-oriented stories?",
+        "entity": [],
+        "rec_items": [
+          20645,
+          13134,
+          23506,
+          20937,
+          8081,
+          23080,
+          15145,
+          21678,
+          149,
+          11641,
+          6276,
+          19996,
+          8622,
+          20392,
+          10737,
+          21832,
+          5806,
+          6942,
+          1572,
+          1572,
+          23450,
+          18261,
+          13381,
+          21562,
+          3960,
+          23504,
+          5053,
+          15601,
+          14803,
+          5997,
+          13622,
+          12145,
+          19896,
+          5723,
+          20137,
+          19313,
+          10559,
+          2693,
+          20853,
+          2984,
+          13284,
+          19136,
+          21525,
+          15524,
+          16961,
+          241,
+          6139,
+          17052,
+          15358,
+          13253
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I really enjoy animated films that blend action and heartfelt storytelling. One film that stands out to me is about a young boy who befriends a giant robot from outer space. It's a touching story that explores themes of friendship, sacrifice, and the importance of being true to oneself. The animation style is unique and the characters are memorable. It’s a film that resonates with both kids and adults alike. What do you think?",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "The Incredibles (2004)",
+      "Ste",
+      "Incredibles 2 (2018)"
+    ],
+    "rec": [
+      "The Iron Giant (1999)"
+    ],
+    "resp": "I can't wait until it comes out, either! How about The Iron Giant (1999) ? My son and I went to see it with his friend this morning.",
+    "template": [
+      "Hello there! How are you? What kind of movies are you intere<mask>d in today?",
+      "Hi, I'm great. How are you? Let's go with animated films like <mask> since I can't stop talking about my excitement for <mask>",
+      "I can't wait until it comes out, either! How about <mask> ? My son and I went to see it with his friend this morning."
+    ]
+  },
+  "persuasiveness_score": "2"
+}

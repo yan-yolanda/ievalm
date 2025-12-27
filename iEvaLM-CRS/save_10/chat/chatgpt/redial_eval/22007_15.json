@@ -1,0 +1,229 @@
+{
+  "dialog_id": "22007",
+  "turn_id": 15,
+  "context": [
+    "Hi how are you What type of movies do you like",
+    "Hello! What kind of movies are you into? I'm good, I hope you are well, too.",
+    "Thank you I am :) I enjoy action and comedy!! Know of any good ones ?!",
+    "Sure! If you are into action, I'd recommend seeing Beverly Hills Cop (1984) .",
+    "Oh yesss that was a great movie !!! Have you seen Inception (2010)",
+    "If you want more action than that, you could see Avengers: Infinity War (2018) I haven't seen Inception (2010) . I keep meaning to see it.",
+    "Ohh! Is it good?! I heard so many mix reviews It’s super good!! Definately have to watch it !!",
+    "I liked Avengers Grimm (2015) . Also, The Dark Knight (2008) is great for edge-of-your-seat action. I meant to say I liked Avengers: Infinity War (2018)",
+    "Exactly !!! I totally agree! Did you see Black Panther (2018) I really liked it I send it 3 times !",
+    "Oh, and comedy and action should get you to see Deadpool 2 (2018)",
+    "I haven’t seen the first one or second of deadpool",
+    "I haven't caught Black Panther (2018) yet, but plan to very soon at home. Deadpool (2016) is not for the kids, but it is funny.",
+    "Yess! Definately recommend it !",
+    "Do you think you have what you need?",
+    "Hahah kind of like Sausage Party Yes I do! Thank You Bye :)"
+  ],
+  "entity": [
+    "action",
+    "comedy",
+    "action",
+    "Beverly Hills Cop (1984)",
+    "Inception (2010)",
+    "action",
+    "Avengers: Infinity War (2018)",
+    "Inception (2010)",
+    "action",
+    "Avengers Grimm (2015)",
+    "The Dark Knight (2008)",
+    "Avengers: Infinity War (2018)",
+    "Black Panther (2018)",
+    "comedy",
+    "action",
+    "Deadpool 2 (2018)",
+    "Black Panther (2018)",
+    "Deadpool (2016)",
+    "Sausage Party"
+  ],
+  "rec": [
+    "Sausage Party"
+  ],
+  "resp": "I haven't seen Sausage Party but have to do it when the kid isn't around. Thank you and goodbye!",
+  "template": [
+    "Hi how are you What type of movies do you like",
+    "Hello! What kind of movies are you into? I'm good, I hope you are well, too.",
+    "Thank you I am :) I enjoy <mask> and<mask>y!! Know of any good ones ?!",
+    "Sure! If you are into <mask>, I'd recommend seeing <mask> .",
+    "Oh yesss that was a great movie !!! Have you seen <mask>",
+    "If you want more <mask> than that, you could see <mask> I haven't seen <mask> . I keep meaning to see it.",
+    "Ohh! Is it good?! I heard so many mix reviews It’s super good!! Definately have to watch it !!",
+    "I liked <mask> . Also, <mask> is great for edge-of-your-seat <mask>. I meant to say I liked <mask>",
+    "Exactly !!! I totally agree! Did you see <mask> I really liked it I send it 3 times !",
+    "Oh, and <mask> and <mask> should get you to see <mask>",
+    "I haven’t seen the first one or second of deadpool",
+    "I haven't caught <mask> yet, but plan to very soon at home. <mask> is not for the kids, but it is funny.",
+    "Yess! Definately recommend it !",
+    "Do you think you have what you need?",
+    "Hahah kind of like <mask> Yes I do! Thank You Bye :)",
+    "I haven't seen <mask> but have to do it when the kid isn't around. Thank you and goodbye!"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "22007",
+    "turn_id": 15,
+    "context": [
+      {
+        "role": "user",
+        "content": "Hi how are you What type of movies do you like"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! What kind of movies are you into? I'm good, I hope you are well, too."
+      },
+      {
+        "role": "user",
+        "content": "Thank you I am :) I enjoy action and comedy!! Know of any good ones ?!"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! If you are into action, I'd recommend seeing Beverly Hills Cop (1984) ."
+      },
+      {
+        "role": "user",
+        "content": "Oh yesss that was a great movie !!! Have you seen Inception (2010)"
+      },
+      {
+        "role": "assistant",
+        "content": "If you want more action than that, you could see Avengers: Infinity War (2018) I haven't seen Inception (2010) . I keep meaning to see it."
+      },
+      {
+        "role": "user",
+        "content": "Ohh! Is it good?! I heard so many mix reviews It’s super good!! Definately have to watch it !!"
+      },
+      {
+        "role": "assistant",
+        "content": "I liked Avengers Grimm (2015) . Also, The Dark Knight (2008) is great for edge-of-your-seat action. I meant to say I liked Avengers: Infinity War (2018)"
+      },
+      {
+        "role": "user",
+        "content": "Exactly !!! I totally agree! Did you see Black Panther (2018) I really liked it I send it 3 times !"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh, and comedy and action should get you to see Deadpool 2 (2018)"
+      },
+      {
+        "role": "user",
+        "content": "I haven’t seen the first one or second of deadpool"
+      },
+      {
+        "role": "assistant",
+        "content": "I haven't caught Black Panther (2018) yet, but plan to very soon at home. Deadpool (2016) is not for the kids, but it is funny."
+      },
+      {
+        "role": "user",
+        "content": "Yess! Definately recommend it !"
+      },
+      {
+        "role": "assistant",
+        "content": "Do you think you have what you need?"
+      },
+      {
+        "role": "user",
+        "content": "Hahah kind of like Sausage Party Yes I do! Thank You Bye :)"
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Sausage Party\n2: Thank You for Smoking (2005)\n3: Superfast! (2015)\n4: Funny People (2009)\n5: Everybody Wants Some!! (2016)\n6: The Dictator (2012)\n7: Absolutely Anything (2015)\n8: The Yes Man (1991)\n9: Wiener-Dog (2016)\n10: Yes Man (2008)\n11: That's My Boy (2012)\n12: The Comedy (2012)\n13: Checking Out (2005)\n14: I Feel Pretty (2018)\n15: Police Academy 2: Their First Assignment (1985)\n16: Cloudy with a Chance of Meatballs 2 (2013)\n17: Porky's (1981)\n18: Smiley Face (2007)\n19: The Office Party (1976)\n20: The Bye Bye Man (2017)\n21: Wannabe (2005)\n22: Dinner for Schmucks\n23: This Is the End (2013)\n24: Superbad (2007)\n25: Cloudy with a Chance of Meatballs (2009)\n26: The To Do List (2013)\n27: Gravy (2015)\n28: I'm Gonna Git You Sucka (1988)\n29: Let Me Out (2013)\n30: Grown Ups (2010)\n31: That Thing You Do!\n32: Because I Said So (2007)\n33: Are You Here (2013)\n34: Brüno (2009)\n35: You Laugh (1998)\n36: Scary Movie 4 (2006)\n37: ThanksKilling (2008)\n38: It's Kind of a Funny Story (2010)\n39: Your Highness (2011)\n40: The Sitter (2011)\n41: The Boss (2016)\n42: Bad Words (2013)\n43: Horrible Bosses (2011)\n44: Super Troopers 2 (2018)\n45: Away We Go (2009)\n46: She's Gotta Have It (1986)\n47: Porky's Revenge! (1985)\n48: Goon (2011)\n49: Gummo (1997)\n50: Because of Winn-Dixie (2005)\n:You're welcome! If you ever need more recommendations, feel free to ask. Bye!",
+        "entity": [],
+        "rec_items": [
+          4567,
+          14792,
+          18710,
+          13238,
+          19539,
+          16075,
+          21534,
+          5386,
+          16431,
+          10035,
+          16767,
+          2993,
+          23037,
+          20515,
+          23822,
+          13234,
+          24543,
+          10576,
+          7373,
+          9781,
+          7860,
+          20155,
+          23282,
+          19617,
+          19447,
+          22395,
+          10209,
+          5692,
+          641,
+          19433,
+          23220,
+          7180,
+          4272,
+          17234,
+          14905,
+          7387,
+          23521,
+          22938,
+          13102,
+          22783,
+          17703,
+          23806,
+          24344,
+          13249,
+          7819,
+          5937,
+          7986,
+          14897,
+          4951,
+          17240
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "Thank you for the recommendations! However, I’m really interested in a unique animated film that combines humor with a satirical take on food and society. It features a group of food items that discover the truth about their existence. It’s quite entertaining and has a mix of comedy and adult themes. If you haven't seen it, I highly recommend checking it out!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Inception (2010)",
+      "The Dark Knight (2008)",
+      "Deadpool 2 (2018)",
+      "Avengers Grimm (2015)",
+      "Beverly Hills Cop (1984)",
+      "Sausage Party",
+      "Deadpool (2016)",
+      "comedy",
+      "Avengers: Infinity War (2018)",
+      "Black Panther (2018)",
+      "action"
+    ],
+    "rec": [
+      "Sausage Party"
+    ],
+    "resp": "I haven't seen Sausage Party but have to do it when the kid isn't around. Thank you and goodbye!",
+    "template": [
+      "Hi how are you What type of movies do you like",
+      "Hello! What kind of movies are you into? I'm good, I hope you are well, too.",
+      "Thank you I am :) I enjoy <mask> and<mask>y!! Know of any good ones ?!",
+      "Sure! If you are into <mask>, I'd recommend seeing <mask> .",
+      "Oh yesss that was a great movie !!! Have you seen <mask>",
+      "If you want more <mask> than that, you could see <mask> I haven't seen <mask> . I keep meaning to see it.",
+      "Ohh! Is it good?! I heard so many mix reviews It’s super good!! Definately have to watch it !!",
+      "I liked <mask> . Also, <mask> is great for edge-of-your-seat <mask>. I meant to say I liked <mask>",
+      "Exactly !!! I totally agree! Did you see <mask> I really liked it I send it 3 times !",
+      "Oh, and <mask> and <mask> should get you to see <mask>",
+      "I haven’t seen the first one or second of deadpool",
+      "I haven't caught <mask> yet, but plan to very soon at home. <mask> is not for the kids, but it is funny.",
+      "Yess! Definately recommend it !",
+      "Do you think you have what you need?",
+      "Hahah kind of like <mask> Yes I do! Thank You Bye :)",
+      "I haven't seen <mask> but have to do it when the kid isn't around. Thank you and goodbye!"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

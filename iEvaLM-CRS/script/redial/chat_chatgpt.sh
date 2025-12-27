@@ -1,0 +1,1 @@
+python chat.py --api_key sk-zYW5O9J45Cq0dXHjipJlYJHKz63GiSUOGqsoxETlnFyRrsqk --kg_dataset redial --crs_model chatgpt --dataset redial_eval

@@ -1,0 +1,189 @@
+{
+  "dialog_id": "21400",
+  "turn_id": 4,
+  "context": [
+    "",
+    "Hello! Do you like comedies?",
+    "I do! I really enjoy stoner comedies!",
+    "Me too!",
+    "Know any good ones?"
+  ],
+  "entity": [
+    "comedy",
+    "comedy"
+  ],
+  "rec": [
+    "Pineapple Express (2008)"
+  ],
+  "resp": "have you heard of Pineapple Express (2008)",
+  "template": [
+    "Hello! Do you like <mask>?",
+    "I do! I really enjoy stoner <mask>!",
+    "Me too!",
+    "Know any good ones?",
+    "have you heard of <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "21400",
+    "turn_id": 4,
+    "context": [
+      {
+        "role": "assistant",
+        "content": "Hello! Do you like comedies?"
+      },
+      {
+        "role": "user",
+        "content": "I do! I really enjoy stoner comedies!"
+      },
+      {
+        "role": "assistant",
+        "content": "Me too!"
+      },
+      {
+        "role": "user",
+        "content": "Know any good ones?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! Here are some stoner comedies you might enjoy:\n\n1. Pineapple Express  \n2. Superbad  \n3. Half Baked  \n4. This Is the End  \n5. Harold & Kumar Go to White Castle  \n6. The Big Lebowski  \n7. How High  \n8. Cheech & Chong's Up in Smoke  \n9. Grandma's Boy  \n10. Friday  ",
+        "entity": [],
+        "rec_items": [
+          16397,
+          15553,
+          12552,
+          5528,
+          13171,
+          7091,
+          6514,
+          7793,
+          4393,
+          23822,
+          24004,
+          20026,
+          20539,
+          17576,
+          4443,
+          6132,
+          17746,
+          23808,
+          12965,
+          18615,
+          15540,
+          15572,
+          4224,
+          18710,
+          21292,
+          7497,
+          6766,
+          7860,
+          10536,
+          17896,
+          17685,
+          21221,
+          11517,
+          1679,
+          18240,
+          7564,
+          23201,
+          3317,
+          3428,
+          18159,
+          24534,
+          18377,
+          6674,
+          12513,
+          20071,
+          4549,
+          13747,
+          10987,
+          18491,
+          15956
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I have a particular favorite that I think really stands out. It's about a process server and his marijuana dealer who get caught up in a dangerous situation after witnessing a murder. The film is filled with hilarious moments and a unique blend of action and comedy. The chemistry between the main characters is fantastic, and it has some memorable quotes. It's definitely a must-watch for stoner comedy fans!",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Up in Smoke (1978)\n2: Pineapple Express (2008)\n3: Half Baked (1998)\n4: Cheech & Chong's Animated Movie (2013)\n5: Cheech & Chong's Next Movie (1980)\n6: Harold & Kumar Go to White Castle (2004)\n7: Harold & Kumar\n8: Superbad (2007)\n9: Reefer Madness (2005)\n10: The Big Lebowski\n11: Thank You for Smoking (2005)\n12: Cheech & Chong's The Corsican Brothers (1984)\n13: Your Highness (2011)\n14: Evil Bong (2006)\n15: Super Troopers (2001)\n16: Harold & Kumar Escape from Guantanamo Bay (2008)\n17: Super Troopers 2 (2018)\n18: Mac & Devin Go to High School (2012)\n19: Funny People (2009)\n20: Hangover (2014)\n21: The Comedy (2012)\n22: Trees Lounge (1996)\n23: Extract\n24: Beerfest (2006)\n25: This Is the End (2013)\n26: Soul Plane (2004)\n27: A Very Harold & Kumar 3D Christmas (2011)\n28: Grown Ups (2010)\n29: Inherent Vice (2014)\n30: Starsky & Hutch (2004)\n31: 21 Jump Street (2012)\n32: The Stupids (1996)\n33: Shrooms (2007)\n34: American Graffiti (1973)\n35: Airheads (1994)\n36: 22 Jump Street (2014)\n37: 50 (2011)\n38: How High (2001)\n39: Fast Times at Ridgemont High\n40: Wise Guys (1986)\n41: Bowfinger (1999)\n42: Garden State (2004)\n43: Lock, Stock and Two Smoking Barrels (1998)\n44: Kingpin (1996)\n45: The Hangover\n46: The Royal Tenenbaums (2001)\n47: Harold and Maude (1971)\n48: I Heart Huckabees (2004)\n49: Napoleon Dynamite (2004)\n50: The Freshman (1990)\n:It sounds like you're describing \"Pineapple Express\"! It's a great choice and definitely a standout in the stoner comedy genre. Would you like more recommendations similar to that style?",
+        "entity": [],
+        "rec_items": [
+          6312,
+          22274,
+          18046,
+          10374,
+          13475,
+          14147,
+          4988,
+          19617,
+          15562,
+          17013,
+          14792,
+          5728,
+          13102,
+          23940,
+          3269,
+          11639,
+          13249,
+          24161,
+          13238,
+          8638,
+          2993,
+          17857,
+          18240,
+          14422,
+          23282,
+          8890,
+          15919,
+          19433,
+          7253,
+          10340,
+          4847,
+          13043,
+          11602,
+          18931,
+          15983,
+          8059,
+          10215,
+          18736,
+          2358,
+          12776,
+          16953,
+          6422,
+          19210,
+          3498,
+          18558,
+          9397,
+          21195,
+          1893,
+          4263,
+          16507
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestion, but I have a specific favorite in mind that really captures the essence of stoner comedies. It's about a process server and his marijuana dealer who find themselves in a wild situation after witnessing a murder. The film is packed with hilarious moments, action, and a fantastic chemistry between the main characters. It's a must-see for anyone who enjoys stoner comedies!",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "comedy"
+    ],
+    "rec": [
+      "Pineapple Express (2008)"
+    ],
+    "resp": "have you heard of Pineapple Express (2008)",
+    "template": [
+      "Hello! Do you like <mask>?",
+      "I do! I really enjoy stoner <mask>!",
+      "Me too!",
+      "Know any good ones?",
+      "have you heard of <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}

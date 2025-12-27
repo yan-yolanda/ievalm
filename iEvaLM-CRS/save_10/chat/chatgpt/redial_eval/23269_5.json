@@ -1,0 +1,194 @@
+{
+  "dialog_id": "23269",
+  "turn_id": 5,
+  "context": [
+    "hello brother",
+    "hola hello",
+    "recommend me a superhero movie",
+    "Deadpool 2 (2018) is good",
+    "I've seen a trailer and I think it's interesting but would you recommend another?"
+  ],
+  "entity": [
+    "Deadpool 2 (2018)"
+  ],
+  "rec": [
+    "Spider (2007)"
+  ],
+  "resp": "this is also good Spider (2007)",
+  "template": [
+    "hello brother",
+    "hola hello",
+    "recommend me a superhero movie",
+    "<mask> is good",
+    "I've seen a trailer and I think it's interesting but would you recommend another?",
+    "this is also good <mask>"
+  ],
+  "simulator_dialog": {
+    "dialog_id": "23269",
+    "turn_id": 5,
+    "context": [
+      {
+        "role": "user",
+        "content": "hello brother"
+      },
+      {
+        "role": "assistant",
+        "content": "hola hello"
+      },
+      {
+        "role": "user",
+        "content": "recommend me a superhero movie"
+      },
+      {
+        "role": "assistant",
+        "content": "Deadpool 2 (2018) is good"
+      },
+      {
+        "role": "user",
+        "content": "I've seen a trailer and I think it's interesting but would you recommend another?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! What kind of superhero movies do you enjoy? Do you prefer action-packed films, ones with humor, or perhaps something more serious?",
+        "entity": [],
+        "rec_items": [
+          20405,
+          21378,
+          21666,
+          21396,
+          3191,
+          20468,
+          14005,
+          20437,
+          19269,
+          9530,
+          20789,
+          3960,
+          19851,
+          17184,
+          11794,
+          6334,
+          11789,
+          19896,
+          14901,
+          2693,
+          12807,
+          16202,
+          8365,
+          15873,
+          8721,
+          18971,
+          20645,
+          19136,
+          20859,
+          20729,
+          21832,
+          19064,
+          8862,
+          24565,
+          2438,
+          4920,
+          24312,
+          15058,
+          20225,
+          9850,
+          21574,
+          8079,
+          9271,
+          18754,
+          20314,
+          10559,
+          14186,
+          14739,
+          15263,
+          8196
+        ],
+        "rec_success": false
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the options, but I’m really drawn to films that explore psychological themes and complex characters. For instance, there’s a film that delves into the mind of a troubled individual, showcasing a unique narrative style and a haunting atmosphere. It’s quite captivating and offers a deep exploration of its protagonist's psyche.",
+        "entity": []
+      },
+      {
+        "role": "assistant",
+        "content": "I would recommend the following items: 1: Avenger (2006)\n2: Batman\n3: Superhero Movie (2008)\n4: Justice League Dark\n5: Superman (1997)\n6: Suicide Squad (2016)\n7: Spider-Man (2002)\n8: Spider-Man 2 (2004)\n9: Enter the Dangerous Mind (2013)\n10: Wonder Woman (1974)\n11: The Avengers (1998)\n12: Wonder Woman (2009)\n13: The Dark Knight (2008)\n14: Wonder Woman (2017)\n15: Batman: Revenge (2003)\n16: Spider (2007)\n17: Spider-Man 3 (2007)\n18: Spider-Man: Homecoming (2017)\n19: The Avengers (2012)\n20: Batman v Superman: Dawn of Justice (2016)\n21: Dr. Strange\n22: Batman (1989)\n23: The Amazing Spider-Man 2 (2014)\n24: The Dark Knight Trilogy\n25: Psycho (1998)\n26: Captain America\n27: Man of Steel (2013)\n28: Batman Returns (1992)\n29: The Incredible Hulk (2008)\n30: Captain America: The First Avenger\n31: The Amazing Spider-Man (2012)\n32: Thor\n33: Superman (1978)\n34: Super 8 (2011)\n35: Batman Begins\n36: Elektra (2005)\n37: Batman Revealed (2012)\n38: Psycho\n39: Super (2010)\n40: Thor: The Dark World\n41: Wonder Women! The Untold Story of American Superheroines (2012)\n42: Superman (1987)\n43: Ant-Man (2015)\n44: Psycho (2008)\n45: Batman: The Dark Knight Returns\n46: The Fantastic Four\n47: Batman (1966)\n48: Spider-Man (1977)\n49: Iron Man (2008)\n50: Watchmen (2009)\n:Great! Based on your preference for superhero movies that explore psychological themes and complex characters, here are some recommendations:\n\n1. Joker (2019)\n2. Watchmen (2009)\n3. The Dark Knight (2008)\n4. Split (2016)\n5. The Crow (1994)\n6. V for Vendetta (2005)\n7. Logan (2017)\n8. Iron Man 3 (2013)\n9. The Punisher (2004)\n10. Hancock (2008)",
+        "entity": [],
+        "rec_items": [
+          2693,
+          7907,
+          19896,
+          8196,
+          10581,
+          9530,
+          24614,
+          8862,
+          4679,
+          13861,
+          11786,
+          16183,
+          8242,
+          4920,
+          21092,
+          549,
+          14076,
+          8721,
+          21396,
+          2804,
+          10025,
+          16684,
+          21666,
+          14481,
+          22061,
+          9271,
+          20240,
+          21926,
+          21093,
+          4932,
+          19064,
+          2623,
+          2453,
+          8138,
+          19512,
+          15879,
+          16010,
+          24311,
+          15579,
+          15873,
+          8360,
+          23466,
+          11794,
+          21474,
+          10015,
+          16543,
+          18059,
+          321,
+          24565,
+          14618
+        ],
+        "rec_success": true
+      },
+      {
+        "role": "user",
+        "content": "I appreciate the suggestions, but I'm really interested in a film that intricately explores the mind of a troubled individual. There's a particular movie that stands out for its unique narrative style and haunting atmosphere, offering a deep dive into the protagonist's psyche. It's quite captivating and thought-provoking.",
+        "entity": []
+      }
+    ],
+    "entity": [
+      "Deadpool 2 (2018)"
+    ],
+    "rec": [
+      "Spider (2007)"
+    ],
+    "resp": "this is also good Spider (2007)",
+    "template": [
+      "hello brother",
+      "hola hello",
+      "recommend me a superhero movie",
+      "<mask> is good",
+      "I've seen a trailer and I think it's interesting but would you recommend another?",
+      "this is also good <mask>"
+    ]
+  },
+  "persuasiveness_score": "2"
+}
